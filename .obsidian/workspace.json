@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Presentación.md",
-                "mode": "preview",
+                "file": "Q5/XI/Tema 1/Señales.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Presentación.md",
+                "file": "Q5/XI/Tema 1/Señales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Presentación.md",
+                "file": "Q5/XI/Tema 1/Señales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Presentación.md"
+                "file": "Q5/XI/Tema 1/Señales.md"
               }
             }
           },
@@ -153,18 +153,27 @@
       "canvas:Crear nuevo canvas": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "f92beb86ab57a67c",
   "lastOpenFiles": [
-    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
-    "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
-    "Q5/ISD/Tema 1/Arquitectura basada en Capa Típica.md",
+    "Imágenes/delta de Dirac.png",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
+    "Q5/XI/Tema 1/Señales.md",
     "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
     "Q5/ISD/Tema 1/Diseño por capas.md",
     "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
+    "Q5/ISD/Tema 1/Arquitectura basada en Capa Típica.md",
+    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
+    "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
+    "Q5/LSI/Presentación.md",
     "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+    "Imágenes/tren de pulsos.png",
+    "Imágenes/señal de duración infinita.png",
+    "Imágenes/pulso de duración T centrado.png",
+    "Imágenes/pulso de duración T.png",
     "Q5/ISD/Internet e Sistemas Distribuídos.md",
     "Q5/ISD/Tema 1",
     "Q5/XP/Prácticas/Conceptos.md",
@@ -173,12 +182,9 @@
     "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
     "Q5/XP/Tema 1/Objetivos del proceso software.md",
     "Q5/LSI/Lexislación e Seguridade Informática.md",
-    "Q5/LSI/Presentación.md",
     "Q5/LSI/Tema 1/Tema 1-Fundamentos.md",
-    "Q5/XI/Tema 1/Señales.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
     "Q5/LSI/Tema 1",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
     "Q5/XI/Tema 1",
     "Q5/XI/Xestión de Infraestruturas.md",
     "Q5/XP/Tema 1",
