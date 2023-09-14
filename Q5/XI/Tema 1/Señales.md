@@ -8,15 +8,12 @@ $t->x(t)$
 
 ### Pulsos rectangulares
 + Señal de duración T
-
 $p1(t) =\begin{cases}1 & \text{si } 0 < t < T \\0 & \text{en el resto}\end{cases}$
 
 ![[pulso de duración T.png]]
 
 + Señal de duración T centrada
-
 $p2(t) =\begin{cases}1 & \text{si } -T/2 < t < T/2 \\0 & \text{en el resto}\end{cases}$
-
 $p2(t)=p1(t+T/2)$
 
 ![[pulso de duración T centrado.png]]
@@ -43,3 +40,29 @@ Propiedades:
 + $\delta(0)=\infty$
 + $\int_{-\infty}^{+\infty} \delta(t) \, dt = 1$
 + Se puede multiplicar por una constante o desplazarse en el tiempo
+
+### Señal senoidal
+Son aquellas que se representan con la función coseno:
+$x(t)=A*cos(2*\pi*f*t+\Phi)$
+
+La amplitud siempre es positiva. Es el parámetro que hace que el valor oscile entre -A y A.
+
+![[señal senoidal.png]]
+
+El periodo, $T0$, es la duración de un ciclo (separación entre dos mínimos). Es la inversa de la frecuencia.
+$T0=1/f$
+
+La frecuencia angular, $\omega$ se calcula:
+$\omega=2*\pi*f$
+
+La fase, $\Phi$, se mide en radianes y se puede interpretar como un desplazamiento en un tiempo t0. Si t0 es positivo da lugar a una fase negativa, si es negativo da lugar a una fase positiva. Se calcula como:
+$\Phi=-\omega*t0$
+
+Sumar $\pi$ radianes a la fase de una señal senoidal equivale a cambiar de signo su amplitud.
+
+### Señal sinc
+$sinc(t)=\frac{sin(\pi)*t}{\pi*t}$
+
+![[señal sinc.png]]
+
+El pulso sinc vale 0 cuando t es un valor entero distinto de 0. En t=0 vale 1.
