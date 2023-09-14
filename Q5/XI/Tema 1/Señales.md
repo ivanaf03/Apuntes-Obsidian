@@ -8,12 +8,15 @@ $t->x(t)$
 
 ### Pulsos rectangulares
 + Señal de duración T
+
 $p1(t) =\begin{cases}1 & \text{si } 0 < t < T \\0 & \text{en el resto}\end{cases}$
 ![[pulso de duración T.png]]
 
 + Señal de duración T centrada
+
 $p2(t) =\begin{cases}1 & \text{si } -T/2 < t < T/2 \\0 & \text{en el resto}\end{cases}$
 $p2(t)=p1(t+T/2)$
+
 ![[pulso de duración T centrado.png]]
 
 ### Señal escalón unidad
