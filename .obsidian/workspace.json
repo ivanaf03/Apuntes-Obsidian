@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/IPM/Introducción a la UX.md",
+                "file": "Q5/XI/Tema 1/Potencia media y energía.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/IPM/Introducción a la UX.md",
+                "file": "Q5/XI/Tema 1/Potencia media y energía.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/IPM/Introducción a la UX.md",
+                "file": "Q5/XI/Tema 1/Potencia media y energía.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/IPM/Introducción a la UX.md"
+                "file": "Q5/XI/Tema 1/Potencia media y energía.md"
               }
             }
           },
@@ -159,15 +159,16 @@
   },
   "active": "f92beb86ab57a67c",
   "lastOpenFiles": [
-    "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/LSI/Presentación.md",
     "Q5/IPM/Introducción a la UX.md",
+    "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/XI/Tema 1/Potencia media y energía.md",
+    "Q5/XI/Tema 1/Señales.md",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
+    "Q5/LSI/Presentación.md",
     "Q5/XP/Xestión de Proxectos.md",
     "Q5/XP/Tema 1/Grado de cumplimiento y solución para la mejora.md",
     "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
     "Q5/XP/Tema 1/Objetivos del proceso software.md",
-    "Q5/XI/Tema 1/Señales.md",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
     "Q5/ISD/Tema 1/Arquitectura basada en Capa Típica.md",
     "Imágenes/señal sinc.png",
     "Imágenes/señal senoidal.png",
