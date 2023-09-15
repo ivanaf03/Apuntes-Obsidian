@@ -1,4 +1,4 @@
 [[Xestión de Proxectos]]
 
 + [[Objetivos del proceso software]]
-+ [[Solución para la mejora]]
++ [[Grado de cumplimiento y solución para la mejora]]
