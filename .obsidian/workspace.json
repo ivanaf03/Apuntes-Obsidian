@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XP/Tema 1/Objetivos del proceso software.md",
+                "file": "Q5/XP/Tema 1/Solución para la mejora.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XP/Tema 1/Objetivos del proceso software.md",
+                "file": "Q5/XP/Tema 1/Solución para la mejora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XP/Tema 1/Objetivos del proceso software.md",
+                "file": "Q5/XP/Tema 1/Solución para la mejora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XP/Tema 1/Objetivos del proceso software.md"
+                "file": "Q5/XP/Tema 1/Solución para la mejora.md"
               }
             }
           },
@@ -160,6 +160,8 @@
   "active": "f92beb86ab57a67c",
   "lastOpenFiles": [
     "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
+    "Q5/XP/Tema 1/Solución para la mejora.md",
+    "Q5/XP/Tema 1/Objetivos del proceso software.md",
     "Q5/XI/Tema 1/Señales.md",
     "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
     "Q5/ISD/Tema 1/Arquitectura basada en Capa Típica.md",
@@ -182,7 +184,6 @@
     "Q5/XP/Prácticas/Conceptos.md",
     "Q5/XP/Xestión de Proxectos.md",
     "Q5/XP/Prácticas",
-    "Q5/XP/Tema 1/Objetivos del proceso software.md",
     "Q5/LSI/Lexislación e Seguridade Informática.md",
     "Q5/LSI/Tema 1/Tema 1-Fundamentos.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
