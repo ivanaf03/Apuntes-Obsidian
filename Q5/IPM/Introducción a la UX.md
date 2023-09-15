@@ -23,3 +23,5 @@ Las interfaces se dividen en componentes. Se pueden separar y desarrollar cada u
 ### ¿Qué es un wireframe?
 Un *wireframe* es un boceto donde se representa visualmente, de una forma muy sencilla y esquemática la estructura de una página web.
 
+### ¿Qué es un widget?
+Un *widget*  es una pequeña aplicación o programa diseñada para facilitar el acceso a las funciones más usadas de un dispositivo.
