@@ -15,7 +15,7 @@ Es importante distinguir:
 
 La fusión de estos 3 puntos es lo que genera el producto final. A mayores está lo que decide el jefe, que a veces incluso puede ser una decisión incorrecta.
 
-### Resultado Y diseño
+### Resultado y diseño
 El resultado final no tiene estándares definidos. Por ejemplo, dado un prototipo de un página web lo importante es cumplir con los prototipos, pero da igual que las imágenes sean un poco más o un poco menos grandes.
 
 Las interfaces se dividen en componentes. Se pueden separar y desarrollar cada uno por separado. Las anotaciones de los prototipos tampoco tienen un estilo de anotación concreto, pero es importante anotar detalles. Las anotaciones también pueden ir en documentación aparte.
