@@ -1,4 +1,4 @@
-[[Tema 1-Fundamentos de la transmisión de señales]]
+ [[Tema 1-Fundamentos de la transmisión de señales]]
 
 ### Definición de señal
 Una señal es una función o una magnitud física que varía en el tiempo, espacio o cualquier variable independiente y que contiene información acerca de cualquier fenómeno físico. 
@@ -7,12 +7,14 @@ Se puede representar matemáticamente como una función real de una variable ind
 $t->x(t)$
 
 ### Pulsos rectangulares
-+ Señal de duración T
++ Pulso de duración T
+
 $p1(t) =\begin{cases}1 & \text{si } 0 < t < T \\0 & \text{en el resto}\end{cases}$
 
 ![[pulso de duración T.png]]
 
-+ Señal de duración T centrada
++ Pulso de duración T centrada
+
 $p2(t) =\begin{cases}1 & \text{si } -T/2 < t < T/2 \\0 & \text{en el resto}\end{cases}$
 $p2(t)=p1(t+T/2)$
 
@@ -23,9 +25,12 @@ $u(t) =\begin{cases}1 & \text{si } t>0 \\0 & \text{en el resto}\end{cases}$
 
 ![[señal de duración infinita.png]]
 
+Un pulso se puede expresar en función de u(t):
 $p(t)=u(t)-u(t-T)$
 
 ### Tren de pulsos
+Es la suma de versiones desplazadas de un pulso base.
+
 ![[tren de pulsos.png]]
 
 $x(t)=p(t-0)-p(t-T)-p(t-2T)+p(t-3T)$
