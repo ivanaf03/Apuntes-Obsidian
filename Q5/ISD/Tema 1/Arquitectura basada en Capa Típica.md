@@ -11,6 +11,7 @@ $Lógica\ de\ negocio->Acceso\ a\ datos->Base\ de\ datos$
 Existen 2 usos:
 + Uso humano: capa interfaz gráfica
 + Otra aplicaciones: capa servicios
+
 **Capa modelo:**
 ```
 Leer(saldoOrigen) //Llamada a capa de acceso a datos
@@ -32,3 +33,8 @@ Es una interfaz web que utiliza la capa modelo para permitir a los usuario crear
 API que puede ser utilizada por otras aplicaciones.
 
 ### Ventajas de la separación
++ Cada capa puede ser desarrollada por un perfil diferente de personal
++ Es posible reutilizar la capa modelo en interfaces diferentes y por varias aplicaciones
++ Los cambios en unas capas no afectan a otras
++ Cada capa suele poder ejecutarse en máquinas diferentes
++ Es posible replicar la capa modelo sin afectar a las aplicaciones consumidoras
