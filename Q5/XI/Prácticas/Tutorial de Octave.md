@@ -50,3 +50,47 @@ Z(1:3,1); %Devuelve los valores de las posiciones 1, 2 y 3 de la primera columna
 ```
 
 Para asignar valores:
+```
+Z(1,1)=4; %Asigna el valor 4 en la posición 1,1
+Z(1:5,1)=1:5; %Asisgna los valores del 1 al 5 en las posiciones de la 1 a la 5 en la primera columna
+```
+
++ Las operaciones son iguales que las de los vectores
+
+### Operadores lógicos, relacionales y bucles
+Los operadores lógicos son '&', '|' y '~'. Se usan, por ejemplo, para crear vectores de 0s y 1s. Por ejemplo:
+```
+v1=randi([1, 3], 1, 5);
+v2=randi([1, 3], 1, 5);
+%Creamos 2 vectores con numeros aleatorios del 1 al 3
+%v1 =
+
+   1   1   3   1   1
+%v2 =
+
+   1   3   1   1   1
+   
+(v1>2)|(v2>2)
+%Operación lógica
+ans =
+
+  0  1  1  0  0
+```
+
+Los operadores relaciones son:
++ <
++ >
++ <=
++ >=
++ ==
++ ~=
+
+El bucle más usado es el for:
+```
+x=0;
+for i=1:1:6
+	x=x+1;
+end;
+%x = 5
+```
+
