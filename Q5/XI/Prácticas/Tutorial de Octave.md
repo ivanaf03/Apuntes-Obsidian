@@ -94,3 +94,22 @@ end;
 %x = 5
 ```
 
+### Gráficas
+Para mantener abierto un gráfico y sobrescribirlo se utilizan 'hold on' y 'hold off'.
+
+Otros comandos son:
++ title: añade un título
++ axis: permite dar valores y limites a los ejes
++ grid: añade una cuadrícula
++ ylabel, xlabel: etiqueta los ejes
+
+Para crear una figura se usa el comando 'figure'. Podemos añadir varios gráficos en la misma figura con 'subplot'. Por ejemplo:
+```
+subplot(4,4,1); %Divide la figura en 4 y deja abierto el gráfico 1
+```
+
+Podemos dibujar los gráficos con líneas discontinuas o continuas:
+```
+plot(1:10, ones(1,10)); %Dibuja una línea horizontal continua en y=1 de x=1 a x=10
+stem(1:10,ones(10)); %Dibuja puntuos en y=1 de x=1 a x=10
+```
