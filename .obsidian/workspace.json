@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XI/Tema 1/Potencia media y energía.md",
+                "file": "Q5/XI/Prácticas/Tutorial de Octave.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XI/Tema 1/Potencia media y energía.md",
+                "file": "Q5/XI/Prácticas/Tutorial de Octave.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XI/Tema 1/Potencia media y energía.md",
+                "file": "Q5/XI/Prácticas/Tutorial de Octave.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XI/Tema 1/Potencia media y energía.md"
+                "file": "Q5/XI/Prácticas/Tutorial de Octave.md"
               }
             }
           },
@@ -159,6 +159,9 @@
   },
   "active": "f92beb86ab57a67c",
   "lastOpenFiles": [
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Prácticas/Tutorial de Octave.md",
+    "Q5/XI/Prácticas",
     "Q5/IPM/Introducción a la UX.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
     "Q5/XI/Tema 1/Potencia media y energía.md",
@@ -191,14 +194,12 @@
     "Q5/LSI/Tema 1/Tema 1-Fundamentos.md",
     "Q5/LSI/Tema 1",
     "Q5/XI/Tema 1",
-    "Q5/XI/Xestión de Infraestruturas.md",
     "Q5/XP/Tema 1",
     "Q5/Q5.md",
     "Ingeniería Informática.md",
     "Q5/IPM",
     "Q5/XP",
     "Q5/XI",
-    "Q5/ISD",
-    "Q5/LSI"
+    "Q5/ISD"
   ]
 }
