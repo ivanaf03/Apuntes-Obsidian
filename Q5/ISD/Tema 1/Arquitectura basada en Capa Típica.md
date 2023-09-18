@@ -31,7 +31,6 @@ Es una interfaz web que utiliza la capa modelo para permitir a los usuario crear
 
 **Capa servicios:**
 API que puede ser utilizada por otras aplicaciones.
-
 ### Ventajas de la separación
 + Cada capa puede ser desarrollada por un perfil diferente de personal
 + Es posible reutilizar la capa modelo en interfaces diferentes y por varias aplicaciones
