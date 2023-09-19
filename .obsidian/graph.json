@@ -6,17 +6,53 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:Q5/IPM  ",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
+      }
+    },
+    {
+      "query": "path:Q5/LSI  ",
+      "color": {
+        "a": 1,
+        "rgb": 16755200
+      }
+    },
+    {
+      "query": "path:Q5/XI  ",
+      "color": {
+        "a": 1,
+        "rgb": 13311
+      }
+    },
+    {
+      "query": "path:Q5/XP  ",
+      "color": {
+        "a": 1,
+        "rgb": 15597823
+      }
+    },
+    {
+      "query": "path:Q5/ISD  ",
+      "color": {
+        "a": 1,
+        "rgb": 65450
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 0.818191268191268,
+  "lineSizeMultiplier": 1.53128898128898,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 1,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1.0000000000000002,
-  "close": false
+  "linkDistance": 30,
+  "scale": 0.2816532814678945,
+  "close": true
 }
