@@ -9,8 +9,8 @@ Pueden ser:
 	+ Inundaciones: Se basan en saturar el servidor a base de establecer las conexiones. Para frenarlas podríamos cerrar las IPS de las que se reciben muchas peticiones. Sin embargo, existen los *proxys*,  unos equipos informáticos que interceptan conexiones de red hechas desde un cliente a un servidor de destino. Un ejemplo de software que se suele montar en los proxys es el *squid*. Estos servidores hacen que todo salga a la red con la misma IP,  por lo que limitando en el servidor destino el numero de conexiones desde la misma IP, estarías cortando conexiones legales.  El *traffic shaping* es un mecanismo de control de ancho de banda del tráfico inyectado a la red. Su objetivo es evitar una posible sobrecarga en redes mal dimensionadas, con altas ráfagas de tráfico inyectado. En IPs con QoS es necesario especificar el perfil de tráfico en una conexión para decidir cómo asignar los distintos recursos de la red. El truco está en disminuir el ancho de banda de aquellas conexiones que no sabemos al 100% si son malas.
 
 + **Ataques de Intercepción (*Interception*):** Se centran en la captura no autorizada de datos en tránsito. Los atacantes interceptan y escuchan la comunicación entre dos partes para robar información confidencial, como contraseñas, datos financieros o mensajes de correo electrónico. Los ataques de tipo *Man-in-the-Middle* (MitM) son un ejemplo común de este tipo de ataque.
-3. **Ataques de Modificación (*Modification*):** Aquí, los atacantes alteran los datos o la información transmitida entre dos puntos sin ser detectados. Pueden modificar datos para su propio beneficio o para dañar la integridad de la información. Un ejemplo es la modificación de un archivo adjunto en un correo electrónico antes de que llegue a su destinatario.
-4. **Ataques de Generación (*Fabrication*):** Los atacantes crean y envían datos falsificados o no autorizados a un sistema o red. Esto puede incluir la creación de identidades falsas, registros de acceso falsificados o paquetes de datos fraudulentos. El objetivo puede ser engañar a un sistema para que tome decisiones basadas en información falsa.
++ **Ataques de Modificación (*Modification*):** Aquí, los atacantes alteran los datos o la información transmitida entre dos puntos sin ser detectados. Pueden modificar datos para su propio beneficio o para dañar la integridad de la información. Un ejemplo es la modificación de un archivo adjunto en un correo electrónico antes de que llegue a su destinatario.
++ **Ataques de Generación (*Fabrication*):** Los atacantes crean y envían datos falsificados o no autorizados a un sistema o red. Esto puede incluir la creación de identidades falsas, registros de acceso falsificados o paquetes de datos fraudulentos. El objetivo puede ser engañar a un sistema para que tome decisiones basadas en información falsa.
 
 ### Sistemas de detección de ataques
 Los sistemas de detección son:
@@ -22,5 +22,3 @@ Pueden ser:
 + A nivel de red: comprueban el tráfico de red.
 + A nivel de host: se encargan de localizar eventos en los *logs*  para detectar si se ha producido algún ataque o incidente.
 
-### Redundancia
-El concepto de redundancia es muy importante en la seguridad. Se redundan las líneas de comunicación, los servicios, los servidores, etc. 
