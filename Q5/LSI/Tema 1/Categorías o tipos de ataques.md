@@ -21,3 +21,6 @@ Los sistemas de detección son:
 Pueden ser:
 + A nivel de red: comprueban el tráfico de red.
 + A nivel de host: se encargan de localizar eventos en los *logs*  para detectar si se ha producido algún ataque o incidente.
+
+### Redundancia
+El concepto de redundancia es muy importante en la seguridad. Se redundan las líneas de comunicación, los servicios, los servidores, etc. 
