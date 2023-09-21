@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/IPM/Tema 1/Hello world.md",
+                "file": "Q5/ISD/Tema 1/Ejemplo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/IPM/Tema 1/Hello world.md",
+                "file": "Q5/ISD/Tema 1/Ejemplo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/IPM/Tema 1/Hello world.md",
+                "file": "Q5/ISD/Tema 1/Ejemplo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/IPM/Tema 1/Hello world.md"
+                "file": "Q5/ISD/Tema 1/Ejemplo.md"
               }
             }
           },
@@ -157,10 +157,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "b72389a33fc5ecbe",
+  "active": "995f13a032b9c717",
   "lastOpenFiles": [
-    "Q5/IPM/Tema 1/Tema 1-Creación de interfaces.md",
+    "Imágenes/ejemplo tema 1 isd.png",
+    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
+    "Q5/ISD/Tema 1/Ejemplo.md",
+    "Q5/ISD/Tema 1/Distribución de las capas.md",
+    "Q5/XP/Prácticas/Conceptos.md",
     "Q5/IPM/Tema 1/Hello world.md",
+    "Q5/IPM/Tema 1/Tema 1-Creación de interfaces.md",
     "Q5/IPM/Tema 1/Bindings.md",
     "Q5/IPM/Tema 1",
     "Q5/IPM/Interfaces Persoa Máquina.md",
@@ -182,17 +187,12 @@
     "Q5/Q5.md",
     "Imágenes/horarioq5.png",
     "Q5/LSI/Lexislación e Seguridade Informática.md",
-    "Q5/ISD/Tema 1/Distribución de las capas.md",
-    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
     "Imágenes/distribución de capas 5.png",
     "Imágenes/distribución de las capas 4.png",
     "Imágenes/distribución de capas 3.png",
     "Imágenes/distribución de capas 1.png",
     "Imágenes/distribución de capas 2.png",
     "Q5/ISD/Tema 1/Arquitectura basada en Capa Típica.md",
-    "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
-    "Q5/ISD/Tema 1/Diseño por capas.md",
-    "Q5/LSI/Presentación.md",
     "Q5/XI/Prácticas",
     "Imágenes/señal sinc.png",
     "Imágenes/señal senoidal.png",
