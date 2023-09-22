@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/ISD/Tema 1/Ejemplo.md",
+                "file": "Q5/XP/Tema 2/Metodología.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/ISD/Tema 1/Ejemplo.md",
+                "file": "Q5/XP/Tema 2/Metodología.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/ISD/Tema 1/Ejemplo.md",
+                "file": "Q5/XP/Tema 2/Metodología.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/ISD/Tema 1/Ejemplo.md"
+                "file": "Q5/XP/Tema 2/Metodología.md"
               }
             }
           },
@@ -157,11 +157,21 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "b72389a33fc5ecbe",
   "lastOpenFiles": [
-    "Imágenes/ejemplo tema 1 isd.png",
+    "Q5/XP/Tema 2/Tema 2-Gestión y planificación de proyectos.md",
+    "Q5/XP/Tema 2/Metodología.md",
+    "Q5/XP/Tema 2/Elementos.md",
+    "Q5/XP/Tema 2/Objetivos del sistema de gestión de proyectos.md",
+    "Q5/XP/Tema 2",
+    "Q5/XP/Xestión de Proxectos.md",
+    "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
+    "Q5/Q5.md",
+    "Ingeniería Informática.md",
+    "Q5/ISD/Tema 1/Tecnologías Java y otras tecnologías.md",
     "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
     "Q5/ISD/Tema 1/Ejemplo.md",
+    "Imágenes/ejemplo tema 1 isd.png",
     "Q5/ISD/Tema 1/Distribución de las capas.md",
     "Q5/XP/Prácticas/Conceptos.md",
     "Q5/IPM/Tema 1/Hello world.md",
@@ -179,31 +189,21 @@
     "Q5/ISD/Tema 2/Ejecución de sentencias.md",
     "Q5/ISD/Tema 2/Introducción.md",
     "Q5/ISD/Tema 2",
-    "Q5/ISD/Internet e Sistemas Distribuídos.md",
-    "Q5/XP/Tema 1/Relación entre los ciclos de desarrollo y la gestión de proyectos.md",
-    "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
-    "Q5/XP/Tema 1/Grado de cumplimiento y solución para la mejora.md",
-    "Q5/XP/Xestión de Proxectos.md",
-    "Q5/Q5.md",
     "Imágenes/horarioq5.png",
-    "Q5/LSI/Lexislación e Seguridade Informática.md",
     "Imágenes/distribución de capas 5.png",
     "Imágenes/distribución de las capas 4.png",
     "Imágenes/distribución de capas 3.png",
     "Imágenes/distribución de capas 1.png",
     "Imágenes/distribución de capas 2.png",
-    "Q5/ISD/Tema 1/Arquitectura basada en Capa Típica.md",
     "Q5/XI/Prácticas",
     "Imágenes/señal sinc.png",
     "Imágenes/señal senoidal.png",
     "Imágenes/delta de Dirac.png",
-    "Imágenes/tren de pulsos.png",
     "Q5/ISD/Tema 1",
     "Q5/XP/Prácticas",
     "Q5/LSI/Tema 1",
     "Q5/XI/Tema 1",
     "Q5/XP/Tema 1",
-    "Q5/IPM",
-    "Q5/XP"
+    "Q5/IPM"
   ]
 }
