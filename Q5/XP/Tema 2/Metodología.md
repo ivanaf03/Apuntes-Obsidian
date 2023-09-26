@@ -19,3 +19,7 @@ Cada organización se adapta a su propia definición de proyecto. Generalmente u
 + En plazo
 + Dentro del presupuesto
 + Cumpliendo los estándares de calidad
+
+### Modelo de ciclo de vida de un proyecto
+1. Estimación 
+2. Planificación
