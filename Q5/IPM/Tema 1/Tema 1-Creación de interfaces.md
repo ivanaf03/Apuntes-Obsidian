@@ -2,4 +2,4 @@
 
 Temario:
 + [[Bindings]]
-+ [[Hello world]]
++ [[Hello world y primeros pasos]]
