@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XP/Tema 2/Metodología.md",
+                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XP/Tema 2/Metodología.md",
+                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XP/Tema 2/Metodología.md",
+                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XP/Tema 2/Metodología.md"
+                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   "active": "b72389a33fc5ecbe",
   "lastOpenFiles": [
     "Q5/XP/Tema 2/Tema 2-Gestión y planificación de proyectos.md",
+    "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
     "Q5/XP/Tema 2/Metodología.md",
     "Q5/ISD/Tema 3/Principios de diseño.md",
     "Imágenes/principios de diseño capa modelo.png",
