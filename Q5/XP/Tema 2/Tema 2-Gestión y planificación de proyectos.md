@@ -1,7 +1,7 @@
 [[Xestión de Proxectos]]
 
-Temario:
+Apartados:
 + [[Objetivos del sistema de gestión de proyectos]]
-+ [[Elementos]]
++ [[Elementos del sistema de gestión de proyectos]]
 + [[Metodología]]
 + [[Conceptos de planificación y seguimiento]]
