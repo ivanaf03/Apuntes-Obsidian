@@ -1,7 +1,7 @@
 [[Tema 1-Introducción al desarrollo de aplicaciones empresariales]]
 
 ### Aplicaciones empresariales
-Las aplicaciones de hoy en día no funcionan de forma aislada, por ejemplo, la aplicación del tiempo utiliza servicios de ubicación, un navegador web, el servicio del tiempo, etc. En estos casos se tiene muy poco control sobre los otros servicios, pueden ser de otras empresas y no es psoible modificarlas.
+Las aplicaciones de hoy en día no funcionan de forma aislada, por ejemplo, la aplicación del tiempo utiliza servicios de ubicación, un navegador web, el servicio del tiempo, etc. En estos casos se tiene muy poco control sobre los otros servicios, pueden ser de otras empresas y no es posible modificarlas.
 
 Esto genera varios problemas:
 + Necesita acceso a la red mediante tecnologías que utilizan sockets
