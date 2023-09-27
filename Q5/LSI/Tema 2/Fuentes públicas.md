@@ -10,3 +10,4 @@
 	+ NIC (Network Information Center): servicios que tienen todos los países que se encargan de gestionar los dominios, DNS, 
 	+ RIP (Redes IP Europeas): gestiona el direccionamiento IP a nivel europeo
 	+ NCC (Network Coordination Center): está dentro del RIP
+
