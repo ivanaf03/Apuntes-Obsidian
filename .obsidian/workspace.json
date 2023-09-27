@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
+                "file": "Q5/IPM/Tema 1/Primeros pasos.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,29 +80,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b71b63859b32af0f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "9ce0d7258e7f0a42",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
+                "file": "Q5/IPM/Tema 1/Primeros pasos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md"
+                "file": "Q5/IPM/Tema 1/Primeros pasos.md"
               }
             }
           },
@@ -139,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,8 +143,20 @@
   },
   "active": "b72389a33fc5ecbe",
   "lastOpenFiles": [
-    "Q5/XP/Tema 2/Tema 2-Gestión y planificación de proyectos.md",
+    "Q5/IPM/Tema 1/Tema 1-Creación de interfaces.md",
+    "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/IPM/Introducción a la UX.md",
+    "Q5/LSI/Tema 2/Identificación de máquinas.md",
+    "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
+    "Q5/LSI/Tema 2/Fuentes públicas.md",
+    "Q5/LSI/Tema 2/Ejemplos.md",
+    "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
+    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
+    "Q5/ISD/Tema 1/Tecnologías Java y otras tecnologías.md",
+    "Q5/ISD/Tema 1/Ejemplo.md",
+    "Q5/ISD/Tema 1/Arquitectura basada en Capa Típica.md",
     "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
+    "Q5/XP/Tema 2/Tema 2-Gestión y planificación de proyectos.md",
     "Q5/XP/Tema 2/Metodología.md",
     "Q5/ISD/Tema 3/Principios de diseño.md",
     "Imágenes/principios de diseño capa modelo.png",
@@ -170,10 +166,6 @@
     "Q5/ISD/Tema 3",
     "Q5/ISD/Internet e Sistemas Distribuídos.md",
     "Q5/ISD/Tema 2/Tema 2-JDBC Conectividad de bases de datos con java.md",
-    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
-    "Q5/LSI/Tema 2/Ejemplos.md",
-    "Q5/LSI/Tema 2/Fuentes públicas.md",
-    "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
     "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
     "Port scanning.md",
     "Q5/LSI/Tema 2/Host discovery.md",
@@ -181,14 +173,6 @@
     "Q5/LSI/Lexislación e Seguridade Informática.md",
     "Q5/LSI/Presentación.md",
     "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
-    "Q5/LSI/Tema 1/Redundancia y redes.md",
-    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
-    "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/IPM/Tema 1/Tema 1-Creación de interfaces.md",
-    "Q5/IPM/Tema 1/Hello world y primeros pasos.md",
-    "Q5/IPM/Introducción a la UX.md",
-    "Q5/XP/Tema 2/Elementos.md",
-    "Q5/XP/Tema 2/Objetivos del sistema de gestión de proyectos.md",
     "Q5/XP/Tema 2",
     "Imágenes/ejemplo tema 1 isd.png",
     "Q5/IPM/Tema 1",
