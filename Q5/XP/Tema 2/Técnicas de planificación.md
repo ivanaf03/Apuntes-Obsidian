@@ -12,5 +12,8 @@ Antes de los años 60 el diagrama de Gantt era la única técnica que se usaba. 
 La red es un grafo dirigido sin ciclos. Sirve para señalar las relaciones de secuencia entre las actividades de un proyecto. Analizar esta red nos permite localizar el camino crítico de la planificación.
 
 Existen 2 técnicas:
-+ **PDM (Precedence Diagram Method):** Los nodos representan actividades  y los vectores sus dependencias. Es la técnica más usada.
-+ **ADM (Arrow Diagramming Method):** Los vectores representan actividades  y los nodos sus dependencias.
++ **PDM (Precedence Diagram Method):** Los nodos representan actividades  y los vectores sus dependencias. Es la técnica más usada. Utiliza las dependencias FF, CC, FC y CF.
++ **ADM (Arrow Diagramming Method):** Los vectores representan actividades  y los nodos sus dependencias. Sus dependencias pueden ser lineales, de convergencia o de divergencia. Existen 3 reglas en un diagrama ADM:
+	+ El tamaño del vector no indica la duración de la actividad
+	+ Todas las relaciones son "acabar para empezar"
+	+ Los nodos se numeran de forma creciente, es decir, el nombre del nodo tiene que ser mayor que el del anterior (por ejemplo, A--->B)
