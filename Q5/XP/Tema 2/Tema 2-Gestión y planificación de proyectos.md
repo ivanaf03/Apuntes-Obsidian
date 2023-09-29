@@ -5,3 +5,4 @@ Apartados:
 + [[Elementos del sistema de gestión de proyectos]]
 + [[Metodología]]
 + [[Conceptos de planificación y seguimiento]]
++ [[Técnicas de planificación]]
