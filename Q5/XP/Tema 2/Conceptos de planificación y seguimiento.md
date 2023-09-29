@@ -21,3 +21,18 @@ Se clasifican en:
 ### Planificación y programación
 + Planificación: establecimiento de las actividades, precedencias...
 + Programación: planificación + asignación de recursos
+
+### Otros elementos que gestionar
+##### Calendario
+Las empresas suelen tener diferentes calendarios y es importante tener en cuenta los periodos y festivos, por ejemplo, una empresa de helados tiene diferentes calendarios de invierno y verano.
+
+##### Duración
+Dependiendo del tipo de empresa, los proyectos se pueden medir en días, horas semanas, etc.
+
+##### Pool de recursos humanos y sus datos asociados
+Hay que gestionar el departamento al que pertenece el personal, el coste por hora, la disponibilidad, etc.
+
+##### Elementos de coste adicionales
+También se tiene que tener en cuenta el coste de recursos consumibles, materiales, etc.
+
+
