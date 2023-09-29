@@ -17,3 +17,21 @@ Existen 2 técnicas:
 	+ El tamaño del vector no indica la duración de la actividad
 	+ Todas las relaciones son "acabar para empezar"
 	+ Los nodos se numeran de forma creciente, es decir, el nombre del nodo tiene que ser mayor que el del anterior (por ejemplo, A--->B)
+
+##### Histograma
+Es un diagrama de barras que muestra los datos cuantitativos de una misma variable. Se suele usar un histograma de recursos porque muestra el uso de un recurso a lo largo del tiempo. 
+
+Se utilizan para ver si un recurso está sobreasignado en varios proyectos. Cuando esto ocurre hay que ponerse de acuerdo en que proyecto trabaja primero.
+
+### Técnicas de estructuración
+##### WBS (Work Breakdown Structure)
+Consiste en estructurar las tareas por tipos, niveles, etc. Por ejemplo, primero desglosarlas en fases de un ciclo de vida, cada fase en subfases y así constantemente. El principal problema del desglose es el tiempo entre actividades (a veces existen actividades que necesitan tiempo entre ellas).
+
+##### OBS (Organisational Breakdown Structure)
+Es una técnica similar a la WBS, pero en lugar de por tareas, por las unidades organizativas. Es interesante porque al mezclar ambas técnicas podemos ver que grupo o recurso trabaja en que actividad.
+
+### Técnicas de programación
+##### PERT
+
+
+##### CPM
