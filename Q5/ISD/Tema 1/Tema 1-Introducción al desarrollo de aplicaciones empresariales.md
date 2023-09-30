@@ -3,7 +3,6 @@
 Contenidos:
 + [[Características de las aplicaciones empresariales]]
 + [[Diseño por capas]]
-+ [[Arquitectura basada en Capa Típica]]
++ [[Arquitectura basada en capas]]
 + [[Distribución de las capas]]
-+ [[Ejemplo]]
 + [[Tecnologías Java y otras tecnologías]]
