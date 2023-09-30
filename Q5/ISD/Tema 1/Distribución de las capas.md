@@ -3,36 +3,50 @@
 ### Opción 1
 ![[distribución de capas 1.png]]
 
-Problemas:
+##### Problemas
 + Al hacer cambios en la capa modelo tenemos que reinstalar todo en todas las máquinas cliente.
 + No es seguro, se accede al código y a la base de datos desde el cliente.
 
-La solución es separar en un modelo en servidor intermedio y clientes de escritorio.
+##### Soluciones
++ Meter la capa modelo en un servidor intermedio, por tanto los clientes solo dispondrían de interfaz gráfica.
 
 ### Opción 2
 ![[distribución de capas 2.png]]
 
-Problemas:
+Se añaden una capa de acceso a servicios y una capa servicios para poder comunicar el servidor. Se conoce como arquitectura en 3 capas y a las aplicaciones como standalones o aplicaciones de escritorio.
+
+##### Ventajas
++ Permiten utilizar parte de sus funcionalidades en local.
+
+##### Problemas
 + Al querer hacer un cambio en la interfaz gráfica tenemos que cambiarla en todos los clientes. 
 
-Se soluciona con interfaces web. La ventaja de estas aplicaciones de escritorio o *standalone* es que sus funcionalidades en local siempre están disponibles.
+##### Soluciones
++ Usar interfaces web.
 
 ### Opción 3
 ![[distribución de capas 3.png]]
 
-Las aplicaciones Web se instalan en un servidor de aplicaciones. Los cambios que se hagan tanto en la interfaz gráfica como en la capa modelo sólo requieren de instalar la aplicación en el servidor de aplicaciones.
+Las aplicaciones web se instalan en un servidor de aplicaciones web.
 
-Ventajas:
-+ Se puede crear un clúster de máquinas con un balanceador de carga, por ejemplo, si tenemos 3 servidor de aplicación en el clúster, podemos mandar la primera que llegue al primero, la segunda al segundo... Se suele utilizar el algoritmo de Round Robin.
+##### Ventajas
++  Los cambios que se hagan tanto en la interfaz gráfica como en la capa modelo sólo requieren de reinstalar la aplicación en el servidor de aplicaciones.
++ Se puede crear un clúster de máquinas con un balanceador de carga, por ejemplo, si tenemos 3 servidores de aplicación en el clúster, podemos mandar la primera petición HTTP que llegue al primero, la segunda al segundo... Se suele utilizar el algoritmo de Round Robin.
 + Añadir más máquinas al clúster nos proporciona buena escalabilidad.
 + En cuanto a disponibilidad, a pesar de que una máquina se caiga, quedan otras funcionando.
 
 ### Opción 4
 ![[distribución de las capas 4.png]]
-
-Separar los servidores aplicación en 2 capas diferentes nos permite utilizar diferentes tecnologías en ellas.
+A esta distribución se le conoce como arquitectura en 4 capas.
+##### Ventajas
++ La capa servicios se puede implementar utilizando tecnologías de desarrollo web dentro del servidor de aplicaciones web.
++ Permite que la capa interfaz y la capa modelo se implementen con tecnologías diferentes.
++ Permite que aplicaciones remotas utilicen la capa modelo.
 
 ### Opción 5
 ![[distribución de capas 5.png]]
+Esta distribución la utilizan las aplicaciones SPA (Single Page Aplicaction). , las SPA son aplicaciones web que funcionan en una sola página HTML inicial y utilizan JavaScript para cargar dinámicamente contenido y actualizar la interfaz de usuario en respuesta a las acciones del usuario, todo sin requerir la carga completa de nuevas páginas desde el servidor.
 
-Esta distribución la utilizan las aplicaciones SPA (*Single Page Aplicaction*). El navegador accede al servidor web para obtener el código de la aplicación web. La aplicación se ejecuta dentro del navegador de la máquina cliente.
+##### Ventajas
++ Los cambios en la interfaz gráfica solo requieren reinstalar la aplicación en el servidor web.
++ Los cambios en la capa modelo solo requieren reinstalar la aplicación en el servidor de aplicaciones.
