@@ -20,7 +20,7 @@ public final class InsertExample{
 	public static void main(String[] args){
 		try (Connection connection = ConnectionManager.getConnection()) {
 			String[] movieIdentifiers = new String[] {"movie-1", "movie-2", "movie-3"};
-			String[] titles = new String[] {"movie-1 title", "movie-2 title”, "movie-3 title"};
+			String[] titles = new String[] {"movie-1 title", "movie-2 title", "movie-3 title"};
 			short[] runtimes = new short[] {90, 120, 150};
 			
 			String queryString = "INSERT INTO TutMovie " + "(movieId, title, runtime) VALUES (?, ?, ?)";
@@ -95,10 +95,26 @@ public class ConnectionManager {
 
 ### Ejecución de sentencias
 ##### Interfaz Connection
-Representa una conexión con la base de datos. Permite lazar consultas, por ejemplo:
+Representa una conexión con la base de datos. Por ejemplo:
 ```
+Connection connection = ConnectionManager.getConnection()
 String queryString = "SELECT movieId, title, runtime FROM TutMovie";
 PreparedStatement preparedStatement = connection.prepareStatement(queryString);
-
 ```
 
+El método getConnnection permite obtener conexión a la base de datos a través de una URL o de un id y una contraseña. En una aplicación real el usuario y la contraseña se leen de un archivo de configuración.
+##### Interfaz PreparedStatement
+Contiene la consulta SQL parametrizada. Dispone de setter para dar valor a los parámetros. Permite lanzar consultas de actualización (executeUpdate) o de lectura (executeQuery).
+
+El driver se encarga de formatear los datos. Por ejemplo:
+```
+INSERT INTO TutMovie (movieId, title, runtime) VALUES ('movie-1', 'movie-1 title', 90)
+
+INSERT INTO User (birthdate, ...) VALUES ('2015-09-01', ...)
+```
+
+##### Interfaz ResultSet
+Representa todas las filas que concuerdan con la búsqueda. Funciona como una especie de cursor. El método next avanza y devuelve true si quedan filas por leer. Contiene getters para acceder a los valores de la fila donde se encuentra el cursor.
+
+### Liberación de recursos
+Para abrir y cerrar las conexiones los ejemplos anteriores usan try-with-resources. 
