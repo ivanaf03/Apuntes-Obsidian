@@ -2,5 +2,4 @@
 
 Temario:
 + [[Introducción ]]
-+ [[Ejecución de sentencias]]
 + [[Tipos SQL y Java]]
