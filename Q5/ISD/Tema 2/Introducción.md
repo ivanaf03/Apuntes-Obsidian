@@ -117,4 +117,6 @@ INSERT INTO User (birthdate, ...) VALUES ('2015-09-01', ...)
 Representa todas las filas que concuerdan con la búsqueda. Funciona como una especie de cursor. El método next avanza y devuelve true si quedan filas por leer. Contiene getters para acceder a los valores de la fila donde se encuentra el cursor.
 
 ### Liberación de recursos
-Para abrir y cerrar las conexiones los ejemplos anteriores usan try-with-resources. 
+Para abrir y cerrar las conexiones los ejemplos anteriores usan try-with-resources. Los recursos se declaran entre los paréntesis del try. El compilador de java llama al método close siempre que termine el bloque try.
+
+En caso de utilizar el try normal, habría que cerrar la conexión manualmente. Para ello, se redefine finalize en la interfaz Connection.
