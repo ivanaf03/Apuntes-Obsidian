@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "7caab14b217372a4",
+        "id": "4f309ed5f3732cb9",
         "type": "tabs",
         "children": [
           {
-            "id": "78b5bea4092deef9",
+            "id": "b2edf9cbcd964fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/ISD/Tema 2/Transacciones.md",
+                "file": "Q5/LSI/Tema 2/OWASP top 10.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe18c7095798ca06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Q5/LSI/Tema 2/OWASP top 10.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d85bf079946d88d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Q5/ISD/Tema 3/Implementación de los casos de uso.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/ISD/Tema 2/Transacciones.md",
+                "file": "Q5/ISD/Tema 3/Implementación de los casos de uso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/ISD/Tema 2/Transacciones.md"
+                "file": "Q5/ISD/Tema 3/Implementación de los casos de uso.md"
               }
             }
           },
@@ -128,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/ISD/Tema 2/Transacciones.md",
+                "file": "Q5/ISD/Tema 3/Implementación de los casos de uso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,35 +183,36 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "78b5bea4092deef9",
+  "active": "d85bf079946d88d6",
   "lastOpenFiles": [
-    "Q5/ISD/Tema 2/Tema 2-JDBC Conectividad de bases de datos con java.md",
-    "Q5/ISD/Tema 2/Transacciones.md",
-    "Q5/ISD/Tema 2/Conexiones.md",
-    "Q5/ISD/Tema 2/Tipos SQL y Java.md",
-    "Q5/ISD/Internet e Sistemas Distribuídos.md",
-    "Q5/ISD/Tema 2/Introducción.md",
-    "Q5/ISD/Tema 1/Arquitectura basada en capas.md",
-    "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
-    "Q5/ISD/Tema 1/Diseño por capas.md",
-    "Q5/ISD/Tema 1/Distribución de las capas.md",
-    "Q5/ISD/Tema 1/Tecnologías Java y otras tecnologías.md",
-    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
-    "Q5/ISD/Tema 2/Ejecución de sentencias.md",
-    "Imágenes/ejemplo tema 1 isd.png",
-    "Q5/ISD/Tema 1/Ejemplo.md",
+    "Q5/ISD/Tema 3/Tema 3-Diseño e implementación de la capa modelo.md",
+    "Q5/ISD/Tema 3/Modelado de entidades.md",
+    "Q5/ISD/Tema 3/Implementación de los casos de uso.md",
+    "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
+    "Q5/ISD/Tema 3/Definición de API modelo.md",
+    "Q5/ISD/Tema 3/Gestión de la persistencia.md",
+    "Q5/LSI/Tema 2/Exploits.md",
+    "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
+    "Q5/LSI/Tema 2/OWASP top 10.md",
+    "Q5/LSI/Tema 2/Port scanning.md",
+    "Q5/LSI/Tema 2/Identificación de máquinas.md",
+    "Q5/Q5.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/IPM/Tema 1/Bindings.md",
-    "Q5/IPM/Tema 1/Primeros pasos.md",
-    "Q5/IPM/Tema 1/Tema 1-Creación de interfaces.md",
-    "Q5/IPM/Introducción a la UX.md",
-    "Q5/XP/Tema 2/Técnicas de planificación.md",
+    "Q5/LSI/Tema 2/Fuentes públicas.md",
+    "Q5/XP/Tema 2/Pasos básicos de planificación.md",
     "Q5/XP/Tema 2/Tema 2-Gestión y planificación de proyectos.md",
-    "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
-    "Q5/XI/Prácticas/Tutorial de Octave.md",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
-    "Q5/XI/Tema 1/Señales.md",
-    "Q5/XI/Tema 1/Potencia media y energía.md",
+    "Q5/XP/Tema 2/Metodología.md",
+    "Q5/XP/Tema 2/Técnicas de planificación.md",
+    "Q5/XP/Tema 2/Objetivos del sistema de gestión de proyectos.md",
+    "Q5/LSI/Tema 2/Ejemplos.md",
+    "Q5/ISD/Internet e Sistemas Distribuidos.md",
+    "Q5/ISD/Tema 4/Tema 4-Pruebas de integración de la capa modelo.md",
+    "Q5/ISD/Tema 4",
+    "Q5/ISD/Tema 2/Tema 2-JDBC Conectividad de bases de datos con java.md",
+    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
+    "Q5/ISD/Tema 1/Arquitectura basada en capas.md",
+    "Q5/ISD/Tema 3/Movies.md",
+    "Imágenes/ejemplo tema 1 isd.png",
     "Imágenes/principios de diseño capa modelo.png",
     "Imágenes/arquitectura de movies.png",
     "Q5/ISD/Tema 3",
@@ -204,7 +230,6 @@
     "Imágenes/señal sinc.png",
     "Q5/ISD/Tema 1",
     "Q5/XP/Prácticas",
-    "Q5/LSI/Tema 1",
-    "Q5/XI/Tema 1"
+    "Q5/LSI/Tema 1"
   ]
 }
