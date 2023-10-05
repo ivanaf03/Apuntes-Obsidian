@@ -1,4 +1,4 @@
-[[Internet e Sistemas Distribuídos]]
+[[Internet e Sistemas Distribuidos]]
 
 Contenidos:
 + [[Características de las aplicaciones empresariales]]
