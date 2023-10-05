@@ -23,6 +23,8 @@ Es un diagrama de barras que muestra los datos cuantitativos de una misma variab
 
 Se utilizan para ver si un recurso está sobreasignado en varios proyectos. Cuando esto ocurre hay que ponerse de acuerdo en que proyecto trabaja primero.
 
+Hay que tener cuidado con las sobrecargas ficticias. Por ejemplo, cuando hay dos actividades que duran 4 horas cada una en las que el recurso R1 está trabajando al 100% en ambas. Por asignación si hay sobrecarga, pero realmente no.
+
 ### Técnicas de estructuración
 ##### WBS (Work Breakdown Structure)
 Consiste en estructurar las tareas por tipos, niveles, etc. Por ejemplo, primero desglosarlas en fases de un ciclo de vida, cada fase en subfases y así constantemente. El principal problema del desglose es el tiempo entre actividades (a veces existen actividades que necesitan tiempo entre ellas).
@@ -32,6 +34,22 @@ Es una técnica similar a la WBS, pero en lugar de por tareas, por las unidades 
 
 ### Técnicas de programación
 ##### PERT
+Se orienta a la técnica ADM. Permite considerar las probabilidades. Permite estimar la duración de un proyecto partiendo de la sentencia de actividades y se una estimación de su duración. La duración de cada actividad se calcula como una media ponderada de 3 valores:
 
+$(optimista+4*mas_probable+pesimista)/6$
+
+1. Elaboración de una red de precedencia ADM
+2. Cálculo de tiempos: pesimista (tiempo máximo), optimista (tiempo en el mejor de los casos) y más probable (tiempo normal). Realizar la media ponderada con la fórmula de antes.
+3. Cálculo de fechas early y late de comienzo de fin de cada actividad. Con esto se calcula la holgura.
+4. Determinación del camino crítico. Un hito y una actividad crítica son aquellos que tienen holgura 0.
+5. Definición de fechas más tempranas de inicio y fin.
+
+Cuando se da una situación donde la demora se da en días transcurridos, el camino crítico parece desaparecer, pero en realidad no. Por ejemplo, en una actividad relación FC+2dt que termina en miércoles, si se retrasa 1 día o 2 no pasa nada; pero si se retrasa 3 días, se produce un retraso de 3.
 
 ##### CPM
+Se orienta a la técnica PDM. Permite calcular el camino crítico. Con esto se obtienen las fechas mínimas esperadas y las máximas permitidas de las tareas. Se calculan con las duraciones e interdependencias de estas.  
+
+1. Elaboración de una red de precedencia PDM.
+2. Identificar todos los caminos del grafo de principio a fina del proyecto.
+3. Calcular los tiempos de todos los caminos.
+4. Identificar el camino crítico, que es el de mayor duración.
