@@ -1,6 +1,6 @@
-[[Internet e Sistemas Distribuídos]]
+[[Internet e Sistemas Distribuidos]]
 
-Temario:
+Contenidos:
 + [[Introducción ]]
 + [[Tipos SQL y Java]]
 + [[Conexiones]]
