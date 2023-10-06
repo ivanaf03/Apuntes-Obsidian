@@ -31,3 +31,32 @@ La actividad B no puede comenzar hasta que A no haya terminado.
 
 ##### Finish to Finish (FF)
 La actividad B no puede terminar hasta que A haya terminado.
+
+### Hamacas
+Es un tipo de actividad que mide el tiempo transcurrido entre dos puntos de la red. Las restricciones se dan con las tareas elementales, no con las hamacas.
+
+Simula una CC y una FF con el inicio y fin de la red de actividades. Sirve para ver un coste, por ejemplo, que no sabemos fijo de un recurso.
+
+### Obtención del camino crítico
+Los datos necesarios de partida son:
++ Las duraciones de las actividades
++ Las restricciones
+
+Se analizan los tiempos:
++ Se calculan las fechas early
++ Se calculan las fechas late
++ Se calcula la holgura como de diferencia entre fechas late y fechas early. Las actividades sin holgura pertenecen al camino crítico
+
+Una holgura negativa indica retraso antes de empezar el proyecto.
+
+### Nivelación de recursos
+Se deben asignar los recursos tras definir las actividades y saber que recursos tenemos. Tras ello hay que analizar las sobrecargas, por ejemplo, si un trabajo solo necesita 2 pintores, no se le asignan 3. 
+
+Las posibles soluciones para las sobrecargas son:
++ Alargar las actividades
++ Cambiar los recursos de lugar
++ Introducir recursos que comparten el esfuerzo
++ Segmentar las actividades
++ Localizar los valles, es decir, las zonas donde un recurso no se está utilizando, y aprovecharlos
+
+##### 
