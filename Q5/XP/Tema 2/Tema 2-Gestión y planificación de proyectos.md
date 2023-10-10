@@ -7,3 +7,5 @@ Apartados:
 + [[Conceptos de planificación y seguimiento]]
 + [[Técnicas de planificación]]
 + [[Pasos básicos de planificación]]
++ [[Seguimiento de proyectos]]
++ [[Métricas]]
