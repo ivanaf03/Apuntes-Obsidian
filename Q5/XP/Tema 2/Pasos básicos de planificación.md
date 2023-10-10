@@ -59,4 +59,9 @@ Las posibles soluciones para las sobrecargas son:
 + Segmentar las actividades
 + Localizar los valles, es decir, las zonas donde un recurso no se está utilizando, y aprovecharlos
 
-##### 
+##### Eliminación de las sobrecargas
+**+ A tiempo:** Se mantiene la fecha de fin y se modifican las actividades que no pertenecen al camino crítico. 
++ **A recurso:** Se puede variar la fecha fin del proyecto.
+
+### Establecimiento de la línea base
+La línea base es diferente en gestión de proyectos y en gestión de configuración software. En gestión de proyectos es el resultado final de la planificación. Sirve para ver, si el proyecto cambia, donde ha cambiado y qué hacer. Se usa en el seguimiento del proyecto una vez empezado. 
