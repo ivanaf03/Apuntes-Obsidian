@@ -7,3 +7,4 @@ Temario:
 + [[Exploits]]
 + [[Port scanning]]
 + [[OWASP top 10]]
++ [[Generaciones de medidas de ofuscación]]
