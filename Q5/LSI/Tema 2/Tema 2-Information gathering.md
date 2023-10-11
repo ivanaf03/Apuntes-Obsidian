@@ -8,3 +8,4 @@ Temario:
 + [[Port scanning]]
 + [[OWASP top 10]]
 + [[Generaciones de medidas de ofuscación]]
++ [[Clase cosas]]
