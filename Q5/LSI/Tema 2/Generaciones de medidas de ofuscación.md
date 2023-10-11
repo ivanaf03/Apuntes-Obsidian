@@ -61,3 +61,6 @@ nmap x.x.x.x # host-discovery+port-scanning a todas las máquinas
 + -O: fingerprinting de SO
 + -sV: fingerprinting de servicios o puertos
 + -sP: host discovery
+
+### Netscan
+Sirve para comprobar los estados de red en Microsoft
