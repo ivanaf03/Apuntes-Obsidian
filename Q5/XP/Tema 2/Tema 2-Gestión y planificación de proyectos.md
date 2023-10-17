@@ -9,3 +9,4 @@ Apartados:
 + [[Pasos básicos de planificación]]
 + [[Seguimiento de proyectos]]
 + [[Métricas]]
++ [[Comunicación interpersonal y negociación]]
