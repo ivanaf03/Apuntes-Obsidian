@@ -1,5 +1,6 @@
 {
   "accentColor": "#8c00ff",
   "cssTheme": "Tokyo Night",
-  "interfaceFontFamily": "Exo 2"
+  "interfaceFontFamily": "Exo 2",
+  "baseFontSize": 14
 }
