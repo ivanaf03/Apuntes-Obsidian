@@ -1,7 +1,7 @@
 [[Internet e Sistemas Distribuidos]]
 
 Contenidos:
-+ [[Introducción ]]
++ [[Introducción a JDBC]]
 + [[Tipos SQL y Java]]
 + [[Conexiones]]
 + [[Transacciones]]
