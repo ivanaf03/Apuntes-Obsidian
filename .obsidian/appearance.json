@@ -1,6 +1,9 @@
 {
-  "accentColor": "#8c00ff",
-  "cssTheme": "Tokyo Night",
+  "accentColor": "#0084ff",
+  "cssTheme": "Things",
   "interfaceFontFamily": "Exo 2",
-  "baseFontSize": 14
+  "baseFontSize": 12,
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "translucency": false
 }
