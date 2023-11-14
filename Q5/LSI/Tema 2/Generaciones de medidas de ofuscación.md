@@ -48,13 +48,7 @@ nmap -sS/-sF/-sA -p 80 x.x.x.x --packet-trace
 nmap x.x.x.x # host-discovery+port-scanning a todas las máquinas
 ```
 
-##### Estados de nmap
-+ Open: Abierto, algo corriendo
-+ Closed: Cerrado, no hay nada escuchando ahí. Pero el puerto está siendo atendido
-+ Filtered: Hay algo en medio, por ejemplo un firewall
-+ Unfiltered: Puerto accesible, pero no se sabe si está abierto o cerrado
-	+ Openfiltered
-	+ Closedfiltered
+
 
 ##### Opciones
 + -6: ipv6
