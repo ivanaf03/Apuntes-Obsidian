@@ -2,13 +2,13 @@
 
 ### Capa modelo
 Es aquella que implementa todos los casos de uso de la aplicación de forma independiente de la interfaz gráfica. Se divide en dos subcapas:
-+ **Capa de acceso a datos:** bases de datos y otras aplicaciones
++ **Capa de acceso a datos:** accesos a bases de datos y a otras aplicaciones
 + **Capa lógica de negocio:** implementa los casos de uso de la capa modelo usando la capa de acceso a datos para leer y escribir en la base de datos
 
 ### Capa interfaz
 Se divide en dos:
 + **Capa interfaz gráfica:** interfaz gráfica que permite a los usuarios utilizar las funcionalidades de la capa modelo
-+ **Capa servicios:** interfaz orientada a que otras aplicaciones utilicen las funcionalidades de la capa modelo a través de la capa "Acceso a servicios"
++ **Capa servicios:** interfaz orientada a que otras aplicaciones utilicen las funcionalidades de la capa modelo a través de la capa "acceso a servicios"
 
 ### Ejemplo: aplicación web bancaria
 ##### Capa modelo
