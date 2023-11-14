@@ -1,6 +1,6 @@
 [[Internet e Sistemas Distribuidos]]
 
-Contenidos:
+Contenido:
 + [[Características de las aplicaciones empresariales]]
 + [[Diseño por capas]]
 + [[Arquitectura basada en capas]]
