@@ -1,6 +1,10 @@
 [[Lexislación e Seguridade Informática]]
 
-Temario:
+Contenido:
++ [[Conceptos básicos de redes]]
++ [[Host discovery]]
++ [[Port scanning]]
+
 + [[Ejemplos]]
 + [[Fuentes públicas]]
 + [[Identificación de máquinas]]
