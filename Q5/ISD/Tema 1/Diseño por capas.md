@@ -3,7 +3,7 @@
 ### Capas
 Una capa (inferior) es un software que proporciona servicios a otro software (capa superior) a través de una interfaz o contrato de servicio.
 
-Esto sirve para independizar el software.. Es clave, entre otras cosas, para facilitar el mantenimiento. Si sabemos en que capa está el fallo, solo habrá que comprobar el código de esta.
+Esto sirve para independizar el software. Es clave, entre otras cosas, para facilitar el mantenimiento. Si sabemos en que capa está el fallo, solo habrá que comprobar el código de esta.
 
 ##### Ventajas
 + Los desarrolladores no necesitan conocer las tecnologías empleadas en otras capas.
