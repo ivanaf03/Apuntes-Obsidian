@@ -2,3 +2,5 @@
 
 Temario:
 + [[Qué es la ocultación]]
++ [[Funciones hash]]
++ [[TOR]]
