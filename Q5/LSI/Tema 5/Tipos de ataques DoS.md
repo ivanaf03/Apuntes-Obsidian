@@ -47,3 +47,4 @@ Si configuras la máquina como rootbridge te cragas tda la organización.
 
 ### Tráfico
 Dudoso, legítimo o dudosos. Se gestiona con qos. Deja pasar con prioridad el tráfico legítimo, dropea el tráfico dudoso y deja pasar con menos prioridad el tráfico dudoso.
+
