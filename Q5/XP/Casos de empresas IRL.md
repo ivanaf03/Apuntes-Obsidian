@@ -41,7 +41,7 @@ A continuación viene una lista de distribución. Sirve para indicar que persona
 6. Responsabilidades: Indica cuáles son las responsabilidades de cada rol. En este caso se describen las del responsable de calidad, el jefe del proyecto y el director general.
 7. Entradas al proceso: Contrato y descripción, requisitos y recursos.
 8. Salidas del proyecto: Plan del proyecto, informes de seguimiento, informe de cierre y lecciones aprendidas e informes de sección.
-9. Mecanismos de control: Indica que cargo controla cada parte
+9. Mecanismos de control: Indica que cargo controla cada parte.
 10. Procedimiento de gestión de proyecto
 	1. Inicio del proyecto
 	2. Clasificación del proyecto
