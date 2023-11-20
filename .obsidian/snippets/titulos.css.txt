@@ -1,9 +1,0 @@
-/* Reducir la distancia entre los títulos h1, h2, h3, h4, h5 y h6 y el texto en la vista de lectura */
-.markdown-preview-section h1,
-.markdown-preview-section h2,
-.markdown-preview-section h3,
-.markdown-preview-section h4,
-.markdown-preview-section h5,
-.markdown-preview-section h6 {
-  margin-top: 0.5rem;
-}
