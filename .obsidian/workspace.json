@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "de1a8415c8e707e7",
+        "id": "b7e05c0afb51cc0c",
         "type": "tabs",
         "children": [
           {
-            "id": "e92517de64d19475",
+            "id": "f4ce68618364866c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+                "file": "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+                "file": "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md"
+                "file": "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+                "file": "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,35 +158,39 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e92517de64d19475",
+  "active": "f4ce68618364866c",
   "lastOpenFiles": [
-    "Q5/LSI/Tema 4/Herramientas.md",
-    "Q5/LSI/Tema 4/Tema 4-Sniffing.md",
-    "Q5/LSI/Tema 5/Tipos de ataques DoS.md",
-    "Q5/LSI/Prácticas/P2.md",
-    "Q5/XP/Gestión de la configuración software.md",
-    "Q5/XP/Xestión de Proxectos.md",
-    "Q5/XP/Casos de empresas IRL.md",
-    "Q5/LSI/Lexislación e Seguridade Informática.md",
-    "Q5/Q5.md",
-    "Q5/ISD/Tema 6/Introducción a los servicios web REST.md",
+    "Q5/ISD/Tema 3/Tema 3-Diseño e implementación de la capa modelo.md",
+    "Q5/ISD/Tema 2/Transacciones.md",
+    "Q5/ISD/Tema 2/Tema 2-JDBC Conectividad de bases de datos con java.md",
+    "Q5/ISD/Tema 6/Descripción del caso de estudio.md",
     "Q5/ISD/Tema 6/Tema 6-Diseño e implementación de servicios web REST.md",
-    "Q5/ISD/Internet e Sistemas Distribuidos.md",
-    "Q5/LSI/Tema 5/Tema 5-DoS.md",
-    "Q5/LSI/Tema 5",
     "Q5/LSI/Presentación.md",
-    "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
-    "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
-    "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
-    "Q5/LSI/Tema 2/Host discovery.md",
-    "Q5/LSI/Prácticas/P1.md",
+    "Q5/LSI/Tema 5/Clase 3.md",
+    "Q5/LSI/Tema 5/Tema 5-DoS.md",
+    "Q5/LSI/Tema 5/Clase 2.md",
+    "Q5/LSI/Lexislación e Seguridade Informática.md",
+    "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
+    "Q5/Q5.md",
+    "Ingeniería Informática.md",
+    "Q5/ISD/Tema 2/Conexiones.md",
+    "Q5/ISD/Tema 2/Tipos SQL y Java.md",
+    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
+    "Q5/ISD/Tema 2/Introducción a JDBC.md",
+    "Q5/ISD/Tema 1/Tecnologías Java y otras tecnologías.md",
+    "Q5/ISD/Tema 1/Distribución de las capas.md",
+    "Q5/ISD/Tema 1/Diseño por capas.md",
+    "Q5/ISD/Tema 1/Arquitectura basada en capas.md",
+    "Q5/IPM/Interfaces web en dispositivos móvil.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/XP/Tema 3/El pilar de la gestión de riesgos.md",
-    "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
-    "Q5/XI/Xestión de Infraestruturas.md",
-    "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
-    "Q5/LSI/Tema 2/Port scanning.md",
-    "Q5/XP/Tema 4/Aspectos relacionados con la GCS.md",
+    "Q5/XP/Gestión de la configuración software.md",
+    "Q5/XP/Casos de empresas IRL.md",
+    "Q5/XP/Xestión de Proxectos.md",
+    "Q5/XI/Tema 6",
+    "Pasted image 20231115192511.png",
+    "Sin título 1.canvas",
+    "Sin título.canvas",
+    "Q5/LSI/Tema 5",
     "Imágenes/arquitectura de cableado 2.png",
     "Imágenes/arquitectura de cableado.png",
     "Q5/XP/Tema 4",
@@ -203,8 +207,6 @@
     "Imágenes/tcp handshake.png",
     "Imágenes/cabecera tcp.png",
     "Q5/ISD/Tema 5",
-    "Q5/LSI/Tema 3",
-    "Q5/LSI/Prácticas",
-    "Imágenes/ejemplo tema 1 isd.png"
+    "Q5/LSI/Tema 3"
   ]
 }
