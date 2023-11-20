@@ -27,8 +27,8 @@ public final class TransactionExample {
 
 ### Niveles de aislamiento
 Connection proporciona el método setTransactionIsolation, que permite especificar el nivel de aislamiento a:
-+ TRANSACTION_NONE: transacciones no soportadas
-+ TRANSACTION_READ_UNCOMMITTED: pueden ocurrir dirty reads, non-repeatable reads y phantom reads
-+ TRANSACTION_READ_COMMITTED: pueden ocurrir non repeatable reads y phantom reads
-+ TRANSACTION_REPEATABLE_READ: pueden ocurrir phantom reads  
-+ TRANSACTION_SERIALIZABLE: elimina todos los problemas de concurrencia (la que usaremos en la asignatura)
++ **TRANSACTION_NONE:** transacciones no soportadas.
++ **TRANSACTION_READ_UNCOMMITTED:** pueden ocurrir dirty reads, non-repeatable reads y phantom reads
++ **TRANSACTION_READ_COMMITTED:** pueden ocurrir non repeatable reads y phantom reads
++ **TRANSACTION_REPEATABLE_READ:** pueden ocurrir phantom reads. 
++ **TRANSACTION_SERIALIZABLE:** elimina todos los problemas de concurrencia (la que usaremos en la asignatura)
