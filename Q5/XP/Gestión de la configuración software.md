@@ -44,3 +44,9 @@ El cliente recurre al jefe del proyecto o a atención al cliente cuando quiere u
 8. Salidas del proceso: solicitudes de cambio rellenadas, versiones del producto y registros de configuración.
 9. Mecanismos de control: indica quien realizará las auditorías.
 10. GCS
+
+### Entornos de trabajo
+En este ejemplo tenemos 3 entornos de trabajo diferentes:
++ **Entorno de desarrollo:** estructura en local donde se desarrolla y se hacen las pruebas unitarias.
++ **Entorno de pruebas:** estructura en red donde se hacen las pruebas de integración y sistema.
++ **Entorno de cliente:** producto consolidado entregado al cliente donde se hacen las pruebas de aceptación. Si hay que hacer cambios se copia al entorno de desarrollo.
