@@ -1,12 +1,10 @@
 {
-  "accentColor": "#0084ff",
-  "cssTheme": "Nebula",
-  "interfaceFontFamily": "Exo 2",
-  "baseFontSize": 12,
+  "accentColor": "#8000ff",
+  "cssTheme": "Elegance",
+  "interfaceFontFamily": "Segoe Print",
+  "baseFontSize": 18,
   "theme": "obsidian",
   "baseFontSizeAction": true,
   "translucency": false,
-  "enabledCssSnippets": [
-    "obsidian"
-  ]
+  "enabledCssSnippets": []
 }
