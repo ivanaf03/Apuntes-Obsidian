@@ -1,6 +1,6 @@
 [[Tema 2-JDBC Conectividad de bases de datos con java]]
 
-### Correspondencia de tipos
+## Correspondencia de tipos
 Un dato de tipo Java se puede almacenar en una columna cuyo tipo SQL sea consistente con el tipo Java.
 
 |**Tipo de Java**|**Tipo de SQL**|
