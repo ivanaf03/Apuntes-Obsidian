@@ -5,7 +5,7 @@ Un Centro de Procesamiento de Datos o centro de cálculo es un lugar donde se ub
 
 Son modulares, es decir, estructurados en módulos; para que si falla una parte no se pare todo el CPD. Son flexibles y escalables, ya que si la organización crece, el CPD debe crecer con ella.
 
-### Ubicación
+### Ubicación y tareas
 El CPD se ubica dentro de la organización en consecuencia al modelo organizacional de esta. No se añade exactamente igual que un departamento más, esto es muy relativo, ya que tienen que gestionarse tareas muy diferentes. Por ejemplo:
 + **Desarrollo de sistemas informáticos:** análisis, diseño y desarrollo de software, pruebas, documentación, implantación, mantenimiento.
 + **Soporte técnico:** mantenimiento del sistema.
