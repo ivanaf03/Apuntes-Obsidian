@@ -5,3 +5,4 @@ Temario:
 + [[Responsive Web Design]]
 +  [[Accesibilidad web]]
 + [[Ajax]]
++ [[Diseño de interfaces de usuario]]
