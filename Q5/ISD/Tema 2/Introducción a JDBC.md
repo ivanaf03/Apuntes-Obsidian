@@ -1,21 +1,16 @@
 [[Tema 2-JDBC Conectividad de bases de datos con java]]
 
-### JDBC
-Java tiene mecanismos para acceder a bases de datos relacionales. La API de Java que se encarga de esto se llama JDBC. Los paquetes con los que se trabajan son java.sql y javax.sql.
+## JDBC
+Java tiene mecanismos para acceder a bases de datos relacionales. La API de Java que se encarga de esto se llama JDBC. Los paquetes con los que se trabaja Java son java.sql y javax.sql.
 
-Para poder conectarse a la base de datos y lanzar consultas es necesario un driver. Los drivers son ficheros que contienen ficheros .jar con la implementación de las interfaces de las APIs.
+Para poder conectarse a la base de datos y lanzar consultas es necesario un driver. Los drivers son ficheros .jar que contienen la implementación de las interfaces de las APIs.
 
-Esto nos permite que si cambiamos de bases de datos, no es necesario cambiar el código, sino cambiar el driver. El problema es que las bases de datos utilizan diferentes dialectos de SQL. Los tipos de datos varían, la generación de IDs es diferente...
+Esto nos permite que, si cambiamos de base de datos, tengamos que cambiar el código, sino simplemente el driver. El problema es que las bases de datos utilizan diferentes dialectos de SQL. Los tipos de datos varían, la generación de IDs es diferente...
 
 Es importante recordar que en JDBC los índices empiezan en 1, no en 0 como en Java u otros lenguajes de programación.
 
-##### Ejemplo de uso (insert)
+### Ejemplo de uso (insert)
 ```
-package udc.es.ws.jdbctutorial;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-
 public final class InsertExample{
 	public static void main(String[] args){
 		try (Connection connection = ConnectionManager.getConnection()) {
@@ -41,13 +36,8 @@ public final class InsertExample{
 }
 ```
 
-##### Ejemplo de uso (select)
+### Ejemplo de uso (select)
 ```
-package es.udc.ws.jdbctutorial;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-
 public final class SelectExample {
 	public static void main (String[] args) {
 		try (Connection connection = ConnectionManager.getConnection()) {
@@ -67,13 +57,8 @@ public final class SelectExample {
 }
 ```
 
-##### ConnectionManager
+### ConnectionManager
 ```
-package es.udc.ws.jdbctutorial;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
 public class ConnectionManager {
 	private final static String DRIVER_URL = "jdbc:mysql://localhost/ws?...";
 	private final static String USER = "ws";
@@ -89,8 +74,8 @@ public class ConnectionManager {
 }
 ```
 
-### Ejecución de sentencias
-##### Interfaz Connection
+## Ejecución de sentencias
+### Interfaz Connection
 Representa una conexión con la base de datos. Por ejemplo:
 ```
 Connection connection = ConnectionManager.getConnection()
@@ -99,17 +84,18 @@ PreparedStatement preparedStatement = connection.prepareStatement(queryString);
 ```
 
 El método getConnection permite obtener conexión a la base de datos a través de una URL o de un id y una contraseña. En una aplicación real el usuario y la contraseña se leen de un archivo de configuración.
-##### Interfaz PreparedStatement
+
+### Interfaz PreparedStatement
 Contiene la consulta SQL parametrizada. Dispone de setter para dar valor a los parámetros. Permite lanzar consultas de actualización (executeUpdate) o de lectura (executeQuery).
 
-El driver se encarga de formatear los datos. Por ejemplo:
+El driver se encarga de formatear los datos. Por ejemplo, lanzaría:
 ```
 INSERT INTO TutMovie (movieId, title, runtime) VALUES ('movie-1', 'movie-1 title', 90)
 
 INSERT INTO User (birthdate, ...) VALUES ('2015-09-01', ...)
 ```
 
-##### SQL Exception
+### SQL Exception
 Los métodos de la API lanzan una SQLException ante cualquier error.
 ```
 if (insertedRows != 1) { 
@@ -117,7 +103,7 @@ if (insertedRows != 1) {
 }
 ```
 
-##### Interfaz ResultSet
+### Interfaz ResultSet
 Representa todas las filas que concuerdan con la búsqueda. Funciona como una especie de cursor. El método next avanza y devuelve true si quedan filas por leer. Contiene getters para acceder a los valores de la fila donde se encuentra el cursor.
 ```
 while (resultSet.next()) {
@@ -128,10 +114,11 @@ while (resultSet.next()) {
 }
 ```
 
-### Liberación de recursos
+## Liberación de recursos
 Para abrir y cerrar las conexiones los ejemplos anteriores usan try-with-resources. Los recursos se declaran entre los paréntesis del try. El compilador de java llama al método close siempre que termine el bloque try.
 
 En caso de utilizar el try normal, habría que cerrar la conexión manualmente. Para ello, se redefine finalize en la interfaz Connection.
+
 ```
 Connection connection = null;
 try { 
@@ -149,4 +136,5 @@ try {
 	} 
 }
 ```
+
 Si no se liberan las conexiones, en un caso real podría llegar un momento en el que se hayan procesado demasiadas peticiones HTTP de accesos a la BD sin que el recolector de basura las haya liberado. Cuando llegue la siguiente petición devolverá SQLException porque no admite más conexiones.
