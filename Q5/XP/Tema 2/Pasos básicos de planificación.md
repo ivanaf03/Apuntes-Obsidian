@@ -24,7 +24,7 @@ Para definir correctamente una actividad algunos parámetros importantes son:
 La actividad B no puede comenzar mientras A no haya comenzado.
 
 ##### Start to Finish (SF o CF)
-La actividad B no puede terminar hasta que A aya comenzado.
+La actividad B no puede terminar hasta que A haya comenzado.
 
 ##### Finish to Start (FS o FC)
 La actividad B no puede comenzar hasta que A no haya terminado.
@@ -60,7 +60,7 @@ Las posibles soluciones para las sobrecargas son:
 + Localizar los valles, es decir, las zonas donde un recurso no se está utilizando, y aprovecharlos
 
 ##### Eliminación de las sobrecargas
-**+ A tiempo:** Se mantiene la fecha de fin y se modifican las actividades que no pertenecen al camino crítico. 
++ **A tiempo:** Se mantiene la fecha de fin y se modifican las actividades que no pertenecen al camino crítico. 
 + **A recurso:** Se puede variar la fecha fin del proyecto.
 
 ### Establecimiento de la línea base
