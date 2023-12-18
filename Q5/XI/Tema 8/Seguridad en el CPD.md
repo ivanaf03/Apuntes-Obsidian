@@ -74,3 +74,13 @@ La ISO tiene que encajar con la legislación estatal. Muchas actualizaciones de 
 + Climatización
 + Compartimentación
 + Control de plagas
+
+### Aspectos contractuales
++ **SLA:** Acuerdo de Nivel de Servicio: es el estudio del nivel de disponibilidad de los servicios. 
+
+### Seguridad lógica
++ Actualización de sistemas
++ Configuración de seguridad
++ Monitorización operacional
++ Operaciones de seguridad
++ Segregación de entornos
