@@ -11,6 +11,7 @@ Temario seguridad:
 
 Temario derecho:
 + [[Tema 1-Protección de datos personales]]
++ [[Tema 2-La regulación jurídica de intermediarios y DSA]]
 
 Prácticas:
 + [[P1]]
