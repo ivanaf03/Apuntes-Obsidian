@@ -1,9 +1,9 @@
 [[Tema 2-La regulación jurídica de intermediarios y DSA]]
 
 ## Servicios de intermediación
-Un servicio de la sociedad de la información es cualquier servicio relacionado con Internet. Por ejemplo, un vendedor de cerámicas por Internet sería un prestador de servicio de la sociedad de la información.
+Un SSI o Servicio de la Sociedad de la Información es cualquier servicio relacionado con Internet. Por ejemplo, un vendedor de cerámicas por Internet sería un prestador de servicio de la sociedad de la información.
 
-Los servicios de intermediación son los que facilitan la prestación o utilización de otros SSI o el acceso a la información. Dentro de estos tenemos 3 tipos:
+Los servicios de intermediación son SSI que facilitan la prestación o utilización de otros SSI o el acceso a la información. Dentro de estos tenemos 3 tipos:
 + Servicios de mera transmisión.
 + Servicios de memoria caché.
 + Servicios de alojamiento de datos.
