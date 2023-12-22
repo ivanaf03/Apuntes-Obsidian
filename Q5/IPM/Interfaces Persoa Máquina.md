@@ -5,5 +5,6 @@ Temario:
 + [[Interfaces web en dispositivos móvil]]
 + [[Responsive Web Design]]
 +  [[Accesibilidad web]]
++ [[WAI-ARIA]]
 + [[Ajax]]
 + [[Diseño de interfaces de usuario]]
