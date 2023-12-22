@@ -1,18 +1,17 @@
 [[Interfaces Persoa Máquina]]
 
-### Diseño web adaptativo
-Lo que se suele hacer en las páginas web para adaptar bien el tamaño se conoce como Responsive web design. Se basa en adaptar el layout, adaptarse al dispositivo con los media queries y hacer las imágenes flexibles.
+## Flexibilidad
+Lo que se suele hacer en las páginas web para adaptar bien el tamaño se conoce como Responsive web design. Se basa en adaptar el layout, adaptarse al dispositivo mediante los media queries y hacer las imágenes flexibles.
 
-### Contenidos flexibles
 Se deben utilizar tamaños relativos. Para obtenerlos se calculan como:
-```
-target/context=result
 
-# target: tamaño del elemento
-# context: tamaño del contenedor
-```
+$\frac{\text{target}}{\text{context}} = \text{result}$
 
-##### Tipografías flexibles
+Donde target es el tamaño del elemento y context el tamaño del contenedor.
+
+### Tipografías flexibles
+Se utilizan unidades relativas para escalar el tamaño fuente (em y rem). "em" es relativo al tamaño de fuente del elemento padre más cercano, mientras que "rem" es relativo al tamaño de fuente del elemento raíz html.
+
 ```
 body {
 	font -size: 100 %;
@@ -27,9 +26,7 @@ p {
 }
 ```
 
-Se utilizan unidades relativas para escalar el tamaño fuente (em y rem). "em" es relativo al tamaño de fuente del elemento padre más cercano, mientras que "rem" es relativo al tamaño de fuente del elemento raíz html.
-
-Otra forma es con las viewport units (vw y vh equivalen al 1% del ancho y alto del viewport). Por ejemplo: 
+Otra forma es con las viewport units. "vw" y "vh" equivalen al 1% del ancho y alto del viewport. Por ejemplo: 
 ```
 h2 {
 	font -size : 6vw; 
@@ -40,14 +37,14 @@ h4 {
 }
 ```
 
-La combinación de los dos permite al navegador calcular el tamaño dinámicamente:
+La combinación de los dos trucos permite al navegador calcular el tamaño dinámicamente:
 ```
 html {
 	font-size: calc(1em+1vw);
 }
 ```
 
-##### Grid flexible
+### Grid flexible, margin y padding
 El grid de una página html también se calcula con la fórmula anterior. Una equivalencia entre unidades absolutas y relativas sería:
 + Unidades absolutas:
 ```
@@ -143,7 +140,8 @@ Es un modelo de diseño en CSS que permite el diseño de diseño de cajas de un 
 .container {
 	display: flex;
 	flex -direction: row; 
-	flex -wrap: wrap; gap: 10px; 
+	flex -wrap: wrap;
+	gap: 10px; 
 } 
 
 .item {
@@ -278,14 +276,14 @@ Selección por breakpoint:
 </picture>
 ```
 
-### Marco de trabajo
+## Marco de trabajo
 Existen 2 opciones para trabajar con el CSS adaptativo:
 + Adaptar el diseño para escritorio y hacer las modificaciones correspondientes.
 + Empezar primero por el diseño para móvil.
 
 Se puede hacer con hojas CSS diferentes o mediante media queries. 
 
-##### Patrones responsive
+### Patrones responsive
 1. **Tiny Tweaks (Pequeños ajustes):**
     - **Descripción:** Este patrón implica realizar pequeños ajustes en los estilos y la disposición de los elementos para adaptarse a pantallas más pequeñas.
     - **Ejemplo:** Cambiar el tamaño de la fuente, ajustar los márgenes y espaciados para que se vean y funcionen mejor en pantallas más pequeñas.
