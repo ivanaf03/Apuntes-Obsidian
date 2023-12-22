@@ -10,3 +10,4 @@ Temario:
 
 Prácticas:
 + [[Tutorial de Octave]]
++ [[Diseño de un Centro de Proceso de Datos]]
