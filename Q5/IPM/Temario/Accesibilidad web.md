@@ -164,27 +164,44 @@ Para ello debemos evitar usar "before" y "after" en CSS, ya que esto da cierta i
 
 Además hay que evitar los posicionamientos absolutos en CSS. Es una técnica en CSS que se utiliza para colocar un elemento en relación con su contenedor más cercano que puede desvincular los elementos de su flujo natural en el documento.
 
-##### Títulos y cabeceras
+### Títulos y cabeceras
 Toda página web debe tener un título descriptivo.
+```
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Título HTML</title>
+</head>
+```
 
-Utilizar cabeceras descriptivas. Utilizar h1, h2... sin saltar niveles. Modificar el tamaño con CSS.
+Para estructurar los contenidos se utilizan las cabeceras (h1, h2, ...h6). Es importante no saltarse ningún nivel. Si se desea otro tamaño de cabecera se modifica en el CSS.
 
-##### Elementos multimedia
-Audios con transcripción textual
-Vídeos sin sonido con transcripción textual o pista de sonido
-Vídeo con subtítulos
+### Elementos multimedia
+Para contenidos de audio, es importante proporcionar una transcripción textual del contenido hablado. Cuando un video no incluye sonido o tiene un contenido relevante solo en audio, es crucial proporcionar una transcripción textual o una pista de sonido alternativa. Si contienen diálogo o información audible, se deben proporcionar subtítulos.
 
-##### Otros
-Evutar scroll
-CAPTCHAS no solo de imagenes
-Incluir el idioma general de la página
+Cuando el contenido multimedia, como audio o video, se inicia automáticamente al cargar una página, es esencial proporcionar un mecanismo para que los usuarios puedan detener o pausar ese contenido. Cuando se incluyen subtítulos o descripciones de audio, es importante proporcionar mecanismos para que los usuarios controlen su visibilidad o audición.
 
-##### Pruebas
-+ Toolbars
-+ Navagador sin CSS y JS
-+ Navegador solo texto
-+ Navegar sin ratón
-+ Tecnologías asistivas como lectores de pantalla
+### Otros
+Se deben evitar elementos en la página que tengan movimientos, desplazamientos, parpadeos o destellos excesivos es esencial para reducir el riesgo de provocar molestias o problemas de accesibilidad, especialmente para personas con sensibilidades visuales.
 
-### WAI-ARIA
-Es necesario sólo si el HTML no tiene la semántica adecuada.
+Los CAPTCHAs basados solo en imágenes pueden ser inaccesibles para lectores de pantalla. Se deben utilizar alternativas como CAPTCHAs auditivos o basados en texto.
+
+Para mejorar la accesibilidad y la experiencia del usuario, es importante indicar el idioma general de la página y, si hay secciones específicas que cambian de idioma, proporcionar información sobre el idioma de esas secciones. Por ejemplo:
+```
+<!DOCTYPE html>
+<html lang="en">
+...
+<body>
+  <section lang="es">
+    <!-- Contenido en español -->
+  </section>
+</body>
+</html>
+```
+
+### Validación del HTML
++ Toolbars.
++ Pruebas en navegador sin CSS y JS.
++ pruebas en navegador de solo texto.
++ Navegar sin ratón.
++ Tecnologías asistivas, como lectores de pantalla.
