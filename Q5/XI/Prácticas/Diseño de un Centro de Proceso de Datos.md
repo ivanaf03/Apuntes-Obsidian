@@ -1,3 +1,7 @@
+[[Diseño de un Centro de Proceso de Datos]]
+
+(BORRADOR)
+
 ## 1.Componentes del grupo
 + Grupo 3.XI.3.2
 + Día de prácticas: Viernes 8:30-10:30
@@ -42,25 +46,3 @@ Hemos decido situar centrados los racks con los sistemas de almacenamiento y los
 
 ## 4.Distribución de los equipos de red en los racks y su interconexión
 ![[cpd3.png]]
-
-## 5.Sistema de distribución de energía
-https://ekanet.es/productos-en-promocion/2040-sai-1000va600w-line-interactive-rack-1u.html
-https://www.apc.com/co/es/product/SC450RM1U/unidad-smartups-sc-de-apc-de-450-va-y-120v-1-u-para-rack-en-torre/ 
-
-## 6.Sistema de refrigeración
-Colocamos unidades de refrigeración inRow entre los racks en los pasillos calientes, donde el aire caliente de los servidores se acumula después de pasar por los equipos. Toma el aire caliente directamente del pasillo caliente donde se encuentra la carga térmica más alta, o sea, en el centro.
-
-El aire caliente capturado pasa a través de la unidad InRow, que contiene serpentines de enfriamiento o intercambiadores de calor. Utilizamos agua fría destilada para extraer el calor del aire. 
-https://convertronic.net/potencia/control-termico/3311-modulos-refrigeracion-centros-datos-inrow-rc.html
-
-## 7.Sistemas de control
-+ Sistema de CCAA: Lector biométrico autónomo Anviz EP30 Huellas RFID Wiegand
-![[cpd6.jpg]]
-
-+ Sensor de humedad y temperatura: Sensor de temperatura y humedad para unidad PDU para rack fácil de APC
-![[cpd5.png]]
-
-+ Sistema de CCTV: IP Dahua K42 4MP disco duro 1Tb
-![[cpd4.jpg]]
-
-## 8. Cálculos
