@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/IPM/Temario/Accesibilidad web.md",
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/IPM/Temario/Accesibilidad web.md",
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/IPM/Temario/Accesibilidad web.md"
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/IPM/Temario/Accesibilidad web.md",
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,8 +160,14 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Pasted image 20231222201825.png",
+    "Q5/IPM/Temario/Ajax.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/IPM/Temario/WAI-ARIA.md",
+    "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
+    "Q5/ISD/Internet e Sistemas Distribuidos.md",
+    "Q5/ISD/Tema 4/Tema 4-Pruebas de integración de la capa modelo.md",
+    "Pasted image 20231222201825.png",
+    "Q5/IPM/Temario/Accesibilidad web.md",
     "Q5/IPM/Temario/Patrones de diseño.md",
     "Q5/Q5.md",
     "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
@@ -181,11 +187,6 @@
     "Q5/XI/Prácticas/Tutorial de Octave.md",
     "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
     "Q5/XI/Tema 10/Snapshots.md",
-    "Q5/XI/Tema 10/Failover Technologies – High Availability and Fault Tolerance.md",
-    "Q5/XI/Tema 10/Live migration.md",
-    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
-    "Q5/XI/Tema 10/Virtualización de servidores.md",
-    "Q5/XI/Xestión de Infraestruturas.md",
     "Q5/ISD/Preguntas examen",
     "Q5/XI/Tema 10",
     "Imágenes/cpd6.jpg",
@@ -203,7 +204,6 @@
     "Imágenes/responsive1.png",
     "Q5/IPM/Temario",
     "Q5/XP/Tema 5",
-    "Imágenes/nfv.png",
     "Q5/LSI/Tema 6",
     "Q5/XI/Tema 7",
     "Sin título 1.canvas",
