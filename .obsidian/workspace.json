@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md",
-                "mode": "source",
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 370.50418853759766
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md",
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md"
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md",
+                "file": "Q5/IPM/Interfaces Persoa Máquina.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,39 +160,40 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Q5/LSI/Tema 2D/Digital Services Act.md",
-    "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md",
-    "Q5/LSI/Tema 2D/Responsabilidad de los servicios de intermediación.md",
-    "Q5/LSI/Tema 1D/Principios relativos al tratamiento de datos.md",
-    "Q5/LSI/Tema 1D/Tema 1-Protección de datos personales.md",
-    "Q5/LSI/Tema 1D/Sujetos implicados en protección de datos.md",
-    "Q5/LSI/Lexislación e Seguridade Informática.md",
+    "Q5/IPM/Temario/Patrones de diseño.md",
+    "Q5/IPM/Interfaces Persoa Máquina.md",
     "Q5/Q5.md",
-    "Q5/LSI/Tema 1D/Tratamiento de datos personales.md",
-    "Q5/XI/Tema 10/La necesidad de la virtualización.md",
-    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "Q5/XI/Tema 10",
-    "Q5/LSI/Tema 1D/Introducción a la legislación informática.md",
-    "Q5/ISD/Tema 1/Distribución de las capas.md",
-    "Q5/ISD/Tema 1/Tecnologías Java y otras tecnologías.md",
-    "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
-    "Q5/ISD/Tema 1/Arquitectura basada en capas.md",
+    "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
+    "Ingeniería Informática.md",
+    "Q5/IPM/Temario/Responsive Web Design.md",
+    "Q5/XP/Tema 4/Aspectos relacionados con la GCS.md",
+    "Q5/XP/Tema 4/Tema 4-Gestión de la configuración software.md",
+    "Q5/XP/Tema 4/Objetivos de la GCS.md",
+    "Q5/XP/Tema 5/Tema 5-Programación lineal.md",
+    "Q5/XP/Tema 1/Objetivos del proceso software.md",
+    "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
+    "Q5/XP/Tema 1/Ciclos de desarrollo gestión de proyectos.md",
+    "Q5/XP/Tema 4/Conceptos básicos de la GCS.md",
     "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
-    "Q5/ISD/Tema 7/Tema 7-Diseño e implementación de Servicios RPC.md",
+    "Q5/XP/Prácticas/Conceptos.md",
     "Q5/XI/Prácticas/Diseño de un Centro de Proceso de Datos.md",
-    "Q5/LSI/Prácticas/P3.md",
+    "Q5/XI/Prácticas/Tutorial de Octave.md",
+    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "Q5/XI/Tema 10/Snapshots.md",
+    "Q5/XI/Tema 10/Failover Technologies – High Availability and Fault Tolerance.md",
+    "Q5/XI/Tema 10/Live migration.md",
+    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
+    "Q5/XI/Tema 10/Virtualización de servidores.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Tema 10/La necesidad de la virtualización.md",
+    "Q5/ISD/Preguntas examen",
+    "Q5/XI/Tema 10",
     "Imágenes/cpd6.jpg",
     "Imágenes/cpd5.png",
     "Imágenes/cpd4.jpg",
     "Imágenes/cpd3.png",
     "Imágenes/cpd2.png",
     "Imágenes/cpd1.png",
-    "Q5/ISD/Tema 6/Diseño e implementación de un servicio web REST.md",
-    "Q5/ISD/Tema 6/Tema 6-Diseño e implementación de servicios web REST.md",
-    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
-    "Q5/ISD/Tema 6/Introducción a los servicios web REST.md",
-    "Q5/ISD/Tema 6/Descripción del caso de estudio.md",
-    "Q5/ISD/Tema 6/Explicación de Bellas.md",
     "Q5/ISD/Tema 7",
     "Q5/LSI/Tema 2D",
     "Pasted image 20231203204317.png",
@@ -205,7 +206,6 @@
     "Imágenes/nfv.png",
     "Q5/LSI/Tema 6",
     "Q5/XI/Tema 7",
-    "Q5/XI/Tema 6",
     "Sin título 1.canvas",
     "Sin título.canvas"
   ]
