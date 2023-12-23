@@ -1,6 +1,6 @@
  [[Tema 1-Fundamentos de la transmisión de señales]]
 
-### Definición de señal
+## Definición de señal
 Una señal es una función o una magnitud física que varía en el tiempo, espacio o cualquier variable independiente y que contiene información acerca de cualquier fenómeno físico. 
 
 Se puede representar matemáticamente como una función real de una variable independiente continua que toma valores en la recta real.
