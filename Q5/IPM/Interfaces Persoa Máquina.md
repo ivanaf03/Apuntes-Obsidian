@@ -8,3 +8,4 @@ Temario:
 + [[WAI-ARIA]]
 + [[Ajax]]
 + [[Diseño de interfaces de usuario]]
++ [[Análisis de usuario y actividades]]
