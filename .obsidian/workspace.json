@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
+                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
+                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/IPM/Temario/Diseño de interfaces de usuario.md"
+                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
+                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,6 +161,10 @@
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
     "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/IPM/Temario/Análisis de usuario y actividades.md",
+    "Imágenes/persona.png",
+    "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
+    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/IPM/Temario/Ajax.md",
     "Q5/IPM/Temario/WAI-ARIA.md",
     "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
@@ -181,12 +185,8 @@
     "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
     "Q5/XP/Tema 1/Ciclos de desarrollo gestión de proyectos.md",
     "Q5/XP/Tema 4/Conceptos básicos de la GCS.md",
-    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/XP/Prácticas/Conceptos.md",
     "Q5/XI/Prácticas/Diseño de un Centro de Proceso de Datos.md",
-    "Q5/XI/Prácticas/Tutorial de Octave.md",
-    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "Q5/XI/Tema 10/Snapshots.md",
     "Q5/ISD/Preguntas examen",
     "Q5/XI/Tema 10",
     "Imágenes/cpd6.jpg",
@@ -201,7 +201,6 @@
     "Q5/LSI/Tema 1D",
     "Q5/XI/Tema 8",
     "Imágenes/responsive2.png",
-    "Imágenes/responsive1.png",
     "Q5/IPM/Temario",
     "Q5/XP/Tema 5",
     "Q5/LSI/Tema 6",
