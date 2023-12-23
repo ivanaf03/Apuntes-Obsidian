@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md",
+                "file": "Q5/XI/Tema 5/Modelo de red jerárquico.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.50418853759766
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md",
+                "file": "Q5/XI/Tema 5/Modelo de red jerárquico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md"
+                "file": "Q5/XI/Tema 5/Modelo de red jerárquico.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/IPM/Temario/Análisis de usuario y actividades.md",
+                "file": "Q5/XI/Tema 5/Modelo de red jerárquico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,11 +160,31 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
+    "Q5/XI/Tema 5/Tema 5-Cableado estructurado.md",
+    "Q5/XI/Tema 5/Arquitectura de cableado estructurado.md",
+    "Q5/XI/Tema 5/Medios de transmisión.md",
+    "Q5/XI/Tema 5/Modelo de red jerárquico.md",
+    "Q5/XI/Tema 1/Señales.md",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Tema 6/Tema 6-Redes de almacenamiento.md",
+    "Q5/XI/Tema 6/Sistemas de almacenamiento.md",
+    "Q5/Q5.md",
+    "Imágenes/arquitectura de cableado.png",
+    "Imágenes/gbic sfp.png",
+    "Imágenes/conectores de fibra.png",
+    "Imágenes/conectores.png",
+    "Imágenes/cables de par trenzado.png",
+    "Ingeniería Informática.md",
+    "Q5/XP/Xestión de Proxectos.md",
+    "Q5/IPM/Temario/Patrones de diseño.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/XI/Prácticas/Borrador de diseño de un Centro de Proceso de Datos.md",
+    "Q5/XP/Prácticas/Conceptos.md",
+    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/IPM/Temario/Análisis de usuario y actividades.md",
     "Imágenes/persona.png",
     "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
-    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/IPM/Temario/Ajax.md",
     "Q5/IPM/Temario/WAI-ARIA.md",
     "Q5/ISD/Tema 3/Capa modelo, principios de diseño y consideraciones previas.md",
@@ -172,35 +192,16 @@
     "Q5/ISD/Tema 4/Tema 4-Pruebas de integración de la capa modelo.md",
     "Pasted image 20231222201825.png",
     "Q5/IPM/Temario/Accesibilidad web.md",
-    "Q5/IPM/Temario/Patrones de diseño.md",
-    "Q5/Q5.md",
     "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
-    "Ingeniería Informática.md",
-    "Q5/IPM/Temario/Responsive Web Design.md",
-    "Q5/XP/Tema 4/Aspectos relacionados con la GCS.md",
-    "Q5/XP/Tema 4/Tema 4-Gestión de la configuración software.md",
-    "Q5/XP/Tema 4/Objetivos de la GCS.md",
-    "Q5/XP/Tema 5/Tema 5-Programación lineal.md",
-    "Q5/XP/Tema 1/Objetivos del proceso software.md",
-    "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
-    "Q5/XP/Tema 1/Ciclos de desarrollo gestión de proyectos.md",
-    "Q5/XP/Tema 4/Conceptos básicos de la GCS.md",
-    "Q5/XP/Prácticas/Conceptos.md",
-    "Q5/XI/Prácticas/Diseño de un Centro de Proceso de Datos.md",
     "Q5/ISD/Preguntas examen",
     "Q5/XI/Tema 10",
     "Imágenes/cpd6.jpg",
     "Imágenes/cpd5.png",
     "Imágenes/cpd4.jpg",
-    "Imágenes/cpd3.png",
-    "Imágenes/cpd2.png",
-    "Imágenes/cpd1.png",
     "Q5/ISD/Tema 7",
     "Q5/LSI/Tema 2D",
-    "Pasted image 20231203204317.png",
     "Q5/LSI/Tema 1D",
     "Q5/XI/Tema 8",
-    "Imágenes/responsive2.png",
     "Q5/IPM/Temario",
     "Q5/XP/Tema 5",
     "Q5/LSI/Tema 6",
