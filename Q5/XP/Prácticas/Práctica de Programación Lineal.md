@@ -8,17 +8,19 @@ ivanna.pombo@udc.es
 fernando.alvarezr@udc.es
 
 ## Ejercicio 1
-*Tienes 1500 euros disponibles para invertirlos durante los próximos tres años. Al inicio de cada año puedes invertir parte del dinero en depósitos a un año o a dos años. Los depósitos a un año pagan un interés del 4 %, mientras que los depósitos a dos años pagan un 7% al final de los dos años. El objetivo es conseguir que al cabo de los tres años tu capital sea lo mayor posible.*
+*Tienes 1500 euros disponibles para invertirlos durante los próximos tres años. Al inicio de cada año puedes invertir parte del dinero en depósitos a un año o a dos años. Los depósitos a un año pagan un interés del 4%, mientras que los depósitos a dos años pagan un 7% al final de los dos años. El objetivo es conseguir que al cabo de los tres años tu capital sea lo mayor posible.*
 + Variable de decisión:
 $x_{ij}$
 
-$i$ representa el año, $j$ representa la inversión (0 si no se invierte). Por ejemplo, $x_{11}$ sería la inversión en el primer año en depósitos a un año.
+$i$ representa el año, $j$ representa la inversión (o 0 si no se invierte). Por ejemplo, $x_{11}$ sería la inversión en el primer año en depósitos a un año.
 
 + Función objetivo:
-$$\text{Maximizar } Z = x_{30}$$
-
+$$\text{Maximizar } Z = x_{40}$$
 + Sujeto a:
-$$x_{ij}>=0$$
+$$x_{ij} \geq0$$$$x_{10} + x_{11} + x_{12} = 1500$$
+$$x_{10} + 1.04x_{11} = x_{20} + x_{21} + x_{22}$$
+$$x_{20} + 1.04x_{21} + 1.07x_{22} = x_{30} + x_{31} + x_{32}$$
+$$x_{30} + 1.04x_{31} + 1.07x_{32} =\leq= x_{40}$$
 
 ## Ejercicio 2
 *Se dispone de tres tipos de aviones: A1, A2 y A3 para transportar sacos con alimentos desde un aeropuerto hasta cinco aldeas: V1, V2, V3, V4 y V5, afectadas por inundaciones. La cantidad de alimentos (en unidades adecuadas) que cada avión puede transportar a cada aldea en cada viaje, se da en la siguiente tabla. El número de viajes que puede hacer cada avión se da en la última columna y el número de vuelos que pueden realizarse sobre cada aldea diariamente en la última fila. Encontrar el número de viajes que deberá hacer cada avión a cada aldea de forma que se maximice la cantidad de alimento distribuido por día.*
