@@ -6,8 +6,8 @@ Una tarea es un bloque de trabajo que persigue un fin único y bien definido med
 Una hamaca es una tarea que resume los datos de otro conjunto de tareas. Un hito es una actividad  de duración y esfuerzo nulos que marca la ocurrencia de un evento ajeno al trabajo.
 
 ### Tipos de tareas
-+ Condicionadas por el tiempo (duración fija, por ejemplo una reunión)
-+ Condicionadas por el esfuerzo (cuantos más recursos se utilicen, antes acabará la actividad)
++ **Condicionadas por el tiempo:** duración fija, por ejemplo una reunión
++ **Condicionadas por el esfuerzo:** cuantos más recursos se utilicen, antes acabará la actividad
 
 ### Demoras entre tareas
 + **Positiva:** tiempo de espera entre 2 actividades
