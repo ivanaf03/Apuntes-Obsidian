@@ -103,7 +103,44 @@ Surge por la necesidad del trabajo en paralelo (horizontal) y en grupos. Los com
 
 Las ventajas son:
 + Facilita la coordinación.
-+ 
++ Facilita el proceso de toma de decisiones relacionadas con los planes de acción y los objetivos de una organización.
++ Es instructivo y forma a los empleados.
 
-##### Modelo matricial
-Se basa en los ciclos de vida.
+Los inconvenientes son:
++ La toma de decisiones es lenta.
++ Falta de iniciativa.
++ Dificultad para coordinar reuniones por la cantidad de integrantes de los comités.
+
+### Modelo matricial
+```mermaid
+graph TD
+  ConsejoDeAdministracion --> DirectorGeneral
+  DirectorGeneral --> DirectorProyectos
+  DirectorGeneral --> Analisis
+  DirectorGeneral --> Diseño
+  DirectorGeneral --> Implementacion
+  DirectorProyectos --> Proyecto1
+  DirectorProyectos --> Proyecto2
+  Analisis --> Grupo1
+  Analisis --> Grupo2
+  Diseño --> Grupo1
+  Diseño --> Grupo2
+  Implementacion --> Grupo1
+  Implementacion --> Grupo2
+  Proyecto1 --> Grupo1
+  Proyecto2 --> Grupo2
+```
+
+Se basa en los ciclos de vida. Pretende equilibrar la departamentalización y la departamentalización por producto. Se suele utilizar en empresas de ingeniería de software.
+
+Las ventajas son:
++ Reagrupación dinámica del personal.
++ Asistencia técnica.
++ El desarrollo de proyectos está garantizado por el director de proyectos.
++ Aposta ventajas de la descentralización y de la especialización.
+
+Los inconvenientes son:
++ Es difícil definir los criterios de clasificación.
++ Demasiados cambios de dirección en proyectos pequeños.
++ Muchas veces es preferible no variar de supervisor.
++ Genera una cadena dual de mando: dos jefes, uno basado en su función o especialización y otro basado en un proyecto o equipo específico.
