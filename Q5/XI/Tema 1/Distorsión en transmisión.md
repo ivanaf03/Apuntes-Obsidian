@@ -55,5 +55,26 @@ $$G_{db}=10 \cdot log_{10}G$$
 Algo frecuente es utilizar el dBm, donde $P_{salida}$ es 1 mW.
 
 ### Retardos
+![[retardos.png]]
 Pueden ser de dos tipos:
-+ **De
++ **De transmisión:** tiene que ver con la cantidad de datos que puede llevar el transmisor.
++ **De propagación:** tiene que ver con la distancia entre nodos y el tiempo de transmisión.
+
+### Interferencias
+![[interferencias.png]]
+En las comunicaciones inalámbricas pueden ocurrir interferencias. Se dan cuando un símbolo solapa a un símbolo posterior.
+
+La extensión/propagación del pulso más allá del  intervalo de tiempo asignado hace que interfiera con los  pulsos vecinos. Normalmente es causada por la propagación por  trayectos múltiples o respuestas no lineales del canal.
+
+## Ruido
+El ruido es una señal de naturaleza aleatoria que modifica  la señal transmitida y que puede distorsionarla  significativamente. Cuando el ruido es grande, la distorsión sobre las amplitudes
+transmitidas puede llegar a ser tan grande que cause una confusión entre símbolos lo cual da lugar a errores en la transmisión. 
+
+### Ruido AWGN
+El Additive White Gaussian Noise es un ruido que se suma a la señal. Es una señal aleatoria que sigue la distribución normal.:
+$$x(t)=s(t)+r(t)$$
+
+La SNR es el cociente entre la potencia de la señal y la del ruido:
+$$SNR=S/R$$
+
+La SNR mide la calidad de la señal recibida: cuanto mayor sea la SNR, menor es la distorsión del ruido sobre la señal. Se suele expresar en decibelios.
