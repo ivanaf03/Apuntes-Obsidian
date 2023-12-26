@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XI/Tema 9/Servicios.md",
+                "file": "Q5/XI/Tema 11/Seguridad en TI.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XI/Tema 9/Servicios.md",
+                "file": "Q5/XI/Tema 11/Seguridad en TI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XI/Tema 9/Servicios.md"
+                "file": "Q5/XI/Tema 11/Seguridad en TI.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XI/Tema 9/Servicios.md",
+                "file": "Q5/XI/Tema 11/Seguridad en TI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,16 +160,31 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
+    "Q5/XI/Tema 11/Tema 11-Gestión de la seguridad.md",
+    "Q5/XI/Tema 11/Gestión proactiva del riesgo.md",
+    "Q5/XI/Tema 11/Normas ISO.md",
+    "Q5/XI/Tema 11/Seguridad en TI.md",
+    "Q5/XI/Tema 11/Seguridad en el CPD.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "Q5/XI/Tema 3/Tema 3-IEEE 802.11.md",
+    "Q5/XI/Tema 3/Capa MAC.md",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
+    "Q5/XI/Tema 10/Snapshots.md",
+    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
+    "Q5/XI/Tema 1/Distorsión en transmisión.md",
+    "Imágenes/4pam 2.png",
+    "Imágenes/4pam.png",
+    "Imágenes/2pam 2.png",
+    "Imágenes/2pam.png",
     "Q5/XI/Tema 9/Tema 9-ITIL.md",
     "Q5/XI/Tema 9/Procesos, funciones y roles.md",
+    "Q5/XI/Tema 9/Servicios.md",
     "Q5/XI/Tema 9/Certificación.md",
     "Q5/XI/Tema 9/ITIL.md",
     "Ingeniería Informática.md",
     "Imágenes/esquema itil.png",
-    "Q5/XI/Tema 9/Servicios.md",
     "Imágenes/esquema certificación.png",
-    "Q5/XI/Xestión de Infraestruturas.md",
-    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/XI/Tema 9",
     "Q5/XI/Prácticas/Tutorial de Octave.md",
     "Q5/XI/Tema 8/Organización funcional.md",
@@ -177,27 +192,12 @@
     "Q5/XI/Tema 8/Tipos.md",
     "Q5/XI/Tema 8/Recursos de un CPD.md",
     "Q5/XI/Tema 8/CPD.md",
-    "Q5/XI/Tema 11/Seguridad en el CPD.md",
     "Q5/XI/Tema 11",
     "Q5/XI/Tema 7/NFV.md",
-    "Q5/XI/Tema 7/Tema 7-Virtualización de red.md",
-    "Q5/XI/Tema 7/SDN.md",
-    "Q5/XI/Tema 7/Introducción a la virtualización de red.md",
-    "Q5/XI/Tema 6/Virtualización del almacenamiento.md",
-    "Q5/XI/Tema 6/Tema 6-Redes de almacenamiento.md",
-    "Q5/XI/Tema 6/Arquitecturas de red de almacenamiento.md",
-    "Q5/XI/Tema 6/Sistemas de almacenamiento.md",
     "Imágenes/ejemplos openflow 2.png",
     "Imágenes/ejemplos openflow 1.png",
     "Imágenes/arquitectura SDN.png",
-    "Q5/XP/Prácticas/Conceptos.md",
     "Imágenes/XP programación lineal.png",
-    "Q5/XI/Tema 1/Distorsión en transmisión.md",
-    "Imágenes/sistema digital.png",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
-    "Imágenes/desfase.png",
-    "Imágenes/arquitectura de cableado.png",
-    "Imágenes/gbic sfp.png",
     "Q5/ISD/Preguntas examen",
     "Q5/XI/Tema 10",
     "Q5/ISD/Tema 7",
