@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md",
+                "file": "Q5/XI/Tema 2/Transformada de Fourier.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md",
+                "file": "Q5/XI/Tema 2/Transformada de Fourier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md"
+                "file": "Q5/XI/Tema 2/Transformada de Fourier.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md",
+                "file": "Q5/XI/Tema 2/Transformada de Fourier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,18 +162,36 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Q5/XI/Tema 10/Snapshots.md",
-    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "Q5/XI/Tema 10/Tecnologías de conmutación por fallo.md",
-    "Q5/XI/Tema 10/Live migration.md",
-    "Virtualización de escritorio.md",
-    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
-    "Q5/XI/Tema 10/Virtualización de servidores.md",
-    "Q5/XI/Tema 10/La necesidad de la virtualización.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Tema 2/Tema 2-Análisis en frecuencia.md",
+    "Q5/XI/Tema 1/Multitrayecto.md",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
+    "Q5/XI/Tema 1/Señales.md",
     "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
+    "Q5/XI/Tema 1/Distorsión en transmisión.md",
+    "Q5/XI/Tema 1/Potencia media y energía.md",
+    "Q5/XI/Tema 2/Transformada de Fourier.md",
+    "Q5/XI/Tema 2",
+    "Imágenes/ejercicio conv 3.png",
+    "Imágenes/conv rect 4.png",
+    "Imágenes/conv rect 3.png",
+    "Imágenes/conv rect 2.png",
+    "Imágenes/conv rect 1.png",
+    "Imágenes/ejercicio 2 conv.png",
+    "Imágenes/ejercicio conv1.png",
+    "Imágenes/conv 3.png",
+    "Imágenes/conv2.png",
+    "Imágenes/conv1.png",
+    "Q5/XI/Tema 10/Virtualización de servidores.md",
+    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
+    "Q5/XI/Tema 10/Live migration.md",
+    "Q5/XI/Tema 10/Virtualización de escritorio.md",
+    "Q5/XI/Tema 10/Snapshots.md",
+    "Q5/XI/Tema 10/Tecnologías de conmutación por fallo.md",
+    "Q5/XI/Tema 10/La necesidad de la virtualización.md",
     "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
     "Q5/ISD/Preguntas examen/Preguntas examen ISD.md",
-    "Imágenes/resultados p1 xp.png",
     "Q5/XP/Prácticas/Conceptos.md",
     "Q5/LSI/Tema 1D/Tema 1-Protección de datos personales.md",
     "Q5/LSI/Tema 1D/Sujetos implicados en protección de datos.md",
@@ -181,25 +199,8 @@
     "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
     "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
     "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
-    "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
-    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
-    "Q5/LSI/Tema 5/Clase 2.md",
-    "Q5/LSI/Tema 5/Tema 5-DoS.md",
-    "Q5/LSI/Tema 5/Tipos de ataques DoS.md",
-    "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/IPM/Temario/Análisis de usuario y actividades.md",
-    "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
-    "Imágenes/xp voluntaria.png",
-    "Imágenes/hipervisores.png",
-    "Imágenes/4pam 2.png",
-    "Imágenes/4pam.png",
-    "Imágenes/2pam 2.png",
-    "Imágenes/2pam.png",
-    "Imágenes/esquema itil.png",
-    "Imágenes/esquema certificación.png",
     "Q5/XI/Tema 9",
     "Q5/XI/Tema 11",
-    "Imágenes/ejemplos openflow 2.png",
     "Q5/ISD/Preguntas examen",
     "Q5/XI/Tema 10",
     "Q5/ISD/Tema 7",
@@ -207,7 +208,6 @@
     "Q5/LSI/Tema 1D",
     "Q5/XI/Tema 8",
     "Q5/IPM/Temario",
-    "Q5/XP/Tema 5",
     "Sin título 1.canvas",
     "Sin título.canvas"
   ]
