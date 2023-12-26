@@ -1,4 +1,5 @@
 [[Tema 10-Virtualización de servidores]]
+
 ## Almacenamiento
 Las piezas de almacenamiento suelen ser siempre el problema de rendimiento. 
 
