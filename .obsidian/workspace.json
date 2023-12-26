@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XI/Tema 11/Seguridad en TI.md",
-                "mode": "preview",
+                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XI/Tema 11/Seguridad en TI.md",
+                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XI/Tema 11/Seguridad en TI.md"
+                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md"
               }
             }
           },
@@ -118,7 +118,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -128,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XI/Tema 11/Seguridad en TI.md",
+                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,44 +162,44 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Q5/XI/Tema 11/Tema 11-Gestión de la seguridad.md",
-    "Q5/XI/Tema 11/Gestión proactiva del riesgo.md",
-    "Q5/XI/Tema 11/Normas ISO.md",
-    "Q5/XI/Tema 11/Seguridad en TI.md",
-    "Q5/XI/Tema 11/Seguridad en el CPD.md",
-    "Q5/XI/Xestión de Infraestruturas.md",
-    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "Q5/XI/Tema 3/Tema 3-IEEE 802.11.md",
-    "Q5/XI/Tema 3/Capa MAC.md",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
     "Q5/XI/Tema 10/Snapshots.md",
+    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "Q5/XI/Tema 10/Tecnologías de conmutación por fallo.md",
+    "Q5/XI/Tema 10/Live migration.md",
+    "Virtualización de escritorio.md",
     "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
-    "Q5/XI/Tema 1/Distorsión en transmisión.md",
+    "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
+    "Q5/ISD/Preguntas examen/Preguntas examen ISD.md",
+    "Imágenes/resultados p1 xp.png",
+    "Q5/XP/Prácticas/Conceptos.md",
+    "Q5/LSI/Tema 1D/Tema 1-Protección de datos personales.md",
+    "Q5/LSI/Tema 1D/Sujetos implicados en protección de datos.md",
+    "Q5/LSI/Tema 1D/Principios relativos al tratamiento de datos.md",
+    "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
+    "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+    "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
+    "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
+    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
+    "Q5/LSI/Tema 5/Clase 2.md",
+    "Q5/LSI/Tema 5/Tema 5-DoS.md",
+    "Q5/LSI/Tema 5/Tipos de ataques DoS.md",
+    "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/IPM/Temario/Análisis de usuario y actividades.md",
+    "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
+    "Q5/IPM/Temario/Ajax.md",
+    "Q5/IPM/Temario/WAI-ARIA.md",
+    "Q5/IPM/Temario/Accesibilidad web.md",
+    "Imágenes/xp voluntaria.png",
+    "Imágenes/hipervisores.png",
     "Imágenes/4pam 2.png",
     "Imágenes/4pam.png",
     "Imágenes/2pam 2.png",
     "Imágenes/2pam.png",
-    "Q5/XI/Tema 9/Tema 9-ITIL.md",
-    "Q5/XI/Tema 9/Procesos, funciones y roles.md",
-    "Q5/XI/Tema 9/Servicios.md",
-    "Q5/XI/Tema 9/Certificación.md",
-    "Q5/XI/Tema 9/ITIL.md",
-    "Ingeniería Informática.md",
     "Imágenes/esquema itil.png",
     "Imágenes/esquema certificación.png",
     "Q5/XI/Tema 9",
-    "Q5/XI/Prácticas/Tutorial de Octave.md",
-    "Q5/XI/Tema 8/Organización funcional.md",
-    "Q5/XI/Tema 8/Tema 8-Organización de un CPD.md",
-    "Q5/XI/Tema 8/Tipos.md",
-    "Q5/XI/Tema 8/Recursos de un CPD.md",
-    "Q5/XI/Tema 8/CPD.md",
     "Q5/XI/Tema 11",
-    "Q5/XI/Tema 7/NFV.md",
     "Imágenes/ejemplos openflow 2.png",
-    "Imágenes/ejemplos openflow 1.png",
-    "Imágenes/arquitectura SDN.png",
-    "Imágenes/XP programación lineal.png",
     "Q5/ISD/Preguntas examen",
     "Q5/XI/Tema 10",
     "Q5/ISD/Tema 7",
