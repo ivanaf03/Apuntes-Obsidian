@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md"
+                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+                "file": "Q5/XI/Tema 1/Distorsión en transmisión.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,6 +167,9 @@
     "Q5/XI/Tema 10/Tecnologías de conmutación por fallo.md",
     "Q5/XI/Tema 10/Live migration.md",
     "Virtualización de escritorio.md",
+    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
+    "Q5/XI/Tema 10/Virtualización de servidores.md",
+    "Q5/XI/Tema 10/La necesidad de la virtualización.md",
     "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
     "Q5/ISD/Preguntas examen/Preguntas examen ISD.md",
@@ -186,9 +189,6 @@
     "Q5/IPM/Interfaces Persoa Máquina.md",
     "Q5/IPM/Temario/Análisis de usuario y actividades.md",
     "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
-    "Q5/IPM/Temario/Ajax.md",
-    "Q5/IPM/Temario/WAI-ARIA.md",
-    "Q5/IPM/Temario/Accesibilidad web.md",
     "Imágenes/xp voluntaria.png",
     "Imágenes/hipervisores.png",
     "Imágenes/4pam 2.png",
