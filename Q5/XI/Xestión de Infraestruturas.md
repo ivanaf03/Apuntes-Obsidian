@@ -8,6 +8,8 @@ Temario:
 + [[Tema 7-Virtualización de red]]
 + [[Tema 8-Organización de un CPD]]
 + [[Tema 9-ITIL]]
++ [[Tema 10-Virtualización de servidores]]
++ [[Tema 11-Gestión de la seguridad]]
 
 Prácticas:
 + [[Tutorial de Octave]]
