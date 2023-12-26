@@ -6,5 +6,5 @@ Contenido:
 + [[Virtualización de almacenamiento]]
 + [[Virtualización de escritorio]]
 + [[Live migration]]
-+ [[Failover Technologies – High Availability and Fault Tolerance]]
++ [[Tecnologías de conmutación por fallo]]
 + [[Snapshots]]
