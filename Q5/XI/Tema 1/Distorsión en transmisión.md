@@ -42,3 +42,18 @@ Para M=4:
 
 ![[4pam.png]]
 ![[4pam 2.png]]
+
+## Distorsión
+### Atenuación
+La atenuación es la pérdida de potencia que se produce en el medio de transmisión por la separación entre transmisor y receptor. Se calcula como:
+$$G=P_{entrada}/P_{salida}$$
+
+Se expresa en Watios (W). En medios guiados se suele expresar en dB/km. En medios no guiados influyen las condiciones atmosféricas además de la distancia.
+
+$$G_{db}=10 \cdot log_{10}G$$
+
+Algo frecuente es utilizar el dBm, donde $P_{salida}$ es 1 mW.
+
+### Retardos
+Pueden ser de dos tipos:
++ **De
