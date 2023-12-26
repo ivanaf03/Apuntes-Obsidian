@@ -19,8 +19,52 @@ $$\text{Maximizar } Z = x_{40}$$
 + Sujeto a:
 $$x_{ij} \geq0$$$$x_{10} + x_{11} + x_{12} = 1500$$
 $$x_{10} + 1.04x_{11} = x_{20} + x_{21} + x_{22}$$
-$$x_{20} + 1.04x_{21} + 1.07x_{22} = x_{30} + x_{31} + x_{32}$$
-$$x_{30} + 1.04x_{31} + 1.07x_{32} =\leq= x_{40}$$
+$$x_{20} + 1.04x_{21} + 1.07x_{12} = x_{30} + x_{31} + x_{32}$$
+$$x_{30} + 1.04x_{31} + 1.07x_{22} = x_{40}$$
+
++ Resolución (con Pyomo):
+```
+import os
+from pyomo.environ import *
+os.environ['GLPSOL'] = '/usr/bin/glpsol'
+
+model = ConcreteModel()
+model.dual = Suffix(direction=Suffix.IMPORT)
+
+model.x10 = Var(within=NonNegativeReals)
+model.x11 = Var(within=NonNegativeReals)
+model.x12 = Var(within=NonNegativeReals)
+model.x20 = Var(within=NonNegativeReals)
+model.x21 = Var(within=NonNegativeReals)
+model.x22 = Var(within=NonNegativeReals)
+model.x30 = Var(within=NonNegativeReals)
+model.x31 = Var(within=NonNegativeReals)
+model.x32 = Var(within=NonNegativeReals)
+model.x40 = Var(within=NonNegativeReals)
+
+model.obj = Objective(expr=model.x40, sense=maximize)
+
+model.con1 = Constraint(expr=model.x10 + model.x11 + model.x12 == 1500)
+model.con2 = Constraint(expr=model.x10 + 1.04 * model.x11 == model.x20 + model.x21 + model.x22)
+model.con3 = Constraint(expr=model.x20 + 1.04 * model.x21 + 1.07 * model.x12 == model.x30 + model.x31 + model.x32)
+model.con4 = Constraint(expr=model.x30 + 1.04 * model.x31 + 1.07 * model.x22 == model.x40)
+
+solver = SolverFactory('glpk')
+results = solver.solve(model)
+
+print("Estado de la solución:", results.solver.status)
+print("Valor óptimo de la función objetivo:", model.obj())
+
+for v in model.component_data_objects(Var, active=True):
+    print(f"{v}: {value(v)}")s
+```
+
++ Resultados obtenidos:
+![[resultados p1 xp.png]]
+Para maximizar el capital que tendremos dentro de 3 años:
++ Este año invertimos en depósitos a 1 año todo nuestro dinero. 1500\*1.04=1560€.
++ El segundo año invertimos también en depósitos a 1 año nuestro dinero. 1560*\1.04=1622.4€.
++ El tercer año invertimos también en depósitos a 1 año nuestro dinero. 1622.4€\*1.04=1687.296€.
 
 ## Ejercicio 2
 *Se dispone de tres tipos de aviones: A1, A2 y A3 para transportar sacos con alimentos desde un aeropuerto hasta cinco aldeas: V1, V2, V3, V4 y V5, afectadas por inundaciones. La cantidad de alimentos (en unidades adecuadas) que cada avión puede transportar a cada aldea en cada viaje, se da en la siguiente tabla. El número de viajes que puede hacer cada avión se da en la última columna y el número de vuelos que pueden realizarse sobre cada aldea diariamente en la última fila. Encontrar el número de viajes que deberá hacer cada avión a cada aldea de forma que se maximice la cantidad de alimento distribuido por día.*
