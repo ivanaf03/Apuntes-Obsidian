@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XI/Tema 2/Transmisiones.md",
+                "file": "Q5/XI/Tema 3/Capa MAC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XI/Tema 2/Transmisiones.md",
+                "file": "Q5/XI/Tema 3/Capa MAC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XI/Tema 2/Transmisiones.md"
+                "file": "Q5/XI/Tema 3/Capa MAC.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XI/Tema 2/Transmisiones.md",
+                "file": "Q5/XI/Tema 3/Capa MAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,10 +160,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Q5/XI/Tema 2/Tema 2-Análisis en frecuencia.md",
+    "Q5/XI/Tema 3/Tema 3-IEEE 802.11.md",
     "Q5/XI/Tema 2/Transmisiones.md",
+    "Q5/XI/Tema 2/Tema 2-Análisis en frecuencia.md",
     "Q5/XI/Tema 2/Propiedades.md",
     "Imágenes/multiplicación.png",
     "Imágenes/ejemplo convolucion.png",
@@ -197,7 +198,6 @@
     "Q5/XI/Tema 6/Sistemas de almacenamiento.md",
     "Q5/XI/Tema 5/Modelo de red jerárquico.md",
     "Q5/XI/Tema 5/Tema 5-Cableado estructurado.md",
-    "Q5/XI/Tema 5/Arquitectura de cableado estructurado.md",
     "Q5/XI/Tema 2",
     "Q5/XI/Tema 9",
     "Q5/XI/Tema 11",
