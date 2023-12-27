@@ -18,12 +18,10 @@ $$
 Por ejemplo:
 ![[escalado 1.png]]
 
-## Multiplicación y convolución
+## Convolución
 $$\mathcal{F}\{x(t) * y(t)\} = X(\omega) \cdot Y(\omega)
 $$
 
-$$\mathcal{F}\{x(t) \cdot y(t)\} = \frac{1}{2\pi} X(\omega) * Y(\omega)
-$$
 Por ejemplo:
 ![[ejemplo convolucion.png]]
 La propiedad de convolución se utiliza en el filtrado.
@@ -35,4 +33,10 @@ Los pulsos rectangulares son inadecuados para transmitir datos por canales de ba
 
 El canal deforma los pulsos rectangulares y las amplitudes observadas son distintas a las amplitudes transmitidas.
 
+
+## Multiplicación
+$$\mathcal{F}\{x(t) \cdot y(t)\} = \frac{1}{2\pi} X(\omega) * Y(\omega)
+$$
+Por ejemplo:
+![[multiplicación.png]]
 
