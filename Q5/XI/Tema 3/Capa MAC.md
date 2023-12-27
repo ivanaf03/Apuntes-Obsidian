@@ -25,3 +25,53 @@ Multiple Access with Collision Avoidance utiliza paquetes de señalización para
 MACA soluciona los problemas de nodo expuesto y nodo oculto.
 
 ## IEEE 802.11 DCF
+Este protocolo:
++ Utiliza CSMA/CA (para broadcast).
++ Utiliza CSMA/CA + ACK (para unicast).
++ Espera exponencial binaria para control de congestión (CW se dobla en cada intento de retransmisión (CWmin = 15, CWmax = 1023) y se resetea a CWmin después de una transmisión exitosa).
++ RTS/CTS opcional para ayudar a evitar el problema del nodo oculto.
++ CS se lleva a cabo física y virtualmente (mediante el NAV (Network Allocation Vector)).
+
+La priorización de tramas se basa en:
++ **SIFS:** para ACK y CTS.
++ **PIFS**
++ **DIFS:** data y RTS.
+
+![[difs 1.png]]
+### Ejercicio 1
+![[difs 2.png]]
+
+### Ejercicio 2
+![[difs 3.png]]
+
+### DCF con RTS/CTS
+NAV es un contador descendente que se establece cuando una estación transmite un paquete y quiere reservar el medio para una secuencia de transmisión continua. El NAV indica a otras estaciones la duración estimada de tiempo durante la cual el medio estará ocupado.
+
+Antes de que una estación transmita datos, puede enviar un paquete RTS a la estación receptora. El paquete RTS indica la intención de transmitir y solicita permiso para hacerlo.
+
+La estación receptora responde con un paquete CTS, indicando que está lista para recibir la transmisión. Estos paquetes también contienen el campo Duration, que especifica la duración estimada de la transmisión.
+![[Imágenes/nav.png]]
+Utiliza espaciados SIFS para reservar el medio:
+![[nav 1.png]]
+Las colisiones solo ocurren ahora en la transmisión de RTS. En caso de que el tamaño de las tramas se deba reducir, podemos fragmentarlas. Los fragmentos se envían seguidos usando SIFS. Cada fragmento y ACK también lleva asociado un NAV menos el último.
+![[nav 2.png]]
+
+
+## IEEE 802.11e
+IEEE 802.11e es una extensión del estándar IEEE 802.11, que especifica mejoras en el rendimiento y la calidad de servicio (QoS) para redes inalámbricas. Este estándar fue desarrollado para abordar las limitaciones en términos de capacidad y eficiencia del estándar original IEEE 802.11.
+
+Introduce mejoras MAC para mejorar el QoS. Además usa HCF (Hybrid Coordination Function) en lugar de PCF y DCF, pero es retrocompatible.
+
+El Transmission Opportunity (TXOP) es un protocolo donde un nodo puede apropiarse del canal (sin tener que competir por él) durante un intervalo de tiempo para transmitir una ráfaga de datos. También usa block ACK, que permite usar un solo ACK para varias tramas consecutivas.
+
+### IEEE 802.11e EDCF 
+802.11e EDCF (Enhanced Distributed Channel Access) se refiere a una mejora específica en el mecanismo de acceso al canal en redes inalámbricas según el estándar IEEE 802.11e. Este estándar se enfoca en mejorar la calidad de servicio (QoS) en redes Wi-Fi.
+
+Utiliza espaciado AIFS (Arbitration InterFrame Space), que es más corto para paquetes de mayor prioridad. Por defecto, de mayor a menor prioridad:
++ Voz
++ Vídeo
++ Best effort
++ Background
+
+### Ejercicio EDCF
+![[ejercicio edcf.png]]
