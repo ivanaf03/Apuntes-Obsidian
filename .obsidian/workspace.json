@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XI/Tema 2/Propiedades.md",
+                "file": "Q5/XI/Tema 2/Transmisiones.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XI/Tema 2/Propiedades.md",
+                "file": "Q5/XI/Tema 2/Transmisiones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XI/Tema 2/Propiedades.md"
+                "file": "Q5/XI/Tema 2/Transmisiones.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XI/Tema 2/Propiedades.md",
+                "file": "Q5/XI/Tema 2/Transmisiones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,15 +160,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b6e61bbef8fbfce1",
+  "active": "995f13a032b9c717",
   "lastOpenFiles": [
+    "Q5/XI/Tema 2/Tema 2-Análisis en frecuencia.md",
+    "Q5/XI/Tema 2/Transmisiones.md",
+    "Q5/XI/Tema 2/Propiedades.md",
+    "Imágenes/multiplicación.png",
     "Imágenes/ejemplo convolucion.png",
     "Pasted image 20231227173840.png",
-    "Q5/XI/Tema 2/Propiedades.md",
     "Imágenes/escalado 1.png",
     "Imágenes/linealidad 2.png",
     "Imágenes/linealidad 1.png",
-    "Q5/XI/Tema 2/Tema 2-Análisis en frecuencia.md",
     "Q5/XI/Tema 2/Relación de Parseval.md",
     "Imágenes/parseval rectangular.png",
     "Imágenes/parseval sinc.png",
@@ -187,7 +189,6 @@
     "Q5/IPM/Temario/Patrones de diseño.md",
     "Imágenes/fourier coseno.png",
     "Imágenes/fourier sinc.png",
-    "Imágenes/fourier p rectangular.png",
     "Q5/XI/Tema 1/Multitrayecto.md",
     "Q5/XI/Tema 1/Distorsión en transmisión.md",
     "Q5/XI/Tema 6/Virtualización del almacenamiento.md",
