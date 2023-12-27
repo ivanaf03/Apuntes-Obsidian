@@ -27,7 +27,7 @@ Existen 2 tipos de agrupaciones:
 ### Almacenamiento basado en objetos
 Los datos se almacenan y administran en contenedores flexibles denominados objetos. Cada objeto es dividido en componentes y distribuido por varios discos virtuales, junto con los metadatos que permiten localizar las réplicas de los segmentos del objeto a través del almacén de datos (datastore). 
 
-cada objeto se aprovisiona y administra de forma individual, lo que incluye una segmentación y configuración RAID específica para cada objeto. Estas directivas son dinámicas y pueden actualizarse o cambiarse en cualquier momento.
+Cada objeto se aprovisiona y administra de forma individual, lo que incluye una segmentación y configuración RAID específica para cada objeto. Estas directivas son dinámicas y pueden actualizarse o cambiarse en cualquier momento.
 
 Cuando se crea un objeto para un disco virtual, a la hora de distribuir el objeto por un clúster:
 + Se comprueba la configuración de directivas de almacenamiento que aplican al objeto.
