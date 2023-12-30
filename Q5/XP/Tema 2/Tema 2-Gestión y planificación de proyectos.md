@@ -9,4 +9,6 @@ Contenido:
 + [[Pasos básicos de planificación]]
 + [[Seguimiento de proyectos]]
 + [[Métricas]]
++ [[Arquitectura]]
++ [[Entorno organizativo]]
 + [[Comunicación interpersonal y negociación]]
