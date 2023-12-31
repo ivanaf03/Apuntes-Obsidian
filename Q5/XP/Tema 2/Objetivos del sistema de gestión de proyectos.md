@@ -1,7 +1,8 @@
 [[Tema 2-Gestión y planificación de proyectos]]
 
-### Definición de SGP
+## Definición de SGP
 Un sistema de gestión de proyectos (SGP) es una estructura o conjunto de herramientas, procesos y metodologías diseñados para planificar, ejecutar, supervisar y controlar eficazmente todas las actividades relacionadas con un proyecto específico. El objetivo principal de un SGP es lograr que un proyecto se complete con éxito, dentro del alcance, el tiempo y el presupuesto definidos, y que cumpla con los objetivos y requisitos establecidos.
+
 ### Objetivos
 Los objetivos que persigue un sistema de gestión de proyectos son:
 + **Satisfacer las necesidades de información de gestión:** el jefe de proyecto necesita saber como va el proyecto en todo momento, tanto para proporcionar información a sus superiores como a los trabajadores que dependen de su gestión.
