@@ -21,7 +21,7 @@ Son una serie de disposiciones mantenidas o utilizadas por el gobierno federal d
 + **Soporte:** la documentación tiene soporte e información alternativa.
 
 ### Imágenes y tablas
-No se deben incluir imágenes relevantes como backgound-images. Todo contenido no textual debe tener una alternativa. Por ejemplo:
+No se deben incluir imágenes relevantes como background-images. Todo contenido no textual debe tener una alternativa. Por ejemplo:
 ```
 <img src="imagen.jpg" alt="Descripción de la imagen">
 ```
@@ -179,7 +179,7 @@ Para estructurar los contenidos se utilizan las cabeceras (h1, h2, ...h6). Es im
 ### Elementos multimedia
 Para contenidos de audio, es importante proporcionar una transcripción textual del contenido hablado. Cuando un video no incluye sonido o tiene un contenido relevante solo en audio, es crucial proporcionar una transcripción textual o una pista de sonido alternativa. Si contienen diálogo o información audible, se deben proporcionar subtítulos.
 
-Cuando el contenido multimedia, como audio o video, se inicia automáticamente al cargar una página, es esencial proporcionar un mecanismo para que los usuarios puedan detener o pausar ese contenido. Cuando se incluyen subtítulos o descripciones de audio, es importante proporcionar mecanismos para que los usuarios controlen su visibilidad o audición.
+Cuando el contenido multimedia, como audio o vídeo, se inicia automáticamente al cargar una página, es esencial proporcionar un mecanismo para que los usuarios puedan detener o pausar ese contenido. Cuando se incluyen subtítulos o descripciones de audio, es importante proporcionar mecanismos para que los usuarios controlen su visibilidad o audición.
 
 ### Otros
 Se deben evitar elementos en la página que tengan movimientos, desplazamientos, parpadeos o destellos excesivos es esencial para reducir el riesgo de provocar molestias o problemas de accesibilidad, especialmente para personas con sensibilidades visuales.
