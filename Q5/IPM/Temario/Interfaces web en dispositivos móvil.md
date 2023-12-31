@@ -38,7 +38,7 @@ El viewport es todo el área visible de una página web. Depende del dispositivo
 
 Para establecer el tamaño del viewport al tamaño de la página del dispositivo, sin escalar, evitando el zoom automático:
 ```
-<meta name="viewport" content="width=device -width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 ```
 
 Debemos evitar hacer zoom y scroll horizontal en la página para mejorar la experiencia de usuario:
