@@ -42,7 +42,7 @@ $$ X(\omega) = \pi \left( \delta(\omega - \omega_0) + \delta(\omega + \omega_0) 
 
 ## Desplazamientos en tiempo y frecuencia
 Si desplazamos en el tiempo una señal senoidal obtenemos una fase ([[Señales|ver tema 1]]):
-$$A + \cos(\omega(t - t_0))=$A + \cos(\omega t+ \Phi)$$
+$$A + \cos(\omega(t - t_0))=A + \cos(\omega t+ \Phi)$$
 
 La transformada de Fourier de un desplazamiento en el tiempo se traduce en frecuencia como:
 $$x(x-t_0)\ se\ transforma\ en\  X(\omega) \cdot e^{-j\omega t_0}
