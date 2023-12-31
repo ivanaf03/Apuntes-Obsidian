@@ -1,7 +1,7 @@
 [[Xestión de Proxectos]]
 
-### Esquema de gestión de proyectos en una empresa concreta
-##### Inicio y planificación
+## Esquema de gestión de proyectos en una empresa concreta
+### Inicio y planificación
 El contrato y los requisitos del sistema llega al jefe de proyecto, que es nombrado por el director técnico. Con esto sabe que recursos tiene disponibles para realizar el proyecto. 
 
 En base a ello estima el esfuerzo, los riesgos, la complejidad técnica y la dificultad de coordinación. En base a esto clasificamos el proyecto en pequeño, mediano o grande. 
@@ -10,12 +10,12 @@ En herramientas como MS Project tenemos plantillas dependiendo del tamaño del p
 
 Para acabar se rellena la plantilla de plan de proyecto. En base a la plantilla de elabora el plan de proyecto. Este es revisado por el responsable de calidad de la empresa y por los grupos afectados por el proyecto. Finalmente lo aprueba el director técnico.
 
-##### Seguimiento
+### Seguimiento
 Una vez se decide cada cuanto se hace el seguimiento se mira la dedicación de los recursos en la aplicación de hojas de tiempo. En proyectos grandes también hay que monitorizar los riesgos. Para revisar el progreso y los desvíos el jefe de proyecto hace reuniones del equipo del proyecto. 
 
 Es también el jefe del proyecto el que hace el informe de seguimiento, que será aprobado por el director técnico.
 
-##### Cierre
+### Cierre
 El jefe de proyecto convoca una reunión de cierre. Es recomendable que asistan:
 + Jefe de proyecto
 + Responsable de calidad
@@ -25,14 +25,14 @@ El jefe de proyecto convoca una reunión de cierre. Es recomendable que asistan:
 
 El jefe cubre la plantilla de informe de cierre y lecciones aprendidas y que con ello realiza el informe de cierre y lecciones aprendidas. Esta vez será firmado por el responsable de calidad.
 
-### Documentos
+## Documentos
 Todos los documentos de procedimientos tienen una portada donde firmar el autor, el revisor y el que aprueba el documento. Además se añaden otras cosas como la versión, el lugar y fecha, el logo de la empresa, etc.
 
 La siguiente hoja que nos encontramos es el registro de control de cambios. Indica en que versión y fecha que persona ha realizado ciertos cambios. 
 
 A continuación viene una lista de distribución. Sirve para indicar que personas tienen copias del documento. 
 
-##### Índice
+### Índice
 1. Objeto: Indica cual es el objetivo del proyecto e intención de que acabe en tiempo, coste y calidad.
 2. Alcance: Indica que esta organización solo aplica proyectos de más de 20 h*\h.
 3. Procedimientos relacionados: Procedimientos que hay que consultar antes de este. Por ejemplo, el ciclo de desarrollo a seguir, la gestión de configuración software y el procedimiento de revisión de un entregable.
@@ -50,7 +50,7 @@ A continuación viene una lista de distribución. Sirve para indicar que persona
 	5. Cierre del proyecto
 11. Plantillas 
 
-##### Plan de proyecto
+### Plan de proyecto
 La portada es firmada por el autor, el jefe de proyecto; el revisor, el director de calidad; y el que lo aprueba, el director técnico. En este documento no hay lista de distribución. La siguiente hoja ya es el índice. En el índice aparecen:
 1. Introducción: Pide el propósito y el alcance del plan, el nombre, el código y objetivo, la clasificación y grado de prioridad del proyecto, y las dependencias con otros proyectos.
 2. Objetivo del proyecto: entregables, salidas, entradas...
@@ -61,7 +61,7 @@ La portada es firmada por el autor, el jefe de proyecto; el revisor, el director
 7. Seguimiento del proyecto: indica cada cuánto se hace el seguimiento, quién asistirá a las reuniones, que métricas se deben recoger, etc.
 8. Cronograma del proyecto: gráfico de MSProject.
 
-##### Informe de seguimiento
+### Informe de seguimiento
 La portada es firmada por el jefe de proyecto, que lo realiza; y el y el director general, que lo aprueba. En el índice tenemos:
 1. Introducción
 	1. Periodo
@@ -71,7 +71,7 @@ La portada es firmada por el jefe de proyecto, que lo realiza; y el y el directo
 5. Diagrama de Gantt de seguimiento
 6. Lista de problemas e incidencias
 
-##### Informe de cierre (y lecciones aprendidas)
+### Informe de cierre (y lecciones aprendidas)
 La portada es firmada por el jefe de proyecto, el autor; y el que lo aprueba, el responsable de calidad. No tiene registro de cambios ni lista de distribución. En el índice aparecen:
 1. Introducción
 	1. Resumen del proyecto
