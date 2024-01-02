@@ -5,7 +5,7 @@ Un riesgo es un evento que que podría reducir la capacidad para lograr los obje
 
 Los riesgos tienen una causa y una consecuencia o efecto.
 
-#### Clasificación de riesgos
+### Clasificación de riesgos
 + **Estratégicos:** están relacionados con la estrategia de la organización. Por ejemplo, una pérdida de mercado.
 + **Comerciales:** están relacionados con las ventas, el seguimiento del cliente, el precio y todo el proceso de venta. Por ejemplo, un venta a bajo precio.
 + **Contractuales y financieros:** están relacionados con los términos negociados antes de la firma del contrato. Por ejemplo, los relacionados con calendarios de pagos, obligaciones...
@@ -15,10 +15,10 @@ Los riesgos tienen una causa y una consecuencia o efecto.
 
 ## ¿Cómo se gestionan los riesgos?
 Existen dos alternativas:
-+ Gestión de problemas (bombero): se solucionan los problemas según van apareciendo.
-+ Gestión de riesgos (gestor): se intentan reducir los impactos de los riesgos mediante planes.
++ **Gestión de problemas (bombero):** se solucionan los problemas según van apareciendo.
++ **Gestión de riesgos (gestor):** se intentan reducir los impactos de los riesgos mediante planes.
 
-#### Fases
+### Fases
 ```mermaid
 graph TD
 
@@ -40,4 +40,12 @@ D --> E
 
 
 ```
+
++ **Identificación:** búsqueda de posibles riesgos y, opcionalmente, clasificación y agrupación.
++ **Valoración:** cuantificación, priorización y umbrales de actuación antes un riesgo.
++ **Análisis:** estudio de alternativas, contención y prevención.
++ **Control y seguimiento:** implantación de las estrategias de mitigación, seguimiento de riesgos relevantes y actividades de contingencia.
+
+
+
 
