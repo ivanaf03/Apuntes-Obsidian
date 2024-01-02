@@ -19,7 +19,7 @@ Se utilizan técnicas para averiguar lo que hacen los usuarios:
 + **Contextual interviews:** tras el proceso de observación, es conveniente pasar un tiempo con el usuario preguntándole sobre aspectos observados y otros aspectos que quizás no lo fueron. Se deben evitar opiniones personales y forzar al usuario a realizar el diseño. 
 + **Remote shadowing:** consiste en observar las interacciones de un usuario con un producto, servicio o sistema a distancia. La idea es simular la experiencia de acompañamiento que podría ocurrir de manera presencial, pero utilizando tecnologías para permitir la observación remota. Un ventaja de esto es que podemos revisar las grabaciones. 
 
-Una persona un representación ficticia de usuarios que encapsulan las características y necesidades clave de ciertos grupos objetivo. Sirven para comprender y comunicar de manera efectiva quiénes son los usuarios y cómo interactúan con un producto, servicio o sistema. La representación en personas ayuda a identificar categorías de usuarios y a centrar el producto.
+Una persona es una representación ficticia de usuarios que encapsula las características y necesidades clave de ciertos grupos objetivo. Sirven para comprender y comunicar de manera efectiva quiénes son los usuarios y cómo interactúan con un producto, servicio o sistema. La representación en personas ayuda a identificar categorías de usuarios y a centrar el producto.
 
 Las desventajas de esto es que son representaciones imaginarias. Además sigue siendo necesario estar en contacto con los usuarios en todas las etapas del desarrollo. Es muy lento hacerlo bien, por tanto no se usa en equipo de trabajo pequeños.
 
