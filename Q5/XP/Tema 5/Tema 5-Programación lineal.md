@@ -1,3 +1,0 @@
-[[Xestión de Proxectos]]
-
-Contenido:
