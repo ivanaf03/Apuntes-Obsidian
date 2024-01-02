@@ -1,3 +1,5 @@
+[[Tema 8-Organización de un CPD]]
+
 ## Organización
 El CPD puede organizarse internamente siguiendo diferentes modelos conceptuales en función de sus características, tamaño, ubicación funcional y el tipo de tareas que realice:
 + **Organigrama funcional o departamental:** se estructura en departamentos.
