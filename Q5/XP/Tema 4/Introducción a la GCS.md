@@ -1,13 +1,13 @@
 [[Tema 4-Gestión de la configuración software]]
 
-### ¿Qué es la GCS o SCM?
+## ¿Qué es la GCS o SCM?
 ``` mermaid
 graph TD;
   integridad --> desarrollo;
   integridad --> gestión;
   integridad --> control;
-  control --> gestión-de-configuracion-software;
-  gestión-de-configuracion-software --> integridad;
+  control --> gestiónDeConfiguracionSoftware;
+  gestiónDeConfiguracionSoftware --> integridad;
 
 ```
 
