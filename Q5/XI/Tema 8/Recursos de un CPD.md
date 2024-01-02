@@ -137,7 +137,7 @@ Las ventajas son:
 + Reagrupación dinámica del personal.
 + Asistencia técnica.
 + El desarrollo de proyectos está garantizado por el director de proyectos.
-+ Aposta ventajas de la descentralización y de la especialización.
++ Aporta ventajas de la descentralización y de la especialización.
 
 Los inconvenientes son:
 + Es difícil definir los criterios de clasificación.
