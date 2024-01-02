@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
+                "file": "Control y seguimiento de riesgos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
+                "file": "Control y seguimiento de riesgos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md"
+                "file": "Control y seguimiento de riesgos.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
+                "file": "Control y seguimiento de riesgos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,6 +162,17 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
+    "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
+    "Control y seguimiento de riesgos.md",
+    "Q5/XP/Tema 3/Análisis de riesgos.md",
+    "Q5/XP/Xestión de Proxectos.md",
+    "Q5/Q5.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Tema 5-Programación lineal.md",
+    "Q5/XP/Tema 3/Valoración de riesgos.md",
+    "Imágenes/subjetividad.png",
+    "Q5/XP/Tema 3/El pilar de la gestión de riesgos.md",
+    "Q5/XP/Tema 3/Riesgos.md",
     "Q5/XP/Tema 4/Aspectos relacionados con la GCS.md",
     "Imágenes/modelo de ttrabajo.png",
     "Q5/XP/Tema 4/Tema 4-Gestión de la configuración software.md",
@@ -169,7 +180,6 @@
     "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/XP/Tema 4/Objetivos de la GCS.md",
     "Q5/XP/Tema 4/Introducción a la GCS.md",
-    "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
     "Q5/IPM/Temario/WAI-ARIA.md",
     "Q5/XP/Tema 5/Tema 5-Programación lineal.md",
     "Q5/IPM/Interfaces Persoa Máquina.md",
@@ -180,14 +190,6 @@
     "Q5/IPM/Temario/Patrones de diseño.md",
     "Q5/XI/Tema 8/Organización funcional.md",
     "Q5/XI/Tema 8/Tema 8-Organización de un CPD.md",
-    "Q5/XI/Tema 8/Tipos.md",
-    "Q5/XI/Tema 8/Recursos de un CPD.md",
-    "Q5/XI/Tema 8/CPD.md",
-    "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
-    "Q5/ISD/Tema 1/Tema 1-Introducción al desarrollo de aplicaciones empresariales.md",
-    "Q5/ISD/Preguntas examen/Preguntas examen ISD.md",
-    "Q5/LSI/Tema 5/Tipos de ataques DoS.md",
-    "Q5/LSI/Tema 4/ARP Spoofing.md",
     "Imágenes/entorno organizativo.png",
     "Imágenes/wbs y obs.png",
     "Imágenes/histograma.png",
@@ -196,7 +198,6 @@
     "Imágenes/hamming extendido.png",
     "Imágenes/hamming no sistematico.png",
     "Imágenes/awgn.png",
-    "Imágenes/pbe.png",
     "Q5/XI/Tema 4",
     "Q5/XI/Tema 2",
     "Q5/XI/Tema 9",
