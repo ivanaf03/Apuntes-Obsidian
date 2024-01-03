@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control y seguimiento de riesgos.md",
-                "mode": "source",
+                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control y seguimiento de riesgos.md",
+                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Control y seguimiento de riesgos.md"
+                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control y seguimiento de riesgos.md",
+                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,11 +162,15 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
+    "Q5/XP/Tema 3/Control y seguimiento de riesgos.md",
+    "Q5/XP/Tema 4/Tema 4-Gestión de la configuración software.md",
+    "Q5/Q5.md",
+    "Q5/XI/Tema 3/Capa MAC.md",
+    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
     "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
-    "Control y seguimiento de riesgos.md",
     "Q5/XP/Tema 3/Análisis de riesgos.md",
     "Q5/XP/Xestión de Proxectos.md",
-    "Q5/Q5.md",
     "Q5/XI/Xestión de Infraestruturas.md",
     "Tema 5-Programación lineal.md",
     "Q5/XP/Tema 3/Valoración de riesgos.md",
@@ -175,9 +179,7 @@
     "Q5/XP/Tema 3/Riesgos.md",
     "Q5/XP/Tema 4/Aspectos relacionados con la GCS.md",
     "Imágenes/modelo de ttrabajo.png",
-    "Q5/XP/Tema 4/Tema 4-Gestión de la configuración software.md",
     "Q5/XP/Tema 4/Conceptos básicos de la GCS.md",
-    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/XP/Tema 4/Objetivos de la GCS.md",
     "Q5/XP/Tema 4/Introducción a la GCS.md",
     "Q5/IPM/Temario/WAI-ARIA.md",
@@ -188,8 +190,6 @@
     "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
     "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
     "Q5/IPM/Temario/Patrones de diseño.md",
-    "Q5/XI/Tema 8/Organización funcional.md",
-    "Q5/XI/Tema 8/Tema 8-Organización de un CPD.md",
     "Imágenes/entorno organizativo.png",
     "Imágenes/wbs y obs.png",
     "Imágenes/histograma.png",
