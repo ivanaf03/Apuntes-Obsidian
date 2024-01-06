@@ -16,7 +16,7 @@ Una persona física es un humano de carne y hueso. En cambio, una persona juríd
 
 Los datos anónimos tampoco están protegidos por el RGPD. Son aquellos en los que es imposible identificar a la persona a la que se refieren. Por ejemplo, en una encuesta anónima. 
 
-Los datos seudonimizados son datos personales que han sido modificados de manera que ya no puedan atribuirse directamente a una persona sin el uso de información adicional. En lugar de eliminar la posibilidad de identificación, se emplea un "seudónimo" alternativo que requiere información adicional para asociar los datos con una persona específica. Aunque los datos seudonimizados proporcionan cierto nivel de protección de la privacidad, no eliminan completamente la posibilidad de identificación y, por lo tanto, siguen siendo considerados datos personales
+Los datos seudonimizados son datos personales que han sido modificados de manera que ya no puedan atribuirse directamente a una persona sin el uso de información adicional. En lugar de eliminar la posibilidad de identificación, se emplea un "seudónimo" alternativo que requiere información adicional para asociar los datos con una persona específica. Aunque los datos seudonimizados proporcionan cierto nivel de protección de la privacidad, no eliminan completamente la posibilidad de identificación y, por lo tanto, siguen siendo considerados datos personales.
 
 Los datos sensibles son una serie de datos personales que, por naturaleza propia, están más restringidos que los datos personales. Por ejemplo, los datos de salud, el origen étnico...
 
