@@ -1,12 +1,15 @@
 [[Tema 2-Information gathering]]
 
-### ¿Qué es el host discovery?
+## ¿Qué es el host discovery?
 El host discovery consiste en identificar y encontrar dispositivos o hosts activos en una red. Sirve como primer paso para el port scanning, ya que hacerlo sobre todas las IPs de un rango podría ser un proceso muy costoso. También se llama escaneo ping o descubrimiento de sistemas. Se pueden utilizar herramientas como nmap, hping3, scapy, etc.
 
-### Comando nmap
-A pesar de que su función principal es el port scanning, nmap permite realizar host discovery. 
+## Comando nmap
+A pesar de que su función principal es el port scanning, nmap permite realizar host discovery. Sin flags nmap realiza un escaneo de host y puertos en todas las máquinas de una red:
+```
+nmap x.x.x.x
+```
 
-##### Opciones de nmap
+### Opciones de nmap
 + **--packet-trace:** permite ver los paquetes que envía nmap
 + **-sL:** lista los equipos de la red especificada, sin enviar paquetes. Utiliza resolución DNS inversa para obtener sus nombres.
 + **-sP:** hace host discovery enviando paquetes a los objetivos (ICMP echo request, TCP SYN al puerto 443, TCP ACK al puerto 80, ICMP timestamp). En el caso de que el usuario que realiza el escaneo no tenga privilegios suficientes para enviar paquetes SYN (paquetes de inicio de conexión) a los puertos 80 y 443 utilizando una llamada al sistema "connect()", se limitará a enviar paquetes SYN a estos puertos. 
@@ -23,9 +26,14 @@ A pesar de que su función principal es el port scanning, nmap permite realizar 
 + **-R:** realiza resolución de nombres a todos los objetivos.
 + **--dns-servers:** define que servers utilizar para las consultas DNS.
 
-### Firewalls
+### Salidas de nmap
++ **-oN:** guarda la salida en un formato normal de texto plano.
++ **-OG:** produce una salida que es fácil de analizar con herramientas como grep.
++ **-oX:** guarda la salida en formato XML.
+
+## Firewalls
 Un firewall es un sistema o dispositivo diseñado para proteger una red o un sistema informático al controlar y filtrar el tráfico de red que entra y sale. Su función principal es actuar como una barrera entre una red interna y redes no confiables, como Internet, para prevenir o mitigar amenazas y ataques cibernéticos. Los firewalls pueden ser tanto software como hardware, y a menudo se utilizan en combinación para proporcionar una defensa en capas.
 
-##### Tipos de firewall
+### Tipos de firewall
 + **Sin control de estado:** suele trabajar en capas 3 y 4 y decide que deja o no deja conectarse, filtrando el tráfico. Cada paquete se evalúa de forma independiente y no se considera la relación con otros paquetes. Toman decisiones basadas únicamente en las reglas definidas.
 + **Con control de estado:** mantienen una tabla de estado en la que registran información sobre las conexiones, como las direcciones IP origen y destino, los puertos, el estado de la conexión, por ejemplo, establecida, en curso, cerrada... Hace lo mismo que el firewall sin control de estado, pero verificando que se sigue el handshaking de apertura y cierre (envío de SYN, recepción de ACK+SYN...). Para escanear un firewall de este tipo tenemos que usar el flag SYN.
