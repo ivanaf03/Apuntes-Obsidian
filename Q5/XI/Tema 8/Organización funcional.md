@@ -29,17 +29,17 @@ El área de desarrollo de proyectos (también denominada área de análisis de s
 
 ### Producción
 El área de producción (también denominada de explotación y mantenimiento) se encarga de:
-+ Asesoramiento de nuevas adquisiciones
-+ Asesoramiento del área de desarrollo
-+ Instalación y mantenimiento
-+ Red de comunicaciones
-+ Atención a usuarios y departamentos
++ Asesoramiento de nuevas adquisiciones.
++ Asesoramiento del área de desarrollo.
++ Instalación y mantenimiento.
++ Red de comunicaciones.
++ Atención a usuarios y departamentos.
 
 ### Administración y servicios
 El área de administración y servicios (también denominada área de organización y ventas) se encarga de:
-+ Trabajo administrativo
-+ Rentabilización del trabajo
-+ Análisis de necesidades y búsqueda de soluciones óptimas
++ Trabajo administrativo.
++ Rentabilización del trabajo.
++ Análisis de necesidades y búsqueda de soluciones óptimas.
 + Atención al cliente posventa.
 
 ## Personal
