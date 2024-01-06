@@ -103,7 +103,7 @@ section div {
 ### Flexbox
 Es un modelo de diseño en CSS que permite el diseño de diseño de cajas de un contenedor de manera más eficiente y predecible cuando se trabaja con diseños en una dimensión (ya sea en una fila o en una columna). La idea central de Flexbox es proporcionar un sistema de diseño más eficiente y predecible en comparación con los modelos tradicionales basados en bloques y en línea.
 
-##### Ejemplo 1
+#### Ejemplo 1
 ```
 .container { 
 	display: flex; 
@@ -118,7 +118,7 @@ Es un modelo de diseño en CSS que permite el diseño de diseño de cajas de un 
 ```
 ![[flexbox1.png]]
 
-##### Ejemplo 2
+#### Ejemplo 2
 ```
 .container { 
 	display: flex; 
@@ -135,7 +135,7 @@ Es un modelo de diseño en CSS que permite el diseño de diseño de cajas de un 
 
 ![[flexbox2.png]]
 
-##### Ejemplo 3
+#### Ejemplo 3
 ```
 .container {
 	display: flex;
@@ -157,7 +157,7 @@ Es un modelo de diseño en CSS que permite el diseño de diseño de cajas de un 
 
 ![[flexbox3.png]]
 
-##### Ejemplo 4
+#### Ejemplo 4
 ```
 .container {
 	display: grid; 
@@ -173,7 +173,7 @@ Es un modelo de diseño en CSS que permite el diseño de diseño de cajas de un 
 
 ![[flexbox4.png]]
 
-##### Ejemplo 5
+#### Ejemplo 5
 ```
 .container {
 	display: grid; 
@@ -183,7 +183,7 @@ Es un modelo de diseño en CSS que permite el diseño de diseño de cajas de un 
 ```
 ![[flexbox5.png]]
 
-##### Ejemplo 6
+#### Ejemplo 6
 ```
 .container {
 	display: grid; 
