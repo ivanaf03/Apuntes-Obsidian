@@ -35,7 +35,7 @@ Los activos son los recursos y capacidades. Un recurso es término general que i
 + información
 + personal
 
-La capacidad es la : habilidad de una organización, persona, proceso, aplicación, servicio TI u otro ítem para llevar a cabo una actividad. Según ITIL habría cinco grupos fundamentales: 
+La capacidad es la habilidad de una organización, persona, proceso, aplicación, servicio TI u otro ítem para llevar a cabo una actividad. Según ITIL habría cinco grupos fundamentales: 
 + conocimiento
 + procesos
 + gestión
