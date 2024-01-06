@@ -177,7 +177,7 @@ Toda página web debe tener un título descriptivo.
 Para estructurar los contenidos se utilizan las cabeceras (h1, h2, ...h6). Es importante no saltarse ningún nivel. Si se desea otro tamaño de cabecera se modifica en el CSS.
 
 ### Elementos multimedia
-Para contenidos de audio, es importante proporcionar una transcripción textual del contenido hablado. Cuando un video no incluye sonido o tiene un contenido relevante solo en audio, es crucial proporcionar una transcripción textual o una pista de sonido alternativa. Si contienen diálogo o información audible, se deben proporcionar subtítulos.
+Para contenidos de audio, es importante proporcionar una transcripción textual del contenido hablado. Cuando un vídeo no incluye sonido o tiene un contenido relevante solo en audio, es crucial proporcionar una transcripción textual o una pista de sonido alternativa. Si contienen diálogo o información audible, se deben proporcionar subtítulos.
 
 Cuando el contenido multimedia, como audio o vídeo, se inicia automáticamente al cargar una página, es esencial proporcionar un mecanismo para que los usuarios puedan detener o pausar ese contenido. Cuando se incluyen subtítulos o descripciones de audio, es importante proporcionar mecanismos para que los usuarios controlen su visibilidad o audición.
 
@@ -202,6 +202,6 @@ Para mejorar la accesibilidad y la experiencia del usuario, es importante indica
 ### Validación del HTML
 + Toolbars.
 + Pruebas en navegador sin CSS y JS.
-+ pruebas en navegador de solo texto.
++ Pruebas en navegador de solo texto.
 + Navegar sin ratón.
 + Tecnologías asistivas, como lectores de pantalla.
