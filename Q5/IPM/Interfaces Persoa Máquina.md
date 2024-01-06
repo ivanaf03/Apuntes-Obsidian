@@ -9,3 +9,4 @@ Temario:
 + [[Ajax]]
 + [[Diseño de interfaces de usuario]]
 + [[Análisis de usuario y actividades]]
++ [[Diseño de soluciones]]
