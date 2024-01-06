@@ -13,7 +13,7 @@ ITIL (Information Technologies Infrastructure Library) es la única guía comple
 Las guías de ITIL son en realidad pautas de buenas prácticas para la gestión de los servicios de TI, que se centran en lo que ha de hacerse y no tanto en cómo ha de hacerse, puesto que se espera que la gestión del servicio se adapte a los requerimientos propios de cada organización.
 
 Se caracteriza por:
-+ **Vendor-neutral:** no se basa en una plataforma particular o en un tipo de industria. Se centra en los procesos no en las herramientas específicas por lo que puede funcionar para cualquier organización que proporcione servicios internos, externos o compartidos.
++ **Vendor-neutral:** no se basa en una plataforma particular o en un tipo de industria. Se centra en los procesos, no en las herramientas específicas, por lo que puede funcionar para cualquier organización que proporcione servicios internos, externos o compartidos.
 + **Non-prescriptive:** se puede adaptar a todos los tipos y tamaños de proveedores de servicios, no tiene que seguirse tal cual sino que la organización puede adoptar ITIL y adaptarlo para satisfacer sus necesidades específicas y las de sus clientes.
 + **Best-practice:** representa las experiencias de aprendizaje y tendencias de los mejores proveedores de servicios del mundo.
 
