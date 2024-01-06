@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
-                "mode": "source",
+                "file": "Q5/LSI/Tema 2/Fingerprinting.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
+                "file": "Q5/LSI/Tema 2/Fingerprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md"
+                "file": "Q5/LSI/Tema 2/Fingerprinting.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
+                "file": "Q5/LSI/Tema 2/Fingerprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,34 +160,34 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b6e61bbef8fbfce1",
+  "active": "995f13a032b9c717",
   "lastOpenFiles": [
-    "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
-    "Q5/LSI/Tema 2/Firewalls y entornos acotados.md",
-    "Q5/LSI/Tema 2/Otros métodos de information gathering.md",
-    "Q5/LSI/Tema 2/Port scanning.md",
-    "Fingerprinting.md",
-    "Q5/LSI/Tema 2/Exploits.md",
-    "Q5/LSI/Tema 2/Fuentes públicas.md",
-    "Q5/LSI/Tema 2/Identificación de máquinas.md",
-    "Q5/LSI/Tema 2/OWASP top 10.md",
-    "Q5/LSI/Tema 2/Host discovery.md",
-    "Q5/LSI/Tema 2/Securización de servidores.md",
-    "Q5/LSI/Tema 2/Conceptos básicos de redes.md",
-    "Q5/LSI/Lexislación e Seguridade Informática.md",
-    "Q5/LSI/Tema 3/Tema 3-Ocultación.md",
-    "Q5/LSI/Tema 3/Qué es la ocultación.md",
-    "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
-    "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
-    "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
-    "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
-    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
-    "Q5/XI/Tema 9/Servicios.md",
+    "Ingeniería Informática.md",
+    "Q5/XI/Tema 11/Tema 11-Gestión de la seguridad.md",
+    "Q5/XI/Tema 4/Tema 4-Fundamentos de la codificación de canal.md",
+    "Q5/XI/Tema 4/Probabilidades de error.md",
+    "Q5/XI/Tema 4/Teorema de codificación de canal.md",
+    "Q5/XI/Tema 4/Codificación de canal.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Tema 3/Tema 3-IEEE 802.11.md",
+    "Q5/XI/Tema 3/Capa PHY.md",
+    "Q5/XI/Tema 3/Capa MAC.md",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
+    "Q5/XI/Prácticas/Tutorial de Octave.md",
+    "Q5/XI/Tema 11/Seguridad en TI.md",
+    "Q5/XI/Tema 11/Gestión proactiva del riesgo.md",
+    "Q5/XI/Tema 11/Normas ISO.md",
+    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "Q5/XI/Tema 10/Snapshots.md",
+    "Q5/XI/Tema 10/Tecnologías de conmutación por fallo.md",
+    "Q5/XI/Tema 10/Live migration.md",
+    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
+    "Q5/XI/Tema 10/Virtualización de servidores.md",
+    "Q5/XI/Tema 10/La necesidad de la virtualización.md",
     "Q5/XI/Tema 9/Tema 9-ITIL.md",
-    "Q5/LSI/Tema 2D/Digital Services Act.md",
-    "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md",
-    "Q5/LSI/Tema 2D/Responsabilidad de los servicios de intermediación.md",
-    "Q5/LSI/Tema 5/Tema 5-DoS.md",
+    "Q5/XI/Tema 9/Procesos, funciones y roles.md",
+    "Q5/XI/Tema 9/Servicios.md",
+    "Q5/XI/Tema 9/Certificación.md",
     "Imágenes/realismo.png",
     "Imágenes/wireframe.png",
     "Imágenes/diagrama flujo interfaz.png",
