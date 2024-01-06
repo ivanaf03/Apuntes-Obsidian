@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
-                "mode": "preview",
+                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
+                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md"
+                "file": "Q5/LSI/Lexislación e Seguridade Informática.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
+                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,42 +162,42 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Q5/XP/Tema 3/Control y seguimiento de riesgos.md",
-    "Q5/XP/Tema 4/Tema 4-Gestión de la configuración software.md",
-    "Q5/Q5.md",
-    "Q5/XI/Tema 3/Capa MAC.md",
-    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
-    "Q5/XP/Tema 3/Tema 3-Gestión de riesgos.md",
-    "Q5/XP/Tema 3/Análisis de riesgos.md",
-    "Q5/XP/Xestión de Proxectos.md",
-    "Q5/XI/Xestión de Infraestruturas.md",
-    "Tema 5-Programación lineal.md",
-    "Q5/XP/Tema 3/Valoración de riesgos.md",
+    "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
+    "Q5/LSI/Tema 2/Firewalls y entornos acotados.md",
+    "Q5/LSI/Tema 2/Otros métodos de information gathering.md",
+    "Q5/LSI/Tema 2/Port scanning.md",
+    "Fingerprinting.md",
+    "Q5/LSI/Tema 2/Exploits.md",
+    "Q5/LSI/Tema 2/Fuentes públicas.md",
+    "Q5/LSI/Tema 2/Identificación de máquinas.md",
+    "Q5/LSI/Tema 2/OWASP top 10.md",
+    "Q5/LSI/Tema 2/Host discovery.md",
+    "Q5/LSI/Tema 2/Securización de servidores.md",
+    "Q5/LSI/Tema 2/Conceptos básicos de redes.md",
+    "Q5/LSI/Lexislación e Seguridade Informática.md",
+    "Q5/LSI/Tema 3/Tema 3-Ocultación.md",
+    "Q5/LSI/Tema 3/Qué es la ocultación.md",
+    "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+    "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
+    "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
+    "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
+    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
+    "Q5/XI/Tema 9/Servicios.md",
+    "Q5/XI/Tema 9/Tema 9-ITIL.md",
+    "Q5/LSI/Tema 2D/Digital Services Act.md",
+    "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md",
+    "Q5/LSI/Tema 2D/Responsabilidad de los servicios de intermediación.md",
+    "Q5/LSI/Tema 5/Tema 5-DoS.md",
+    "Imágenes/realismo.png",
+    "Imágenes/wireframe.png",
+    "Imágenes/diagrama flujo interfaz.png",
     "Imágenes/subjetividad.png",
-    "Q5/XP/Tema 3/El pilar de la gestión de riesgos.md",
-    "Q5/XP/Tema 3/Riesgos.md",
-    "Q5/XP/Tema 4/Aspectos relacionados con la GCS.md",
     "Imágenes/modelo de ttrabajo.png",
-    "Q5/XP/Tema 4/Conceptos básicos de la GCS.md",
-    "Q5/XP/Tema 4/Objetivos de la GCS.md",
-    "Q5/XP/Tema 4/Introducción a la GCS.md",
-    "Q5/IPM/Temario/WAI-ARIA.md",
-    "Q5/XP/Tema 5/Tema 5-Programación lineal.md",
-    "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/IPM/Temario/Ajax.md",
-    "Q5/IPM/Temario/Análisis de usuario y actividades.md",
-    "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
-    "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
-    "Q5/IPM/Temario/Patrones de diseño.md",
     "Imágenes/entorno organizativo.png",
     "Imágenes/wbs y obs.png",
     "Imágenes/histograma.png",
     "Imágenes/diagrama de Gantt.png",
     "Imágenes/sgp.png",
-    "Imágenes/hamming extendido.png",
-    "Imágenes/hamming no sistematico.png",
-    "Imágenes/awgn.png",
     "Q5/XI/Tema 4",
     "Q5/XI/Tema 2",
     "Q5/XI/Tema 9",
