@@ -5,12 +5,12 @@ Son conjuntos estructurados de actividades diseñadas para alcanzar un objetivo 
 
 ### Características
 + **Facilidad de medición:** capacidad de medir el proceso de forma relevante. Estas medidas estarán determinadas por el rendimiento.
-+ **Resultados específicos:** proporciona un resultado específico que debe poderse identificar y contabilizar
-+ **Satisfacción de clientes:** s proporcionan sus resultados primarios a un cliente o interesado (stakeholder) al que deben satisfacer en sus expectativas.
++ **Resultados específicos:** proporciona un resultado específico que se debe poder identificar y contabilizar
++ **Satisfacción de clientes:** proporcionan sus resultados primarios a un cliente o interesado (stakeholder) al que deben satisfacer en sus expectativas.
 + **Sensibilidad a detonantes:** tanto los procesos en curso como los iterativos deben poder trazarse hasta un detonante específico.
 
 ### Modelado
-Los procesos se organizan alrededor de OBJETIVOS y sus principales salidas deberían estar determinadas por estos objetivos e incluir:
+Los procesos se organizan alrededor de objetivos y sus principales salidas deberían estar determinadas por estos objetivos e incluir:
 + Medidas
 + Informes
 + Propuestas de mejora
@@ -22,7 +22,7 @@ Las entradas del proceso son la información que se usa a lo largo del proceso y
 Las actividades o procesos dentro de un proceso se inician debido a un evento detonante (trigger), como por ejemplo la llegada de un input u otro evento. Los análisis, resultados y métricas del proceso deberían incluirse en informes periódicos de gestión y en las propuestas de mejora del proceso. Se utilizan plantillas.
 
 ## Funciones
-Un función es un equipo o grupo de personas junto con las herramientas y otros recursos que utilizan para llevar a cabo uno o más procesos o actividades. En las organizaciones las funciones pueden desarrollarse en un único departamento/unidad o bien involucrar a varios. En organizaciones pequeñas una persona o grupo suelen realizar múltiples funciones. s proporcionan estructura y suelen optimizar los métodos de trabajo locales al centrar los esfuerzos en lograr los objetivos asignados a cada grupo o equipo.
+Un función es un equipo o grupo de personas junto con las herramientas y otros recursos que utilizan para llevar a cabo uno o más procesos o actividades. En las organizaciones las funciones pueden desarrollarse en un único departamento/unidad o bien involucrar a varios. En organizaciones pequeñas una persona o grupo suelen realizar múltiples funciones. Proporcionan estructura y suelen optimizar los métodos de trabajo locales al centrar los esfuerzos en lograr los objetivos asignados a cada grupo o equipo.
 
 ### Funciones en ITIL
 + **Service Desk:** proporciona un único punto de contacto entre el proveedor del servicio y el usuario. Es el centro de todos los procesos que dan soporte al servicio.
@@ -31,7 +31,7 @@ Un función es un equipo o grupo de personas junto con las herramientas y otros 
 + **Gestión de aplicaciones:** grupo o equipo depositario del conocimiento y la experiencia relacionada con la gestión software. Son los proveedores de los recursos necesarios para soportar el ciclo de vida de los servicios.
 
 ## Roles
-Los roles son conjuntos de responsabilidades, actividades y autoridades asignadas a una persona o equipo. Los roles se definen normalmente para los procesos o las funciones. Indican qué papel desempeña cada persona, equipo o grupo de trabajo en los procesos que les atañen. Deben asignarse a INDIVIDUOS concretos. Una misma persona o equipo puede desempeñar múltiples roles dentro de la organización. Un mismo rol pueden tenerlo asignado diferentes personas o equipos.
+Los roles son conjuntos de responsabilidades, actividades y autoridades asignadas a una persona o equipo. Los roles se definen normalmente para los procesos o las funciones. Indican qué papel desempeña cada persona, equipo o grupo de trabajo en los procesos que les atañen. Deben asignarse a individuos concretos. Una misma persona o equipo puede desempeñar múltiples roles dentro de la organización. Un mismo rol pueden tenerlo asignado diferentes personas o equipos.
 
 Los roles específicos de la Gestión de Servicios requieren unas habilidades, atributos y competencias, específicos de forma que el personal implicado pueda trabajar de manera efectiva y eficiente. Por ejemplo, habilidades de negociación o habilidades de gestión.
 
