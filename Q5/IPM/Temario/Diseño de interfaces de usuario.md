@@ -49,7 +49,7 @@ Las fases son:
 + **Análisis:** Captura de información sobre el dominio, el entorno, los usuarios, etc. Se usan técnicas como entrevistas o observaciones del entorno de trabajo. Una vez recogida la información se define el problema.
 + **Diseño:** Se utilizan diferentes patrones dependiendo si hay IU o no. Se elige la plataforma, estructura y se elaboran los mockups y prototipos. La lógica de presentación, de negocio y de servicio debe estar en iteraciones diferentes. Se usan técnicas como el diseño colaborativo, prototipos, etc.
 + **Implementación:** Construcción/codificación de un entregable.
-+ **Pruebas:** Se comprueban la funcionalidad, la usabilidad, la seguridad y se somete a pruebas de estrés. Es importante recordar que las pruebas varias entre fases alpha y beta.
++ **Pruebas:** Se comprueban la funcionalidad, la usabilidad, la seguridad y se somete a pruebas de estrés. Es importante recordar que las pruebas varian entre fases alpha y beta.
 
 ### Modelo en cascada
 El modelo en cascada tradicional también puede hacerse con feedback. Sin embargo, no es adecuado para e diseño de IU:
