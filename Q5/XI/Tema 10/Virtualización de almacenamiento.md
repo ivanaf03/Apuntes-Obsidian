@@ -13,10 +13,11 @@ Es necesario comprender los conceptos básicos de las tecnologías de almacenami
 	- Relativamente lentos
 	- Rentables
 -  Dispositivos de estado sólido (SSD)
-	- 0% componentes mecánicos
+	 - 0% componentes mecánicos
 	- Menor capacidad
 	- Rendimiento alto
 	- Relativamente costosos 
+
 SAS es el tipo de interfaz dominante para servidores, ya que proporciona más características de gestión de almacenamiento y permite la conexión de más dispositivos a velocidades más altas.
 
 ### RAID
