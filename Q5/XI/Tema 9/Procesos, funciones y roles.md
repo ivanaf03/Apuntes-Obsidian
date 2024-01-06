@@ -5,7 +5,7 @@ Son conjuntos estructurados de actividades diseñadas para alcanzar un objetivo 
 
 ### Características
 + **Facilidad de medición:** capacidad de medir el proceso de forma relevante. Estas medidas estarán determinadas por el rendimiento.
-+ **Resultados específicos:** proporciona un resultado específico que se debe poder identificar y contabilizar
++ **Resultados específicos:** proporciona un resultado específico que se debe poder identificar y contabilizar.
 + **Satisfacción de clientes:** proporcionan sus resultados primarios a un cliente o interesado (stakeholder) al que deben satisfacer en sus expectativas.
 + **Sensibilidad a detonantes:** tanto los procesos en curso como los iterativos deben poder trazarse hasta un detonante específico.
 
