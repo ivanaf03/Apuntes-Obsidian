@@ -72,6 +72,8 @@ graph TD
 
 ```
 
+![[mvc vs mvp.png]]
+
 ### Comunicación
 Está diseñada para minimizar el acoplamiento. La vista observa al modelo y se actualiza automáticamente en respuesta a los cambios en los datos. El presentador, al manejar las interacciones del usuario, actualiza tanto el modelo como la vista según sea necesario. Este enfoque de comunicación facilita la mantenibilidad y flexibilidad.
 
