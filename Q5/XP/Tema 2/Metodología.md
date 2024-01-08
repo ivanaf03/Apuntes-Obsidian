@@ -19,7 +19,7 @@ Se caracteriza por:
 Se busca una entrega que:
 + Cumpla especificaciones.
 + Se adapte al plazo.
-+ Esté entro del presupuesto.
++ Esté dentro del presupuesto.
 + Cumpla los estándares de calidad.
 
 ### Modelo de ciclo de vida de un proyecto
