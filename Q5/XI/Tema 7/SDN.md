@@ -35,7 +35,7 @@ Las SDN están formadas por dos capas, la capa norte y la capa sur, separadas po
 ### Ventajas
 + **Flexibilidad:** despliegue de servicios, aplicaciones e infraestructuras.
 + **Innovación:** creación de nuevos tipos de aplicaciones, protocolos y modelos de negocio.
-+ **OPEX:** sencillez de configuración y gestión, reducción de tiempo de administración y reducción de posibles errores
++ **OPEX:** sencillez de configuración y gestión, reducción de tiempo de administración y reducción de posibles errores.
 + **CAPEX:** ampliación de la vida útil de los equipos y reducción del número de estos.
 
 Una desventaja es que es todo demasiado dependiente del controlador, aunque se pueden tener varios en la misma red.
