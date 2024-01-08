@@ -6,28 +6,7 @@ El patrón model-view-controller es un patrón de diseño software por capas. Se
 + **Vista:** es responsable de presentar la interfaz de usuario al usuario final. Muestra los datos provenientes del modelo y se actualiza automáticamente cuando los datos cambian. Generalmente, la vista en MVC puede contener cierta cantidad de lógica de presentación, aunque se espera que esta lógica sea mínima.
 + **Controlador:** maneja las interacciones del usuario y actúa como intermediario entre la vista y el modelo. Contiene lógica de presentación y lógica de negocio relacionada con las interacciones del usuario. Actualiza el Modelo en respuesta a las acciones del usuario y actualiza la Vista en consecuencia.
 
-```mermaid
-graph TD
-  subgraph MVC
-    subgraph Model
-      M(Model)
-    end
-    subgraph View
-      V(View)
-    end
-    subgraph Controller
-      C(Controller)
-    end
-  end
-  M -- Notifica cambios --> C
-  C -- Actualiza --> V
-  V -- Observa --> M
-  style MVC fill:#fff,stroke:#333,stroke-width:2px
-  style Model fill:#bbf,stroke:#333,stroke-width:2px
-  style View fill:#bfb,stroke:#333,stroke-width:2px
-  style Controller fill:#fbf,stroke:#333,stroke-width:2px
-
-```
+![[mvc vs mvp.png]]
 
 ### Comunicación
 Sigue un flujo unidireccional. El controlador maneja las acciones del usuario y actualiza el modelo y la vista según sea necesario. La vista observa al modelo y se actualiza automáticamente cuando los datos cambian. 
@@ -46,31 +25,6 @@ Es una evolución del patrón MVC, diseñado para mejorar la separación de preo
 + **Modelo:** representa la capa de datos y la lógica de negocio de la aplicación. Contiene la representación interna de los datos y las operaciones que se pueden realizar sobre ellos. Se encarga de notificar a las vistas sobre cambios en los datos, generalmente a través de un mecanismo de observación o eventos. La independencia de la interfaz de usuario permite que el modelo pueda ser probado de manera aislada sin depender de la lógica de presentación.
 + **Vista:** es responsable de presentar la interfaz de usuario al usuario final. Difiere del MVC en que es pasiva y carece de lógica de presentación significativa. Observa cambios en el modelo y se actualiza automáticamente, reflejando cualquier cambio en los datos. Al no contener lógica de control es más fácil de probar, ya que su interacción con el presentador es principalmente a través de interfaces.
 + **Presentador:** actúa como un intermediario entre la vista y el modelo. Contiene la lógica de presentación y se encarga de manejar las interacciones del usuario. La comunicación entre la vista y el presentador es bidireccional, permitiendo que el presentador actualice la vista y maneje las acciones del usuario. Al tener la lógica de presentación separada, facilita las pruebas unitarias y mejora la modularidad del código.
-
-```mermaid
-graph TD
-  subgraph MVP
-    subgraph Model
-      M(Model)
-    end
-    subgraph View
-      V(View)
-    end
-    subgraph Presenter
-      P(Presenter)
-    end
-  end
-  M -- Notifica cambios --> P
-  P -- Actualiza --> V
-  V -- Observa --> P
-  P -- Maneja interacciones --> M
-  style MVP fill:#fff,stroke:#333,stroke-width:2px
-  style Model fill:#bbf,stroke:#333,stroke-width:2px
-  style View fill:#bfb,stroke:#333,stroke-width:2px
-  style Presenter fill:#fbf,stroke:#333,stroke-width:2px
-
-
-```
 
 ![[mvc vs mvp.png]]
 
