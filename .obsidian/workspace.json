@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Tema 2/Fingerprinting.md",
-                "mode": "preview",
+                "file": "Q5/IPM/Temario/Patrones de diseño.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Tema 2/Fingerprinting.md",
+                "file": "Q5/IPM/Temario/Patrones de diseño.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Tema 2/Fingerprinting.md"
+                "file": "Q5/IPM/Temario/Patrones de diseño.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Tema 2/Fingerprinting.md",
+                "file": "Q5/IPM/Temario/Patrones de diseño.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,32 +162,33 @@
   },
   "active": "995f13a032b9c717",
   "lastOpenFiles": [
-    "Ingeniería Informática.md",
-    "Q5/XI/Tema 11/Tema 11-Gestión de la seguridad.md",
-    "Q5/XI/Tema 4/Tema 4-Fundamentos de la codificación de canal.md",
-    "Q5/XI/Tema 4/Probabilidades de error.md",
-    "Q5/XI/Tema 4/Teorema de codificación de canal.md",
-    "Q5/XI/Tema 4/Codificación de canal.md",
-    "Q5/XI/Xestión de Infraestruturas.md",
-    "Q5/XI/Tema 3/Tema 3-IEEE 802.11.md",
-    "Q5/XI/Tema 3/Capa PHY.md",
-    "Q5/XI/Tema 3/Capa MAC.md",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
-    "Q5/XI/Prácticas/Tutorial de Octave.md",
-    "Q5/XI/Tema 11/Seguridad en TI.md",
-    "Q5/XI/Tema 11/Gestión proactiva del riesgo.md",
-    "Q5/XI/Tema 11/Normas ISO.md",
-    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "Q5/XI/Tema 10/Snapshots.md",
-    "Q5/XI/Tema 10/Tecnologías de conmutación por fallo.md",
+    "Imágenes/provider.png",
+    "Imágenes/patrón BLOC.png",
+    "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/IPM/Temario/WAI-ARIA.md",
     "Q5/XI/Tema 10/Live migration.md",
-    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
-    "Q5/XI/Tema 10/Virtualización de servidores.md",
-    "Q5/XI/Tema 10/La necesidad de la virtualización.md",
-    "Q5/XI/Tema 9/Tema 9-ITIL.md",
+    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Tema 7/Tema 7-Virtualización de red.md",
+    "Q5/XI/Tema 7/NFV.md",
+    "Q5/XI/Tema 7/Introducción a la virtualización de red.md",
+    "Q5/XI/Tema 4/Tema 4-Fundamentos de la codificación de canal.md",
+    "Q5/XI/Tema 4/Codificación de canal.md",
     "Q5/XI/Tema 9/Procesos, funciones y roles.md",
-    "Q5/XI/Tema 9/Servicios.md",
+    "Q5/XI/Tema 11/Normas ISO.md",
+    "Q5/XI/Tema 7/SDN.md",
+    "Q5/XI/Tema 5/Tema 5-Cableado estructurado.md",
+    "Q5/XI/Tema 3/Capa MAC.md",
+    "Q5/XI/Tema 3/Tema 3-IEEE 802.11.md",
     "Q5/XI/Tema 9/Certificación.md",
+    "Q5/XI/Tema 8/CPD.md",
+    "Q5/XI/Tema 1/Distorsión en transmisión.md",
+    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
+    "Q5/XI/Tema 1/Potencia media y energía.md",
+    "Q5/XI/Tema 1/Señales.md",
+    "Q5/XI/Tema 8/Tema 8-Organización de un CPD.md",
+    "Q5/XI/Tema 8/Recursos de un CPD.md",
+    "Q5/XI/Tema 9/Tema 9-ITIL.md",
     "Imágenes/realismo.png",
     "Imágenes/wireframe.png",
     "Imágenes/diagrama flujo interfaz.png",
@@ -197,7 +198,6 @@
     "Imágenes/wbs y obs.png",
     "Imágenes/histograma.png",
     "Imágenes/diagrama de Gantt.png",
-    "Imágenes/sgp.png",
     "Q5/XI/Tema 4",
     "Q5/XI/Tema 2",
     "Q5/XI/Tema 9",
