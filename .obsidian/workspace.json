@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/Q5.md",
-                "mode": "preview",
+                "file": "Q5/IPM/Temario/Patrones de diseño.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/Q5.md",
+                "file": "Q5/IPM/Temario/Patrones de diseño.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/Q5.md"
+                "file": "Q5/IPM/Temario/Patrones de diseño.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/Q5.md",
+                "file": "Q5/IPM/Temario/Patrones de diseño.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,12 +160,29 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b6e61bbef8fbfce1",
+  "active": "995f13a032b9c717",
   "lastOpenFiles": [
+    "Imágenes/mvc vs mvp.png",
     "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/LSI/Lexislación e Seguridade Informática.md",
+    "Q5/LSI/Tema 3/Tema 3-Ocultación.md",
+    "Q5/LSI/Tema 3/TOR.md",
+    "Q5/LSI/Tema 3/Funciones hash.md",
+    "Q5/LSI/Tema 3/Qué es la ocultación.md",
+    "Q5/XP/Tema 2/Técnicas de planificación.md",
+    "Q5/XP/Tema 2/Tema 2-Gestión y planificación de proyectos.md",
+    "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
+    "Q5/XP/Tema 2/Metodología.md",
+    "Q5/XP/Tema 2/Elementos del sistema de gestión de proyectos.md",
+    "Q5/XP/Tema 2/Objetivos del sistema de gestión de proyectos.md",
     "Q5/XP/Xestión de Proxectos.md",
     "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
+    "Q5/XP/Tema 1/Ciclos de desarrollo gestión de proyectos.md",
+    "Q5/XP/Tema 1/Grado de cumplimiento y solución para la mejora.md",
     "Q5/XP/Tema 1/Objetivos del proceso software.md",
+    "Q5/XP/Gestión de la configuración software.md",
+    "Q5/XP/Casos de empresas IRL.md",
+    "Q5/Q5.md",
     "Q5/IPM/Temario/Test end2end.md",
     "Q5/IPM/Temario/Patrones de diseño.md",
     "Q5/IPM/Temario/WAI-ARIA.md",
@@ -174,23 +191,6 @@
     "Imágenes/pruebas en aplicaciones.png",
     "Imágenes/provider.png",
     "Imágenes/patrón BLOC.png",
-    "XI/Tema 10/Live migration.md",
-    "XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "XI/Xestión de Infraestruturas.md",
-    "XI/Tema 7/Tema 7-Virtualización de red.md",
-    "XI/Tema 7/NFV.md",
-    "XI/Tema 7/Introducción a la virtualización de red.md",
-    "XI/Tema 4/Tema 4-Fundamentos de la codificación de canal.md",
-    "XI/Tema 4/Codificación de canal.md",
-    "XI/Tema 9/Procesos, funciones y roles.md",
-    "XI/Tema 11/Normas ISO.md",
-    "XI/Tema 7/SDN.md",
-    "XI/Tema 5/Tema 5-Cableado estructurado.md",
-    "XI/Tema 3/Capa MAC.md",
-    "XI/Tema 3/Tema 3-IEEE 802.11.md",
-    "XI/Tema 9/Certificación.md",
-    "XI/Tema 8/CPD.md",
-    "XI/Tema 1/Distorsión en transmisión.md",
     "Imágenes/realismo.png",
     "Imágenes/wireframe.png",
     "Imágenes/diagrama flujo interfaz.png",
