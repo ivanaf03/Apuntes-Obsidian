@@ -2,7 +2,7 @@
 
 ## Historia del grado de cumplimiento de los objetivos
 ### Años 70 (Crisis del software)
-Según las estadísticas del Departamento de Defensa de EEUU, tan solo e 1% de los proyectos se usaban tal y como se entregaban.
+Según las estadísticas del Departamento de Defensa de EEUU, tan solo el 1% de los proyectos se usaban tal y como se entregaban.
 
 ### Años 80
 Tan solo entre el 5% y el 10% del software de la Administración Pública Americana era usable directamente. Entre el 30% y el 40% nunca se había usado o no se podría usar.
