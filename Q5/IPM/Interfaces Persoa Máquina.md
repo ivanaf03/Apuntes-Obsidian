@@ -2,6 +2,7 @@
 
 Temario:
 + [[Patrones de diseño]]
++ [[Test end2end]]
 + [[Interfaces web en dispositivos móvil]]
 + [[Responsive Web Design]]
 + [[Accesibilidad web]]
