@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Q5/IPM/Temario/Patrones de diseño.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -160,7 +160,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
     "Imágenes/mvc vs mvp.png",
     "Q5/IPM/Interfaces Persoa Máquina.md",
