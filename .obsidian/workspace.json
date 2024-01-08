@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md",
-                "mode": "source",
+                "file": "Q5/Q5.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md",
+                "file": "Q5/Q5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md"
+                "file": "Q5/Q5.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md",
+                "file": "Q5/Q5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,35 +160,37 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
+    "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/XP/Xestión de Proxectos.md",
+    "Q5/XP/Tema 1/Tema 1-Mejora del proceso software.md",
+    "Q5/XP/Tema 1/Objetivos del proceso software.md",
+    "Q5/IPM/Temario/Test end2end.md",
+    "Q5/IPM/Temario/Patrones de diseño.md",
+    "Q5/IPM/Temario/WAI-ARIA.md",
+    "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
+    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
+    "Imágenes/pruebas en aplicaciones.png",
     "Imágenes/provider.png",
     "Imágenes/patrón BLOC.png",
-    "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/IPM/Temario/WAI-ARIA.md",
-    "Q5/XI/Tema 10/Live migration.md",
-    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "Q5/XI/Xestión de Infraestruturas.md",
-    "Q5/XI/Tema 7/Tema 7-Virtualización de red.md",
-    "Q5/XI/Tema 7/NFV.md",
-    "Q5/XI/Tema 7/Introducción a la virtualización de red.md",
-    "Q5/XI/Tema 4/Tema 4-Fundamentos de la codificación de canal.md",
-    "Q5/XI/Tema 4/Codificación de canal.md",
-    "Q5/XI/Tema 9/Procesos, funciones y roles.md",
-    "Q5/XI/Tema 11/Normas ISO.md",
-    "Q5/XI/Tema 7/SDN.md",
-    "Q5/XI/Tema 5/Tema 5-Cableado estructurado.md",
-    "Q5/XI/Tema 3/Capa MAC.md",
-    "Q5/XI/Tema 3/Tema 3-IEEE 802.11.md",
-    "Q5/XI/Tema 9/Certificación.md",
-    "Q5/XI/Tema 8/CPD.md",
-    "Q5/XI/Tema 1/Distorsión en transmisión.md",
-    "Q5/XI/Tema 1/Tema 1-Fundamentos de la transmisión de señales.md",
-    "Q5/XI/Tema 1/Potencia media y energía.md",
-    "Q5/XI/Tema 1/Señales.md",
-    "Q5/XI/Tema 8/Tema 8-Organización de un CPD.md",
-    "Q5/XI/Tema 8/Recursos de un CPD.md",
-    "Q5/XI/Tema 9/Tema 9-ITIL.md",
+    "XI/Tema 10/Live migration.md",
+    "XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "XI/Xestión de Infraestruturas.md",
+    "XI/Tema 7/Tema 7-Virtualización de red.md",
+    "XI/Tema 7/NFV.md",
+    "XI/Tema 7/Introducción a la virtualización de red.md",
+    "XI/Tema 4/Tema 4-Fundamentos de la codificación de canal.md",
+    "XI/Tema 4/Codificación de canal.md",
+    "XI/Tema 9/Procesos, funciones y roles.md",
+    "XI/Tema 11/Normas ISO.md",
+    "XI/Tema 7/SDN.md",
+    "XI/Tema 5/Tema 5-Cableado estructurado.md",
+    "XI/Tema 3/Capa MAC.md",
+    "XI/Tema 3/Tema 3-IEEE 802.11.md",
+    "XI/Tema 9/Certificación.md",
+    "XI/Tema 8/CPD.md",
+    "XI/Tema 1/Distorsión en transmisión.md",
     "Imágenes/realismo.png",
     "Imágenes/wireframe.png",
     "Imágenes/diagrama flujo interfaz.png",
@@ -196,18 +198,16 @@
     "Imágenes/modelo de ttrabajo.png",
     "Imágenes/entorno organizativo.png",
     "Imágenes/wbs y obs.png",
-    "Imágenes/histograma.png",
-    "Imágenes/diagrama de Gantt.png",
-    "Q5/XI/Tema 4",
-    "Q5/XI/Tema 2",
-    "Q5/XI/Tema 9",
-    "Q5/XI/Tema 11",
+    "XI/Tema 4",
+    "XI/Tema 2",
+    "XI/Tema 9",
+    "XI/Tema 11",
     "Q5/ISD/Preguntas examen",
-    "Q5/XI/Tema 10",
+    "XI/Tema 10",
     "Q5/ISD/Tema 7",
     "Q5/LSI/Tema 2D",
     "Q5/LSI/Tema 1D",
-    "Q5/XI/Tema 8",
+    "XI/Tema 8",
     "Sin título 1.canvas",
     "Sin título.canvas"
   ]
