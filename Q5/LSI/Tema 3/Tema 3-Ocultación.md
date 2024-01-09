@@ -1,6 +1,7 @@
 [[Lexislación e Seguridade Informática]]
 
 Temario:
-+ [[Qué es la ocultación]]
-+ [[Funciones hash]]
-+ [[TOR]]
++ [[Objetivos de la ocultación]]
++ [[Ataques a la ocultación en redes]]
++ [[Funciones hash, contraseñas y ataques]]
++ [[Redes de anonimato]]
