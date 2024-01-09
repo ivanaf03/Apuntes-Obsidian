@@ -12,7 +12,7 @@ Fuente: https://www.anayarojo.net/blog/post/2/que-son-las-pruebas-end-to-end-y-c
 ### Pruebas end2end
 Es una metodología de pruebas de software que consiste en probar una aplicación desde el punto de vista del usuario final. En este tipo de pruebas se prueban los flujos y procesos.
 
-Aunque end to end testing no sustituye ninguna otra de las pruebas, como unit, components ó integration testing, esta metodología ofrece el punto de vista del usuario final. Por tanto, nos permite identificar errores en el interfaz del usuario.
+Aunque end to end testing no sustituye ninguna otra de las pruebas, como unit, components o integration testing, esta metodología ofrece el punto de vista del usuario final. Por tanto, nos permite identificar errores en el interfaz del usuario.
 
 Un ejemplo en mi aplicación de flutter (prueba funcionalidad añadir divisa):
 + El driver comprueba que existe un botón con el símbolo de "+".
