@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 215.5
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -164,8 +164,8 @@
   "lastOpenFiles": [
     "Q5/IPM/Interfaces Persoa Máquina.md",
     "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
-    "Q5/IPM/Temario/Test end2end.md",
     "Q5/IPM/Temario/Patrones de diseño.md",
+    "Q5/IPM/Temario/Test end2end.md",
     "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
     "Q5/IPM/Temario/WAI-ARIA.md",
     "Q5/XP/Tema 2/Arquitectura.md",
