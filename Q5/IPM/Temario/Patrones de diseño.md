@@ -29,7 +29,7 @@ Es una evolución del patrón MVC, diseñado para mejorar la separación de preo
 ![[mvc vs mvp.png]]
 
 ### Comunicación
-Está diseñada para minimizar el acoplamiento. La vista observa al modelo y se actualiza automáticamente en respuesta a los cambios en los datos. El presentador, al manejar las interacciones del usuario, actualiza tanto el modelo como la vista según sea necesario. Este enfoque de comunicación facilita la mantenibilidad y flexibilidad.
+Está diseñada para minimizar el acoplamiento. El presentador, al manejar las interacciones del usuario, actualiza tanto el modelo como la vista según sea necesario. Este enfoque de comunicación facilita la mantenibilidad y flexibilidad.
 
 ### Ventajas
 - Separación clara de responsabilidades entre el Modelo, la Vista y el Presentador.
