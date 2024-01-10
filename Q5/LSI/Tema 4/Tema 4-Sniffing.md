@@ -1,6 +1,6 @@
 [[Lexislación e Seguridade Informática]]
 
 Contenido:
-+ [[Interceptación]]
-+ [[ARP Spoofing]]
-+ [[Herramientas]]
++ [[Sniffing]]
++ [[Ataques en medio conmutado]]
++ [[Medidas de protección]]
