@@ -44,11 +44,6 @@ update-grub
 ```
 
 ## Conexiones
-### Krack attack
-Permite atacar al tráfico en una conexión wifi. Se basa en bloquear el mensaje 4 del handshaking para hacer que el cliente reinstale la contraseña. Se hace con un MITM.
-
-WPA3 es el último estándar de wifi. Salió para evitar estos ataques, en 2018. Cambia la forma de realizar el handshake. Utiliza un nuevo proceso de handshake llamado "Simultaneous Authentication of Equals" (SAE). También cambia la longitud clave de cifrado, cifra las tramas de gestión. Existen nuevos ataques como Dragonblood contra WPA3.
-
 ### DNS leaks
 Son situaciones en las que la información relacionada con las DNS de un usuario se filtra o se revela a terceros no autorizados, a pesar de usar una red VPN o proxy para proteger su privacidad y anonimato en línea. Estas filtraciones pueden comprometer la privacidad y el anonimato del usuario, ya que los registros de DNS pueden revelar qué sitios web está visitando y, en algunos casos, incluso su ubicación geográfica.
 
