@@ -7,7 +7,7 @@ Temario seguridad:
 + [[Tema 3-Ocultación]]
 + [[Tema 4-Sniffing]]
 + [[Tema 5-DoS]]
-+ [[Tema 6-Monitorización y filtrado]]
++ [[Tema 6-IPTABLES]]
 
 Temario derecho:
 + [[Tema 1-Protección de datos personales]]
