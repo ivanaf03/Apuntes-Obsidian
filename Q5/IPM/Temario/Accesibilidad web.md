@@ -81,7 +81,7 @@ El contenido principal sea fácilmente accesible sin tener que atravesar seccion
 La información no puede depender del color. Hay que usar colores que contrasten bien entre el fondo y el primer plano. Por tanto, no debemos, entre muchas otras cosas:
 + Usar colores para marcar acciones.
 + Indicar errores marcando bordes en rojo.
-+ No marcar campos obligatorios en un formulario pintándolos de un color.
++ Marcar campos obligatorios en un formulario pintándolos de un color.
 
 ### Formularios
 Los formularios deben:
