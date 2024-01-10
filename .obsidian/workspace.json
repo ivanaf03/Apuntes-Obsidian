@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md",
+                "file": "Q5/IPM/Temario/Accesibilidad web.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md",
+                "file": "Q5/IPM/Temario/Accesibilidad web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md"
+                "file": "Q5/IPM/Temario/Accesibilidad web.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/IPM/Temario/Patrones de diseño.md",
+                "file": "Q5/IPM/Temario/Accesibilidad web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,9 +163,11 @@
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
     "Q5/IPM/Interfaces Persoa Máquina.md",
+    "Q5/IPM/Temario/Responsive Web Design.md",
     "Q5/IPM/Temario/Interfaces web en dispositivos móvil.md",
-    "Q5/IPM/Temario/Patrones de diseño.md",
+    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
     "Q5/IPM/Temario/Test end2end.md",
+    "Q5/IPM/Temario/Patrones de diseño.md",
     "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
     "Q5/IPM/Temario/WAI-ARIA.md",
     "Q5/XP/Tema 2/Arquitectura.md",
@@ -186,8 +188,6 @@
     "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
     "Q5/LSI/Tema 2/Firewalls y entornos acotados.md",
     "Q5/LSI/Tema 2/OWASP top 10.md",
-    "Q5/LSI/Tema 2/Exploits.md",
-    "Q5/LSI/Tema 2/Identificación de máquinas.md",
     "Imágenes/Tor 5.png",
     "Imágenes/Tor 4.png",
     "Imágenes/Tor 3.png",
