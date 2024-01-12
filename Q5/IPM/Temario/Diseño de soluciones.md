@@ -89,19 +89,19 @@ Por tanto, solo se debe interrumpir tareas en momentos importantes. Si se abusa 
 ## Funcionalidades
 El crecimiento de funcionalidades sin medida puede desbaratar unos diseños originales bien definidos. Demasiadas funcionalidades puede evitar el acceso de nuevos usuarios; sin embargo, los usuarios experimentados piden más funcionalidades. El usuario va a demandar nueva funcionalidad como solución a problemas.
 
-La regla de los 5 por qué es una técnica utilizada en el análisis de causa y efecto para identificar la raíz de un problema o situación. Esta regla se basa en la idea de realizar preguntas sucesivas, repitiendo la pregunta "¿Por qué?" cinco veces (aunque el número puede variar), con el objetivo de llegar a la causa principal del problema. Se puede usar para ver si esa funcionalidad es necesaria.
+La regla de "los 5 por qué" es una técnica utilizada en el análisis de causa y efecto para identificar la raíz de un problema o situación. Esta regla se basa en la idea de realizar preguntas sucesivas, repitiendo la pregunta "¿Por qué?" cinco veces (aunque el número puede variar), con el objetivo de llegar a la causa principal del problema. Se puede usar para ver si esa funcionalidad es necesaria.
 
 En vez de añadir nuevas funcionalidades mejor hacer las antiguas más usables. Otra recomendación es tratar de agrupar varios problemas en una solución.
 
 Las propiedades invisibles son aquellas que mejoran la aplicación y no suponen una carga para el usuario. 
 
 Para eliminar funcionalidades:
-+ Investiga datos de uso sobre el programa .
++ Investiga datos de uso sobre el programa.
 + Esos datos hay que cogerlos con perspectiva de lo que se esperaba de cada parte de la aplicación en términos de tipo de usuario, frecuencia de uso... 
 + Informar a los usuarios (pero no dejarles decidir).
 + Facilitar alternativas si es posible.
 
-Una característica importante es la facilidad con la que los usuarios son capaces de encontrar y usar una funcionalidad. Para evitar la masificación en pantalla se pueden esconder funcionalidades y que sean activadas por los usurios, por ejemplo, en un menú.
+Una característica importante es la facilidad con la que los usuarios son capaces de encontrar y usar una funcionalidad. Para evitar la masificación en pantalla se pueden esconder funcionalidades y que sean activadas por los usuarios, por ejemplo, en un menú.
 
 ## Animaciones
 A veces cambios de estado visuales de la aplicación pueden desorientar al usuario. Animar el cambio de estado (minimizar una ventana por ejemplo) ayuda al usuario a seguir el proceso.
