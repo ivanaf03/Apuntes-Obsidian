@@ -52,7 +52,7 @@ Las fases son:
 + **Pruebas:** Se comprueban la funcionalidad, la usabilidad, la seguridad y se somete a pruebas de estrés. Es importante recordar que las pruebas varian entre fases alpha y beta.
 
 ### Modelo en cascada
-El modelo en cascada tradicional también puede hacerse con feedback. Sin embargo, no es adecuado para e diseño de IU:
+El modelo en cascada tradicional también puede hacerse con feedback. Sin embargo, no es adecuado para el diseño de IU:
 + El diseño de IU es arriesgado y poco predecible.
 + El usuario no interviene hasta la fase de aceptación.
 + Una flaqueza puede generar un gran cambio.
