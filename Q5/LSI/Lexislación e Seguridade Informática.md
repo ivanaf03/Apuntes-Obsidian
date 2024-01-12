@@ -6,7 +6,7 @@ Temario seguridad:
 + [[Tema 2-Information gathering]]
 + [[Tema 3-Ocultación]]
 + [[Tema 4-Sniffing]]
-+ [[Tema 5-DoS]]
++ [[Tema 5-DoS y monitorización]]
 + [[Tema 6-IPTABLES]]
 
 Temario derecho:
