@@ -55,6 +55,6 @@ Se orienta a la técnica PDM. Permite calcular el camino crítico. Con esto se o
 
 Los pasos que sigue esta técnica son:
 1. Elaboración de una red de precedencia PDM.
-2. Identificar todos los caminos del grafo de principio a fina del proyecto.
+2. Identificar todos los caminos del grafo de principio a fin del proyecto.
 3. Calcular los tiempos de todos los caminos.
 4. Identificar el camino crítico, que es el de mayor duración.
