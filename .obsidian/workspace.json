@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
-                "mode": "source",
+                "file": "Q5/XP/Tema 2/Técnicas de planificación.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
+                "file": "Q5/XP/Tema 2/Técnicas de planificación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md"
+                "file": "Q5/XP/Tema 2/Técnicas de planificación.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Lexislación e Seguridade Informática.md",
+                "file": "Q5/XP/Tema 2/Técnicas de planificación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,19 +162,8 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Q5/LSI/Tema 5/Tema 5-DoS y monitorización.md",
-    "Q5/LSI/Tema 5/Monitorización.md",
-    "Q5/LSI/Tema 5/Cajón de sastre de Nino.md",
-    "Q5/LSI/Tema 5/Tipos de ataques DoS.md",
-    "Q5/LSI/Lexislación e Seguridade Informática.md",
-    "Q5/LSI/Tema 6/Tema 6-IPTABLES.md",
-    "Pasted image 20240112234554.png",
-    "Q5/LSI/Tema 4/Tema 4-Sniffing.md",
-    "Q5/LSI/Tema 4/Medidas de protección.md",
-    "Q5/LSI/Tema 6/Firewall con control de estado.md",
-    "Q5/LSI/Tema 6/Firewall sin control de estado.md",
-    "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
     "Q5/XP/Tema 2/Tema 2-Gestión y planificación de proyectos.md",
+    "Q5/XP/Tema 2/Conceptos de planificación y seguimiento.md",
     "Q5/XP/Tema 2/Metodología.md",
     "Q5/XP/Tema 2/Elementos del sistema de gestión de proyectos.md",
     "Q5/XP/Tema 2/Objetivos del sistema de gestión de proyectos.md",
@@ -184,10 +173,22 @@
     "Q5/XP/Tema 1/Grado de cumplimiento y solución para la mejora.md",
     "Q5/XP/Tema 1/Objetivos del proceso software.md",
     "Q5/XP/Prácticas/Conceptos.md",
-    "Q5/IPM/Temario/Diseño de soluciones.md",
-    "Q5/IPM/Interfaces Persoa Máquina.md",
-    "Q5/IPM/Temario/Diseño de interfaces de usuario.md",
-    "Q5/IPM/Temario/WAI-ARIA.md",
+    "Q5/XP/Gestión de la configuración software.md",
+    "Q5/XP/Casos de empresas IRL.md",
+    "Q5/XP/Prácticas/Práctica de Programación Lineal.md",
+    "Q5/XP/Tema 4/Tema 4-Gestión de la configuración software.md",
+    "Q5/XP/Tema 4/Conceptos básicos de la GCS.md",
+    "Q5/XP/Tema 4/Aspectos relacionados con la GCS.md",
+    "Q5/XP/Tema 2/Técnicas de planificación.md",
+    "Q5/XP/Tema 2/Comunicación interpersonal y negociación.md",
+    "Q5/XP/Tema 2/Entorno organizativo.md",
+    "Q5/XP/Tema 2/Arquitectura.md",
+    "Q5/XP/Tema 2/Métricas.md",
+    "Q5/XP/Tema 2/Seguimiento de proyectos.md",
+    "Q5/XP/Tema 2/Pasos básicos de planificación.md",
+    "Q5/LSI/Tema 6/Firewall con control de estado.md",
+    "Q5/LSI/Tema 6/Tema 6-IPTABLES.md",
+    "Pasted image 20240112234554.png",
     "Imágenes/arp spoofing.png",
     "Imágenes/sniffing.png",
     "Imágenes/Tor 5.png",
