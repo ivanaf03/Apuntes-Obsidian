@@ -14,7 +14,7 @@ Un puerto es una abstracción usada para identificar y direccionar aplicaciones 
 + **Open|filtered:** Nmap no es capaz de saber si está abierto o filtrado.
 + **Closed|filtered:** Nmap no es capaz de saber si está cerrado o filtrado.
 
-Algunas veces una combinación de tipos de escaneo puede usarse para recoger información extra de un sistema. Si un tipo de escaneo identifica un puerto como open|filtered y otro lo identifica como unfiltered, por lógica e puerto está open. Aunque a veces no se cumple.
+Algunas veces una combinación de tipos de escaneo puede usarse para recoger información extra de un sistema. Si un tipo de escaneo identifica un puerto como open|filtered y otro lo identifica como unfiltered, por lógica el puerto está open. Aunque a veces no se cumple.
 
 ### Clasificación de puertos según IANA
 + **Well-known-ports:** Puertos entre el 1 y el 1023 registrados para un determinado servicio. Por ejemplo, el 22 para SSH o el 80 para HTTP. En algunos sistemas se exigen permisos especiales para asociar aplicaciones a estos puertos.
