@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
+                "file": "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
+                "file": "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Tema 1/Sistemas de detección de ataques.md"
+                "file": "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
+                "file": "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,6 +163,7 @@
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
     "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+    "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
     "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
     "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
     "Q5/LSI/Lexislación e Seguridade Informática.md",
@@ -187,7 +188,6 @@
     "Q5/XP/Tema 2/Planificación, comunicación interpersonal y negociación.md",
     "Q5/XP/Tema 2/Entorno organizativo.md",
     "Q5/XP/Tema 2/Arquitectura.md",
-    "Q5/XP/Tema 2/Métricas.md",
     "Pasted image 20240112234554.png",
     "Imágenes/arp spoofing.png",
     "Imágenes/sniffing.png",
