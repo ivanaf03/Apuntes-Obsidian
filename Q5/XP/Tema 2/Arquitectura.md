@@ -16,7 +16,7 @@
 
 ### Interfaz de usuario
 + **Diagramas de Gantt:** Visualizar de forma rápida la programación de los proyectos.
-+ **Redes de precedencia:** Ver de interdependencias entre actividades de distintos proyectos.
++ **Redes de precedencia:** Ver interdependencias entre actividades de distintos proyectos.
 + **Histogramas:** Analizar las gráficas de desviación de costes, disponibilidad de recursos...
 + **Presentación:** Es la propia interacción con el usuario.
 + **WBS:** Visualizar la estructura de la descomposición de actividades.
