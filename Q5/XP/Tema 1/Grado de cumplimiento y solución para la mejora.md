@@ -16,7 +16,7 @@ A principios de siglo se consideraban exitosos cerca del 35%. Además el porcent
 ## Soluciones para la mejora
 Para gestionar correctamente un proyecto es crucial mejorar la estimación, seguimiento y control del esfuerzo, tiempo y coste.
 
-Sin embargo mejorar la calidad es más complicado. A priori parece que con mejorar las pruebas basta, pero lo normal que no cubran todos los errores y a veces incluso se prescinde de ellas. Las pruebas software deben ser destructivas, al contrario que en otros campos.
+Sin embargo mejorar la calidad es más complicado. A priori parece que con mejorar las pruebas basta, pero lo normal es que no cubran todos los errores y a veces incluso se prescinde de ellas. Las pruebas software deben ser destructivas, al contrario que en otros campos.
 
 La calidad no tiene que estar solo presente en las pruebas, ya que unas pruebas de un producto sin buena calidad no van a ser lo suficientemente buenas. Las mejoras para la calidad deben apoyarse en tres bases:
 + **Desarrollo:** elección de un ciclo de vida adecuado.
