@@ -1,6 +1,6 @@
 [[Tema 6-IPTABLES]]
 
-### Iptables
+## Iptables
 
 + ip6tables
 + arptables
@@ -25,12 +25,12 @@ graph TD;
 
 ```
 
-### Tablas
+## Tablas
 Mangle (pre, input, forw, output, post)
 NAT (pre, output, post)
 Filter (input, forw, output)
 
-### Comandos
+## Ejemplos de comandos
 + iptables -t tabla comando cadena condición acción opciones
 + iptables -t filter -A input -p tcp --dport 123 -j drop # Nadie entra a mi puerto 123
 + iptables -F # firewall vacío
