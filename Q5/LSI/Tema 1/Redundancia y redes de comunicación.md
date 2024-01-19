@@ -35,12 +35,12 @@ En un conector RJ45:
 	- Par 6 (naranja) en pin 2
 	- Par 7 (blanco-marrón) en pin 7
 	- Par 8 (marrón) en pin 8
-+ T568A:
-   - Par 1 (blanco-verde) en pin 3
-   - Par 2 (verde) en pin 6
-   - Par 3 (blanco-naranja) en pin 1
-   - Par 4 (azul) en pin 4
-   - Par 5 (blanco-azul) en pin 5
-   - Par 6 (naranja) en pin 2
-   - Par 7 (blanco-marrón) en pin 7
-   - Par 8 (marrón) en pin 8
++ T568B :
+	+ Par 3 (blanco-naranja) en pin 1
+	+ Par 6 (naranja) en pin 2
+	+ Par 1 (blanco-verde) en pin 3
+	+ Par 4 (azul) en pin 4
+	+ Par 5 (blanco-azul) en pin 5
+	+ Par 2 (verde) en pin 6
+	+ Par 7 (blanco-marrón) en pin 7
+	+ Par 8 (marrón) en pin 8
