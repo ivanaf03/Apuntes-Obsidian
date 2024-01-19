@@ -11,4 +11,4 @@ Contenido:
 + [[Métricas]]
 + [[Arquitectura]]
 + [[Entorno organizativo]]
-+ [[Comunicación interpersonal y negociación]]
++ [[Planificación, comunicación interpersonal y negociación]]
