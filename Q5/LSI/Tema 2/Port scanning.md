@@ -19,7 +19,7 @@ Algunas veces una combinación de tipos de escaneo puede usarse para recoger inf
 ### Clasificación de puertos según IANA
 + **Well-known-ports:** Puertos entre el 1 y el 1023 registrados para un determinado servicio. Por ejemplo, el 22 para SSH o el 80 para HTTP. En algunos sistemas se exigen permisos especiales para asociar aplicaciones a estos puertos.
 + **Registered ports:** Puertos entre el 1024 y el 49151, registrados por IANA, que no exigen privilegios especiales.
-+ **Puertos privados o dinámicos:** Puertos entre el 49152 y el 65535 que se usan 
++ **Puertos privados o dinámicos:** Puertos entre el 49152 y el 65535 que se usan en conexiones temporales o efímeras.
 
 ### Escaneo de puertos con nmap
 Nmap por defecto ya hace port scanning. Pero existen muchas flags que permiten otros métodos de escaneo de puertos:
