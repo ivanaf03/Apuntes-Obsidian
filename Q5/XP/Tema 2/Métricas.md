@@ -24,7 +24,7 @@ Una situación prolongada con muy pocos recursos asignados puede deberse a:
 + Incomprensión de los requisitos.
 + Producto de mala calidad.
 
-Una situación prolongada demasiados recursos asignados puede deberse a:
+Una situación prolongada con demasiados recursos asignados puede deberse a:
 + Problemas más complejos de lo esperado.
 + Recursos con calidad insuficiente para el trabajo.
 + Progreso inadecuado.
@@ -35,6 +35,6 @@ Una situación prolongada demasiados recursos asignados puede deberse a:
 Miden el coste real del proyecto con respecto a la planificación. Las desviaciones también indican problemas. Se aplican a todas las etapas del ciclo de vida.
 
 Los indicadores más comunes son:
-+ **CV=BCWP-ACWP:** Coste presupuestado del trabajo realizado -coste real del trabajo realizado
-+ **SV=BCWP-BCWS:** Coste presupuestado del trabajo realizado -coste del trabajo planificado
++ **CV=BCWP-ACWP:** Coste presupuestado del trabajo realizado - coste real del trabajo realizado
++ **SV=BCWP-BCWS:** Coste presupuestado del trabajo realizado - coste del trabajo planificado
 + **TCE=ACWP+ETC:** Coste real del trabajo realizado + coste pendiente hasta finalizar
