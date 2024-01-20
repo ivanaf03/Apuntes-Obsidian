@@ -16,7 +16,7 @@ Una vulnerabilidad es una debilidad de un activo o control que puede ser explota
 + Defectos en hardware o software.
 + Carencia de políticas y procedimientos, como falta de formación a los usuarios.
 
-La finalidad de la ciberseguridad es detectar vulnerabilidades e intentan arreglarlas mediante el parcheo.
+La finalidad de la ciberseguridad es detectar vulnerabilidades e intentar arreglarlas mediante el parcheo.
 ### Exploit
 Un exploit es es la herramienta o técnica que un atacante utiliza para aprovechar una vulnerabilidad en un sistema.
 
