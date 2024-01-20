@@ -63,5 +63,5 @@ smtp-user-enum -m vrfy/rcpt -U user.txt -T server.txt
 ```
 
 ## IP spoofing
-Cuando antes enviábamos el SYN con una IP suplantada a la máquina que atacábamos, lo que estábamos haciendo era IP spoofing. Consiste en enviar paquetes con una IP falsa. Los routers se pueden configurar para rechazar los paquetes con una IP que no pertenezca a la red local. o que no cumplan ciertos requisitos de autencidad.
+Cuando antes enviábamos el SYN con una IP suplantada a la máquina que atacábamos, lo que estábamos haciendo era IP spoofing. Consiste en enviar paquetes con una IP falsa. Los routers se pueden configurar para rechazar los paquetes con una IP que no pertenezca a la red local o que no cumplan ciertos requisitos de autencidad.
 
