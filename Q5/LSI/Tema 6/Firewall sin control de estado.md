@@ -37,7 +37,7 @@ Filter (input, forw, output)
 + iptables -t filter -A input -p tcp --dport 123 -j drop # Nadie entra a mi puerto 123
 + iptables -F # firewall vacío
 + iptables -X # firewall sin cadenas
-+ iptables -P input dro/output drop/forward drop # políticas
++ iptables -P input drop/output drop/forward drop # políticas
 + iptables -A input -i lo -j ACCEPT
 + iptables -A output -i lo -j ACCEPT
 + iptables -A input -s 10.11.48.cliente -d 10.11.48.miip -p tcp --dport 514 -j ACCEPT
