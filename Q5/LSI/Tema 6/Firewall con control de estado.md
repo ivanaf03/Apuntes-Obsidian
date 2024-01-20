@@ -27,9 +27,9 @@ El primer paquete udp que llega a ip tables lo marca como no atentido, simulando
 
 Un firewall persistente se puede hacer con un servicio, se puede hacer con un post-up (/ruta/del/script) en el fichero de interfaces, se puede hacer con iptables-persistent...
 
-+ ystemctl 0 iptables-persistent
++ systemctl 0 iptables-persistent
 + iptables -save > /etc/iptables.v4
-+ iptables -restore < /etc7iptables.v4
++ iptables -restore < /etc/iptables.v4
 
 También se puede con ip6tables.
 
@@ -46,10 +46,10 @@ Framework que permite interactuar con los paquetes de red en todas sus fases. Do
 + iptables -t filter -A forward -s x.x.x.x -d x.x.x.x -p tcp --dport 514 -m contrack --cstate new -j accept
 + nft add rule filter forward ip saddr x.x.x.x ip daddr x.x.x.x tcp dport 514 ct state new accept
 
-Se diferencia de iptables en que nft contiene todo 8en iptabñes tenemos iptables, ip6tables...)
+Se diferencia de iptables en que nft contiene todo. En iptables tenemos iptables, ip6tables...
 
 ## Psad
-Es una herramienta que analiza todos los logs del firewall para prevenir ataques a la máquina. Es una adaptación de snort. También se puede hacer de forma gráfica con GUI neft o Fwbuilder. O usando herramientas como ufw.
+Es una herramienta que analiza todos los logs del firewall para prevenir ataques a la máquina. Es una adaptación de snort. También se puede hacer de forma gráfica con GUI neft o Fwbuilder o usando herramientas como ufw.
 
 ## FGCP
 Es un protocolo de comunicación entre firewall que comprueba si están funcionando correctamente.
