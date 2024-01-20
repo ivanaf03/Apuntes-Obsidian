@@ -39,13 +39,3 @@ Es el responsable el que determina los plazos para las supervisiones periódicas
 
 ## Seguridad de los datos (integridad y confidencialidad)
 La seguridad requiere de medidas técnicas y organizativas para proteger los datos. Cualquier brecha debe notificarse a la autoridad competente y al interesado, si es probable que se afecten sus derechos y libertades.
-
-## Reponsabilidad proactiva
-El responsable tiene que cumplir con todos los principios y todas las medidas de seguridad de forma proactiva. Para ello existen estas técnicas y medidas organizativas:
-+ Registro de las actividades del tratamiento a disposición de la autoridad de control.
-+ Designación de delegados de protección de datos.
-+ Realizar evaluaciones de impacto sobre los tratamientos de datos que puedan ser considerados un riesgo.
-+ Protección desde el diseño, es decir, as consideraciones de privacidad y protección de datos deben incorporarse desde la fase inicial del diseño de un sistema.
-+ Protección por defecto, es decir, que solo se traten los datos personales que son estrictamente necesarios para el propósito específico para el cual se recopilaron.
-+ Implantación de procedimientos para el ejercicio de derechos de los interesados.
-+ Adherencia a códigos de conducta o mecanismos de certificación aprobados.
