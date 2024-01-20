@@ -30,28 +30,10 @@ Otras obligaciones son:
 + Transparencia con las recomendaciones.
 + Protección de menores y privacidad.
 
-### Obligaciones de los marketplace
-Las empresas pequeñas tampoco deben cumplir estas obligaciones.
-
-Cualquier comerciante que emplee la plataforma debe identificarse ante el prestador. Se les brinda cierta información a los destinatarios y los comerciantes tendrán derecho a reclamaciones en caso de que el prestador deniegue el uso del marketplace.
-
-Deben también cumplir ciertas características de interfaz. Por último, si el prestador conoce la oferta de un producto o servicio ilegal, informará a los consumidores.
-
 ### Obligaciones de las plataformas online de gran tamaño
 Tienen obligaciones de gestión de riesgo y respuesta a las crisis. Deben elaborar informes de evaluación de riesgo anuales, aplicar medidas de reducción de riesgos y tienen que tener mecanismos de respuesta a las crisis.
 
 También tienen que someterse a una auditoría independiente de la empresa, sin ningún tipo de intereses con el proveedor del servicio. Permiten el acceso a datos a las autoridades y a los investigadores autorizados. Es obligatorio contratar personas que comprueben que se están cumpliendo las funciones legales.
-
-### Otras obligaciones
-Normas voluntarias:
-+ Envío de notificaciones.
-+ Comunicación de restricciones en las condiciones generales.
-+ Auditorías.
-+ Medidas técnicas referidas a las obligaciones sobre publicidad.
-
-Un código de conducta es un declaración formal de valores y reglas de integridad que enuncia normas mínimas y el compromiso del organismo de cumplirlas y de exigir su cumplimiento a sus integrantes. Se piden para la publicidad en línea y para la accesibilidad.
-
-Además, se debe tener algún protocolo voluntario en casos de crisis de seguridad o salud pública. 
 
 ## Medidas de transparencia de los intermediarios
 + Se tiene que dar información sobre restricciones en las condiciones generales. Las VLOPs debe dar información en todas las lenguas de la UE.
