@@ -22,7 +22,7 @@ Las empresas pequeñas no deben cumplir estas obligaciones, a menos que tengan u
 
 Deben tener un sistema interno de gestión de reclamaciones. También deben tener una forma de resolver de forma extrajudicial los litigios. Además necesitan medidas de protección contra usos indebidos, por ejemplo, a suspensión del envío de reclamaciones por uso indebido o abusivo.
 
-Tienen que tener altertadores fiables, que son entidades expertas que pueden acudir a la Unión Europea para actuar como buscadores de contenidos ilícitos y tratar de denunciarlos. 
+Tienen que tener alertadores fiables, que son entidades expertas que pueden acudir a la Unión Europea para actuar como buscadores de contenidos ilícitos y tratar de denunciarlos. 
 
 Otras obligaciones son:
 + Diseño de interfaces sin manipulaciones y privilegios.
