@@ -1,5 +1,7 @@
 [[Tema 6-IPTABLES]]
 
+https://blog.elhacker.net/2022/07/iptables-el-firewall-de-linux-ejemplos-funcionamiento-reglas.html
+
 ## Iptables
 
 + ip6tables
@@ -7,7 +9,7 @@
 + ipset
 + ebtables
 
-Reglas de tipo iput: conexiones que entran a mi máquina
+Reglas de tipo input: conexiones que entran a mi máquina
 Reglas de tipo output: salida
 Reglas forward: conexiones que no van dirigidas a mi máquina
 Reglas mangle: reglas de modificación de paquetes
