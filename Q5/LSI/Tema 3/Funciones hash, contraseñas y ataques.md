@@ -29,7 +29,7 @@ medusa -h 10.11.48.x -u lsi -P p.txt - ssh -f
 ```
 
 ### Protección
-+ **Fail2ban:** herramiienta de prevención de intrusiones que detecta ataques de password guessing.
++ **Fail2ban:** herramienta de prevención de intrusiones que detecta ataques de password guessing.
 + **OSSEC (HIPS):** es un sistema de prevención de intrusiones a nivel de host. OSSEC realiza la monitorización continua de los registros del sistema, archivos de configuración y otros aspectos del sistema operativo.
 
 ## Contraseña en el grub
