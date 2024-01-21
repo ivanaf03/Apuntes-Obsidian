@@ -10,7 +10,7 @@ Son redes que permiten a los usuarios comunicarse de forma anónima. Usan cifrad
 + retroshare
 
 ### Red Tor
-Es una herramienta gratuita cuyo objetivo es que la gente pueda usar Internet de forma anónima (anonimato de origen). or protege al usuario haciendo rebotar sus comunicaciones sobre una red distribuida de relays (también llamados Onion Routers) ejecutados por voluntarios de todo el mundo. 
+Es una herramienta gratuita cuyo objetivo es que la gente pueda usar Internet de forma anónima (anonimato de origen). Tor protege al usuario haciendo rebotar sus comunicaciones sobre una red distribuida de relays (también llamados Onion Routers) ejecutados por voluntarios de todo el mundo. 
 
 La red se compone por:
 + **Onion Routers:** encargados de enrutar el tráfico a través de la red y proporcionar anonimato al ocultar la identidad y ubicación del usuario. Cualquier usuario puede optar por convertirse en un nodo en la red Tor. Estos nodos ayudan a enrutar el tráfico de manera anónima a través de comunicación TLS.
