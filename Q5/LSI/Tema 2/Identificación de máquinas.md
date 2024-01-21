@@ -13,7 +13,7 @@ Los DNS pueden trabajar de dos formas:
 + De forma inversa: ip-->nombre
 
 Trabajan en varios niveles. Si le pides una IP al servidor DNS y la tiene en caché, te la devuelve automáticamente. En cualquier otro caso se va a otros niveles hasta que encuentra la IP que se solicita. Pueden ser: 
-+ Primarios: 
++ Primarios
 + Secundarios
 
 A nivel funcional realizan lo mismo. A nivel administrativo, el servidor primario se tiene que mantener, es decir, guardar en su base de datos toda la información. Los secundarios hacen transferencias de zona, es decir, se conectan cada x tiempo a los primarios y transfieren toda su base de datos. Para trabajar con DNS se usan herramientas como:
