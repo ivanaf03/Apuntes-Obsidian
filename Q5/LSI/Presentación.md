@@ -11,7 +11,7 @@ Es un protocolo (Network Time Protocol) que permite sincronizar la hora de difer
 Una VPN (Virtual Private Network) es una conexión que autentica al usuario y cifra todo el tráfico de la conexión. El servidor accede a la información y la devuelve cifrada también.
 
 ### ¿Qué es el SMTP?
-Es un protocolo (Simple Main Transfer Protocol) que se utiliza en el envío y recepción de correos electrónicos.
+Es un protocolo (Simple Mail Transfer Protocol) que se utiliza en el envío y recepción de correos electrónicos.
 
 ### ¿Qué es el X509?
 Es un estándar que especifica, entre otras cosas, formatos estándares para certificados de claves públicas y sirve como algoritmo de validación de la ruta de certificación.
