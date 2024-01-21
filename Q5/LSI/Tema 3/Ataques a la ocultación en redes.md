@@ -1,7 +1,7 @@
 [[Tema 3-Ocultación]]
 
 ## ATM
-"Modo de Transferencia Asíncrona" (Asynchronous Transfer Mode en inglés), es una tecnología de conmutación de paquetes que se utiliza en el ámbito de las redes de comunicación. Una de las características distintivas de ATM es que utiliza una tasa de transferencia constante para la transmisión de datos. Esto significa que los datos se dividen en celdas de 53 bytes (en lugar de paquetes variables como en Ethernet) y se transmiten a una velocidad constante, lo que garantiza una calidad de servicio (QoS) predecible y adecuada para aplicaciones sensibles al tiempo, como la transmisión de voz y video. Las celdas se conmutan a través de la red en lugar de paquetes completos.
+"Modo de Transferencia Asíncrona" (Asynchronous Transfer Mode en inglés), es una tecnología de conmutación de paquetes que se utiliza en el ámbito de las redes de comunicación. Una de las características distintivas de ATM es que utiliza una tasa de transferencia constante para la transmisión de datos. Esto significa que los datos se dividen en celdas de 53 bytes (en lugar de paquetes variables como en Ethernet) y se transmiten a una velocidad constante, lo que garantiza una calidad de servicio (QoS) predecible y adecuada para aplicaciones sensibles al tiempo, como la transmisión de voz y vídeo. Las celdas se conmutan a través de la red en lugar de paquetes completos.
 
 ## Handshake entre una máquina y un punto de acceso
 Cuando un dispositivo se conecta a un punto de acceso Wi-Fi, se realiza un proceso de autenticación y establecimiento de claves conocido como handshake. Durante este proceso, se generan claves que serán utilizadas para cifrar las comunicaciones entre el dispositivo y el punto de acceso.
@@ -30,7 +30,7 @@ El comando "aircrack-ng -w diccionario captura" realiza un ataque de fuerza brut
 ## Wi-Fi Protected Setup
 Es un estándar de seguridad para redes Wi-Fi que se creó con el objetivo de simplificar la configuración de conexiones seguras entre dispositivos y puntos de acceso Wi-Fi.
 
-Hubo un ataque muy exitoso al protocolo WPS se debía a un proceso de autenticación inseguro y a la falta de medidas de seguridad en la implementación del protocolo. A continuación, te explicaré paso a paso por qué este ataque era rápido:
+Hubo un ataque muy exitoso al protocolo WPS se debía a un proceso de autenticación inseguro y a la falta de medidas de seguridad en la implementación del protocolo:
 1. **Estructura del PIN de WPS**: El PIN de WPS consta de 8 dígitos. Se divide en dos partes: la primera parte tiene 4 dígitos, y la segunda parte tiene 3 dígitos, con un dígito de control al final. Esto resulta en un total de 10^7 posibles combinaciones.
 2. **Falta de Bloqueo de Intentos**: La vulnerabilidad principal radicaba en la falta de bloqueo o retraso después de un número determinado de intentos fallidos de PIN. A diferencia de otros sistemas de seguridad que bloquean a un usuario después de un número de intentos fallidos, WPS no aplicaba ningún bloqueo o medida de seguridad similar.
 3. **Ataque de Fuerza Bruta Acelerado**: Los atacantes podían utilizar herramientas automatizadas para realizar ataques de fuerza bruta. Podían probar todas las combinaciones posibles (10^7) en poco tiempo debido a la falta de bloqueo de intentos. Esto permitía que los atacantes intentaran cada combinación en rápida sucesión.
@@ -49,7 +49,7 @@ Si puerto= 0.0.0.0, podremos servir de router y otra máquina puede conectarse a
 ssh -p 443 -fN -D 0.0.0.0:1080 user@x.x.x.x # forwardeo dinámico, proxy sock para saltarse un firewall (suele ser necesario un servicio de dns dinámico si no tenemos la misma IP siempre)
 ```
 
-Otra herramienta para saltar proxys es corkscrew. Permite mediante ssh y forwardeo de puertos saltarese un proxy. 
+Otra herramienta para saltar proxys es corkscrew. Permite mediante ssh y forwardeo de puertos saltarse un proxy. 
 
 El port knocking nos permite mediante una secuencia de peticiones tirar el servicio y mediante cierta secuencia de comandos permite levantarlo otra vez. Se monta en el fichero /etc/knockd.conf, donde por ejemplo tenemos:
 ```
