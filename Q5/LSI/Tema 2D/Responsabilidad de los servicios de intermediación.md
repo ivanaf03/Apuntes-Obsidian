@@ -14,7 +14,7 @@ Se establece un régimen condicional mediante el cual los intermediarios, como p
 
 Los proveedores de servicios en línea (pSSI) tienen la obligación de proporcionar información general. Esto implica que deben informar de manera clara y accesible sobre aspectos relevantes de sus servicios, términos de uso, políticas de privacidad u otras informaciones esenciales para los usuarios.
 
-Los intermediaros tienen que colaborar con los órganos públicos. Por ejemplo, si un juez solicita retirar un twit, twitter lo tiene que eliminar. Además, se prohíbe a los intermediarios imponer una obligación general de supervisión del contenido. Esto significa que no se espera que monitoreen de manera continua y exhaustiva todo el contenido generado por terceros en sus plataformas. En cambio, se establece la responsabilidad de actuar en respuesta a denuncias o infracciones identificadas.
+Los intermediarios tienen que colaborar con los órganos públicos. Por ejemplo, si un juez solicita retirar un twit, twitter lo tiene que eliminar. Además, se prohíbe a los intermediarios imponer una obligación general de supervisión del contenido. Esto significa que no se espera que monitoreen de manera continua y exhaustiva todo el contenido generado por terceros en sus plataformas. En cambio, se establece la responsabilidad de actuar en respuesta a denuncias o infracciones identificadas.
 
 ### Servicios de mera transmisión
 Los servicios de mera transmisión quedan exentos de responsabilidad si solo transmiten los datos. Sin embargo, son responsables si:
