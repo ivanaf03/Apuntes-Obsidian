@@ -3,7 +3,7 @@
 ## ARP Spoofing
 Es una técnica para infiltrarse en red Ethernet conmutada. Permite al atacante leer paquetes de datos en la LAN, modificar el tráfico o detenerlo. El atacante intenta asociar su MAC con la IP de la víctima.
 
-El protocolo ARP envía un paquete (ARP request) ,a la dirección de difusión de la red, que contiene la dirección IP por la que se pregunta, y se espera a que esa máquina (u otra) responda (ARP reply) con la dirección Ethernet que le corresponde.
+El protocolo ARP envía un paquete (ARP request) a la dirección de difusión de la red, que contiene la dirección IP por la que se pregunta, y se espera a que esa máquina (u otra) responda (ARP reply) con la dirección Ethernet que le corresponde.
 
 Se puede hacer con ettercap, Cain y Abel, Dsniff... Se puede prevenir con MACs estáticas en caché ARP. Se puede detectar con wireshark, nast, arpwatch, ettercap, sentinel, ArpOn...
 
@@ -25,7 +25,7 @@ Las distros linux más modernas tienen dos ficheros, gcc_stable_time y base_rech
 nast -c avisa si una ip ha cambiado de mac (arp spoofing o arp poisoning).
 
 ### ICMP redirects
-Si envío este tipo de paquetes a una máquina me puede poner como router default. Es un half MIMT, normalmente los routers no aceptan ICMP redicrect. Se hace con:
+Si envío este tipo de paquetes a una máquina me puede poner como router default. Es un half MIMT, normalmente los routers no aceptan ICMP redirect. Se hace con:
 ```
 ettercap -M icmp -f mac/gateway /x.x.x.x//
 ```
