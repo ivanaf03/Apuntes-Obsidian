@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q5/LSI/Tema 2/Host discovery.md",
-                "mode": "source",
+                "file": "Q5/LSI/Presentación.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q5/LSI/Tema 2/Host discovery.md",
+                "file": "Q5/LSI/Presentación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q5/LSI/Tema 2/Host discovery.md"
+                "file": "Q5/LSI/Presentación.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q5/LSI/Tema 2/Host discovery.md",
+                "file": "Q5/LSI/Presentación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,32 +162,32 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
+    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
+    "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+    "Q5/LSI/Presentación.md",
+    "Q5/LSI/Lexislación e Seguridade Informática.md",
+    "Q5/LSI/Tema 3/Tema 3-Ocultación.md",
+    "Q5/LSI/Tema 3/Ataques a la ocultación en redes.md",
     "Q5/LSI/Tema 2/Tema 2-Information gathering.md",
-    "Q5/LSI/Tema 2/Identificación de máquinas.md",
-    "Q5/LSI/Tema 2/Host discovery.md",
-    "Q5/LSI/Tema 2/Fuentes públicas.md",
-    "Q5/LSI/Tema 2/Otros métodos de information gathering.md",
     "Q5/LSI/Tema 2/Fingerprinting.md",
     "Q5/LSI/Tema 2/Port scanning.md",
-    "Q5/LSI/Tema 2/Conceptos básicos de redes.md",
-    "Q5/LSI/Lexislación e Seguridade Informática.md",
-    "Q5/LSI/Tema 1/Tema 1-Categorías de ataques.md",
+    "Q5/LSI/Tema 2/Host discovery.md",
     "Q5/LSI/Tema 1/Redundancia y redes de comunicación.md",
     "Q5/LSI/Tema 1/Sistemas de detección de ataques.md",
     "Q5/LSI/Tema 1/Categorías o tipos de ataques.md",
-    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
-    "Q5/LSI/Tema 1D/Tema 1-Protección de datos personales.md",
-    "Q5/LSI/Presentación.md",
-    "Q5/LSI/Tema 2/Securización de servidores.md",
-    "Q5/LSI/Tema 3/Redes de anonimato.md",
-    "Q5/LSI/Tema 3/Tema 3-Ocultación.md",
-    "Q5/LSI/Tema 4/Tema 4-Sniffing.md",
-    "Q5/LSI/Tema 5/Tema 5-DoS y monitorización.md",
-    "Q5/LSI/Tema 1D/Tratamiento de datos personales.md",
-    "Q5/LSI/Tema 3/Objetivos de la ocultación.md",
     "Q5/LSI/Tema 6/Tema 6-IPTABLES.md",
-    "Q5/LSI/Tema 6/Firewall con control de estado.md",
     "Q5/LSI/Tema 6/Firewall sin control de estado.md",
+    "Q5/LSI/Tema 2/Conceptos básicos de redes.md",
+    "Q5/LSI/Tema 2/Identificación de máquinas.md",
+    "Q5/LSI/Tema 2/Exploits.md",
+    "Q5/LSI/Tema 2/OWASP top 10.md",
+    "Q5/LSI/Tema 2/Firewalls y entornos acotados.md",
+    "Q5/LSI/Tema 2/Fuentes públicas.md",
+    "Q5/LSI/Tema 3/Redes de anonimato.md",
+    "Q5/LSI/Tema 3/Funciones hash, contraseñas y ataques.md",
+    "Q5/LSI/Tema 3/Objetivos de la ocultación.md",
+    "Q5/LSI/Tema 2/Otros métodos de information gathering.md",
+    "Q5/LSI/Prácticas/P3.md",
     "Pasted image 20240112234554.png",
     "Imágenes/arp spoofing.png",
     "Imágenes/sniffing.png",
