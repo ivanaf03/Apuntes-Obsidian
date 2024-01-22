@@ -51,7 +51,7 @@ Se utilizan lo siguientes protocolos en VLAN:
 
 Para protegernos podemos hacer:
 + **Root bridge guard:** Cuando está habilitado, el "Root Bridge Guard" supervisa los puertos en un switch para asegurarse de que no haya un intento de usurpar la posición del "puente raíz". Si se detecta que un puerto intenta convertirse en el "puente raíz" (a menudo debido a un error de configuración o un intento malicioso), el "Root Bridge Guard" desactivará automáticamente ese puerto para prevenir posibles problemas en la red.
-  + **BPDU guard:** filtra los puertos para que no abran BPDU.
++ **BPDU guard:** filtra los puertos para que no abran BPDU.
 
 Para probar todo esto podemos usar GNS3, una herramienta similar a packet tracer. Es una herramienta de simulación de redes, pero permite darle una ISO a cada host.
 
