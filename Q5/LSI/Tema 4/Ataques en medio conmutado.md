@@ -40,12 +40,6 @@ ettercap -Tq -M dhcp: x.x.x.x/submask/router/DNS /x.x.x.x//
 
 Lo que se hace es configurar que puertos permiten dhcp offers para evitar el DHCP spoofing. Esto se llama DHCP snooping.
 
-### Port stealing
-Los conmutadores tienen de forma dinámica asignada una mac a cada puerto. El robo de puerto consiste en hacer un flood al puerto destino para que el conmutador asigne nuestra MAC como destino. Se hace con:
-```
-ettercap -M port ([remote][tree]) /x.x.x.x// #sin tree la MAC será la de nuestra propia máquina
-```
-
 ### NDP
 Se hace con:
 ```
@@ -75,4 +69,8 @@ El atacante envía multitud de tramas ARP (pero no con el objetivo de saturar la
 Una vez que el atacante recibe paquetes "robados", detiene el proceso de inundación y realiza un ARP request a la víctima (destino real del paquete). Esto provocará que la víctima recupere su puerto. En cuanto el atacante recibe el ARP reply sabe que la víctima ha recuperado su puerto, y le reenvía los paquetes robados. Entonces se puede reiniciar el proceso de inundación esperando nuevos paquetes. Se puede hacer con:
 ```
 ettercap -T -M port:remote /10.0.0.1// /10.0.0.15//
+
+ettercap -M port ([remote][tree]) /x.x.x.x// #sin tree la MAC será la de nuestra propia máquina
 ```
+
+
