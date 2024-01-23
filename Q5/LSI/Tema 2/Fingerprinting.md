@@ -127,7 +127,7 @@ The analysis would reveal: ˆServer: Microsoft-IIS/8.1: It is a
 Microsoft IIS, version 8.1.
 ```
 + **Indirect Banner Grabbing:** práctica de obtener información sobre un servicio de red específico sin conectarse directamente al servicio, utilizando métodos indirectos o técnicas que no implican establecer una conexión real. A diferencia del Direct Banner Grabbing, que implica una conexión activa al servicio, el Indirect Banner Grabbing utiliza métodos que no interactúan directamente con el servicio, lo que puede ser beneficioso en términos de sigilo y evasión de detección.
-+ **Fingerprinting a nivel ASCII:** con netcat es posible conectarse a cualquier máquina con puertos abiertos. Normalmente en una conexión lo primero es el paso de heaps o cabeceras. Por defecto el servidor suele decir de qué tipo es y qué módulos tiene abiertos. Securizar esto es tan fácil como modificar las cabeceras.
++ **Fingerprinting a nivel ASCII:** con netcat es posible conectarse a cualquier máquina con puertos abiertos. Normalmente en una conexión lo primero es el paso de heads o cabeceras. Por defecto el servidor suele decir de qué tipo es y qué módulos tiene abiertos. Securizar esto es tan fácil como modificar las cabeceras.
 + **Fingerprinting a nivel TCP-IP:** identificar sistemas operativos, servicios o aplicaciones en una red determinada mediante la observación y análisis de sus respuestas a solicitudes TCP/IP. La forma se securizarla es similar al nivel ASCII, cambiando las cabeceras.
 + **Fingerprinting a nivel ICMP:** identificar sistemas o dispositivos en una red al analizar y evaluar sus respuestas a los mensajes ICMP. Al igual que el anterior se basa en enviar paquetería a todos los operativos. Para securizarlo podemos filtrar el tráfico ICMP.
 
