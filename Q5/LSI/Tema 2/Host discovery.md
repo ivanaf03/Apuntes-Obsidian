@@ -12,7 +12,7 @@ nmap x.x.x.x
 ### Opciones de nmap
 + **--packet-trace:** permite ver los paquetes que envía nmap
 + **-sL:** lista los equipos de la red especificada, sin enviar paquetes. Utiliza resolución DNS inversa para obtener sus nombres.
-+ **-sP:** hace host discovery enviando paquetes a los objetivos (ICMP echo request, TCP SYN al puerto 443, TCP ACK al puerto 80, ICMP timestamp). En el caso de que el usuario que realiza el escaneo no tenga privilegios suficientes para enviar paquetes SYN (paquetes de inicio de conexión) a los puertos 80 y 443 utilizando una llamada al sistema "connect()", se limitará a enviar paquetes SYN a estos puertos. 
++ **-sP:** hace host discovery enviando paquetes a los objetivos (ICMP echo request, TCP SYN al puerto 443, TCP ACK al puerto 80, ICMP timestamp). En el caso de que el usuario que realiza el escaneo no tenga privilegios suficientes para enviar paquetes SYN (paquetes de inicio de conexión) a los puertos 80 y 443, utiliza la llamada al sistema "connect()".
 + **-PR:** envia solicitudes ARP a los hosts de la red y espera respuestas para determinar si los hosts están vivos o no. 
 + **--send-ip:** permite evitar que Nmap utilice ARP y, en su lugar, enviará solicitudes IP para descubrir sistemas en la red. El algoritmo que usa nmap para procesar las solicitudes ARP es mucho más rápido y fiable que los escaneos basados en IP.
 + **-PE:** realiza un escaneo de descubrimiento de hosts utilizando paquetes ICMP Echo Request.
