@@ -2,7 +2,8 @@
 
 ## Aircrack
 https://www.seguridadwireless.net/manual-aircrack-ng/
-+ **aerodump-ng mon0:** captura de paquetes en el canal 0 de una interfaz de red inalámbrica que se ha configurado en modo de monitor
+
++ **aerodump-ng mon0:** captura de paquetes en el canal 0 de una interfaz de red inalámbrica que se ha configurado en modo de monitor.
 
 802.11w es un estándar de autenticación y cifrado para prevenir DoS. También se puede con WIPS.  Dos muy conocidos son Cisco adaptative wireless IPS y Open WIPS-ng.
 
@@ -62,7 +63,7 @@ Por ejemplo, el estándar 802.11n puede agrupar 2 canales de 20MHz en un canal d
 WiFi 6 tiene modulación de acceso múltiple a división de frecuencias. Por ejemplo si tengo varias máquinas en el canal 1, cuando una máquina transmitía ocupaba todo el canal. Pero en WiFi 6 se divide la frecuencia en ventana más pequeñas por canal. Esto permite que pueda haber varias máquinas transmitiendo a la vez.
 
 ## White lists
-Un lwhite list es una serie de IPs permitidas. También podemos hacer priorización de tráfico y balanceo de carga. Otra forma es con el uso de TABs.
+Una white list es una serie de IPs permitidas. También podemos hacer priorización de tráfico y balanceo de carga. Otra forma es con el uso de TABs.
 
 ### Traffic scrubbing
 Es un servicio de limpieza de tráfico. Puede hacerse en la nube. Estos funcionan de forma que si detectan ataques DoS, las empresas que lo gestionan enrutan el tráfico hacia ellas y limpian el tráfico antes de reenviártelo.
