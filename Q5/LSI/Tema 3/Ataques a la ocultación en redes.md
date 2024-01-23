@@ -40,10 +40,10 @@ Hubo un ataque muy exitoso al protocolo WPS se debía a un proceso de autenticac
 Se cambia en el fichero de configuración del ssh (/etc/sshd.conf) el puerto del 22 al 443. Ahora con ssh -p 443 podemos conectarnos a ese servidor ssh. Un firewall que si haga filtrado de paquetes no lo permitiría. Ahora el puerto al que te conectas con http://localhost:puerto, estarías reforwardeado al puerto de la máquina a la que te has conectado.
 
 ```
-ssh -l user -L puerto:x.x.x.x:2128
+ssh -l user -L x.x.x.x:2128
 ```
 
-Si puerto= 0.0.0.0, podremos servir de router y otra máquina puede conectarse a la nuestra para conectarse a la remota.
+Si x.x.x.x= 0.0.0.0, podremos servir de router y otra máquina puede conectarse a la nuestra para conectarse a la remota.
 
 ```
 ssh -p 443 -fN -D 0.0.0.0:1080 user@x.x.x.x # forwardeo dinámico, proxy sock para saltarse un firewall (suele ser necesario un servicio de dns dinámico si no tenemos la misma IP siempre)
