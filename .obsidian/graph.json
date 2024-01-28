@@ -4,55 +4,19 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:Q5/IPM  ",
-      "color": {
-        "a": 1,
-        "rgb": 16774912
-      }
-    },
-    {
-      "query": "path:Q5/LSI  ",
-      "color": {
-        "a": 1,
-        "rgb": 16755200
-      }
-    },
-    {
-      "query": "path:Q5/XI  ",
-      "color": {
-        "a": 1,
-        "rgb": 13311
-      }
-    },
-    {
-      "query": "path:Q5/XP  ",
-      "color": {
-        "a": 1,
-        "rgb": 15597823
-      }
-    },
-    {
-      "query": "path:Q5/ISD  ",
-      "color": {
-        "a": 1,
-        "rgb": 65450
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 0.818191268191268,
-  "lineSizeMultiplier": 1.53128898128898,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 1,
-  "repelStrength": 20,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.22920135941749506,
-  "close": true
+  "linkDistance": 250,
+  "scale": 0.22920135941749578,
+  "close": false
 }
