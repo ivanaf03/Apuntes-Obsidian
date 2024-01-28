@@ -49,7 +49,7 @@ ettercap -M ndp //fe80:.../
 ### DNS spoofing
 En /etc/ettercap/etter.dns se pueden añadir cosas como www.google.es A 10.11.48.25. Luego se hace:
 ```
-ettercap -Tq -i ens33 -P dns_spoof -f repoison_arp -P sslstricp -M /10.11.48.x// ///
+ettercap -Tq -i ens33 -P dns_spoof -f repoison_arp -P sslstrip -M /10.11.48.x// ///
 ```
 
 Para securizar el DNS se hace con DNSSec. Es un protocolo seguro que garantiza autenticación, integridad de datos mediante registros dns key... Pero no cifra, nos pueden interceptar las peticiones dns. Eso sí, evita el dns spoofing. Para cifrarlo se puede hacer con DOT (DNS over TLS). 
