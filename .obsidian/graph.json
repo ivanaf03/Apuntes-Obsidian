@@ -6,17 +6,88 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:Q5/XI  ",
+      "color": {
+        "a": 1,
+        "rgb": 16514816
+      }
+    },
+    {
+      "query": "path:Q5/XP ",
+      "color": {
+        "a": 1,
+        "rgb": 16755200
+      }
+    },
+    {
+      "query": "path:Q5/IPM  ",
+      "color": {
+        "a": 1,
+        "rgb": 16449791
+      }
+    },
+    {
+      "query": "path:Q5/ISD  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:Q5/LSI  ",
+      "color": {
+        "a": 1,
+        "rgb": 52479
+      }
+    },
+    {
+      "query": "path:Q6/PA  ",
+      "color": {
+        "a": 1,
+        "rgb": 486144
+      }
+    },
+    {
+      "query": "path:Q6/AS  ",
+      "color": {
+        "a": 1,
+        "rgb": 9175295
+      }
+    },
+    {
+      "query": "path:Q6/ER  ",
+      "color": {
+        "a": 1,
+        "rgb": 16726102
+      }
+    },
+    {
+      "query": "path:Q6/ACL  ",
+      "color": {
+        "a": 1,
+        "rgb": 7361024
+      }
+    },
+    {
+      "query": "path:Q6/BDA  ",
+      "color": {
+        "a": 1,
+        "rgb": 1966335
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 0.997467608951708,
+  "lineSizeMultiplier": 0.524204946996466,
+  "collapse-forces": false,
+  "centerStrength": 1,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.22920135941749578,
-  "close": false
+  "linkDistance": 30,
+  "scale": 1.2414543899483312,
+  "close": true
 }
