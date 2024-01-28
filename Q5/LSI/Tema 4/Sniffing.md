@@ -32,7 +32,7 @@ Para segmentar un dominio de difusión podemos:
 Para capturar tráfico en un medio conmutado se utilizan las siguientes técnicas:
 ![[sniffing.png]]
 
-### Port mirroring
+### Port mirroring o span
 Es una técnica utilizada en redes informáticas para la copia selectiva y redirección del tráfico de red desde un puerto de un switch de red a otro puerto, generalmente con fines de monitoreo y análisis.
 
 ### VLANs
@@ -91,5 +91,5 @@ Una forma es con inyección en el certificado. Se puede hacer con sslstrip o ssl
 
 ## Herramientas de detección
 + **NEDEP:** Realiza petición ARP para cada IP a diagnosticar pero en lugar de dirigirla a la dirección de broadcast (FF:FF:FF:FF:FF:FF) lo hace a una aleatoria e inexistente. Sólo las interfaces en modo promiscuo aceptarán estos paquetes (aceptan todos), luego sólo estas interfaces contestarán a estas peticiones.
-+ **Nast:** Busca tarjetas en modo "promiscuo“. Con = all comprueba todas las NIC de la red.
++ **Nast:** Busca tarjetas en modo "promiscuo". Con = all comprueba todas las NIC de la red.
 + **Otras:** Sentinel, AntiSniff, SniffDet... 
