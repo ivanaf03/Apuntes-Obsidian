@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+                "file": "Q6/BDA/Catálogo/Casos de uso.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+                "file": "Q6/BDA/Catálogo/Casos de uso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md"
+                "file": "Q6/BDA/Catálogo/Casos de uso.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+                "file": "Q6/BDA/Catálogo/Casos de uso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,9 +140,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "775952b6d47b31e9",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -151,23 +159,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "canvas:Crear nuevo canvas": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian42-brat:BRAT": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Imágenes/grafica productividad.png",
+    "Q6/BDA/Catálogo/Catálogo.md",
+    "Q6/BDA/Catálogo/Catálogo SQL estándar.md",
+    "Q6/BDA/Catálogo/Catálogo del sistema.md",
+    "Imágenes/esquema conceptual externo fisico.png",
+    "Q6/BDA/Catálogo/Introducción de catálogo.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
     "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
     "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
     "Q6/ACL/Tema 1/Solución para la mejora.md",
     "Q6/ACL/Tema 1/Grado de cumplimiento.md",
     "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
+    "Sin título.canvas",
+    "Imágenes/grafica productividad.png",
     "Q6/ACL/Aseguramento da calidade.md",
     "Q6/ACL/Tema 1/Tema 1-Calidad en el proceso software e ISO 9000.md",
     "Q6/ACL/Tema 1",
@@ -178,13 +194,8 @@
     "Q5/Q5.md",
     "Ingeniería Informática.md",
     "Q6/BDA/Catálogo/Casos de uso.md",
-    "Q6/BDA/Catálogo/Catálogo.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
     "Q6/BDA/Catálogo",
-    "Q6/BDA/Catálogo/Catálogo SQL estándar.md",
-    "Q6/BDA/Catálogo/Catálogo del sistema.md",
     "Imágenes/catalogo.png",
-    "Q6/BDA/Catálogo/Introducción de catálogo.md",
     "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
     "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
     "Q5/ISD/Tema 5/Parsing de JSON.md",
@@ -204,11 +215,8 @@
     "Imágenes/Tor 5.png",
     "Imágenes/Tor 4.png",
     "Imágenes/Tor 3.png",
-    "Imágenes/Tor 2.png",
-    "Imágenes/Tor 1.png",
     "Q5/XI/Tema 4",
     "Q5/XI/Tema 2",
-    "Sin título 1.canvas",
-    "Sin título.canvas"
+    "Sin título 1.canvas"
   ]
 }
