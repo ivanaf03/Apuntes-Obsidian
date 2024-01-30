@@ -11,8 +11,12 @@
             "id": "b6e61bbef8fbfce1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md"
+              }
             }
           },
           {
@@ -123,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,20 +160,31 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b6e61bbef8fbfce1",
+  "active": "995f13a032b9c717",
   "lastOpenFiles": [
+    "Imágenes/grafica productividad.png",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
+    "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+    "Q6/ACL/Tema 1/Solución para la mejora.md",
+    "Q6/ACL/Tema 1/Grado de cumplimiento.md",
+    "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
+    "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Tema 1/Tema 1-Calidad en el proceso software e ISO 9000.md",
+    "Q6/ACL/Tema 1",
     "Q6/Q6.md",
+    "Q5/XI/Tema 7/Introducción a la virtualización de red.md",
+    "Q5/XI/Tema 7/Tema 7-Virtualización de red.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/Q5.md",
     "Ingeniería Informática.md",
+    "Q6/BDA/Catálogo/Casos de uso.md",
     "Q6/BDA/Catálogo/Catálogo.md",
     "Q6/BDA/Bases de datos avanzadas.md",
     "Q6/BDA/Catálogo",
-    "Q6/BDA/Catálogo/Casos de uso.md",
     "Q6/BDA/Catálogo/Catálogo SQL estándar.md",
     "Q6/BDA/Catálogo/Catálogo del sistema.md",
     "Imágenes/catalogo.png",
     "Q6/BDA/Catálogo/Introducción de catálogo.md",
-    "Q5/Q5.md",
-    "Q5/XI/Xestión de Infraestruturas.md",
     "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
     "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
     "Q5/ISD/Tema 5/Parsing de JSON.md",
@@ -177,17 +196,8 @@
     "Q6/ACL",
     "Q6/ER/Enxeñaría de requisitos.md",
     "Q6/AS/Arquitectura do software.md",
-    "Q6/ACL/Aseguramento da calidade.md",
     "Imágenes/Horario6.png",
     "Q6",
-    "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
-    "Q5/LSI/Tema 1D/Tema 1-Protección de datos personales.md",
-    "Q5/LSI/Tema 4/Medidas de protección.md",
-    "Q5/LSI/Tema 4/Tema 4-Sniffing.md",
-    "Q5/LSI/Tema 4/Ataques en medio conmutado.md",
-    "Q5/LSI/Tema 4/Sniffing.md",
-    "Q5/LSI/Lexislación e Seguridade Informática.md",
-    "Q5/LSI/Tema 3/Tema 3-Ocultación.md",
     "Pasted image 20240112234554.png",
     "Imágenes/arp spoofing.png",
     "Imágenes/sniffing.png",
@@ -198,7 +208,6 @@
     "Imágenes/Tor 1.png",
     "Q5/XI/Tema 4",
     "Q5/XI/Tema 2",
-    "Q5/XI/Tema 9",
     "Sin título 1.canvas",
     "Sin título.canvas"
   ]
