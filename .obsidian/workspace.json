@@ -11,24 +11,11 @@
             "id": "b6e61bbef8fbfce1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Q6/Q6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73654108fad632bc",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,10 +152,23 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "73654108fad632bc",
+  "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
-    "Ingeniería Informática.md",
     "Q6/Q6.md",
+    "Ingeniería Informática.md",
+    "Q6/BDA/Catálogo/Catálogo.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/BDA/Catálogo",
+    "Q6/BDA/Catálogo/Casos de uso.md",
+    "Q6/BDA/Catálogo/Catálogo SQL estándar.md",
+    "Q6/BDA/Catálogo/Catálogo del sistema.md",
+    "Imágenes/catalogo.png",
+    "Q6/BDA/Catálogo/Introducción de catálogo.md",
+    "Q5/Q5.md",
+    "Q5/XI/Xestión de Infraestruturas.md",
+    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
+    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
+    "Q5/ISD/Tema 5/Parsing de JSON.md",
     "Q6/PA/Programación avanzada.md",
     "Q6/ER",
     "Q6/BDA",
@@ -178,9 +178,7 @@
     "Q6/ER/Enxeñaría de requisitos.md",
     "Q6/AS/Arquitectura do software.md",
     "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
     "Imágenes/Horario6.png",
-    "Q5/Q5.md",
     "Q6",
     "Q5/ISD/Tema 1/Características de las aplicaciones empresariales.md",
     "Q5/LSI/Tema 1D/Tema 1-Protección de datos personales.md",
@@ -190,15 +188,6 @@
     "Q5/LSI/Tema 4/Sniffing.md",
     "Q5/LSI/Lexislación e Seguridade Informática.md",
     "Q5/LSI/Tema 3/Tema 3-Ocultación.md",
-    "Q5/LSI/Tema 6/Tema 6-IPTABLES.md",
-    "Q5/LSI/Tema 6/Firewall sin control de estado.md",
-    "Q5/LSI/Tema 6/Firewall con control de estado.md",
-    "Q5/LSI/Prácticas/P3.md",
-    "Q5/LSI/Prácticas/P2.md",
-    "Q5/LSI/Tema 2D/Digital Services Act.md",
-    "Q5/LSI/Tema 2D/Tema 2-La regulación jurídica de intermediarios y DSA.md",
-    "Q5/LSI/Tema 2D/Responsabilidad de los servicios de intermediación.md",
-    "Q5/LSI/Tema 1D/Principios relativos al tratamiento de datos.md",
     "Pasted image 20240112234554.png",
     "Imágenes/arp spoofing.png",
     "Imágenes/sniffing.png",
@@ -207,11 +196,9 @@
     "Imágenes/Tor 3.png",
     "Imágenes/Tor 2.png",
     "Imágenes/Tor 1.png",
-    "Imágenes/mvc vs mvp.png",
     "Q5/XI/Tema 4",
     "Q5/XI/Tema 2",
     "Q5/XI/Tema 9",
-    "Q5/XI/Tema 11",
     "Sin título 1.canvas",
     "Sin título.canvas"
   ]
