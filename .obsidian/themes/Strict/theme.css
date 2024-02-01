@@ -1,6 +1,8 @@
 * {
     /* Disable all animations */
     transition: none !important;
+	/* Change highlight color */
+	--text-highlight-bg: #006600;
 }
 
 /* ======================================== */
@@ -682,5 +684,36 @@ pre {
 .metadata-container .metadata-add-button {
     /* Remove extra margins */
     margin-top: 0;
+}
+/* ======================================== */
+
+/* Remove borders around focused document */
+body:not(.is-phone) .workspace-leaf.mod-active .tree-item-self.has-focus {
+	box-shadow: none !important;
+}
+
+/* Hand as cursor when hovering breadcrumbs */
+.view-header-breadcrumb {
+	cursor: pointer !important;
+}
+
+/* ======================================== */
+/* Math */
+/* ======================================== */
+.math {
+	background-color: var(--code-background);
+	border-radius: var(--code-radius);
+	/* Imitates inline code */
+	padding: 0.1em 0.25em;
+}
+
+.math-block {
+	border: var(--strict-separator) !important;
+	font-size: large;
+	padding: 0 !important;
+}
+
+.MathJax {
+	padding: 12px 0 !important;
 }
 /* ======================================== */
