@@ -1,14 +1,18 @@
 [[Tema 1-Mejoras del proceso software]]
 
 ## Creencias en contra
-Se suele creer que a mayor calidad menor productividad. Por ejemplo, se piensa que es más fácil hacer 1000 líneas de código malas que 1000 con la calidad sugerida.
+Se suele creer que a mayor calidad menor productividad. Sin embargo, estos dos aspectos son complementarios, no antagónicos.
 
 ## Realidades a favor
-Para salir de la crisis del software en los años 70 se empezó a trabajar en las 4P:
-+ **Producto:**
-+ **Proceso:** 
+Para salir de la crisis del software en los años 70 se empezó a trabajar en las `4P`:
++ **Producto:** aparición de métricas, metodologías...
++ **Proceso:** estándares como CMMI, ISO 9000, SPICE...
 + **Personas:** formación de las personas.
-+ **Problema:** conocer el problema y que el usuario lo conozca.
++ **Problema:** conocimiento del problema por el usuario y la organización.
 
+### Mejoras en el proceso
+Estos estándares se centran en aumentar el control durante todo el proceso en cuanto a tiempo, esfuerzo, coste y calidad. Esta solución es lenta y no siempre efectiva. Sin embargo, si se hace bien suele dar muy buenos resultados como se muestra en la gráfica:
 ![[grafica productividad.png]]
-A mejor nivel de CMMI, mayor es el indicador de productividad.
+
+
+
