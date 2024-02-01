@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Catálogo/Casos de uso.md",
+                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Catálogo/Casos de uso.md",
+                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Catálogo/Casos de uso.md"
+                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Catálogo/Casos de uso.md",
+                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             }
           },
           {
-            "id": "775952b6d47b31e9",
+            "id": "54c83094714f7b62",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -171,6 +171,25 @@
   },
   "active": "b6e61bbef8fbfce1",
   "lastOpenFiles": [
+    "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Prácticas/Práctica 1 ACL.md",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/ACL/Prácticas",
+    "Q6/ER/Enxeñaría de requisitos.md",
+    "Q6/PA/Tema 1/Visión global del ejemplo.md",
+    "Imágenes/get servicios.png",
+    "Imágenes/entidades ejemplo pa.png",
+    "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
+    "Q6/PA/Tema 1/Entornos de desarrollo.md",
+    "Imágenes/nuestro entorno.png",
+    "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
+    "Imágenes/aplicación web spa.png",
+    "Imágenes/aplicacion web modelo remota.png",
+    "Imágenes/aplicacion web modelo local.png",
+    "Imágenes/arquitectura móvil.png",
+    "Imágenes/arquitectura de referencia.png",
+    "Q6/PA/Tema 1",
+    "Q6/BDA/Catálogo/Casos de uso.md",
     "Q6/BDA/Catálogo/Catálogo.md",
     "Q6/BDA/Catálogo/Catálogo SQL estándar.md",
     "Q6/BDA/Catálogo/Catálogo del sistema.md",
@@ -184,7 +203,6 @@
     "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
     "Sin título.canvas",
     "Imágenes/grafica productividad.png",
-    "Q6/ACL/Aseguramento da calidade.md",
     "Q6/ACL/Tema 1/Tema 1-Calidad en el proceso software e ISO 9000.md",
     "Q6/ACL/Tema 1",
     "Q6/Q6.md",
@@ -193,30 +211,13 @@
     "Q5/XI/Xestión de Infraestruturas.md",
     "Q5/Q5.md",
     "Ingeniería Informática.md",
-    "Q6/BDA/Catálogo/Casos de uso.md",
     "Q6/BDA/Catálogo",
-    "Imágenes/catalogo.png",
-    "Q5/XI/Tema 10/Tema 10-Virtualización de servidores.md",
-    "Q5/XI/Tema 10/Virtualización de almacenamiento.md",
-    "Q5/ISD/Tema 5/Parsing de JSON.md",
-    "Q6/PA/Programación avanzada.md",
     "Q6/ER",
     "Q6/BDA",
     "Q6/AS",
     "Q6/PA",
     "Q6/ACL",
-    "Q6/ER/Enxeñaría de requisitos.md",
-    "Q6/AS/Arquitectura do software.md",
-    "Imágenes/Horario6.png",
     "Q6",
-    "Pasted image 20240112234554.png",
-    "Imágenes/arp spoofing.png",
-    "Imágenes/sniffing.png",
-    "Imágenes/Tor 5.png",
-    "Imágenes/Tor 4.png",
-    "Imágenes/Tor 3.png",
-    "Q5/XI/Tema 4",
-    "Q5/XI/Tema 2",
     "Sin título 1.canvas"
   ]
 }
