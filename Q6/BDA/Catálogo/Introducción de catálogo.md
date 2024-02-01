@@ -1,11 +1,11 @@
 [[Catálogo]]
 
 ## Metadatos
-Un sistema de información suele plasmar conocimiento sobre un dominio. Están formados por ficheros y programas que los manejan. 
+Un sistema de información suele plasmar conocimiento sobre un dominio. Antes estaban formados por ficheros y programas que los manejan. La estructura y la descripción de los datos estaba en el propio código. Esta metodología hacía que varios programas pudieran tener información incompatible y no había documentación sobre los usuarios, permisos...
 
-Suele haber dos tipos de metadatos:
-+ **Diccionario de datos:** 
-+ **Catálogo:** lo crea la base de datos. Lo mantiene el propio sistema y los usuarios no pueden modificarlo.
+Por esto aparecieron:
++ Diccionario de datos
++ Catálogo
 
 ### Diccionario de datos
 Es un repositorio de información que almacena metadatos. Incluye información sobre los datos, como tamaño, restricciones, usuarios autorizados, etc.
@@ -20,7 +20,11 @@ Un DD permite:
 + Generar la definición de datos en lenguajes de programación que accedan a ellos.
 
 ### Catálogo del sistema
-Es un conjunto de tablas que almacenan metadatos sobre la base de datos y los exponen de forma amigable. Se suelen llamar tablas o vistas del sistema.
+Es un conjunto de tablas que almacenan metadatos sobre la base de datos y los exponen de forma amigable. Se suelen llamar `tablas o vistas del sistema`.
 
-Es creado por el SGBD y es de solo lectura para los usuarios. Se pueden hacer modificaciones en el catálogo, por ejemplo, creando una tabla.
+Es creado por el SGBD y es de solo lectura para los usuarios. Los usuario hacen modificaciones en el catálogo, por ejemplo, creando una tabla o haciendo otras operaciones DDL.
+
+El SGBD utiliza el catálogo continuamente para realizar sus funciones. Es vital para el funcionamiento del sistema.
+
+
 
