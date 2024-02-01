@@ -8,3 +8,6 @@ Temario:
 + [[Tema 5-Otros modelos de calidad]]
 + [[Tema 6-Medición de la calidad]]
 
+Prácticas:
++ [[Práctica 1 ACL]]
+
