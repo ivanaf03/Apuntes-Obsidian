@@ -34,6 +34,13 @@
   --pdf-title-h6: #6c00be;
 }
 
+/* That weird dot fix */
+
+
+.workspace-tab-container .workspace-leaf.mod-active hr.workspace-leaf-resize-handle, .workspace-tab-container .workspace-leaf .workspace-leaf-resize-handle {
+  display: none;
+}
+
 /* Normal Text Color */
 
 .markdown-source-view.mod-cm6 .cm-line, .markdown-rendered tbody tr > td:last-child, .markdown-rendered tbody tr > td:first-child {
