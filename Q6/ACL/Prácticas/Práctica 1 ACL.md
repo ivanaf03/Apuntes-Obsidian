@@ -9,7 +9,7 @@
 Búsqueda de herramientas, plataformas, soluciones informáticas que permiten que una empresa monte su sistema de calidad en base a ISO 9000. Cada herramienta tiene una diapositiva asociada con nombre, funcionalidades, ventajas e inconvenientes y coste. Al final una diapositiva explicando con cuál nos quedamos.
 
 ## Manual de calidad
-Explicar que es un manual de calidad, qué es, para qué sirve, que contiene y un posible índice del manual.
+Explicar qué es un manual de calidad, qué es, para qué sirve, que contiene y un posible índice del manual.
 
 ## Manual de procedimientos
 Explicar que es un manual de procedimientos, qué es, para qué sirve, que contiene y un posible índice del manual.
