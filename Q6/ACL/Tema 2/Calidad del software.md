@@ -19,7 +19,13 @@ No participan en el proyecto. Por tanto pueden judgar fácilmente si se está si
 El control de calidad lo hace siempre un técnico. El aseguramiento de la calidad lo hace el departamento de gestión de calidad.
 
 ## Calidad del software
-La calidad del software no es algo que se pueda mirar después de generar código. Un ejemplo es comprobando que el entidad-relación cumple las formas normales. Se aplica a lo largo de todo el proceso de desarrollo.
+La calidad del software no es algo que se pueda mirar después de generar código. Un ejemplo es comprobando que el entidad-relación cumple las formas normales. Se aplica a lo largo de todo el proceso de desarrollo. Abarca:
++ Proceso de garantía de la calidad del software.
++ Tareas de aseguramiento y control de la calidad.
++ Prácticas de ingeniería de software.
++ Gestión de configuración software.
++ Procedimiento de garantización de estándares.
++ Mecanismos de generación y medición de informes.
 
 ### Eficacia y eficiencia
 Algo eficaz es algo que resuelve el problema. Algo eficiente es algo que gestiona bien el uso de recursos.
