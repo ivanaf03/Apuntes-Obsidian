@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6e61bbef8fbfce1",
+            "id": "0ac37e51a7619e46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md",
-                "mode": "source",
+                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md",
+                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md"
+                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 1 ACL.md",
+                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,17 +169,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b6e61bbef8fbfce1",
+  "active": "0ac37e51a7619e46",
   "lastOpenFiles": [
+    "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
+    "Q6/PA/Tema 1/Visión global del ejemplo.md",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/Q6.md",
     "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
     "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
     "Q6/ACL/Tema 2/Evolución de la calidad.md",
-    "Pasted image 20240206112412.png",
     "Q6/ACL/Tema 2/Calidad del software.md",
     "Q6/ACL/Tema 2/Modelos de calidad del software.md",
-    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
+    "Q6/ACL/Prácticas/Práctica 1 ACL.md",
+    "Pasted image 20240206112412.png",
     "Q6/ACL/Tema 2",
-    "Q6/Q6.md",
     "Q6/BDA/Bases de datos avanzadas.md",
     "Q6/BDA/Vistas/Vistas.md",
     "Q6/BDA/Vistas/Vistas materializadas.md",
@@ -189,16 +193,13 @@
     "Q6/BDA/Catálogo/Catálogo.md",
     "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
     "Q6/BDA/Vistas",
-    "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
     "Q6/PA/Tema 1/Entornos de desarrollo.md",
     "Q6/AS/Arquitectura do software.md",
-    "Q6/ACL/Prácticas/Práctica 1 ACL.md",
     "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
     "Q6/ACL/Tema 1/Solución para la mejora.md",
     "Q6/ACL/Tema 1/Grado de cumplimiento.md",
     "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
     "Q6/ER/Tema 1/Definiciones de ingeniería de requisitos.md",
-    "Q6/ER/Tema 1/Tema 1-Introducción a la ingeniería de requisitos.md",
     "Q6/ER/Tema 1",
     "Imágenes/clases asociación 2.png",
     "Imágenes/clase asociación.png",
