@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
-                "mode": "preview",
+                "file": "Q6/BDA/Vistas/Introducción a vistas.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
+                "file": "Q6/BDA/Vistas/Introducción a vistas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md"
+                "file": "Q6/BDA/Vistas/Introducción a vistas.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
+                "file": "Q6/BDA/Vistas/Introducción a vistas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             }
           },
           {
-            "id": "6fc85eeed89f8230",
+            "id": "127d0a31bcabbf9d",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -171,53 +171,53 @@
   },
   "active": "0ac37e51a7619e46",
   "lastOpenFiles": [
-    "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
-    "Q6/PA/Tema 1/Visión global del ejemplo.md",
-    "Q6/PA/Programación avanzada.md",
+    "Q6/BDA/Vistas/Vistas.md",
+    "Q6/BDA/Vistas/Introducción a vistas.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/BDA/Catálogo/Catálogo.md",
+    "Q6/BDA/Catálogo/Casos de uso.md",
+    "Q6/BDA/Catálogo/Catálogo SQL estándar.md",
+    "Q6/BDA/Catálogo/Catálogo del sistema.md",
+    "Q6/BDA/Catálogo/Introducción al catálogo.md",
+    "Q6/AS/Prácticas/Tutorial de Elixir.md",
+    "Q6/AS/Arquitectura do software.md",
+    "Q6/AS/Tema 1/Tema 1-Introducción a la arquitectura de software.md",
+    "Q6/AS/Prácticas",
+    "Q6/AS/Tema 1/Requisitos no funcionales.md",
+    "Q6/AS/Tema 1/Arquitectura de software.md",
     "Q6/Q6.md",
-    "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
-    "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
-    "Q6/ACL/Tema 2/Evolución de la calidad.md",
-    "Q6/ACL/Tema 2/Calidad del software.md",
-    "Q6/ACL/Tema 2/Modelos de calidad del software.md",
+    "Q6/AS/Tema 1",
+    "Q6/ER/Enxeñaría de requisitos.md",
+    "Q6/ER/Tema 2/Tema 2-La máquina y el mundo.md",
+    "Q6/ER/Tema 2/Especificación.md",
+    "Q6/ER/Tema 2/Requisitos.md",
+    "Q6/ER/Tema 2/Entorno.md",
+    "Q6/ER/Tema 2/El modelo WRSPM.md",
+    "Q6/BDA/Prácticas/Modelado de datos.md",
+    "Q6/ER/Tema 2",
+    "Imágenes/subclases y superclases.png",
+    "Imágenes/composición.png",
+    "Imágenes/agregación.png",
     "Q6/ACL/Prácticas/Práctica 1 ACL.md",
+    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
+    "Q6/PA/Tema 2/Desarrollo de DAOs.md",
+    "Imágenes/paginación.png",
+    "Q6/PA/Tema 2/Modelado de entidades en JPA.md",
+    "Imágenes/11 PA.png",
+    "Imágenes/1N PA.png",
+    "Q6/PA/Tema 2/Modelado de relaciones en JPA.md",
+    "Imágenes/modelado de relaciones.png",
+    "Imágenes/tabla Order.png",
+    "Imágenes/entidades PA.png",
+    "Q6/PA/Tema 2",
     "Pasted image 20240206112412.png",
     "Q6/ACL/Tema 2",
-    "Q6/BDA/Bases de datos avanzadas.md",
-    "Q6/BDA/Vistas/Vistas.md",
-    "Q6/BDA/Vistas/Vistas materializadas.md",
-    "Q6/BDA/Vistas/Vistas en Oracle.md",
-    "Q6/BDA/Vistas/Introducción a vistas.md",
-    "Q6/BDA/Vistas/Vistas en SQL estándar.md",
-    "Q6/BDA/Catálogo/Catálogo.md",
-    "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
     "Q6/BDA/Vistas",
-    "Q6/PA/Tema 1/Entornos de desarrollo.md",
-    "Q6/AS/Arquitectura do software.md",
-    "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
-    "Q6/ACL/Tema 1/Solución para la mejora.md",
-    "Q6/ACL/Tema 1/Grado de cumplimiento.md",
-    "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
-    "Q6/ER/Tema 1/Definiciones de ingeniería de requisitos.md",
     "Q6/ER/Tema 1",
-    "Imágenes/clases asociación 2.png",
-    "Imágenes/clase asociación.png",
     "Q6/BDA/Prácticas",
     "Q6/ACL/Prácticas",
-    "Imágenes/get servicios.png",
-    "Imágenes/entidades ejemplo pa.png",
-    "Imágenes/nuestro entorno.png",
-    "Imágenes/aplicación web spa.png",
-    "Imágenes/aplicacion web modelo remota.png",
-    "Imágenes/aplicacion web modelo local.png",
-    "Imágenes/arquitectura móvil.png",
     "Q6/PA/Tema 1",
     "Sin título.canvas",
-    "Q6/ACL/Tema 1",
-    "Q6/BDA/Catálogo",
-    "Q6/ER",
-    "Q6/BDA",
     "Sin título 1.canvas"
   ]
 }
