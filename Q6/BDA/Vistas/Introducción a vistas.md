@@ -1,11 +1,14 @@
 [[Vistas]]
 
-## Vistas en arquitectura ANSI/SPARK
-En el esquema conceptual se definen las tablas y las reglas de integridad. En el esquema físico se definen los ficheros donde se guarda la información. En el esquema externo se ofrece a cada usuario la visión que necesita mediante las vistas.
+# Vistas en arquitectura ANSI/SPARK
++ [<] **Arquitectura:**
++ *Esquema conceptual:* define las tablas y las reglas de integridad. 
++ *Esquema físico:* define los ficheros donde se guarda la información.
++ *Esquema externo:* ofrece a cada usuario la visión que necesita mediante las vistas.
 
 Ayudan a conseguir independencia lógica, es decir, podemos hacer cambios en el esquema conceptual sin que el usuario lo note en las vistas.
 
-## Vistas para SQL 
+# Vistas para SQL y SGBD relacionales
 Una vista es una tabla virtual porque no almacena datos, simplemente los expone. Estos datos se obtienen como consultas de otras tablas o vistas.
 
 Una tabla almacena su información en el catálogo y los almacena. Pueden ser:
