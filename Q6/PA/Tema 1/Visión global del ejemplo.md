@@ -5,8 +5,8 @@
 
 ## DAOs
 ```java
-public interface OrderDao extends CrudRepository {
-	Slice findByUserIdOrderByDateDesc(Long userId, Pageable pageable);
+public interface OrderDao extends CrudRepository<Order, Long> {
+	Slice<Order> findByUserIdOrderByDateDesc(Long userId, Pageable pageable);
 }
 ```
 
@@ -52,3 +52,46 @@ public class ShoppingServiceImpl implements ShoppingService {
 
 ## Servicios
 ![[get servicios.png]]
+```java
+@RequestMapping("/shopping")
+public class ShoppingController { 
+
+...
+
+	@GetMapping("/orders/{orderId}") //Se convierte directamente a JSON
+	public OrderDto findOrder(@RequestAttribute Long userId, @PathVariable Long orderId) throws InstanceNotFoundException, PermissionException {
+	return toOrderDto(shoppingService.findOrder(userId, orderId));
+	} 
+}
+```
+
+## Acceso a servicios
+Se realiza una función or cada caso de uso:
+```javascript
+export const findOrder = (orderId, onSuccess) => appFetch(`/shopping/orders/${orderId}`, config('GET', null), onSuccess);
+```
+
+Se invoca desde la UI como:
+```javascript
+backend.shoppingService.findOrder(orderId, order => {
+	//procesar_orden
+});
+```
+
+## UI
+Se enfoca a componentes, es decir, el desarrollador implementa la UI como conjunto de pequeños fragmentos HTML que responde a los eventos del usuario.
+
+Sus ventajas son que se basa en divide y vencerás y que genera código reusable.
+
+Por ejemplo un componente:
+```javascript
+const Buy = ({cart}) => cart.items.length > 0 && (
+	<div>
+		<BuyForm/> //genera el html del formulario de compra
+		<ShoppingItemList list={cart}/> //html del carrito
+	</div>
+);
+```
+
+
+
