@@ -13,6 +13,13 @@
 ![[aplicacion web modelo remota.png]]
 
 ## Aplicación web SPA
-![[aplicación web spa.png]]El servidor web aloja una página HTML mínima que contiene referencias a CSS y a JS. El navegador hace un GET a esa página, la parsea y accede al código JS, que pinta toda la UI de la aplicación.
+![[aplicación web spa.png]]
+Una aplicación SPA está formada por:
++ **Frontend:** JavaScript en el navegador.
++ **Backend:** REST/JSON y capa modelo.
 
-Profesionalmente muchas aplicaciones combinan peticiones al navegador de páginas HTML con aplicaciones SPA.
+El servidor web aloja una página HTML mínima que contiene referencias a CSS y a JS. El navegador hace un GET a esa página, la parsea y accede al código JS, que pinta toda la UI de la aplicación.
+
+La UI reacciona a los eventos del usuario y hace peticiones al backend a través de la capa de acceso a servicios. Además manipula el árbol DOM de la página con los datos devueltos por el servicio.
+
+En el ámbito profesional, muchas aplicaciones combinan peticiones al navegador de páginas HTML con aplicaciones SPA.
