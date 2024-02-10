@@ -1,55 +1,46 @@
-[[Bases de datos avanzadas]]
+[[Catálogo]]
 
-## Oracle
+# Oracle
 Oracle no sigue el estándar. 
 
-Una instalación de Oracle tiene los siguientes elementos:
+## Elementos de una instalación
++ [<] **Una instalación contiene:**
 + Una única base de datos (versión 11) o varias, el `Container Database` (versión 12). Podemos añadir `Pluggable Database` desde esta última versión.
-+ Cada base de datos tiene usuario propios.
-+ Cada usuario tiene un único esquema (mismo nombre).
-+ Cada esquema tiene elementos, denominados `objects`: tablas, vistas, índices...
++ Usuarios propios.
++ Un esquema por usuario con el mismo nombre.
++ Objetos dentro de un esquema, como tablas, vistas, índices, etc. Se nombran como el nombre de usuario o esquema y el del objeto unidos por un punto. Por ejemplo, `scott.emp`. Para cada tipo de objeto existen vistas.
+	+ *user_\<objeto>:* objetos creados por el usuario.
+	+ *all_\<objeto>:* objetos a los que el usuario tiene acceso.
+	+ *DBA_\<objeto>:* todos los objetos. Solo pueden ser accedidas por los usuarios con rol DBA.
+	+ *CDB_:* todos los objetos de todas las PDB si se consulta desde el `Container CDB$ROOT`. Requiere también rol de DBA.
 
-El nombre de un elemento es el nombre de usuario o esquema y el del objeto unidos por un punto. Por ejemplo, `SCOTT.EMP`.
+\<objeto> puede tomar diferentes valores.
++ [i] **Valores:**
++ objects
++ tables
++ views
++ indexes
++ constraints
++ synonyms
 
-Para cada tipo de objeto existen vistas. Tiene la siguiente nomenclatura:
-+ **USER_\<objeto>:** objetos creados por el usuario.
-+ **ALL_\<objeto>:** objetos a los que el usuario tiene permiso.
-+ **DBA_\<objeto>:** todos los objetos.
-+ **CDB_\<objeto>:** todos los objetos de todas las PDBs si se consulta `CDB$ROOT`.
+# PostgreSQL
+PostgreSQL sigue el estándar, pero cambia la nomenclatura.
 
-El valor \<objeto> puede ser:
-+ OBJECTS
-+ TABLES
-+ VIEWS
-+ INDEXES
-+ CONSTRAINTS
-+ SYNONYMS
-
-### Sinónimos
-Un sinónimo es un alias para referenciar otro elemento. Por ejemplo, cuando hacemos:
-```sql
-select * from emp;
-```
-
-Realmente no tenemos la tabla `emp`, pero `emp` es un sinónimo público de `docencia.emp`.
-
-## PostgreSQL
-PostgreSQL sigue el estándar, pero varía la nomenclatura:
-
-| Estándar | PostgreSQL |
+## Nomenclatura
+| **Estándar** | **PostgreSQL** |
 | ---- | ---- |
 | Esquema | Schema |
 | Catálogo | Database |
 | Cluster | - |
 | Entorno SQL | Cluster |
 
-Se caracteriza por:
-+ Un usuario puede crear múltiples bases de datos y una base de datos es de solo un usuario.
+## Elementos de una instalación
++ Un usuario puede crear múltiples bases de datos y una base de datos es de un único usuario.
 + Un usuario puede acceder a bases de datos de otros usuarios, pero no existe como tal un clúster.
-+ Dentro de una BD puede haber varios esquemas. Un usuario puede crear varios esquemas y un esquema es de un solo usuario.
++ Dentro de una BD puede haber varios esquemas. Un usuario puede crear varios esquemas y un esquema es de un único usuario.
 + Cada base de datos contiene el `information_schema`.
 
-### Ejemplos
+## Ejemplos
 ```sql
 -- Creación de esquemas
 CREATE SCHEMA abd;
@@ -92,21 +83,22 @@ CREATE TABLE bda.estudiante (
 ```sql
 select table_schema, table_name, table_type 
 from information_schema.tables
-where table_schema in (’abd’,’bda’,’mai’);
+where table_schema in ('abd','bda','mai');
 ```
 
-| table_schema | table_name  | table_type |
+| **table_schema** | **table_name**  | **table_type** |
 |--------------|-------------|------------|
 | abd          | estudiante  | BASE TABLE |
 | bda          | estudiante  | BASE TABLE |
 | mai          | estudiante  | BASE TABLE |
+Consulta propia de PostgreSQL utilizando `pg_catalog`:
 ```sql
 select schemaname, tablename 
 from pg_catalog.pg_tables
-where schemaname in (’abd’,’bda’,’mai’);
+where schemaname in ('abd','bda','mai');
 ```
 
-| schemaname | tablename  |
+| **schemaname** | **tablename**  |
 |------------|------------|
 | abd        | estudiante |
 | bda        | estudiante |
