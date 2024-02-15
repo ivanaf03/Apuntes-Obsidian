@@ -1,10 +1,11 @@
 [[Bases de datos avanzadas]]
 
-## Notación UML e conceptos avanzados
-### Clases y atributos
+# Notación UML y conceptos avanzados
+## Clases y atributos
 Una clase es una entidad en el modelo E/R. Es un elemento del mundo real sobre el que almacenamos información.
 
-Un atributo es una propiedad atómica de un objeto de esa clase. Los tipos de datos que permiten describir los dominios de un atributo son:
+Un atributo es una propiedad atómica de un objeto de esa clase. Los tipos de datos permiten describir los dominios de un atributo.
++ [<] **Tipos de datos:**
 + String
 + Integer
 + Float
@@ -45,8 +46,8 @@ Los atributos compuestos se dan cuando queremos hacer consultas sobre ciertos su
 
 Los atributos derivados son aquellos que se calculan a partir de otros. Se indican como métodos.
 
-### Asociaciones
-Es una asociación entre objetos de dos clases. La multiplicidad es el número mínimo y máximo de objetos de clase que pueden participar en una relación. Se especifica en el extremo apuesto a la clase en una asociación. 
+## Asociaciones
+Una asociación es una relación entre objetos de dos clases. La multiplicidad es el número mínimo y máximo de objetos de clase que pueden participar en una relación. Se especifica en el extremo opuesto a la clase en una asociación. 
 
 | Notación | Mínimo | Máximo |  |
 | ---- | ---- | ---- | ---- |
@@ -65,15 +66,15 @@ Cuando en un dominio es necesario representar el hecho de que pueda hacer más d
 
 ![[clases asociación 2.png]]
 
-### Agregación
-Es una relación de tipo parte-todo. El todo se llama compuesto y la parte componente. Se modela con un rombo blanco.
+## Agregación
+Es una relación de tipo parte-todo. El todo se llama compuesto y la parte componente. Se modela con un rombo blanco. Indica "está formado por".
 ![[agregación.png]]
 
-### Composición
+## Composición
 Es una agregación donde el componente tiene multiplicidad máxima 1 y tiene que existir. Cada componente puede estar en un único compuesto. Si eliminamos el compuesto también se deben eliminar los componentes.
 ![[composición.png]]
 
-### Superclases y subclases
+## Superclases y subclases
 Las subclases están formadas por conjuntos de objetos de la superclase con propiedades específicas o que se relacionan de formas específicas con otras clases.
 ![[subclases y superclases.png]]
 
@@ -82,12 +83,12 @@ Son procesos por los que se encuentran superclases y subclases. La generalizaci�
 
 La generalización tiene el riesgo de que a veces no es necesaria. Por ejemplo, si siempre vamos a tener separados profesores y alumnos no tiene sentido juntarlos en una superclase.
 
-+ **Participación:** 
-	+ **Total:** todos los objetos de la superclase pertenecen a una subclase.
-	+ **Parcial:** hay objetos de la superclase que no son de ninguna subclase.
-+ **Distribución:** 
-	+ **Disjunta:** un objeto de la superclase no forma parte de más de una subclase.
-	+ **Solapada:** un objeto de la superclase puede formar parte de varias subclases.
++ [<] **Participación:** 
++ *Total:* todos los objetos de la superclase pertenecen a una subclase.
++ *Parcial:* hay objetos de la superclase que no son de ninguna subclase.
++ [<] **Distribución:** 
++ *Disjunta:* un objeto de la superclase no forma parte de más de una subclase.
++ *Solapada:* un objeto de la superclase puede formar parte de varias subclases.
 
 Se definen entre llaves:
 ```
@@ -99,9 +100,10 @@ Una subclase puede ser superclase de otras. Los atributos y asociaciones se here
 
  La herencia puede ser múltiple. Una subclase puede tener más de una superclase.
 
-## Extracción de requisitos y modelado
-### Dominio 1
-Exemplar: exlibris, observacións
-Exemplar dixital: path pdf, path txt, path imaxes, número páxina, descripción
-Biblioteca: signatura de exemplar, número exemplares, datos contacto.
-Exemplar: título, ano, tipo encadernación, dedicatoria, descripción, lugar edición, nome, coordenadas
+# Ejercicios
++ [n] **Asociación recursiva:** carpeta padre de carpetas.
++ [n] **Clase asociación:** persona--compra--producto
++ [n] **Relación m-n con clase asociación:** 
++ [n] **Agregación:** planta--aulas
++ [n] **Composición:** esqueleto--huesos
++ [n] **Especialización/generalización:** asignaturas--{ciencias, letras} 
