@@ -93,3 +93,54 @@ boolean existMoreOrders = slice.hasNext();
 
 ![[paginación.png]]
 Es importante que la paginación siga algún tipo de orden. La implementación por debajo utiliza la API de JDBC.
+
+# JPQL
+Cuando las convenciones de nombrado no son viables podemos usar JPQL. Es un lenguaje declarativo que perite lanzar consultas en JPA. También se puede hacer mediante el API Criteria.
+
+## Sintaxis
+Es parecido a SQL. No utiliza nombre de tablas y columnas, sino entidades y propiedades.
+```sql
+select u from User where u.userName=:userName
+```
+
+`:userName` es un parámetro nombrado. Funciona similar a `?` en SQL. Permite sustituirlo por un valor antes de lanzar la consulta. 
+
++ [>] **Al lanzar una consulta:**
++ Busca el nombre de la tabla y de las columnas a las que referencian los atributos.
++ Traduce JPQL a SQL.
++ Ejecuta la consulta mediante JDBC.
++ Recupera las filas y las devuelve como entidades.
+
+### Otros ejemplos
+```sql
+select u from User where u.firstName=:firstName and u.lastName=:lastName
+
+select u from User u where u.firstName=:firstname or u.lastName=:lastName
+
+select u from User u where u.firstName=:firstName order by u.lastName asc
+
+select u from User u where u.firstName=:firstName order by u.lastName desc
+
+select o from Order o where o.user.id=:userId order by o.date desc
+```
+
+## Querys
+Spring Data JPA permite lanzar consultas de forma muy simple utilizando `@Query`. Se utiliza `?i` en lugar de parámetros nombrados.
+```Java
+@Query("select u from User u where u.userName=?1")
+Optional<User> findUser(String userName);
+
+@Query("select u from User u where u.firstName=?1 or u.lastName=?2")
+List<User> findUsers(String firstName, String lastName);
+```
+
+Esta notación no es válida en consultas dinámicas. Por ejemplo, la búsqueda por palabras clave.
+
++ [>] **Hacemos:**
++ Definimos estas operaciones en una interfaz adicional `CustomizedProductDao`.
++ La implementamos en `CustomizedProductDaoImpl` utilizando la API de JPA para lanzar la consulta.
++ `ProductDao` extiende `CustomizedProductDao`.
+
+
+
+
