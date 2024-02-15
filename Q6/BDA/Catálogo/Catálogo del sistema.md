@@ -1,6 +1,6 @@
 [[Catálogo]]
 
-# Consultas
+# Consultas al catálogo
 ## Consultas de usuario
 Un usuario puede consultar el catálogo para saber las columnas de la tabla `emp`:
 ```sql
