@@ -1,20 +1,20 @@
 [[Tema 1-Introducción al desarrollo con frameworks modernos]]
 
-## Arquitectura de referencia
+# Arquitectura de referencia
 ![[arquitectura de referencia.png]]
 
-## Arquitectura de aplicaciones nativas
+# Arquitectura de aplicaciones nativas
 ![[arquitectura móvil.png]]
 
-## Arquitectura de aplicación web con capa modelo local
-![[aplicacion web modelo local.png]]El servidor recibe peticiones del navegador y devuelve una página HTML.
+# Arquitectura de aplicación web con capa modelo local
+![[aplicacion web modelo local.png]]El servidor recibe una petición del navegador y devuelve una página HTML.
 
-## Arquitectura de aplicación web con capa modelo remota
+# Arquitectura de aplicación web con capa modelo remota
 ![[aplicacion web modelo remota.png]]
 
-## Aplicación web SPA
+# Aplicación web SPA
 ![[aplicación web spa.png]]
-Una aplicación SPA está formada por:
++ [<] **Aplicación SPA:**
 + **Frontend:** JavaScript en el navegador.
 + **Backend:** REST/JSON y capa modelo.
 
