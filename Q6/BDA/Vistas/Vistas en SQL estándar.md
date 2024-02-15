@@ -1,84 +1,117 @@
 [[Vistas]]
 
-## Definición
-```
-CREATE VIEW nombre <lista_atributos>
-AS <sentencia_SELECT>
-<check_option>
-```
-
-El esquema o lista de atributos debe ser válido. El `SELECT *` se expande a toda la lista de atributos.
-
-### Ejemplo 1 de clase
+# Definición
 ```sql
-select view v
+create view nombre_vista [<lista_atributos>]
+as <sentencia_select>
+[with [cascaded | local] check option]
+```
+
++ [i] **Consideraciones:**
++ El esquema o lista de atributos debe ser válido.
++ El `select *` se expande a toda la lista de atributos.
++ El `select` no incluye `order by`.
++ La `check_option` solo aplica si la vista es actualizable.
+
+## Ejemplo 1
+```sql
+create view v
 as select * from dept;
 ```
 
 ```sql
-alter table dept add phone char(15);
+alter table dept
+add column phone char(15);
 ```
 
 La vista no añade el campo `phone`.
 
-### Ejemplo 2 de clase
+## Ejemplo 2
 ```sql
 create view v1 as
 select * from emp natural join dept;
 
 create view v2 as 
-select * from emp e join dept d on e.deptno=e.deptno;
+select * from emp e join dept d on e.deptno=d.deptno;
 ```
 
-La primera vista no cumple los requisitos de integridad referencial.
+La primera vista no cumple los requisitos de integridad referencial porque utiliza `natural join`.
 
-### Ejemplos
+## Ejemplo 3
 ```sql
-CREATE VIEW emp10 AS
-SELECT *
-FROM emp
-WHERE deptno = 10;
+create view emp10 as
+select *
+from emp
+where deptno = 10;
 
-CREATE VIEW emp10_sal AS
-SELECT empno, ename, sal + COALESCE(comm, 0) AS sal_total
-FROM emp10;
+create view emp10_sal as
+select empno, ename, sal + coalesce(comm, 0) as sal_total
+from emp10;
 
-CREATE VIEW resumedep (deptno, nomedep, numemps, salmedio) AS
-SELECT deptno, dname, COUNT(*), AVG(sal)
-FROM emp
-NATURAL JOIN dept
-GROUP BY deptno, dname;
-
+create view resumedep (deptno, nomedep, numemps, salmedio) as select deptno, dname, count(*), avg(sal)
+from emp
+natural join dept
+group by deptno, dname;
 ```
 
-## Eliminación
+# Eliminación
 ```sql
-drop view nombre_vista <restrict | cascade>;
+drop view nombre_vista [restrict | cascade];
 ```
 
-+ **Restrict:** Por defecto, no borra vistas dependientes.
-+ **Cascade:** Borra las vistas dependientes.
++ [<] **Atributos:**
++ *Restrict:* Por defecto, no borra vistas dependientes.
++ *Cascade:* Borra las vistas dependientes y después la actual.
 
-### Ejemplos
+## Ejemplos
 ```sql
 drop view emp10; -- falla: emp10_sal depende de emp10
 drop view emp10 cascade; -- elimina emp10_sal
-drop view resumedep restrict; -- Ok
+drop view resumedep restrict; -- elimina resumedep
 ```
 
-## Actualización
-No existe alter view. Para actualizar una vista el SGBD debe llegar de una fila de la vista a una fila de la tabla base.
+# Actualización
+No existe `alter view`. Para actualizar una vista el SGBD debe llegar de una fila de la vista a una fila de la tabla base.
 
-Según la norma una vista no será actualizable si:
-+ No hay eliminación de duplicados ni agrupamientos (no se usa `SELECT DISTINCT` ni `GROUP BY` o `HAVING`).
-+ No se define la vista con `JOIN`.
-+ No es el resultado de una `UNION`, `INTERSECT` o `EXCEPT`.
-+ Si tiene un `WHERE` con una subconsulta, no puede ser a la misma tabla del `FROM`.
-+ Se deben satisfacer las restricciones de la tabla base.
-+ Si la vista utiliza expresiones no permitirá actualizar la expresión ni insertar nuevas filas.
++ [p] **Es actualizable:**
++ Si no hay eliminación de duplicados ni agrupamientos (no se usa `select distinct` ni `group by` o `having`).
++ Si no se define la vista con `join`.
++ Si no es el resultado de una `union`, `intersect` o `except`.
++ Si tiene un `where` con una subconsulta, no puede ser a la misma tabla del `from`.
 
-### Tupla migratoria
-Consiste en insertar una fila que no cumple las condiciones de la vista. Se inserta en la tabla base y no se ve en la vista. 
+Se deben satisfacer las restricciones de la tabla base.
+```sql
+create table empleados (
+    id int primary key,
+    nombre varchar(50) not null,
+    salario decimal(10, 2)
+);
+
+create view vista_empleados as
+select id, salario
+from empleados;
+
+insert into vista_empleados (id, salario) values (1, 5000.00); -- Error
+```
+
+Si la vista utiliza expresiones no permitirá actualizar la expresión ni insertar nuevas filas.
+```sql
+create view vista_salario_doble as
+select id, nombre, salario * 2 as salario_doble
+from empleados;
+
+update vista_salario_doble
+set salario_doble = salario_doble + 1000; -- Error
+```
+
+## Tupla migratoria
+Ocurre al insertar una fila que no cumple las condiciones de la vista. Se inserta en la tabla base y no se ve en la vista. Se puede evitar con `check option`:
+
++ [<] **Atributos de check option:**
++ *Local:* comprueba solo la condición de la vista.
++ *Cascaded:* por defecto, comprueba la condición de la vista y de todas las que depende.
+
+### Ejemplo 1
 ```sql
 insert into emp10(empno, ename, deptno)
 values(1234, 'PEPE', 20);
@@ -88,7 +121,6 @@ set deptno=20
 where ename='CLARK';
 ```
 
-Se puede evitar con `check option`:
 ```sql
 create view emp10check
 as select * from emp
@@ -96,31 +128,28 @@ where deptno=10
 with check option; 
 
 insert into emp10check(empno, ename, deptno)
-values(1234, ’PEPE’, 20); --Falla
+values(1234, 'PEPE', 20); --Falla
 ```
 
-Puede ser:
-+ **Local:** 
-+ **Cascaded:** 
-
+### Ejemplo 2
 ```sql
 create view clerks10loc
 as select empno, ename, job, deptno
 from emp10 where job='CLERK'
-with LOCAL check option;
+with local check option;
 
 insert into clerks10loc
-values(1234, ’PEPE’, ’MANAGER’, 10); -- No inserta
+values(1234, 'PEPE', 'MANAGER', 10); -- No inserta
 
 insert into clerks10loc 
-values(1234, ’PEPE’, ’CLERK’, 20); -- Inserta
+values(1234, 'PEPE', 'CLERK', 20); -- Inserta
 ```
 
 ```sql
 create view clerks10loc
 as select empno, ename, job, deptno
 from emp10 where job='CLERK'
-with CASCADED check option;
+with cascaded check option;
 
 insert into clerks10loc
 values(1234, 'PEPE', 'MANAGER', 10); -- No inserta
@@ -130,7 +159,8 @@ values(1234, 'PEPE', 'CLERK', 20); -- No inserta
 ```
 
 ## Ventajas e inconvenientes
-### Ventajas
+
++ [p] **Ventajas:**
 + Permiten definir esquemas externos.
 + Ayudan a conseguir independencia lógica.
 + Facilitan las consultas complejas.
@@ -155,11 +185,10 @@ select deptno, dname, media
 from ed2
 where cnt>2;
 ```
-
 + Permite seguridad, por ejemplo ocultando datos.
 + Permite establecer condiciones de integridad con `check option`.
-+ Los datos siempre están actualizados.
-
-### Inconvenientes
++ Los datos siempre están actualizados con respecto a las tablas base.
+$\space$
++ [c] **Inconvenientes:**
 + Limitaciones a la hora de actualizar los datos.
 + No aumentan la eficiencia de las consultas, se hace un `sql rewriting`.
