@@ -1,12 +1,12 @@
 [[Tema 2-Capa acceso a datos con Spring y JPA]]
 
-## ¿Qué es Spring Boot?
+# 1. ¿Qué es Spring Boot?
 Es un proyecto de Spring. Es un framework que simplifica el desarrollo de las distintas capas de backend. Permite principalmente dos cosas:
-+ Starter poms
-+ Reducción de la cantidad de configuración de las librerías en `application.{propierties.yml}`
++ [>] Starter poms
++ [>] Reducción de la cantidad de configuración de las librerías en `application.{propierties, yml}`
 
-### Starter poms
-Al utilizar los frameworks de Spring y otras librerías se declara en ficheros XML. Todas las versiones que se indican deben ser compatibles entre sí. Spring Boot permite automatizar esto.
+## 1.1. Starter poms
+Los frameworks de Spring que se usen y otras librerías se declaran en ficheros XML. Todas las versiones que se indican deben ser compatibles entre sí. Spring Boot permite automatizar esto.
 ```xml
 <dependencies>
     <dependency>
