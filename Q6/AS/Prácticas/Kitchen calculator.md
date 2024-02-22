@@ -8,27 +8,17 @@ defmodule KitchenCalculator do
     value
   end
 
-  def to_milliliter(volume_pair) do
-    {unit, value} = volume_pair
-    cond do
-      unit == :cup -> {:milliliter, value*240}
-      unit == :fluid_ounce -> {:milliliter, value*30}
-      unit == :teaspoon -> {:milliliter, value*5}
-      unit == :tablespoon -> {:milliliter, value*15}
-      true -> {:milliliter, value}
-    end
-  end
+  def to_milliliter({:cup, value}), do: {:milliliter, value * 240}
+  def to_milliliter({:fluid_ounce, value}), do: {:milliliter, value * 30}
+  def to_milliliter({:teaspoon, value}), do: {:milliliter, value * 5}
+  def to_milliliter({:tablespoon, value}), do: {:milliliter, value * 15}
+  def to_milliliter(volume_pair), do: volume_pair
 
-  def from_milliliter(volume_pair, unit) do
-    {_, value} = volume_pair
-    cond do
-      unit == :cup -> {unit, value/240}
-      unit == :fluid_ounce -> {unit, value/30}
-      unit == :teaspoon -> {unit, value/5}
-      unit == :tablespoon -> {unit, value/15}
-      true -> {unit, value}
-    end
-  end
+  def from_milliliter({:milliliter, value}, :cup), do: {:cup, value / 240}
+  def from_milliliter({:milliliter, value}, :fluid_ounce), do: {:fluid_ounce, value / 30}
+  def from_milliliter({:milliliter, value}, :teaspoon), do: {:teaspoon, value / 5}
+  def from_milliliter({:milliliter, value}, :tablespoon), do: {:tablespoon, value / 15}
+  def from_milliliter(volume_pair, _), do: volume_pair
 
   def convert(volume_pair, unit) do
     from_milliliter(to_milliliter(volume_pair), unit)
