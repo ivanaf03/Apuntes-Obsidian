@@ -1,22 +1,25 @@
 [[Tema 1-Introducción al desarrollo con frameworks modernos]]
 
-## Entornos
-### Backend y aplicaciones web del lado del servidor
-+ Jakarta EE
-+ Spring
-+ .NET
-+ Ruby on Rails
-+ PHP
-+ Node
+# 1. Entornos
+Para `backend` y aplicaciones web del lado servidor:
++ [>] Jakarta EE
++ [>] Spring
++ [>] .NET
++ [>] Ruby on Rails
++ [>] PHP
++ [>] Node
+$\space$
 
-### Frontend de aplicaciones web SPA
-+ AngularJS
-+ React
-+ Vue.js
+Para `frontend` de aplicaciones web SPA:
++ [>] AngularJS
++ [>] React
++ [>] Vue.js
+$\space$
 
-### Aplicaciones nativas para desktop y móvil
-+ SDK nativos
-+ Soluciones cross-plataform, como Flutter o React
+Para aplicaciones nativas para desktop y móvil:
++ [>] SDK nativos
++ [>] Soluciones cross-plataforma, como Flutter o React
 
-## Nuestro entorno
-![[nuestro entorno.png]]Para el backend usaremos Spring y acceso a base de datos con JPA. Para el frontend usaremos React.
+
+## 1.1. Nuestro entorno
+![[nuestro entorno.png]]Para el `backend` usaremos varios frameworks de Spring y la Java Persistance API para el acceso a bases de datos relacionales. Para el `frontend` usaremos React.
