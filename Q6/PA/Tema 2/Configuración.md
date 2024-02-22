@@ -1,14 +1,13 @@
 [[Tema 2-Capa acceso a datos con Spring y JPA]]
 
-# Configuración de Spring Boot
-Reside en `src/main/resouces/application.{properties,yml}`.
-+ [<] **Configura:**
-+ Pool de conexiones.
-+ Hibernate.
+# 1. Configuración de Spring Boot
+Reside en `src/main/resouces/application.{properties,yml}`. Configura:
++ [>] Pool de conexiones.
++ [>] Hibernate.
 
 Puede estar en formato properties o en formato YAML.
 
-## Properties
+## 1.1. Properties
 ```properties
 spring.datasource.url=@dataSource.url@
 spring.datasource.username=@dataSource.user@ 
@@ -25,7 +24,7 @@ spring.jpa.hibernate.naming.physical-strategy=...
 ...
 ```
 
-## YAML
+## 1.2. YAML
 ```yaml
 spring:
   datasource:
