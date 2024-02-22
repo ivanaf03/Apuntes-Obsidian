@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md",
+                "file": "Q6/BDA/Prácticas/Modelado de datos.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "3270a490255dcb42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Q6/BDA/Prácticas/Modelado de datos.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md",
+                "file": "Q6/BDA/Prácticas/Modelado de datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md"
+                "file": "Q6/BDA/Prácticas/Modelado de datos.md"
               }
             }
           },
@@ -130,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md",
+                "file": "Q6/BDA/Prácticas/Modelado de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +155,7 @@
             }
           },
           {
-            "id": "524655ea3c2af2f1",
+            "id": "53d8969995de40f2",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -159,29 +172,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Crear nuevo lienzo": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "canvas:Crear nuevo canvas": false,
       "command-palette:Abrir paleta de comandos": false,
       "obsidian42-brat:BRAT": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7c482ce7d69a0e4a",
+  "active": "3270a490255dcb42",
   "lastOpenFiles": [
-    "Q6/ACL/Aseguramento da calidade.md",
+    "Imágenes/relacion N M.png",
+    "Imágenes/relacion 1 N.png",
+    "Imágenes/relacion 1 1.png",
+    "Imágenes/jerarquias.png",
+    "Plantilla.md",
+    "Q6/BDA/Prácticas/Modelado de datos.md",
+    "Q6/PA/Tema 2/Spring Boot.md",
+    "Q6/PA/Tema 2/Modelado de relaciones en JPA.md",
+    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
+    "Ingeniería Informática.md",
     "Q6/ACL/Prácticas/Práctica 2 ACL.md",
+    "Q6/BDA/Prácticas/Sin título.md",
+    "Q6/ACL/Aseguramento da calidade.md",
     "Q6/ACL/Prácticas/Práctica 1 ACL.md",
     "Q6/ACL/Prácticas/TGR ACL.md",
     "Q6/PA/Tema 2/Configuración.md",
-    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
     "Q6/PA/Tema 2/Desarrollo de DAOs.md",
     "Q6/PA/Tema 2/Modelado de entidades en JPA.md",
-    "Q6/PA/Tema 2/Modelado de relaciones en JPA.md",
     "Imágenes/lazy eager.png",
-    "Q6/PA/Tema 2/Spring Boot.md",
     "Q6/PA/Tema 2/Introducción a JPA.md",
     "Q6/PA/Programación avanzada.md",
     "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
@@ -195,12 +216,7 @@
     "Q6/PA/Tema 3/Introducción a capa lógica de negocio con Spring.md",
     "Q6/PA/Tema 4",
     "Imágenes/relaciones unidireccionales.png",
-    "Plantilla.md",
-    "Ingeniería Informática.md",
-    "Q6/ACL/Tema 3/Introducción a ISO 9000.md",
-    "Q6/ACL/Tema 3/Tema 3-ISO 9000.md",
     "Q6/ACL/Tema 3",
-    "Q6/ACL/Tema 2/Modelos de calidad del software.md",
     "Imágenes/ejemplo integridad.png",
     "Q6/BDA/Integridad",
     "Q6/AS/Tema 2",
@@ -213,9 +229,6 @@
     "Q6/AS/Prácticas",
     "Q6/AS/Tema 1",
     "Q6/ER/Tema 2",
-    "Imágenes/subclases y superclases.png",
-    "Imágenes/composición.png",
-    "Imágenes/agregación.png",
     "Q6/PA/Tema 2",
     "Sin título.canvas",
     "Sin título 1.canvas"
