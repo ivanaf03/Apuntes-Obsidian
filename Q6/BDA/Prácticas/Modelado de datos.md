@@ -107,3 +107,30 @@ Una subclase puede ser superclase de otras. Los atributos y asociaciones se here
 + [n] **Agregación:** planta--aulas
 + [n] **Composición:** esqueleto--huesos
 + [n] **Especialización/generalización:** asignaturas--{ciencias, letras} 
+
+# Esquema relacional y diccioanrio de datos
+## Esquema relacional
++ [<] **Especificamos:**
++ Tablas
++ Atributos
++ Claves primarias
++ Claves foráneas
+
+### Estructura
+```
+TABLA(_id_, atr1, atr2, ..., atrN)
+```
+
+## Elementos
+### Clases
+Cada clase es una tabla.
+
+### Atributos calculados
+No se pasan al relacional.
+
+### Atributos multivaluados
+Generan una tabla nueva que se se llama igual que el atributo. Llevan un id artificial autogenerado, el atributo en sí, y una `CF` al id de la clase de la que viene.
+
+### Asociaciones
+![[asociaciones relacional.png]]
+
