@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e843258bbfde558",
+            "id": "7c482ce7d69a0e4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Prácticas/TGR ACL.md",
+                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Prácticas/TGR ACL.md",
+                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Prácticas/TGR ACL.md"
+                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Prácticas/TGR ACL.md",
+                "file": "Q6/ACL/Prácticas/Práctica 2 ACL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,54 +169,54 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0e843258bbfde558",
+  "active": "7c482ce7d69a0e4a",
   "lastOpenFiles": [
-    "Q5/XP/Gestión de la configuración software.md",
-    "Q6/ACL/Prácticas/TGR ACL.md",
-    "Q5/XP/Casos de empresas IRL.md",
     "Q6/ACL/Aseguramento da calidade.md",
-    "Q5/XP/Xestión de Proxectos.md",
+    "Q6/ACL/Prácticas/Práctica 2 ACL.md",
     "Q6/ACL/Prácticas/Práctica 1 ACL.md",
-    "Q6/PA/Tema 3/Transaccionalidad.md",
-    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
-    "Q6/PA/Tema 3/Inyección de dependencias.md",
-    "Q6/PA/Tema 3/Introducción a capa lógica de negocio con Spring.md",
-    "Q6/PA/Programación avanzada.md",
+    "Q6/ACL/Prácticas/TGR ACL.md",
     "Q6/PA/Tema 2/Configuración.md",
-    "Q6/PA/Tema 3",
     "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
     "Q6/PA/Tema 2/Desarrollo de DAOs.md",
-    "Q6/AS/Tema 1/Tema 1-Introducción a la arquitectura de software.md",
-    "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
+    "Q6/PA/Tema 2/Modelado de entidades en JPA.md",
+    "Q6/PA/Tema 2/Modelado de relaciones en JPA.md",
+    "Imágenes/lazy eager.png",
+    "Q6/PA/Tema 2/Spring Boot.md",
+    "Q6/PA/Tema 2/Introducción a JPA.md",
+    "Q6/PA/Programación avanzada.md",
     "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
-    "Q6/Q6.md",
-    "Q6/ER/Enxeñaría de requisitos.md",
-    "Q6/AS/Arquitectura do software.md",
-    "Q6/AS/Prácticas/Elixir.md",
-    "Q6/AS/Prácticas/Hearth.md",
-    "Q6/AS/Prácticas/Strings y pipes.md",
-    "Q6/AS/Prácticas/Kitchen calculator.md",
-    "Q6/AS/Prácticas/Log level.md",
-    "Q6/AS/Prácticas/Funciones con múltiples cláusulas.md",
+    "Q6/PA/Tema 1/Visión global del ejemplo.md",
+    "Q6/PA/Tema 1/Entornos de desarrollo.md",
+    "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
+    "Q6/PA/Tema 4/Introducción a REST con Spring.md",
+    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
+    "Q6/PA/Tema 3/Pruebas automatizadas.md",
+    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
+    "Q6/PA/Tema 3/Introducción a capa lógica de negocio con Spring.md",
+    "Q6/PA/Tema 4",
+    "Imágenes/relaciones unidireccionales.png",
+    "Plantilla.md",
+    "Ingeniería Informática.md",
+    "Q6/ACL/Tema 3/Introducción a ISO 9000.md",
+    "Q6/ACL/Tema 3/Tema 3-ISO 9000.md",
+    "Q6/ACL/Tema 3",
+    "Q6/ACL/Tema 2/Modelos de calidad del software.md",
+    "Imágenes/ejemplo integridad.png",
+    "Q6/BDA/Integridad",
+    "Q6/AS/Tema 2",
+    "Q6/ER/Tema 3",
+    "Imágenes/diagrama de contexto 2.png",
+    "Imágenes/diagrama de contexto.png",
+    "Imágenes/WRSPM.png",
+    "Imágenes/asociaciones relacional.png",
+    "Q6/PA/Tema 3",
     "Q6/AS/Prácticas",
     "Q6/AS/Tema 1",
     "Q6/ER/Tema 2",
     "Imágenes/subclases y superclases.png",
     "Imágenes/composición.png",
     "Imágenes/agregación.png",
-    "Imágenes/paginación.png",
-    "Imágenes/11 PA.png",
-    "Imágenes/1N PA.png",
-    "Imágenes/modelado de relaciones.png",
-    "Imágenes/tabla Order.png",
-    "Imágenes/entidades PA.png",
     "Q6/PA/Tema 2",
-    "Pasted image 20240206112412.png",
-    "Q6/ACL/Tema 2",
-    "Q6/BDA/Vistas",
-    "Q6/ER/Tema 1",
-    "Q6/BDA/Prácticas",
-    "Q6/ACL/Prácticas",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
