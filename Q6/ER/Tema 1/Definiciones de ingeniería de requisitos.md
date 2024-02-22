@@ -1,21 +1,26 @@
 [[Tema 1-Introducción a la ingeniería de requisitos]]
 
-## Requisito
-Un requisito puede ser cualquier cosa que impulsa y condiciona el diseño. También puede ser una propiedad que el sistema debe cumplir para aportar valor a los interesados. Aunque no existe una definición estandarizada.
+# Requisitos
+Un requisito es cualquier cosa que impulsa y condiciona el diseño. También puede ser un requisito una propiedad que el sistema debe cumplir para aportar valor a los `stakeholders`.
 
-Son una especificación de lo que debe ser implementado.
+Un stakeholder es una persona u organización que ha apostado por otra persona u organización y que está interesada en su desempeño.
 
-## Ingeniería de requisitos
-La ingeniería de requisitos esta formada por el desarrollo de requisitos y el mantenimiento de estos. Es el proceso de elicitar, analizar, especificar, validar y mantenerlos a lo largo del proyecto.
+Los requisitos son una especificación de lo que tiene que ser implementado.
 
-### Elicitar
-Consiste en descubrir los requisitos del sistema y conocer el dominio donde va a trabajar. 
+# Ingeniería de requisitos
+La ingeniería de requisitos es el proceso de elicitar, analizar, especificar, validar y mantener los requisitos durante el proyecto. Es un proceso iterativo.
 
-### Analizar
-Consiste en ver qué requisitos del cliente pueden ser desarrollados y cómo lo pide. Permite describir en más detalle los requisitos, descomponerlos en requisitos más pequeños...
+## Elicitar
+Consiste en descubrir los requisitos del sistema y conocer el dominio en el que se va a trabajar. Esto incluye conocer los objetivos del negocio, aprender sobre el entorno de uso...
 
-### Especificar
-Consiste en formalizar los requisitos de manera que todas las personas relacionadas con ese requisito puedan entenderlo.
+## Analizar
+Consiste en valorar que requisitos del cliente pueden ser desarrollados y evaluar cómo quiere que estos se desarrollen. Una vez seleccionados, se realiza una descripción más detallada, haciendo descomposiciones, indicando las prioridades...
 
-### Validar
-Consiste en comprobar que los requisitos sean realizables y sean útiles para resolver los problemas que tiene el cliente.
+## Especificar
+Consiste en representar formalmente los requisitos, de manera que todos puedan entenderlos, incluidos los clientes.
+
+## Validar
+Consiste en comprobar que los requisitos sean realizables y útiles para resolver los problemas que tiene el cliente.
+
+## Mantener
+Consiste en realizar los cambios necesarios o solicitados en los requisitos para asegurar que el sistema no se desvía de lo que es necesario implementar.
