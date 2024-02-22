@@ -1,9 +1,9 @@
 [[Tema 1-Introducción al desarrollo con frameworks modernos]]
 
-## Entidades
+# 1. Entidades
 ![[entidades ejemplo pa.png]]Cada entidad se mapea a una tabla y cada propiedad a una columna. Las relaciones se mapean de forma natural (Order tiene un User, no un userID).
 
-## DAOs
+# 2. DAOs
 ```java
 public interface OrderDao extends CrudRepository<Order, Long> {
 	Slice<Order> findByUserIdOrderByDateDesc(Long userId, Pageable pageable);
@@ -12,8 +12,8 @@ public interface OrderDao extends CrudRepository<Order, Long> {
 
 Spring implementa automáticamente los métodos CRUD. También es capaz de implementar métodos de búsqueda mediante convenciones de nombrado.
 
-## Lógica de negocio
-`@Transactional` permite que todos los métodos sean transaccionales. Todas las operaciones de los DAOs se ejecutan dentro de la misma transacción. Si la ejecución no lanza ninguna excepción se hace un commit. Si se lanza una excepción checked también. Si lanza una excepción de runtime o un error se hace un rollback.
+# 3. Lógica de negocio
+`@Transactional` a nivel de clase permite que todos los métodos sean transaccionales. Todas las operaciones de los DAOs se ejecutan dentro de la misma transacción. Si la ejecución no lanza ninguna excepción se hace un `commit`. Si se lanza una excepción checked también. Si lanza una excepción de runtime o un error se hace un `rollback`.
 
 ```java
 @Transactional
@@ -50,7 +50,7 @@ public class ShoppingServiceImpl implements ShoppingService {
 }
 ```
 
-## Servicios
+# 4. Servicios
 ![[get servicios.png]]
 ```java
 @RequestMapping("/shopping")
@@ -65,8 +65,8 @@ public class ShoppingController {
 }
 ```
 
-## Acceso a servicios
-Se realiza una función or cada caso de uso:
+# 5. Acceso a servicios
+Se realiza una función por cada caso de uso:
 ```javascript
 export const findOrder = (orderId, onSuccess) => appFetch(`/shopping/orders/${orderId}`, config('GET', null), onSuccess);
 ```
@@ -78,13 +78,12 @@ backend.shoppingService.findOrder(orderId, order => {
 });
 ```
 
-## UI
-Se enfoca a componentes, es decir, el desarrollador implementa la UI como conjunto de pequeños fragmentos HTML que responde a los eventos del usuario.
+# 6. UI
+La UI se implementa con React y algunas librerías adicionales. Se enfoca a componentes, es decir, el desarrollador implementa la UI como un conjunto de pequeños fragmentos HTML que responde a los eventos del usuario.
 
-Sus ventajas son que se basa en divide y vencerás y que genera código reusable.
 
-Por ejemplo un componente:
 ```javascript
+//componente
 const Buy = ({cart}) => cart.items.length > 0 && (
 	<div>
 		<BuyForm/> //genera el html del formulario de compra
@@ -92,6 +91,11 @@ const Buy = ({cart}) => cart.items.length > 0 && (
 	</div>
 );
 ```
+
+Las ventajas de este enfoque son:
++ [p] Se basa en divide y vencerás.
++ [p] Genera componentes reusables.
+
 
 
 
