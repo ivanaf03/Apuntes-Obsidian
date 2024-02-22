@@ -10,6 +10,8 @@ Teoría:
 + [[Funciones con múltiples cláusulas]]
 + [[Tuplas y pattern matching]]
 + [[Strings y pipes]]
++ [[Recursividad]]
++ [[Mapas y constantes]]
 
 Ejercicios:
 + [[Hola mundo]]
@@ -22,3 +24,5 @@ Ejercicios:
 + [[Guessing game]]
 + [[Kitchen calculator]]
 + [[Hearth]]
++ [[Bird count]]
++ [[High score]]
