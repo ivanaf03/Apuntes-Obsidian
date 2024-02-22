@@ -18,6 +18,10 @@ Supongamos que está en papel el Sistema de Gestión de la Calidad. Es similar a
 	6. Responsabilidades: perfiles que son responsables del procedimiento.
 	7. Entradas al proceso: qué entra al procedimiento.
 	8. Salidas del proyecto: qué sale del procedimiento.
-	9. Mecanismos de control: indica quien realizará las auditorías.
+	9. Mecanismos de control: indica cómo poner en marcha actividades que indiquen sí se está haciendo bien lo indicado en el procedimiento.
 	10. Procedimiento de control de la documentación del sistema de gestión de la calidad
+		1. Modificación y aprobación: cómo ocurren los cambios, quién los realiza, quién los revisa, aprueba, etc. Puede acabar en una alta, una baja o una modificación de algún procedimiento.
+			1. Registro de cambios del documento en los manuales de calidad y procedimiento. Indicar cómo se registran. Indicar como se nombran las versiones en la empresa.
+		2. Distribución
+		3. Almacenamiento: copia en papel y server dónde descargarlo.
 	11. Plantillas/formularios asociados: los formularios pueden venir de otro sitio, pueden venir incluso del cliente rellenados. Las plantillas son propias de la empresa y se usan para ejecutar alguno de los puntos del procedimiento.
