@@ -1,8 +1,8 @@
 {
   "accentColor": "#8000ff",
-  "cssTheme": "Elegance",
-  "interfaceFontFamily": "Segoe Print",
-  "baseFontSize": 11,
+  "cssTheme": "Things",
+  "interfaceFontFamily": "Segoe UI",
+  "baseFontSize": 13,
   "theme": "obsidian",
   "baseFontSizeAction": true,
   "translucency": false,
