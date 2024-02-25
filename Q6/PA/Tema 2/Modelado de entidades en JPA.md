@@ -1,13 +1,18 @@
 [[Tema 2-Capa acceso a datos con Spring y JPA]]
 
-# 1. Diagrama de entidades en PA Shop
+# 1.Entidades de PA Shop
 ![[entidades PA.png]]
-No sería necesario indicar, por ejemplo, el user en Order (queda indicado con la relación).
+No sería necesario indicar el user en Order ni el order en User (quedan indicados con la relación).
 
-# 2. Modelado de entidades
-Las clases entidad se anotan con `@Entity`. Deben tener un constructor sin argumentos `public` o `protected`. Debe tener clave primaria. Puede tener relaciones de herencia o asociación. Tienen estado persistente.
+## 1.1.Modelado de entidades
+Una clase entidad:
++ [>] Se anota con `@Entity`. 
++ [>] Debe tener un constructor sin argumentos `public` o `protected`. No puede ser `final`.
++ [>] Debe tener clave primaria. 
++ [>] Puede tener relaciones de herencia o asociación.
++ [>] Tiene estado persistente. 
 
-## 2.1. Estado persistente
+### 1.1.1.Estado persistente
 El estado persistente de una clase son el conjunto de atributos que se mapearán en columnas. Son de tipos de Java de los cuales existe una equivalencia en SQL:
 + [>] String
 + [>] BigInteger
@@ -21,18 +26,19 @@ El estado persistente de una clase son el conjunto de atributos que se mapearán
 + [>] Enumerados (se mapean a un tipo SQL numérico)
 + [>] Entidades y colecciones de entidades (se mapean en relaciones)
 
+$\space$
 El mapeador objeto-relacional puede acceder al estado persistente:
 + [>] *Tipo de acceso campo:* a través de los atributos.
 + [>] *Tipo de acceso propiedad:* mediante getter y setter.
 
-## 2.2. Anotaciones
+## 1.2.Anotaciones
 Para mapear mediante anotaciones podemos usar:
-+ *@Table:* por defecto una entidad se mapea a una tabla con el mismo nombre simple de la clase. Si queremos un nombre distinto debemos usar `@Table`.
-+ *@Column:* cada atributo o propiedad persistente se mapea a una columna con el mismo nombre. Cuando queremos un nombre distinto usamos `@Column`.
-+ *@Id:* especifica el atributo clave. Sólo sirve para claves simples, aunque hay anotaciones para claves compuestas.
-+ *@GeneratedValue:* se puede usar con `@Id` si la clave es numérica y queremos que se genere automáticamente. `GenerationType.IDENTITY` asume que la tabla usa columnas contador. Si se usase una secuencia usaríamos `GenerationType.SEQUENCE` con `@SequenceGenerator`.
++ [>] *@Table:* por defecto una entidad se mapea a una tabla con el mismo nombre simple de la clase. Si queremos un nombre distinto debemos usar esta anotación.
++ [>] *@Column:* cada atributo se mapea a una columna con el mismo nombre. Cuando queremos un nombre distinto debemos usar esta anotación.
++ [>] *@Id:* especifica el atributo clave primaria. Sólo sirve para claves simples, aunque hay anotaciones para claves compuestas.
++ [>] *@GeneratedValue:* se puede usar con `@Id` si la clave es numérica y queremos que se genere automáticamente. `GenerationType.IDENTITY` asume que la tabla usa columnas contador. Si se usase una secuencia usaríamos `GenerationType.SEQUENCE` con `@SequenceGenerator`.
 
-# 3. Ejemplo: Order
+### 1.2.1.Ejemplo de anotaciones:Order
 ![[tabla Order.png]]
 ```java
 @Entity  
@@ -68,29 +74,12 @@ public class Order {
         this.id = id;  
     }  
   
-    @OneToMany(mappedBy = "order")  
-    public Set<OrderItem> getItems() {  
-        return items;  
-    }  
-  
-    public void setItems(Set<OrderItem> items) {  
-        this.items = items;  
-    }  
-  
-    @ManyToOne(optional = false, fetch = FetchType.LAZY)  
-    @JoinColumn(name = "userId")  
-    public User getUser() {  
-        return user;  
-    }  
-  
-    public void setUser(User user) {  
-        this.user = user;  
-    }
 ...
+
 }
 ```
 
-# 4. Métodos de negocio en entidades
+# 2.Patrón Domain Model
 Las entidades a veces contienen métodos de negocio que puedan facilitar la implementación de capas superiores. Esto se conoce como patrón Domain Model.
 
 Si uno de estos métodos empieza por get o is debemos decirle al mapeador que no es una entidad persistente. Esto se hace con `@Transient`.
