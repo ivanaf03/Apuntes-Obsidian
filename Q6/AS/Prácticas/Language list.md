@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Módulo List: bases
 ```elixir
 defmodule LanguageList do
   def new() do
