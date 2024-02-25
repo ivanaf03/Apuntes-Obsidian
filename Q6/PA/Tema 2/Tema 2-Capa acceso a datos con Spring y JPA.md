@@ -6,4 +6,4 @@ Contenido:
 + [[Modelado de entidades en JPA]]
 + [[Modelado de relaciones en JPA]]
 + [[Desarrollo de DAOs]]
-+ [[Configuración]]
++ [[Configuración de Spring Boot]]
