@@ -1,5 +1,14 @@
 [[Elixir]]
 
+Ejercicios asociados:
++ [[Language list]]
++ [[Strain]]
++ [[Sublist]]
++ [[Flatten array]]
++ [[Spiral matrix]]
++ [[Scale generator]]
++ [[Sieve]]
++ [[List ops]]
 # Listas en elixir
 Las listas son un tipo básico en Elixir. Se denotan entre corchetes. Pueden estar vacías o contener ítems de cualquier tipo.
 ```elixir
