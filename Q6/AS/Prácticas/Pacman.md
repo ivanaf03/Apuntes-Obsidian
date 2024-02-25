@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Pacman simple
 ```elixir
 defmodule Rules do
   def eat_ghost?(power_pellet_active?, touching_ghost?) do
