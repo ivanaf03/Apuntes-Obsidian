@@ -161,3 +161,45 @@ Se crea una nueva tabla con un id artificial y como claves foráneas el id de la
 ![[relacion N M.png]]
 
 ## 3.3.Jerarquías
+Existen varias posibilidades de modelado:
++ [>] *Una tabla por clase:* se crea una tabla para cada clase con sus propios atributos. Las tablas de las subclases tienen como identificador el identificador de la superclase, que a su vez actúa como clave foránea.
++ [>] *Una tabla para cada subclase:* solo funciona en jerarquías totales y disjuntas. Se crea una tabla para cada superclase que contiene  además de sus atributos, todos los atributos y relaciones de la superclase.
++ [>] *Una única tabla:* se crea una sola tabla. Para distinguir las subclases se añade un atributo discriminador si es disjunta o un booleano por cada subclase si es solapada.
+
+### 3.3.1.Ejemplos
+#### 3.3.1.1.Ejemplo 1
+![[ejemplo 1 jerarquia.png]]
+
+#### 3.3.1.2.Ejemplo 2
+![[ejemplo 2 jerarquia.png]]
+
+![[ejemplo 3 jerarquia.png]]
+
+# 4.Diccionario de datos
+Un diccionario de datos es un repositorio de información que almacena metadatos sobre las tablas y sus atributos. Sirve para documentar la base de datos y estudiar el impacto de los cambios que se tengan que hacer. Se suelen usar documentos de texto o hojas de cálculo.
+
+## 4.1.Contenido
+Cada tabla debe contener su nombre, una descripción y los atributos que la componen. Para cada atributo se debe dar:
++ [>] Nombre
++ [>] Tipo de dato
++ [>] Especificación de clave primaria o foránea
++ [>] Restricciones `Unique` y `Not null`.
++ [>] Descripción
+
+| **Clave** | **Atributo**  | **Tipo**    | **Restricciones** | **Descripción**                                                       |
+| --------- | ------------- | ----------- | ----------------- | --------------------------------------------------------------------- |
+| PK        | Id            | BigInt      |                   | Autogenerado por el SGBD.                                             |
+|           | exlibris      | Text        |                   | Notas al margen del ejemplar.                                         |
+|           | observacions  | Text        |                   | Comentarios relevantes sobre el ejemplar.                             |
+| FK        | Id-biblioteca | BigInt      | Not null          | Biblioteca en la que está depositado el ejemplar.                     |
+|           | signatura<br> | Varchar(20) | Not null / Unique | Código asignado al exemplar por la biblioteca en que está depositado. |
+| FK        | Id-edicion    | BigInt      | Not null          | Edición a la que pertenece el ejemplar.                               |
+
+# 5.Ejercicios de modelado
+## 5.1.Catálogo de relaciones de sucesos
+
+
+## 5.2.Residencia de mayores
+
+
+## 5.3.Learning Management System
