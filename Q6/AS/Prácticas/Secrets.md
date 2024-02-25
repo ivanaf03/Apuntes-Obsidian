@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Ejercicio de funciones anónimas
 ```elixir
 defmodule Secrets do
   def secret_add(secret) do
