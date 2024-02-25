@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Descuentos
 ```elixir
 defmodule FreelancerRates do
   def daily_rate(hourly_rate) do
