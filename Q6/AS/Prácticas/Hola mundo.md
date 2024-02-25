@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Hola mundo en elixir
 ```elixir
 defmodule HelloWorld do
   @doc """
