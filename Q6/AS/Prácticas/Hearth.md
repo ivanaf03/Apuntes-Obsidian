@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Corazón para practicar Strings
 ```elixir
 defmodule HighSchoolSweetheart do
   def first_letter(name) do
