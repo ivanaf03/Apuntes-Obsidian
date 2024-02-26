@@ -3,7 +3,7 @@
 Ejercicios asociados:
 + [[Freelancer rates]]
 + [[Complex numbers]]
-+ [[Space Age]]
++ [[Space age]]
 
 # 1.Números en Elixir
 Hay dos tipos de números en elixir:
