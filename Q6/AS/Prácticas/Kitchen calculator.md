@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Conversor de unidades de cocina
 ```elixir
 defmodule KitchenCalculator do
   def get_volume(volume_pair) do
