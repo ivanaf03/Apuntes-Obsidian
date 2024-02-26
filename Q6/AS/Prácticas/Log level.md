@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Alarmas
 ```elixir
 defmodule LogLevel do
   def to_label(level, legacy?) do
