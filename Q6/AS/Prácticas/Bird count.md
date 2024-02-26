@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Contador de pájaros
 ```elixir
 defmodule BirdCount do
   def today([]) do
