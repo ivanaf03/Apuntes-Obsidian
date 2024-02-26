@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/AS/Prácticas/Listas.md",
+                "file": "Q6/AS/Prácticas/Fecha y hora.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/AS/Prácticas/Listas.md",
+                "file": "Q6/AS/Prácticas/Fecha y hora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/AS/Prácticas/Listas.md"
+                "file": "Q6/AS/Prácticas/Fecha y hora.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/AS/Prácticas/Listas.md",
+                "file": "Q6/AS/Prácticas/Fecha y hora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,31 +173,31 @@
   "active": "cf74d468e420f7ca",
   "lastOpenFiles": [
     "Q6/AS/Prácticas/Elixir.md",
-    "Q6/AS/Prácticas/Conversión de enteros a flotantes.md",
-    "Q6/AS/Prácticas/Listas.md",
-    "Q6/AS/Prácticas/Square root.md",
-    "Q6/AS/Prácticas/Language list.md",
-    "Q6/AS/Prácticas/Enteros.md",
-    "Q6/AS/Prácticas/Collatz conjecture.md",
-    "Q6/AS/Prácticas/Resistor color trio.md",
-    "Q6/AS/Prácticas/Space Age.md",
-    "Q6/AS/Prácticas/Bob.md",
-    "Q6/AS/Prácticas/Booleanos.md",
-    "Q6/AS/Prácticas/Leap.md",
-    "Q6/AS/Prácticas/Freelancer rates.md",
-    "Q6/AS/Prácticas/Pacman.md",
-    "Q6/PA/Tema 3/Pruebas automatizadas.md",
-    "Q6/PA/Tema 3/Transaccionalidad.md",
-    "Q6/PA/Tema 3/Optimistic Locking.md",
-    "Q6/PA/Tema 3/Inyección de dependencias.md",
-    "Q6/PA/Tema 3/Introducción a capa lógica de negocio con Spring.md",
-    "Q6/PA/Tema 2/Desarrollo de DAOs.md",
-    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
-    "Q6/PA/Tema 2/Modelado de relaciones en JPA.md",
-    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
-    "Q6/PA/Tema 2/Modelado de entidades en JPA.md",
-    "Q6/PA/Tema 2/Introducción a JPA.md",
-    "Q6/PA/Tema 1/Entornos de desarrollo.md",
+    "Q6/AS/Prácticas/Fecha y hora.md",
+    "Q6/AS/Prácticas/Wine cellar.md",
+    "Q6/AS/Prácticas/Keyword lists.md",
+    "Q6/AS/Prácticas/Expresiones regulares.md",
+    "Q6/AS/Prácticas/Log parser.md",
+    "Q6/AS/Prácticas/Bitstrings.md",
+    "Q6/AS/Prácticas/Paint by number.md",
+    "Q6/AS/Prácticas/Procesos.md",
+    "Q6/AS/Prácticas/PIDs.md",
+    "Q6/AS/Prácticas/Take a number.md",
+    "Q6/AS/Prácticas/Name badge.md",
+    "Q6/AS/Prácticas/Nil.md",
+    "Q6/AS/Prácticas/If else.md",
+    "Q6/AS/Prácticas/IO.md",
+    "Q6/AS/Prácticas/RPG character sheet.md",
+    "Q6/AS/Prácticas/Charlists.md",
+    "Q6/AS/Prácticas/Case.md",
+    "Q6/AS/Prácticas/German sysadmin.md",
+    "Q6/AS/Prácticas/Especificaciones y tipos.md",
+    "Q6/AS/Prácticas/Documentación.md",
+    "Q6/AS/Prácticas/City office.md",
+    "Q6/AS/Prácticas/Constantes de módulo.md",
+    "Q6/AS/Prácticas/Mapas.md",
+    "Q6/AS/Prácticas/High score.md",
+    "Q6/AS/Prácticas/Recursividad.md",
     "Imágenes/cache de primer nivel.png",
     "Imágenes/pagina web Bellas.png",
     "Excalidraw",
