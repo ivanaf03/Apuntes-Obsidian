@@ -1,6 +1,5 @@
 [[Elixir]]
 
-# Mapas
 ```elixir
 defmodule HighScore do
 
