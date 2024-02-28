@@ -8,13 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf74d468e420f7ca",
+            "id": "0a1295d431422f43",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Diagrama relacional ejercicio 1.md"
+              }
+            }
+          },
+          {
+            "id": "141519300dc4de63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/AS/Prácticas/Fecha y hora.md",
-                "mode": "source",
+                "file": "Q6/BDA/Prácticas/Modelado de datos.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/AS/Prácticas/Fecha y hora.md",
+                "file": "Excalidraw/Diagrama relacional ejercicio 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/AS/Prácticas/Fecha y hora.md"
+                "file": "Excalidraw/Diagrama relacional ejercicio 1.md"
               }
             }
           },
@@ -130,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/AS/Prácticas/Fecha y hora.md",
+                "file": "Excalidraw/Diagrama relacional ejercicio 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +152,7 @@
             }
           },
           {
-            "id": "53d8969995de40f2",
+            "id": "d7babed2616decdf",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -170,34 +180,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf74d468e420f7ca",
+  "active": "0a1295d431422f43",
   "lastOpenFiles": [
+    "Q6/BDA/Prácticas/Modelado de datos.md",
+    "Excalidraw/Diagrama relacional ejercicio 1.md",
+    "Q6/AS/Prácticas/Boutique sugestions.md",
+    "Excalidraw/Diagrama relaciona.md",
+    "Q6/AS/Prácticas/Compresión de listas.md",
     "Q6/AS/Prácticas/Elixir.md",
-    "Q6/AS/Prácticas/Fecha y hora.md",
-    "Q6/AS/Prácticas/Wine cellar.md",
-    "Q6/AS/Prácticas/Keyword lists.md",
-    "Q6/AS/Prácticas/Expresiones regulares.md",
-    "Q6/AS/Prácticas/Log parser.md",
+    "Q6/AS/Prácticas/Top secret.md",
+    "Q6/AS/Prácticas/Remote control car.md",
+    "Q6/AS/Prácticas/Structs.md",
+    "Q6/AS/Prácticas/Boutique inventory.md",
+    "Q6/PA/Tema 3/Pruebas automatizadas.md",
+    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
+    "Q6/PA/Tema 4/Desarrollo de controladores.md",
+    "Imágenes/rest 1 2.png",
+    "Imágenes/rest 1.png",
+    "Imágenes/controladores.png",
+    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
+    "Q6/AS/Prácticas/DNA encoding.md",
+    "Q6/PA/Tema 4/Introducción a REST con Spring.md",
+    "Q6/AS/Prácticas/Tail recursion.md",
     "Q6/AS/Prácticas/Bitstrings.md",
-    "Q6/AS/Prácticas/Paint by number.md",
-    "Q6/AS/Prácticas/Procesos.md",
-    "Q6/AS/Prácticas/PIDs.md",
-    "Q6/AS/Prácticas/Take a number.md",
-    "Q6/AS/Prácticas/Name badge.md",
-    "Q6/AS/Prácticas/Nil.md",
-    "Q6/AS/Prácticas/If else.md",
-    "Q6/AS/Prácticas/IO.md",
-    "Q6/AS/Prácticas/RPG character sheet.md",
     "Q6/AS/Prácticas/Charlists.md",
-    "Q6/AS/Prácticas/Case.md",
-    "Q6/AS/Prácticas/German sysadmin.md",
-    "Q6/AS/Prácticas/Especificaciones y tipos.md",
-    "Q6/AS/Prácticas/Documentación.md",
-    "Q6/AS/Prácticas/City office.md",
-    "Q6/AS/Prácticas/Constantes de módulo.md",
-    "Q6/AS/Prácticas/Mapas.md",
-    "Q6/AS/Prácticas/High score.md",
-    "Q6/AS/Prácticas/Recursividad.md",
+    "Q6/AS/Prácticas/Keyword lists.md",
+    "Q6/AS/Prácticas/Chessboard.md",
+    "Q6/AS/Prácticas/Rangos.md",
+    "Q6/AS/Prácticas/Newsletter.md",
+    "Q6/AS/Prácticas/File.md",
+    "Q6/AS/Prácticas/File sniffer.md",
+    "Q6/AS/Prácticas/Enteros.md",
+    "Q6/BDA/Seguridad",
     "Imágenes/cache de primer nivel.png",
     "Imágenes/pagina web Bellas.png",
     "Excalidraw",
@@ -208,16 +222,12 @@
     "Imágenes/ejemplo 1 jerarquia.png",
     "Imágenes/relacion N M.png",
     "Imágenes/relacion 1 N.png",
-    "Imágenes/relacion 1 1.png",
-    "Imágenes/jerarquias.png",
-    "Imágenes/lazy eager.png",
     "Q6/PA/Tema 4",
     "Q6/ACL/Tema 3",
     "Q6/BDA/Integridad",
     "Q6/AS/Tema 2",
     "Q6/ER/Tema 3",
     "Q6/PA/Tema 3",
-    "Q6/AS/Prácticas",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
