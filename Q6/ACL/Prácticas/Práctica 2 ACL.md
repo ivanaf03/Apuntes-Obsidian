@@ -46,11 +46,10 @@ Antes de firmar un contrato hay que revisar que está de acuerdo con la oferta q
 
 # 4. Ciclos de desarrollo
 | Fase | Entrada | Salida | Obligatorio | Responsable | Revisión | Obligatorio |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-$\space$
+| ---- | ------- | ------ | ----------- | ----------- | -------- | ----------- |
+|      |         |        |             |             |          |             |
 
 | Fase | Criterios de entrada | Criterios de salida |
-| ---- | ---- | ---- |
-|  |  |  |
+| ---- | -------------------- | ------------------- |
+|      |                      |                     |
+
