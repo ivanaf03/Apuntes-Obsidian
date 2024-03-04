@@ -4,4 +4,4 @@ Contenido:
 + [[Introducción al catálogo]]
 + [[Catálogo del sistema]]
 + [[Catálogo SQL estándar]]
-+ [[Casos de uso]]
++ [[Q6/BDA/Catálogo/Casos de uso]]
