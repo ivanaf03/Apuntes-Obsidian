@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 5 ACL.md",
+                "file": "Try-rescue.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.5
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 5 ACL.md",
+                "file": "Try-rescue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 5 ACL.md"
+                "file": "Try-rescue.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 5 ACL.md",
+                "file": "Try-rescue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,8 +149,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,32 +171,35 @@
   },
   "active": "e8f3cfbb0d91659c",
   "lastOpenFiles": [
-    "Q6/ACL/Tema 3/Introducción a ISO 9000.md",
-    "Q6/ACL/Tema 3/ISO 9001.md",
-    "Q6/ACL/Prácticas/Semana 5 ACL.md",
-    "Plantilla.md",
-    "Q5/XP/Xestión de Proxectos.md",
-    "Q5/XP/Gestión de la configuración software.md",
-    "Excalidraw/Diagrama relacional ejercicio 1.md",
-    "Q5/XP/Casos de empresas IRL.md",
-    "Q6/ACL/Prácticas/Práctica 2 ACL.md",
-    "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/ACL/Tema 3/Tema 3-ISO 9000.md",
-    "Q6/ACL/Prácticas/TGR ACL.md",
-    "Q6/ACL/Prácticas/Práctica 1 ACL.md",
-    "Excalidraw/Drawing 2024-02-29 00.10.29.excalidraw.md",
-    "Q6/BDA/Prácticas/Modelado de datos.md",
-    "Q6/AS/Prácticas/Boutique sugestions.md",
-    "Excalidraw/Diagrama relaciona.md",
-    "Q6/AS/Prácticas/Compresión de listas.md",
     "Q6/AS/Prácticas/Elixir.md",
-    "Q6/AS/Prácticas/Top secret.md",
-    "Q6/AS/Prácticas/Remote control car.md",
-    "Q6/AS/Prácticas/Structs.md",
-    "Q6/AS/Prácticas/Boutique inventory.md",
-    "Q6/PA/Tema 3/Pruebas automatizadas.md",
-    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
-    "Q6/PA/Tema 4/Desarrollo de controladores.md",
+    "Try-rescue.md",
+    "Try/rescue.md",
+    "Try",
+    "Errores.md",
+    "Need for speed.md",
+    "Q6/AS/Prácticas/Alias.md",
+    "Q6/AS/Prácticas/Import.md",
+    "Excalidraw/Diagrama relacional ejercicio 1.md",
+    "Excalidraw/Drawing 2024-03-03 23.43.48.excalidraw.md",
+    "Q6/AS/Prácticas/Captain's log.md",
+    "Q6/AS/Prácticas/Librerías de Erlang.md",
+    "Q6/AS/Prácticas/Aleatorios.md",
+    "Q6/AS/Prácticas/Bread and potions.md",
+    "Q6/AS/Prácticas/Protocolos.md",
+    "Q6/AS/Prácticas/Community garden.md",
+    "Q6/AS/Prácticas/Agent.md",
+    "Q6/AS/Tema 4/Tema 4-Arquitecturaas centradas en la comunicación.md",
+    "Q6/AS/Arquitectura do software.md",
+    "Q6/ER/Tema 5/Tema 5-Casos de uso.md",
+    "Q6/AS/Tema 4",
+    "Excalidraw/Drawing 2024-03-01 11.31.16.excalidraw.md",
+    "Q6/ER/Tema 5/UML para casos de uso.md",
+    "Excalidraw/Drawing 2024-03-01 11.28.38.excalidraw.md",
+    "Q6/ER/Tema 1/Definiciones de ingeniería de requisitos.md",
+    "Q6/ER/Tema 5/Ejemplo de casos de uso.md",
+    "Q6/ER/Tema 5/Casos de uso.md",
+    "Q6/ER/Tema 5/Introducción a los casos de uso.md",
+    "Q6/ER/Tema 5",
     "Imágenes/rest 1 2.png",
     "Imágenes/rest 1.png",
     "Imágenes/controladores.png",
@@ -215,9 +217,6 @@
     "Q6/PA/Tema 4",
     "Q6/ACL/Tema 3",
     "Q6/BDA/Integridad",
-    "Q6/AS/Tema 2",
-    "Q6/ER/Tema 3",
-    "Q6/PA/Tema 3",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
