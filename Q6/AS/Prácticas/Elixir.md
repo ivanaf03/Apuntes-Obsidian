@@ -42,6 +42,14 @@ Teoría:
 + [[Tail recursion]]
 + [[Structs]]
 + [[Compresión de listas]]
++ [[Agent]]
++ [[Protocolos]]
++ [[Librerías de Erlang]]
++ [[Aleatorios]]
++ [[Alias]]
++ [[Import]]
++ [[Errores]]
++ [[Try-rescue]]
 
 Ejercicios:
 + [[Hola mundo]]
@@ -90,3 +98,7 @@ Ejercicios:
  + [[DNA encoding]]
  + [[Remote control car]]
  + [[Boutique sugestions]]
+ + [[Community garden]]
+ + [[Bread and potions]]
+ + [[Captain's log]]
+ + [[Need for speed]]
