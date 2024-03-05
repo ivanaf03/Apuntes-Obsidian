@@ -11,15 +11,26 @@
             "id": "e8f3cfbb0d91659c",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Diagrama relacional ejercicio 1.md"
+              }
+            }
+          },
+          {
+            "id": "6a7935cde5a4e2e0",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Try-rescue.md",
+                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Try-rescue.md",
+                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Try-rescue.md"
+                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md"
               }
             }
           },
@@ -130,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Try-rescue.md",
+                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,36 +180,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e8f3cfbb0d91659c",
+  "active": "995f13a032b9c717",
   "lastOpenFiles": [
+    "Imágenes/base datos estadistica.png",
+    "Q6/BDA/Seguridad/Seguridad.md",
+    "Q6/BDA/Seguridad/Técnicas adicionales.md",
+    "Q6/BDA/Seguridad/Seguridad en Oracle.md",
+    "Q6/BDA/Seguridad/Autenticación y autorización.md",
+    "Q6/BDA/Seguridad/Introducción a la seguridad en BBDD.md",
     "Q6/AS/Prácticas/Elixir.md",
-    "Try-rescue.md",
+    "Q6/AS/Prácticas/Zebra puzzle.md",
     "Try/rescue.md",
+    "Excalidraw/Drawing 2024-03-05 08.32.03.excalidraw.md",
+    "Excalidraw/Diagrama relacional ejercicio 1.md",
+    "Excalidraw/Drawing 2024-03-05 08.31.31.excalidraw.md",
+    "Plantilla.md",
+    "Q6/AS/Prácticas/Try-rescue.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Prácticas/Semana 5 ACL.md",
+    "Q6/AS/Prácticas/RPN calculator.md",
+    "Q6/AS/Prácticas/Errores.md",
     "Try",
-    "Errores.md",
-    "Need for speed.md",
+    "Q6/AS/Prácticas/Need for speed.md",
     "Q6/AS/Prácticas/Alias.md",
     "Q6/AS/Prácticas/Import.md",
-    "Excalidraw/Diagrama relacional ejercicio 1.md",
     "Excalidraw/Drawing 2024-03-03 23.43.48.excalidraw.md",
     "Q6/AS/Prácticas/Captain's log.md",
     "Q6/AS/Prácticas/Librerías de Erlang.md",
     "Q6/AS/Prácticas/Aleatorios.md",
-    "Q6/AS/Prácticas/Bread and potions.md",
-    "Q6/AS/Prácticas/Protocolos.md",
-    "Q6/AS/Prácticas/Community garden.md",
-    "Q6/AS/Prácticas/Agent.md",
-    "Q6/AS/Tema 4/Tema 4-Arquitecturaas centradas en la comunicación.md",
-    "Q6/AS/Arquitectura do software.md",
-    "Q6/ER/Tema 5/Tema 5-Casos de uso.md",
     "Q6/AS/Tema 4",
-    "Excalidraw/Drawing 2024-03-01 11.31.16.excalidraw.md",
-    "Q6/ER/Tema 5/UML para casos de uso.md",
-    "Excalidraw/Drawing 2024-03-01 11.28.38.excalidraw.md",
-    "Q6/ER/Tema 1/Definiciones de ingeniería de requisitos.md",
-    "Q6/ER/Tema 5/Ejemplo de casos de uso.md",
-    "Q6/ER/Tema 5/Casos de uso.md",
-    "Q6/ER/Tema 5/Introducción a los casos de uso.md",
     "Q6/ER/Tema 5",
     "Imágenes/rest 1 2.png",
     "Imágenes/rest 1.png",
