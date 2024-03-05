@@ -32,3 +32,20 @@ La autorización es lo qué puede hacer un usuario en la base de datos. Aunque u
 Existen dos tipos de control de acceso:
 + [>] *Control de acceso obligatorio:* no está definido en el estándar.
 + [>] *Control de acceso direccional:* está definido en el estándar.
+
+## 3.1.Control de acceso obligatorio
+Se basa en políticas del sistema, por lo que son modificables por el usuario. Se le asigna a cada objeto de la base de datos una clave de seguridad. A cada usuario se le asigna un nivel de autorización para cada clase de seguridad. Los usuarios pueden leer o escribir un objeto basándose en los niveles de autorización y clases de seguridad.
+
+Se basa en garantizar que los datos confidenciales no pasen a un usuario sin el nivel de seguridad adecuado. 
+
+### 3.1.1.Ejemplo: modelo Bell-LaPadula
+Se basa en definir clases de seguridad:
++ *TS:* top secret
++ *S:* secret
++ *C:* confidential
++ *U:* unclassified
+
+$\space$
+Asigna una clase de seguridad a los objetos y a los usuarios y define dos reglas:
++ *Simple:* Un sujeto puede leer un objeto si la clase del sujeto es mayor o igual que la del objeto.
++ *Estrella:* Un sujeto puede escribir un objeto si la clase del sujeto es menor o igual que la del objeto.
