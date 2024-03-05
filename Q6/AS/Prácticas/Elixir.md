@@ -102,3 +102,5 @@ Ejercicios:
  + [[Bread and potions]]
  + [[Captain's log]]
  + [[Need for speed]]
+ +  [[RPN calculator]]
+ + [[Zebra puzzle]]
