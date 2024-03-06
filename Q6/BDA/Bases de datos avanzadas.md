@@ -5,6 +5,7 @@ Temario:
 + [[Vistas]]
 + [[Integridad]]
 + [[Seguridad]]
++ [[Bases de datos activas]]
 
 Prácticas:
 + [[Modelado de datos]]
