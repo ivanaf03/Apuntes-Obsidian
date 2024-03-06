@@ -23,14 +23,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md",
+                "file": "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "469d81c6d1fbcb6c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Clase 5 ER/iniciar sesión.md"
+              }
+            }
+          },
+          {
+            "id": "78da99abc8f5bf0b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Clase 5 ER/turnos.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -96,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md",
+                "file": "Excalidraw/Clase 5 ER/turnos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md"
+                "file": "Excalidraw/Clase 5 ER/turnos.md"
               }
             }
           },
@@ -141,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Seguridad/Técnicas adicionales.md",
+                "file": "Excalidraw/Clase 5 ER/turnos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,33 +202,40 @@
   },
   "active": "995f13a032b9c717",
   "lastOpenFiles": [
-    "Imágenes/base datos estadistica.png",
-    "Q6/BDA/Seguridad/Seguridad.md",
-    "Q6/BDA/Seguridad/Técnicas adicionales.md",
-    "Q6/BDA/Seguridad/Seguridad en Oracle.md",
-    "Q6/BDA/Seguridad/Autenticación y autorización.md",
-    "Q6/BDA/Seguridad/Introducción a la seguridad en BBDD.md",
+    "Excalidraw/Clase 5 ER",
+    "Excalidraw/Clase 5 ER/iniciar sesión.md",
+    "Excalidraw/Clase 5 ER/turnos.md",
+    "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
+    "Imágenes/jwt.png",
+    "Imágenes/esquema autenticacion.png",
+    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
+    "Q6/PA/Tema 4/Internalización de mensajes.md",
+    "Q6/PA/Tema 4/Gestión de excepciones.md",
+    "Imágenes/excepciones 2.png",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
+    "Q6/PA/Tema 3/Optimistic Locking.md",
+    "Q6/PA/Tema 3/Pruebas automatizadas.md",
+    "Q6/PA/Tema 3/Inyección de dependencias.md",
+    "Imágenes/excepciones 1.png",
+    "Q6/Q6.md",
+    "Q6/AS/Arquitectura do software.md",
     "Q6/AS/Prácticas/Elixir.md",
-    "Q6/AS/Prácticas/Zebra puzzle.md",
-    "Try/rescue.md",
-    "Excalidraw/Drawing 2024-03-05 08.32.03.excalidraw.md",
     "Excalidraw/Diagrama relacional ejercicio 1.md",
-    "Excalidraw/Drawing 2024-03-05 08.31.31.excalidraw.md",
-    "Plantilla.md",
-    "Q6/AS/Prácticas/Try-rescue.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
-    "Q6/ACL/Aseguramento da calidade.md",
+    "Sin título.canvas",
+    "Q6/AS/Prácticas/Stack underflow.md",
+    "Q6/AS/Prácticas/Excepciones.md",
+    "Q6/AS/Prácticas/New passport.md",
+    "Q6/AS/Prácticas/With.md",
+    "Excalidraw/Drawing 2024-03-05 17.45.55.excalidraw.md",
     "Q6/ACL/Prácticas/Semana 5 ACL.md",
-    "Q6/AS/Prácticas/RPN calculator.md",
-    "Q6/AS/Prácticas/Errores.md",
+    "Q5/XP/Casos de empresas IRL.md",
+    "Excalidraw/Drawing 2024-03-05 12.06.21.excalidraw.md",
+    "Q5/XP/Xestión de Proxectos.md",
+    "Q5/XP/Gestión de la configuración software.md",
+    "Q6/BDA/Bases de datos activas",
+    "Imágenes/base datos estadistica.png",
     "Try",
-    "Q6/AS/Prácticas/Need for speed.md",
-    "Q6/AS/Prácticas/Alias.md",
-    "Q6/AS/Prácticas/Import.md",
-    "Excalidraw/Drawing 2024-03-03 23.43.48.excalidraw.md",
-    "Q6/AS/Prácticas/Captain's log.md",
-    "Q6/AS/Prácticas/Librerías de Erlang.md",
-    "Q6/AS/Prácticas/Aleatorios.md",
     "Q6/AS/Tema 4",
     "Q6/ER/Tema 5",
     "Imágenes/rest 1 2.png",
@@ -220,15 +247,8 @@
     "Excalidraw",
     "Q6/AS/Tema 3",
     "Q6/ER/Tema 4",
-    "Imágenes/ejemplo 3 jerarquia.png",
-    "Imágenes/ejemplo 2 jerarquia.png",
-    "Imágenes/ejemplo 1 jerarquia.png",
-    "Imágenes/relacion N M.png",
-    "Imágenes/relacion 1 N.png",
     "Q6/PA/Tema 4",
     "Q6/ACL/Tema 3",
-    "Q6/BDA/Integridad",
-    "Sin título.canvas",
     "Sin título 1.canvas"
   ]
 }
