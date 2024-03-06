@@ -56,3 +56,34 @@ Se debe proteger la información ante accesos externos:
 + [>] *Para información confidencial:* se suele utilizar cifrado bidireccional para recuperar la información cifrada.
 
 ## 1.4.Prevención de inyección SQL
+Las inyecciones de SQL son problemas se seguridad que se suelen dar al controlar mal la entrada de los datos en programas que acceden a la base de datos. 
+
+```python
+query = "select datanac from persoa where nome = '{}'"
+nompers = input('Introduce el nombre de la persona:')  # introducimos: Ada Lovelace
+
+# Parece correcto:
+# query.format(nompers) => "select datanac from persoa where nome = 'Ada Lovelace'"
+cursor.execute(query.format(nompers))  # => Ok
+
+# Pero, ¡CUIDADO!
+# introducimos nombre: '; DROP TABLE persoa; --
+print(query.format(nompers))  # "select datanac from persoa where nome = ''; DROP TABLE persoa; --'"
+cursor.execute(query.format(nompers))  # => Elimina la tabla persoa
+
+# Una posible solución consiste en utilizar parámetros:
+query = "select datanac from persoa where nome = %(nompers)s"
+nompers = input('Introduce el nombre de la persona:')  # Introducimos nombre: '; DROP TABLE persoa; --
+# Buscaría una persona llamada: '; DROP TABLE persoa; --
+# No ocurre la inyección SQL
+cur.execute(query, {'nompers': nompers})
+```
+
+## 1.5.Backups
+Los backups se suelen considerar elementos de seguridad. La pérdida de información puede darse por:
++ [>] Borrados
++ [>] Mal funcionamiento del software
++ [>] Fallos del hardware
+
+$\space$
+Es importante tener un plan global de salvaguarda del sistema y realizar pruebas constantes para verificar su funcionamiento.
