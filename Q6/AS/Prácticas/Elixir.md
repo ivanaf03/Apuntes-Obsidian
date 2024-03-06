@@ -50,6 +50,8 @@ Teoría:
 + [[Import]]
 + [[Errores]]
 + [[Try-rescue]]
++ [[With]]
++  [[Excepciones]]
 
 Ejercicios:
 + [[Hola mundo]]
@@ -104,3 +106,5 @@ Ejercicios:
  + [[Need for speed]]
  +  [[RPN calculator]]
  + [[Zebra puzzle]]
+ + [[New passport]]
+ + [[Stack underflow]]
