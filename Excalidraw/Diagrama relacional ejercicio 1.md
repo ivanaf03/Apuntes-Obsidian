@@ -44,8 +44,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 	"elements": [
 		{
 			"type": "text",
-			"version": 330,
-			"versionNonce": 802859332,
+			"version": 337,
+			"versionNonce": 2092585646,
 			"isDeleted": false,
 			"id": "ZgYXU8En",
 			"fillStyle": "solid",
@@ -58,14 +58,14 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": -367.5708491007487,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 358.37890625,
+			"width": 390.6796875,
 			"height": 25,
 			"seed": 2111889782,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709550568872,
+			"updated": 1709722807824,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -77,7 +77,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Sinatura(id, nome, apelidos, idCanónica) ",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -125,8 +125,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 414,
-			"versionNonce": 1332903164,
+			"version": 421,
+			"versionNonce": 13367090,
 			"isDeleted": false,
 			"id": "bSp9fn4E",
 			"fillStyle": "solid",
@@ -139,7 +139,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": -240.37083689371747,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 665.126953125,
+			"width": 727.0994873046875,
 			"height": 25,
 			"seed": 1141226218,
 			"groupIds": [],
@@ -163,7 +163,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807825,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -175,12 +175,12 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Relación(id, CBDRS, título, anoIni, anoFin, éanoDeducido, éAnoAproximado)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "text",
-			"version": 161,
-			"versionNonce": 1958535364,
+			"version": 168,
+			"versionNonce": 997706990,
 			"isDeleted": false,
 			"id": "xPZVO5fR",
 			"fillStyle": "solid",
@@ -193,14 +193,14 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": -283.57083384195965,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 168.544921875,
+			"width": 178.579833984375,
 			"height": 25,
 			"seed": 1742993834,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709550568872,
+			"updated": 1709722807825,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -212,7 +212,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Tipoloxía(id, nome)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -260,8 +260,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 311,
-			"versionNonce": 1787919740,
+			"version": 318,
+			"versionNonce": 845824242,
 			"isDeleted": false,
 			"id": "Lxk0MlT0",
 			"fillStyle": "solid",
@@ -274,7 +274,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": -174.77080027262372,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 392.5,
+			"width": 429.13958740234375,
 			"height": 25,
 			"seed": 2088166058,
 			"groupIds": [],
@@ -286,7 +286,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807826,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -298,7 +298,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Relación-tipoloxía(id, idRelación, idTipoloxía)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -490,8 +490,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 417,
-			"versionNonce": 1600923716,
+			"version": 424,
+			"versionNonce": 822869806,
 			"isDeleted": false,
 			"id": "Yxcx9jja",
 			"fillStyle": "solid",
@@ -504,7 +504,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": -337.9708429972331,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 379.8046875,
+			"width": 423.05963134765625,
 			"height": 25,
 			"seed": 25402538,
 			"groupIds": [],
@@ -520,7 +520,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807826,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -532,7 +532,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Relación-sinatura(id, idRelación, idSinatura)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -688,8 +688,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 1230,
-			"versionNonce": 989621756,
+			"version": 1237,
+			"versionNonce": 890852018,
 			"isDeleted": false,
 			"id": "wPeqXWV8",
 			"fillStyle": "solid",
@@ -702,7 +702,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": -26.88517579578223,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 416.85546875,
+			"width": 453.4796142578125,
 			"height": 25,
 			"seed": 1658215606,
 			"groupIds": [],
@@ -722,7 +722,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807826,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -734,7 +734,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Lugar(id, nome, lonxitude, latitude, idCanónico)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "arrow",
@@ -838,8 +838,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 494,
-			"versionNonce": 1405517764,
+			"version": 501,
+			"versionNonce": 1105193326,
 			"isDeleted": false,
 			"id": "vQt7YDpX",
 			"fillStyle": "solid",
@@ -852,7 +852,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": -120.37080637613934,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 332.275390625,
+			"width": 360.5997314453125,
 			"height": 25,
 			"seed": 308534634,
 			"groupIds": [],
@@ -864,7 +864,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807826,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -876,7 +876,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Relación-lugar(id, idRelación, idLugar)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -1032,8 +1032,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 1478,
-			"versionNonce": 297094780,
+			"version": 1485,
+			"versionNonce": 998255730,
 			"isDeleted": false,
 			"id": "u0wX5zyp",
 			"fillStyle": "solid",
@@ -1046,14 +1046,14 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": 105.22918446858722,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 456.15234375,
+			"width": 500.97955322265625,
 			"height": 25,
 			"seed": 1581928246,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709550568872,
+			"updated": 1709722807827,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1065,7 +1065,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Participación(id, rol, deducido, idSinatura, idEdición)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "arrow",
@@ -1161,8 +1161,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 712,
-			"versionNonce": 166324036,
+			"version": 719,
+			"versionNonce": 1564249006,
 			"isDeleted": false,
 			"id": "HA0Wcc8r",
 			"fillStyle": "solid",
@@ -1175,7 +1175,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": 194.82917531331378,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1086.77734375,
+			"width": 1185.13916015625,
 			"height": 25,
 			"seed": 384911286,
 			"groupIds": [],
@@ -1199,7 +1199,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807827,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1211,7 +1211,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Edición(id, título, tamaño, encadernación, dedicatoria, anoIni, anoFin, éAnoDeducido, éAnoAproximado, idLugar, idRelación)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -1419,8 +1419,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 236,
-			"versionNonce": 1333665532,
+			"version": 243,
+			"versionNonce": 191221298,
 			"isDeleted": false,
 			"id": "KYB3DjpC",
 			"fillStyle": "solid",
@@ -1433,7 +1433,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": 253.22919972737628,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 595.83984375,
+			"width": 658.2794189453125,
 			"height": 25,
 			"seed": 1625641066,
 			"groupIds": [],
@@ -1445,7 +1445,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807827,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1457,7 +1457,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Exemplar(id, exLibris, observación, idEdición, idBiblioteca, signatura)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -1557,8 +1557,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 851,
-			"versionNonce": 104095428,
+			"version": 858,
+			"versionNonce": 558556654,
 			"isDeleted": false,
 			"id": "2smo9YMg",
 			"fillStyle": "solid",
@@ -1571,7 +1571,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": 368.4291508992513,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 498.7109375,
+			"width": 546.9995727539062,
 			"height": 25,
 			"seed": 1549366314,
 			"groupIds": [],
@@ -1583,7 +1583,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807827,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1595,7 +1595,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "Biblioteca(id, nome, enderezo, país, teléfono, email, web)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "arrow",
@@ -1695,8 +1695,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 203,
-			"versionNonce": 1826152316,
+			"version": 210,
+			"versionNonce": 431044594,
 			"isDeleted": false,
 			"id": "kTgKdBhU",
 			"fillStyle": "solid",
@@ -1709,7 +1709,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": 320.8291753133138,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 378.974609375,
+			"width": 442.2196044921875,
 			"height": 25,
 			"seed": 79064822,
 			"groupIds": [],
@@ -1725,7 +1725,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 					"type": "arrow"
 				}
 			],
-			"updated": 1709550568872,
+			"updated": 1709722807828,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1737,7 +1737,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "ExemplarDixitalizado(id, pathPDF, pathText)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -1841,8 +1841,8 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		},
 		{
 			"type": "text",
-			"version": 250,
-			"versionNonce": 289662532,
+			"version": 257,
+			"versionNonce": 2132015150,
 			"isDeleted": false,
 			"id": "rHnG4AYt",
 			"fillStyle": "solid",
@@ -1855,14 +1855,14 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"y": 471.2291997273763,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 691.62109375,
+			"width": 769.1192626953125,
 			"height": 25,
 			"seed": 628615594,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709550568872,
+			"updated": 1709722807828,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1874,7 +1874,7 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 			"containerId": null,
 			"originalText": "PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizado)",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -1988,10 +1988,10 @@ PáxinaDixitalizada(id, pathFicheiro, numPax, descrición, idExemplarDixitalizad
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1162.4972245119645,
-		"scrollY": 1001.5643170811178,
+		"scrollX": 1117.107614122354,
+		"scrollY": 689.2039449093444,
 		"zoom": {
-			"value": 0.35000000000000003
+			"value": 0.55
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
