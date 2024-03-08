@@ -1,6 +1,6 @@
 [[Tema 4-Capa de servicios REST con Spring]]
 
-# Introducción
+# 1.Introducción
 Usamos la librería spring-web para implementar la capa de servicios REST. Al usar Spring Boot, el servicio debe tener una clase anotada con `@SpringBootApplication` con un método `main`.
 
 ```java
@@ -24,6 +24,11 @@ public class Application {
 
 ```
 
+## 1.1.Ejecución del backend
 Al ejecutar `mvn spring-boot:run` busca la clase con esta notación e invoca al main. El main arranca un servidor de aplicaciones, el contenedor de objetos escanea los `.class`, crea los beans correspondientes y deja el backend listo para recibir peticiones.
 
-Al ejecutar `mvn package` se genera un fichero `.jar`. Tenemos dos opciones. 
+Al ejecutar `mvn package` se genera un fichero `.jar`. Tenemos dos opciones:
++ [>] *Ejecutar `java -jar target/pa-shop-backend.jar`:* es un fat JAR formado por:
+	+ [>] Todos los `.class` del backend.
+	+ [>] Todos los `.jar` de las dependencias.
+	+ [>] Un fichero con metadatos para el nombre completo de la clase con la anotación `@SpringBootApplication` 
