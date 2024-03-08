@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "78da99abc8f5bf0b",
+            "id": "c0a032575c6c73ed",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/stock.md"
-              }
-            }
-          },
-          {
-            "id": "53cfa1830017bcc5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Clase 5 ER/turnos.md"
+                "file": "Excalidraw/Clase 5 ER/ticket.md"
               }
             }
           }
@@ -93,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/stock.md",
+                "file": "Excalidraw/Clase 5 ER/ticket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/stock.md"
+                "file": "Excalidraw/Clase 5 ER/ticket.md"
               }
             }
           },
@@ -138,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/stock.md",
+                "file": "Excalidraw/Clase 5 ER/ticket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,11 +167,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "78da99abc8f5bf0b",
+  "active": "c0a032575c6c73ed",
   "lastOpenFiles": [
+    "Excalidraw/Clase 5 ER/stock.md",
+    "Excalidraw/Clase 5 ER/ticket.md",
     "Excalidraw/Clase 5 ER/iniciar sesión.md",
     "Excalidraw/Clase 5 ER/turnos.md",
-    "Excalidraw/Clase 5 ER/stock.md",
     "Excalidraw/Clase 5 ER/Sin título.md",
     "Q6/ER/Preparación examen/Preguntas quiz.md",
     "Q6/ER/Preparación examen",
@@ -217,7 +208,6 @@
     "Q6/AS/Prácticas/Streams.md",
     "Q6/ACL/Prácticas/TGR ACL.md",
     "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
-    "Excalidraw/Drawing 2024-03-07 09.42.19.excalidraw.md",
     "Excalidraw/Clase 5 ER",
     "Sin título.canvas",
     "Q6/BDA/Bases de datos activas",
