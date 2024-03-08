@@ -6,3 +6,4 @@ Temario:
 + [[Tema 3-Todo es peligroso]]
 + [[Tema 4-Diagramas de clases en ingeniería de requisitos]]
 + [[Tema 5-Casos de uso]]
++ [[Preguntas quiz]]
