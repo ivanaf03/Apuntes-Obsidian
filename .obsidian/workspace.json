@@ -8,39 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8f3cfbb0d91659c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Diagrama relacional ejercicio 1.md"
-              }
-            }
-          },
-          {
-            "id": "6a7935cde5a4e2e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "469d81c6d1fbcb6c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Clase 5 ER/iniciar sesión.md"
-              }
-            }
-          },
-          {
             "id": "78da99abc8f5bf0b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Clase 5 ER/stock.md"
+              }
+            }
+          },
+          {
+            "id": "53cfa1830017bcc5",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -49,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/turnos.md",
+                "file": "Excalidraw/Clase 5 ER/stock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/turnos.md"
+                "file": "Excalidraw/Clase 5 ER/stock.md"
               }
             }
           },
@@ -161,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/turnos.md",
+                "file": "Excalidraw/Clase 5 ER/stock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,55 +177,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "78da99abc8f5bf0b",
   "lastOpenFiles": [
-    "Excalidraw/Clase 5 ER",
     "Excalidraw/Clase 5 ER/iniciar sesión.md",
     "Excalidraw/Clase 5 ER/turnos.md",
-    "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
-    "Imágenes/jwt.png",
-    "Imágenes/esquema autenticacion.png",
-    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
-    "Q6/PA/Tema 4/Internalización de mensajes.md",
-    "Q6/PA/Tema 4/Gestión de excepciones.md",
-    "Imágenes/excepciones 2.png",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
-    "Q6/PA/Tema 3/Optimistic Locking.md",
-    "Q6/PA/Tema 3/Pruebas automatizadas.md",
-    "Q6/PA/Tema 3/Inyección de dependencias.md",
-    "Imágenes/excepciones 1.png",
+    "Excalidraw/Clase 5 ER/stock.md",
+    "Excalidraw/Clase 5 ER/Sin título.md",
+    "Q6/ER/Preparación examen/Preguntas quiz.md",
+    "Q6/ER/Preparación examen",
+    "Imágenes/quiz 14.png",
+    "Imágenes/quiz 13.png",
+    "Imágenes/quiz 12.png",
+    "Imágenes/quiz 11.png",
+    "Imágenes/quiz 10.png",
+    "Imágenes/quiz 9.png",
+    "Imágenes/quiz 8.png",
+    "Imágenes/quiz 7.png",
+    "Imágenes/quiz 6.png",
+    "Imágenes/quiz 5.png",
+    "Q6/ER/Enxeñaría de requisitos.md",
     "Q6/Q6.md",
     "Q6/AS/Arquitectura do software.md",
+    "Ingeniería Informática.md",
+    "Javascript/Javascript.md",
+    "Javascript/JS-Freelacer rates.md",
+    "Javascript/JS-Annalyn's infiltration.md",
+    "Javascript/JS-Lucian's luscious lasagna.md",
+    "JS-Principios básicos.md",
+    "Javascript/JS-Hola mundo.md",
+    "Plantilla.md",
+    "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 1.md",
+    "Excalidraw/Diagramas relacionales",
+    "Javascript",
+    "Q6/AS/Prácticas/Links.md",
     "Q6/AS/Prácticas/Elixir.md",
-    "Excalidraw/Diagrama relacional ejercicio 1.md",
-    "Sin título.canvas",
-    "Q6/AS/Prácticas/Stack underflow.md",
+    "Q6/AS/Prácticas/Lucas numbers.md",
     "Q6/AS/Prácticas/Excepciones.md",
-    "Q6/AS/Prácticas/New passport.md",
-    "Q6/AS/Prácticas/With.md",
-    "Excalidraw/Drawing 2024-03-05 17.45.55.excalidraw.md",
-    "Q6/ACL/Prácticas/Semana 5 ACL.md",
-    "Q5/XP/Casos de empresas IRL.md",
-    "Excalidraw/Drawing 2024-03-05 12.06.21.excalidraw.md",
-    "Q5/XP/Xestión de Proxectos.md",
-    "Q5/XP/Gestión de la configuración software.md",
+    "Q6/AS/Prácticas/Errores.md",
+    "Q6/AS/Prácticas/Streams.md",
+    "Q6/ACL/Prácticas/TGR ACL.md",
+    "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
+    "Excalidraw/Drawing 2024-03-07 09.42.19.excalidraw.md",
+    "Excalidraw/Clase 5 ER",
+    "Sin título.canvas",
     "Q6/BDA/Bases de datos activas",
-    "Imágenes/base datos estadistica.png",
     "Try",
     "Q6/AS/Tema 4",
     "Q6/ER/Tema 5",
-    "Imágenes/rest 1 2.png",
-    "Imágenes/rest 1.png",
-    "Imágenes/controladores.png",
     "Q6/BDA/Seguridad",
-    "Imágenes/cache de primer nivel.png",
-    "Imágenes/pagina web Bellas.png",
     "Excalidraw",
-    "Q6/AS/Tema 3",
-    "Q6/ER/Tema 4",
-    "Q6/PA/Tema 4",
-    "Q6/ACL/Tema 3",
     "Sin título 1.canvas"
   ]
 }
