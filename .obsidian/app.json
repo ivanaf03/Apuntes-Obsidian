@@ -9,5 +9,6 @@
   "spellcheck": true,
   "foldHeading": true,
   "showLineNumber": false,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "promptDelete": false
 }
