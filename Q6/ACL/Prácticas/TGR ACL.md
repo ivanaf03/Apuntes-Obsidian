@@ -1,9 +1,9 @@
 [[Aseguramento da calidade]]
 
-# Procedimiento de control de la documentación del Sistema de Gestión de la Calidad
+# 1.Procedimiento de control de la documentación del Sistema de Gestión de la Calidad
 Supongamos que está en papel el Sistema de Gestión de la Calidad. Es similar a aplicar GCS a este sistema.
 
-## Plantilla
+## 1.1.Plantilla
 + [>] **Apartados:**
 + *Portada:* nombre de la empresa y logotipo. Abajo pondrá "Procedimiento de control de documentación del Sistema de Control de la Calidad". Abajo aparecen el autor, el revisor y el que lo aprueba. Por los tres aparecen la firma, el nombre, el cargo y la fecha. Los tres que firman somos miembros de nuestro grupo. Además aparece otra caja de firma para la persona que ponga "copia controlada de:" para la persona a la que se le da la copia. Por último, la versión y revisión y la fecha de revisión "A Coruña, a `date`".
 + *Páginas genéricas:* número de página, procedimiento y punto del procedimiento.
@@ -25,3 +25,8 @@ Supongamos que está en papel el Sistema de Gestión de la Calidad. Es similar a
 		2. Distribución
 		3. Almacenamiento: copia en papel y server dónde descargarlo.
 	11. Plantillas/formularios asociados: los formularios pueden venir de otro sitio, pueden venir incluso del cliente rellenados. Las plantillas son propias de la empresa y se usan para ejecutar alguno de los puntos del procedimiento.
+
+## 1.2.Aclaraciones
+El sistema de calidad está en papel. Dirección General tiene una copia maestra de todo el Sistema de Gestión de Calidad. No todo está en papel, el procedimiento se distribuye mediante el servidor.
+
+Las casillas de firma tienen que estar rellenadas, con el registro de cambios y la lista de distribución.
