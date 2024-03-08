@@ -51,7 +51,9 @@ Teoría:
 + [[Errores]]
 + [[Try-rescue]]
 + [[With]]
-+  [[Excepciones]]
++ [[Excepciones]]
++ [[Streams]]
++ [[Links]]
 
 Ejercicios:
 + [[Hola mundo]]
@@ -108,3 +110,4 @@ Ejercicios:
  + [[Zebra puzzle]]
  + [[New passport]]
  + [[Stack underflow]]
+ + [[Lucas numbers]]
