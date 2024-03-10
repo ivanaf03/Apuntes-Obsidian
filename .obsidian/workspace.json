@@ -11,13 +11,36 @@
             "id": "c0a032575c6c73ed",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/Clase 5 ER/iniciar sesión.png"
+              }
+            }
+          },
+          {
+            "id": "a5928e46c1162e6b",
+            "type": "leaf",
+            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/ticket.md"
+                "file": "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 2.md"
+              }
+            }
+          },
+          {
+            "id": "062e3a88037494f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Q6/BDA/Prácticas/Modelado de datos.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 200
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -83,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/ticket.md",
+                "file": "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/ticket.md"
+                "file": "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 2.md"
               }
             }
           },
@@ -128,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Clase 5 ER/ticket.md",
+                "file": "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,12 +190,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c0a032575c6c73ed",
+  "active": "a5928e46c1162e6b",
   "lastOpenFiles": [
-    "Excalidraw/Clase 5 ER/stock.md",
-    "Excalidraw/Clase 5 ER/ticket.md",
+    "Q6/BDA/Prácticas/Modelado de datos.md",
+    "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 2.md",
+    "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 1.md",
+    "Excalidraw/Clase 5 ER/iniciar sesión.png",
     "Excalidraw/Clase 5 ER/iniciar sesión.md",
+    "Excalidraw/Clase 5 ER/stock.png",
+    "Excalidraw/Clase 5 ER/stock.md",
+    "Excalidraw/Clase 5 ER/ticket.png",
+    "Excalidraw/Clase 5 ER/turnos.png",
     "Excalidraw/Clase 5 ER/turnos.md",
+    "Excalidraw/Clase 5 ER/ticket.md",
+    "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
+    "Q6/ACL/Tema 1/Solución para la mejora.md",
+    "Q6/ACL/Tema 1/Grado de cumplimiento.md",
+    "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
+    "Q6/ACL/Prácticas/Semana 5 ACL.md",
+    "Javascript/Javascript.md",
+    "Javascript/JS-Lucian's luscious lasagna.md",
+    "Javascript/JS-Hola mundo.md",
+    "Ingeniería Informática.md",
     "Excalidraw/Clase 5 ER/Sin título.md",
     "Q6/ER/Preparación examen/Preguntas quiz.md",
     "Q6/ER/Preparación examen",
@@ -182,32 +222,15 @@
     "Imágenes/quiz 11.png",
     "Imágenes/quiz 10.png",
     "Imágenes/quiz 9.png",
-    "Imágenes/quiz 8.png",
-    "Imágenes/quiz 7.png",
-    "Imágenes/quiz 6.png",
-    "Imágenes/quiz 5.png",
     "Q6/ER/Enxeñaría de requisitos.md",
     "Q6/Q6.md",
     "Q6/AS/Arquitectura do software.md",
-    "Ingeniería Informática.md",
-    "Javascript/Javascript.md",
     "Javascript/JS-Freelacer rates.md",
     "Javascript/JS-Annalyn's infiltration.md",
-    "Javascript/JS-Lucian's luscious lasagna.md",
     "JS-Principios básicos.md",
-    "Javascript/JS-Hola mundo.md",
     "Plantilla.md",
-    "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 1.md",
     "Excalidraw/Diagramas relacionales",
     "Javascript",
-    "Q6/AS/Prácticas/Links.md",
-    "Q6/AS/Prácticas/Elixir.md",
-    "Q6/AS/Prácticas/Lucas numbers.md",
-    "Q6/AS/Prácticas/Excepciones.md",
-    "Q6/AS/Prácticas/Errores.md",
-    "Q6/AS/Prácticas/Streams.md",
-    "Q6/ACL/Prácticas/TGR ACL.md",
-    "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
     "Excalidraw/Clase 5 ER",
     "Sin título.canvas",
     "Q6/BDA/Bases de datos activas",
