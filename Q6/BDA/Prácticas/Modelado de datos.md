@@ -129,6 +129,7 @@ Propón seis dominios  reales que necesiten uno de estos elementos para ser mode
 
 # 3. Esquema relacional
 Un esquema relacional solo especifica las tablas, atributos, claves primarias y claves foráneas.
+
 ```
 TABLA1(_id_, atr1, atr2, ..., atrN)
 TABLA 2(_id_, atr1, atr2, ..., atrN, idTabla1)
