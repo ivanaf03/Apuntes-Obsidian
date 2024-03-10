@@ -1,6 +1,6 @@
 [[Javascript]]
 
-```jaavscript
+```javascript
 const PREPARATION_MINUTES_PER_LAYER = 2; //constante local
 export const EXPECTED_MINUTES_IN_OVEN = 40; //constante exportable
 
