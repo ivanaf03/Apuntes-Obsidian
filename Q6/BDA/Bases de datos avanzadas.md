@@ -6,6 +6,7 @@ Temario:
 + [[Integridad]]
 + [[Seguridad]]
 + [[Bases de datos activas]]
++ [[Diseño físico]]
 
 Prácticas:
 + [[Modelado de datos]]
