@@ -13,4 +13,6 @@ Prácticas:
 + [[Práctica 2 ACL]]
 + [[TGR ACL]]
 + [[Semana 5 ACL]]
++ [[Semana 7 ACL]]
++ [[Semana 8 ACL]]
 
