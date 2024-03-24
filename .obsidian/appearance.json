@@ -1,12 +1,12 @@
 {
-  "accentColor": "#8000ff",
+  "accentColor": "#0011ff",
   "cssTheme": "Things",
   "interfaceFontFamily": "Segoe UI",
-  "baseFontSize": 13,
+  "baseFontSize": 14,
   "theme": "obsidian",
   "baseFontSizeAction": true,
   "translucency": false,
   "enabledCssSnippets": [],
-  "textFontFamily": "",
+  "textFontFamily": "Dubai",
   "monospaceFontFamily": ""
 }
