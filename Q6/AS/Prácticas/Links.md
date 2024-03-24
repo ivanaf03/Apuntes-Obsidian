@@ -1,5 +1,7 @@
 [[Elixir]]
 
+Ejercicios asociados:
++ [[RPN calculator inspection]]
 # 1.Procesos bidireccionales
 Los procesos en elixir están aislados y no comparten datos. Cuando un proceso hijo se muere el padre no se ve afectado. Esto puede cambiarse linkeando procesos. Son bidireccionales.
 
