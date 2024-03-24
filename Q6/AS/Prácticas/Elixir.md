@@ -54,6 +54,10 @@ Teoría:
 + [[Excepciones]]
 + [[Streams]]
 + [[Links]]
++ [[Tareas]]
++ [[Behaviours]]
++ [[Use]]
++ [[Gen server]]
 
 Ejercicios:
 + [[Hola mundo]]
@@ -111,3 +115,6 @@ Ejercicios:
  + [[New passport]]
  + [[Stack underflow]]
  + [[Lucas numbers]]
+ + [[Dancing dots]]
+ + [[RPN calculator inspection]]
+ + [[Take a number deluxe]]
