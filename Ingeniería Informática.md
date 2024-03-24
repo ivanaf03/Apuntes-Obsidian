@@ -4,5 +4,6 @@ Cuatrimestres:
 + [[Q5]]
 + [[Q6]]
 
-Aprendizaje propio:
-+ [[Javascript]]
+Desarrollo web:
++ [[Desarrollo web]]
+
