@@ -31,4 +31,5 @@ Al ejecutar `mvn package` se genera un fichero `.jar`. Tenemos dos opciones:
 + [>] *Ejecutar `java -jar target/pa-shop-backend.jar`:* es un fat JAR formado por:
 	+ [>] Todos los `.class` del backend.
 	+ [>] Todos los `.jar` de las dependencias.
-	+ [>] Un fichero con metadatos para el nombre completo de la clase con la anotación `@SpringBootApplication` 
+	+ [>] Un fichero con metadatos para el nombre completo de la clase con la anotación `@SpringBootApplication` . La máquina virtual de Java ejecuta el `main` de esa clase.
++ [>] *Instalar `target/pa-shop-backend.war` en un servidor de aplicaciones de Java estándar:* se pasa el `.jar` a `.war` y, una vez instalado, el contenedor de objetos de Spring estará listo para recibir peticiones.
