@@ -150,8 +150,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 251,
-			"versionNonce": 743416886,
+			"version": 252,
+			"versionNonce": 1545952485,
 			"isDeleted": false,
 			"id": "ALbFrgDd",
 			"fillStyle": "solid",
@@ -176,7 +176,7 @@ del empleado ^uHXuv6r6
 					"type": "arrow"
 				}
 			],
-			"updated": 1709891714341,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -188,7 +188,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "jefe",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -326,8 +326,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 325,
-			"versionNonce": 1024746026,
+			"version": 326,
+			"versionNonce": 1763119083,
 			"isDeleted": false,
 			"id": "53qeTMKO",
 			"fillStyle": "solid",
@@ -360,7 +360,7 @@ del empleado ^uHXuv6r6
 					"type": "arrow"
 				}
 			],
-			"updated": 1709891714341,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -372,7 +372,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Jefe accede a\nlista de turnos",
 			"lineHeight": 1.25,
-			"baseline": 46
+			"baseline": 45
 		},
 		{
 			"type": "arrow",
@@ -449,8 +449,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 347,
-			"versionNonce": 377073014,
+			"version": 348,
+			"versionNonce": 596801605,
 			"isDeleted": false,
 			"id": "ETk48Gl1",
 			"fillStyle": "solid",
@@ -470,7 +470,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714341,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -482,7 +482,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Turno nuevo?",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -530,8 +530,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 269,
-			"versionNonce": 1767541994,
+			"version": 270,
+			"versionNonce": 1864620683,
 			"isDeleted": false,
 			"id": "n59dcOtM",
 			"fillStyle": "solid",
@@ -551,7 +551,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -563,7 +563,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "sí",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -615,8 +615,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 285,
-			"versionNonce": 1494257334,
+			"version": 286,
+			"versionNonce": 1770334117,
 			"isDeleted": false,
 			"id": "v6d2o6yj",
 			"fillStyle": "solid",
@@ -636,7 +636,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -648,7 +648,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "no",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "rectangle",
@@ -681,8 +681,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 214,
-			"versionNonce": 1762484138,
+			"version": 215,
+			"versionNonce": 981356843,
 			"isDeleted": false,
 			"id": "qXXzgaQc",
 			"fillStyle": "solid",
@@ -711,7 +711,7 @@ del empleado ^uHXuv6r6
 					"type": "arrow"
 				}
 			],
-			"updated": 1709891714342,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -723,7 +723,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Introduce horario de turno\n y datos de empleado",
 			"lineHeight": 1.25,
-			"baseline": 46
+			"baseline": 45
 		},
 		{
 			"type": "arrow",
@@ -817,8 +817,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 70,
-			"versionNonce": 12142582,
+			"version": 71,
+			"versionNonce": 1881860869,
 			"isDeleted": false,
 			"id": "s692Iy7Y",
 			"fillStyle": "solid",
@@ -838,7 +838,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -850,7 +850,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Turno añadido",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -1007,8 +1007,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 81,
-			"versionNonce": 2019023466,
+			"version": 82,
+			"versionNonce": 747697099,
 			"isDeleted": false,
 			"id": "fuhWaJhu",
 			"fillStyle": "solid",
@@ -1028,7 +1028,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601524,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1040,7 +1040,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Selecciona un turno",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -1121,8 +1121,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 49,
-			"versionNonce": 1031330102,
+			"version": 50,
+			"versionNonce": 1476477541,
 			"isDeleted": false,
 			"id": "vNEcLZMk",
 			"fillStyle": "solid",
@@ -1142,7 +1142,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1154,7 +1154,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Quiere eliminarlo?",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -1206,8 +1206,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 300,
-			"versionNonce": 369425706,
+			"version": 301,
+			"versionNonce": 360071787,
 			"isDeleted": false,
 			"id": "VDiiQGpz",
 			"fillStyle": "solid",
@@ -1227,7 +1227,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1239,7 +1239,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "no",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -1291,8 +1291,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 290,
-			"versionNonce": 1991524982,
+			"version": 291,
+			"versionNonce": 1440067013,
 			"isDeleted": false,
 			"id": "J8wWSR12",
 			"fillStyle": "solid",
@@ -1312,7 +1312,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1324,7 +1324,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "sí",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "rectangle",
@@ -1366,8 +1366,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 64,
-			"versionNonce": 796903402,
+			"version": 65,
+			"versionNonce": 1576582411,
 			"isDeleted": false,
 			"id": "X1MlsMpv",
 			"fillStyle": "solid",
@@ -1387,7 +1387,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1399,7 +1399,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Turno eliminado",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "ellipse",
@@ -1600,8 +1600,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 178,
-			"versionNonce": 1597014966,
+			"version": 179,
+			"versionNonce": 684043557,
 			"isDeleted": false,
 			"id": "IeadUQaA",
 			"fillStyle": "solid",
@@ -1626,7 +1626,7 @@ del empleado ^uHXuv6r6
 					"type": "arrow"
 				}
 			],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1638,7 +1638,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Quiere modificarlo?",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -1698,8 +1698,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 317,
-			"versionNonce": 1288911530,
+			"version": 318,
+			"versionNonce": 1905451947,
 			"isDeleted": false,
 			"id": "6Ve135kB",
 			"fillStyle": "solid",
@@ -1719,7 +1719,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1731,7 +1731,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "no",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "arrow",
@@ -1787,8 +1787,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 292,
-			"versionNonce": 152214774,
+			"version": 293,
+			"versionNonce": 1346289797,
 			"isDeleted": false,
 			"id": "o9IngVZb",
 			"fillStyle": "solid",
@@ -1808,7 +1808,7 @@ del empleado ^uHXuv6r6
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1820,7 +1820,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "sí",
 			"lineHeight": 1.25,
-			"baseline": 21
+			"baseline": 20
 		},
 		{
 			"type": "ellipse",
@@ -1921,8 +1921,8 @@ del empleado ^uHXuv6r6
 		},
 		{
 			"type": "text",
-			"version": 89,
-			"versionNonce": 1017795946,
+			"version": 90,
+			"versionNonce": 1752118859,
 			"isDeleted": false,
 			"id": "uHXuv6r6",
 			"fillStyle": "solid",
@@ -1947,7 +1947,7 @@ del empleado ^uHXuv6r6
 					"type": "arrow"
 				}
 			],
-			"updated": 1709891714342,
+			"updated": 1710359601525,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1959,7 +1959,7 @@ del empleado ^uHXuv6r6
 			"containerId": null,
 			"originalText": "Modifica la duración del turno\ndel empleado",
 			"lineHeight": 1.25,
-			"baseline": 46
+			"baseline": 45
 		},
 		{
 			"type": "arrow",
@@ -2029,10 +2029,10 @@ del empleado ^uHXuv6r6
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1144.216618855794,
-		"scrollY": 453.16914971449836,
+		"scrollX": 1096.624804542178,
+		"scrollY": 420.832367894837,
 		"zoom": {
-			"value": 0.6000000000000001
+			"value": 0.7000000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
