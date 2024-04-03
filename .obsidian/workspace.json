@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1c76ced98cce791",
+            "id": "4a4a1a9c92b3bc1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desarrollo web/Desarrollo web.md",
+                "file": "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desarrollo web/Desarrollo web.md",
+                "file": "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Desarrollo web/Desarrollo web.md"
+                "file": "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desarrollo web/Desarrollo web.md",
+                "file": "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,53 +169,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1c76ced98cce791",
+  "active": "4a4a1a9c92b3bc1d",
   "lastOpenFiles": [
-    "Desarrollo web/HTML/Cabecera HTML.md",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
+    "Q6/PA/Tema 6/Desarrollo iterativo de un gestor de TODOs 2.md",
+    "Q6/PA/Tema 7",
+    "Q6/PA/Tema 6/Tema 6-Gestión de estado con Redux.md",
+    "Q6/PA/Tema 6/Desarrollo de un contador.md",
+    "Pasted Image 20240403120058_850.png",
+    "Q6/ACL/Prácticas/TGR ACL.md",
+    "Excalidraw/Clase 6 ER/Drawing 2024-04-03 11.47.53.excalidraw.md",
+    "Excalidraw/Clase 6 ER",
+    "Q6/ACL/Prácticas/Práctica 2 ACL.md",
+    "Q6/ACL/Prácticas/Semana 5 ACL.md",
+    "Q6/ACL/Prácticas/Semana 7 ACL.md",
+    "Q6/PA/Tema 6/Introducción a Redux.md",
+    "Q6/PA/Tutorial JS/Tutorial Javascript.md",
+    "Q6/PA/Tema 5/Tema 5-Desarrolllo basado en componentes React.md",
+    "Q6/PA/Tema 6",
+    "Q6/PA/Tema 1/Visión global del ejemplo.md",
+    "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
+    "Q6/PA/Tema 1/Entornos de desarrollo.md",
+    "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
+    "Excalidraw/Massimo Dutti/massimo dutti.svg",
+    "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 2.md",
+    "Excalidraw/Diagramas relacionales/Diagrama relacional ejercicio 1.md",
+    "Q6/ACL/Prácticas/Semana 8 ACL.md",
+    "Excalidraw/Massimo Dutti/massimo dutti.md",
+    "Q6/ACL/Tema 4/CMMI-DEV V1.3.md",
+    "Q6/ACL/Tema 4/Tema 4-CMMI.md",
+    "Q6/BDA/Tema 6/índices.md",
+    "Q6/BDA/Tema 6/Tema 6-Diseño físico.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Imágenes/selectividad bd.png",
+    "Imágenes/segmentos oracle.png",
+    "Excalidraw/Massimo Dutti",
     "Pasted image 20240324005812.png",
-    "Desarrollo web/Desarrollo web.md",
-    "Desarrollo web/HTML/Introducción a HTML.md",
     "Desarrollo web/JS",
     "Desarrollo web/CSS",
     "Desarrollo web/HTML",
-    "Ingeniería Informática.md",
-    "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/ACL/Prácticas/TGR ACL.md",
-    "Q5/IPM/Temario/Ajax.md",
-    "Desarrollo web/HTML/Conceptos básicos.md",
     "Desarrollo web/HTML",
-    "Q6/AS/Tema 4/Arquitectura P2P.md",
-    "Javascript/Javascript.md",
-    "Javascript/JS-Annalyn's infiltration.md",
-    "Javascript/JS-Freelacer rates.md",
-    "Javascript/Learning JS.md",
-    "Javascript/JS-Lucian's luscious lasagna.md",
-    "Javascript/JS-Hola mundo.md",
-    "Q6/AS/Tema 4/Tema 4-Arquitecturas centradas en la comunicación.md",
-    "Q6/AS/Tema 4/Arquitectura en repositorio.md",
     "Imágenes/alfresco.png",
     "Imágenes/repositorio clínico.png",
     "Imágenes/repositorio IDE.png",
     "Imágenes/IDE repositorio.png",
     "Imágenes/contenedor repositorio.png",
-    "Imágenes/contexto repositorio.png",
-    "Q6/ER/Tema 6/Tema 6-Especificación de requisitos según la ISO 29148.md",
-    "Q6/ER/Enxeñaría de requisitos.md",
-    "Q6/ACL/Prácticas/Semana 5 ACL.md",
     "Q6/ER/Tema 6",
-    "Q6/ACL/Prácticas/Semana 8 ACL.md",
-    "Q6/ACL/Prácticas/Práctica 2 ACL.md",
-    "Q6/ACL/Prácticas/Semana 7 ACL.md",
-    "Q6/PA/Tema 5/Inmutabilidad.md",
-    "Q6/PA/Tema 5/Tema 5-Desarrolllo basado en componentes React.md",
     "Q6/PA/Tema 5",
-    "Imágenes/PA de CMMI.png",
-    "Imágenes/escalones CMMI.png",
-    "Imágenes/niveles CMMI.png",
-    "Q6/ACL/Tema 4",
-    "Q6/BDA/Diseño físico",
-    "Q6/PA/Tutorial JS",
-    "Q6/ER/Preparación examen",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
