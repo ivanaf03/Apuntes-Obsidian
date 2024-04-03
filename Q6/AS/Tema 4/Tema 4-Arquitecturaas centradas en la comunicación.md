@@ -1,4 +1,0 @@
-[[Arquitectura do software]]
-
-Contenido:
-+ 
