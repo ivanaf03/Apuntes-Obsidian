@@ -1,12 +1,12 @@
 [[Q6]]
 
 Temario:
-+ [[Catálogo]]
++ [[Tema 1-Catálogo]]
 + [[Vistas]]
 + [[Integridad]]
 + [[Seguridad]]
 + [[Bases de datos activas]]
-+ [[Diseño físico]]
++ [[Tema 6-Diseño físico]]
 
 Prácticas:
 + [[Modelado de datos]]
