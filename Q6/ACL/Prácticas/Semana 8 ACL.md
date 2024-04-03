@@ -4,7 +4,7 @@
 ## 1.1.Control de documentación del SGC
 Debe estar siempre la última versión disponible, como en el TGR. Todo el personal de la empresa tiene que tener acceso a la versión más actualizada. Los empleados deben estar formados y controlar que están formados. La norma obliga a mejorar cualquier cosa que se note mejorable. 
 
-Las acciones pueden ser preventivas o correctivas. Las correctivas se basan en corregir errores. En este caso se realizan acciones preventivas. Se hacen en base al ciclo Plan-Do-Check-Act. Las sugerencias deben ir al responsable de calidad. Este puede aceptarla o rechazarla. Él decide quién realizará las actividades, qué acciones debe llevar a cabo y en qué fecha. Al acabar el procedimiento lo revisa el Reponsable de Calidad. Una vez aprobado por el Director General se hacen los cambios y se comunican.
+Las acciones pueden ser preventivas o correctivas. Las correctivas se basan en corregir errores. En este caso se realizan acciones preventivas. Se hacen en base al ciclo Plan-Do-Check-Act. Las sugerencias deben ir al responsable de calidad. Este puede aceptarla o rechazarla. Él decide quién realizará las actividades, qué acciones debe llevar a cabo y en qué fecha. Al acabar el procedimiento lo revisa el Responsable de Calidad. Una vez aprobado por el Director General se hacen los cambios y se comunican.
 
 Si se añade un nuevo procedimiento que no existía se actualiza el apartado correspondiente del Manual de Calidad. Todo esto conlleva a comunicar a todo el mundo todo.
 
