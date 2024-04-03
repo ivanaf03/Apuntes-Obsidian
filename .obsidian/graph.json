@@ -78,7 +78,7 @@
       }
     },
     {
-      "query": "path:Javascript  ",
+      "query": "path:\"Desarrollo web\"  ",
       "color": {
         "a": 1,
         "rgb": 12910484
@@ -95,6 +95,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.049085428017742724,
-  "close": false
+  "scale": 0.17427607362472078,
+  "close": true
 }
