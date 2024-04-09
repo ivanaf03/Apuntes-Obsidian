@@ -30,3 +30,5 @@ Supongamos que está en papel el Sistema de Gestión de la Calidad. Es similar a
 El sistema de calidad está en papel. Dirección General tiene una copia maestra de todo el Sistema de Gestión de Calidad. No todo está en papel, el procedimiento se distribuye mediante el servidor.
 
 Las casillas de firma tienen que estar rellenadas, con el registro de cambios y la lista de distribución.
+
+
