@@ -1,7 +1,7 @@
  [[Bases de datos avanzadas]]
 
 Contenido:
-+ [[Introducción al catálogo]]
++ [[Sistemas de información]]
 + [[Catálogo del sistema]]
-+ [[Catálogo SQL estándar]]
-+ [[Uso del catálogo]]
++ [[Catálogo en SQL estándar]]
++ [[Uso del catálogo con Oracle y PostgreSQL]]
