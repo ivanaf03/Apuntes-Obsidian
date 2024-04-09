@@ -99,4 +99,20 @@ Otras PA que se indican en el nivel 3 son:
 + **Formación (OT):** definición de un plan para que los miembros de la organización puedan obtener habilidades y conocimiento necesarios para trabajar.
 
 En el nivel 4 se definen las siguientes PA:
-+ 
+
+## CMMI continua
+Es otra forma de implementar CMMI. Se trabaja por PAs en vez de niveles de madurez. Esto permite tener diferentes niveles de calidad dependiendo del proceso.
+
+Es mucho más adaptable que el escalonado.
+
+Para poder compararse con otras empresas en las auditorías se da una nota global que puede ser comparable con algún nivel de CMMI escalonado.
+
+Los valores de cada PA se llaman niveles de capacidad. El nivel de calidad es el indicador global.
+
+### Perfiles
++ **Sponsor:** es el directivo, por ejemplo, en la facultad, el decano.
++ **Champion:** es la persona concienciada con que es importante la calidad y se la vende a dirección. Suele ser el responsable de calidad.
++ **EPG:** jefe de proyecto de mejora.
++ **EPG members:** miembros del PAT.
++ **PAT:** profesionales que ejecutan los procesos para mejorar cosas.
++ **Transition partner:** consultores expertos que ayudan al proyecto de mejora.
