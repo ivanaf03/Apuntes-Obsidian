@@ -10,9 +10,10 @@ Temario:
 
 Prácticas:
 + [[Práctica 1 ACL]]
-+ [[Práctica 2 ACL]]
++ [[Semana 4 ACL]]
 + [[TGR ACL]]
 + [[Semana 5 ACL]]
 + [[Semana 7 ACL]]
 + [[Semana 8 ACL]]
++ [[Semana 10 ACL]]
 
