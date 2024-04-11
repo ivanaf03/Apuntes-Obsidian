@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0fc69b838e3bae0e",
+        "id": "e492e6a61d802dda",
         "type": "tabs",
         "children": [
           {
-            "id": "baaa8e14b11053d9",
+            "id": "686545d80fd5274b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
+                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
+                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Tema 2/Vistas en SQL estándar.md"
+                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
+                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,54 +169,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "baaa8e14b11053d9",
+  "active": "686545d80fd5274b",
   "lastOpenFiles": [
-    "Q6/BDA/Tema 2/Tema 2-Vistas.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
-    "Q6/BDA/Tema 1/Tema 1-Catálogo.md",
-    "Q6/BDA/Tema 1/Uso del catálogo con Oracle y PostgreSQL.md",
-    "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
-    "Q6/BDA/Tema 2/Introducción a las vistas.md",
-    "Q6/ACL/Prácticas/TGR ACL.md",
-    "CMMI 2.0.md",
-    "Q6/ACL/Tema 4/Tema 4-CMMI.md",
-    "Q6/ACL/Tema 4/CMMI-DEV V1.3.md",
+    "Q6/ACL/Prácticas/Semana 4 ACL.md",
+    "Q6/ACL/Prácticas/Semana 8 ACL.md",
+    "Q6/ACL/Prácticas/Semana 7 ACL.md",
+    "Q6/ACL/Prácticas/Semana 5 ACL.md",
+    "Q6/ACL/Prácticas/Semana 10 ACL.md",
     "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Prácticas/TGR ACL.md",
+    "Excalidraw/Idea AS/idea Anton e Iván.md",
+    "Q6/BDA/Python/Acceso a bases de datos con Python.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Excalidraw/Idea AS/idea Anton e Iván.png",
+    "Q6/BDA/Python",
+    "Excalidraw/Idea AS/Sin título.canvas",
+    "Excalidraw/Idea AS",
+    "Excalidraw/Clase 6 ER/escuchar canción.md",
+    "Excalidraw/Clase 6 ER/escuchar canción.png",
+    "Excalidraw/Clase 6 ER/canciones.md",
+    "Excalidraw/Clase 6 ER/canciones.png",
+    "Excalidraw/Clase 6 ER/playlists.md",
+    "Excalidraw/Clase 6 ER/iniciar sesión.png",
+    "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
+    "Desarrollo web/HTML/Introducción a HTML.md",
+    "Desarrollo web/HTML/Fundamentos de texto HTML.md",
+    "Desarrollo web/HTML/Cabecera HTML.md",
+    "Excalidraw/Clase 6 ER/iniciar sesión.md",
+    "Excalidraw/Clase 6 ER/publicaciones.png",
+    "Excalidraw/Clase 6 ER/publicaciones.md",
+    "Internacionalización.md",
+    "Q6/PA/Tema 7/Layout y enrutamiento.md",
+    "Q6/PA/Programación avanzada.md",
     "Q6/Q6.md",
-    "Q6/AS/Arquitectura do software.md",
-    "Q6/BDA/Tema 7/Tema 7-Optimización.md",
-    "Q6/BDA/Tema 7/Optimización basada en costes.md",
     "Q6/BDA/Tema 7/Optimización algebraica.md",
-    "Q6/BDA/Tema 7/Fases de ejecución de una consulta.md",
-    "Q6/AS/Tema 5/Arquitecturas centradas en BigData.md",
+    "Ingeniería Informática.md",
+    "Q6/BDA/Tema 2/Tema 2-Vistas.md",
     "Q6/BDA/Tema 7",
-    "Q6/BDA/Tema 2/Vistas materializadas.md",
-    "Excalidraw/Drawing 2024-04-08 22.59.04.excalidraw.md",
-    "Q6/BDA/Tema 1/Catálogo en SQL estándar.md",
-    "Q6/BDA/Tema 1/Catálogo del sistema.md",
-    "Q6/BDA/Tema 1/Sistemas de información.md",
-    "Q6/BDA/Bases de datos activas/Triggers.md",
-    "Q6/BDA/Bases de datos activas/Triggers en el SQL estándar 2008.md",
-    "Q6/BDA/Bases de datos activas/Triggers en Oracle.md",
     "Excalidraw/Massimo Dutti/massimo dutti.png",
     "Excalidraw/Massimo Dutti/massimo dutti.svg",
     "Imágenes/arquitectura orientada a eventos.png",
     "Imágenes/arquitectura hexagonal.png",
     "Q6/AS/Tema 5",
     "Excalidraw/Clase 6 ER/playlists.png",
-    "Excalidraw/Clase 6 ER/iniciar sesión.png",
-    "Excalidraw/Clase 6 ER/escuchar canción.png",
-    "Excalidraw/Clase 6 ER/canciones.png",
-    "Excalidraw/Clase 6 ER/publicaciones.png",
-    "Excalidraw/Clase 5 ER/stock.png",
     "Q6/PA/Tema 7",
     "Excalidraw/Clase 6 ER",
     "Q6/PA/Tema 6",
     "Excalidraw/Massimo Dutti",
     "Desarrollo web/JS",
     "Desarrollo web/CSS",
-    "Desarrollo web/HTML",
-    "Desarrollo web/HTML",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
