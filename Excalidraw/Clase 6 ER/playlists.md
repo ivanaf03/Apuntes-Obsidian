@@ -20,15 +20,16 @@ El usuario presiona aceptar cuando termina de elegir las canciones ^N7ODynK8
 
 El sistema guarda la playlist en base de datos y se añade a la biblioteca de playlists del usuario ^BvMX7WcM
 
-El usuario selecciona su playlist en la biblioteca ^QGrzUkow
-
-El sistema muestra la vista detallada de la playlist: nombre, descripción, imagen y la lista de canciones ^ngqOkDwl
-
-El usuario presiona añadir canción ^aRQziDjd
-
-El usuario busca la canción que desea añadir y presiona aceptar ^kUJXeulC
+El usuario selecciona en una canción concreta la opción de añadir a lista y selecciona la playlist que quiere ^aRQziDjd
 
 El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
+
+El sistema crea la playlist ^SSDQeQPU
+
+El usuario busca una canción y entra al a
+álbum que la contiene ^8LgrfJSW
+
+El sistema muestra la lista de canciones del álbum ^WlFt7ycY
 
 %%
 # Drawing
@@ -40,8 +41,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 	"elements": [
 		{
 			"type": "arrow",
-			"version": 1437,
-			"versionNonce": 730773295,
+			"version": 1596,
+			"versionNonce": 1488955260,
 			"isDeleted": false,
 			"id": "VgMCqWfU386rrzhzXxBv3",
 			"fillStyle": "solid",
@@ -50,8 +51,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1692.9004419754433,
-			"y": -750.598465490735,
+			"x": -1877.7893579910683,
+			"y": -761.2651389390858,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 129.818579968309,
@@ -63,18 +64,18 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168864474,
+			"updated": 1712761870224,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "Y1swryWrvtr07dNocb8An",
-				"gap": 1.2949064759642752,
-				"focus": 0.07901314522631019
+				"gap": 1.2949064759642965,
+				"focus": 0.07901314522630914
 			},
 			"endBinding": {
 				"elementId": "IS43N2flNLvAIz9oJXSmK",
 				"gap": 4.7651384491844055,
-				"focus": 0.06452500645480647
+				"focus": 0.06452500645480497
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -92,8 +93,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "rectangle",
-			"version": 323,
-			"versionNonce": 1503666273,
+			"version": 453,
+			"versionNonce": 1684008260,
 			"isDeleted": false,
 			"id": "EINzXv7F4XkEo5ac3dQZc",
 			"fillStyle": "solid",
@@ -102,8 +103,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1164.6504631292237,
-			"y": -803.1267336120166,
+			"x": -1413.5392163844322,
+			"y": -820.9045452982145,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -122,16 +123,20 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				{
 					"id": "WCFUwjNxlMkKNgyltWHtb",
 					"type": "arrow"
+				},
+				{
+					"id": "x_NXKkUgfIQGKpIG2EhW1",
+					"type": "arrow"
 				}
 			],
-			"updated": 1712168496059,
+			"updated": 1712761853172,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 480,
-			"versionNonce": 1140644545,
+			"version": 610,
+			"versionNonce": 64190716,
 			"isDeleted": false,
 			"id": "On2YdyNx",
 			"fillStyle": "solid",
@@ -140,8 +145,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1155.5626233668538,
-			"y": -760.6267336120166,
+			"x": -1404.4513766220623,
+			"y": -778.4045452982145,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 225.37982177734375,
@@ -151,7 +156,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168431920,
+			"updated": 1712761853172,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -167,8 +172,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "ellipse",
-			"version": 491,
-			"versionNonce": 1467175649,
+			"version": 544,
+			"versionNonce": 1878631620,
 			"isDeleted": false,
 			"id": "Y1swryWrvtr07dNocb8An",
 			"fillStyle": "solid",
@@ -177,8 +182,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1728.4105690299693,
-			"y": -769.3499942685964,
+			"x": -1913.2994850455943,
+			"y": -780.0166677169473,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
 			"width": 34.28553989955344,
@@ -195,14 +200,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					"type": "arrow"
 				}
 			],
-			"updated": 1712168265228,
+			"updated": 1712761853172,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 357,
-			"versionNonce": 36196033,
+			"version": 554,
+			"versionNonce": 1634924924,
 			"isDeleted": false,
 			"id": "wyiU9kV5kkKBuiaKJfO2X",
 			"fillStyle": "solid",
@@ -211,8 +216,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1719.2676770098792,
-			"y": -1049.9530676309166,
+			"x": -2144.156593025504,
+			"y": -566.6196876735057,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 171.4286586216515,
@@ -229,14 +234,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					"id": "wDLoJKd9"
 				}
 			],
-			"updated": 1712168265228,
+			"updated": 1712761853172,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 260,
-			"versionNonce": 168121921,
+			"version": 462,
+			"versionNonce": 1584426052,
 			"isDeleted": false,
 			"id": "wDLoJKd9",
 			"fillStyle": "solid",
@@ -245,8 +250,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1683.8032942932919,
-			"y": -976.6673489855484,
+			"x": -2108.692210308917,
+			"y": -493.33396902813746,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 100.49989318847656,
@@ -256,7 +261,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168270632,
+			"updated": 1712761853172,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -272,8 +277,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "rectangle",
-			"version": 478,
-			"versionNonce": 964751585,
+			"version": 532,
+			"versionNonce": 1347316220,
 			"isDeleted": false,
 			"id": "IS43N2flNLvAIz9oJXSmK",
 			"fillStyle": "solid",
@@ -282,8 +287,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1558.31672355795,
-			"y": -798.3939360581435,
+			"x": -1743.205639573575,
+			"y": -809.0606095064943,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -302,16 +307,20 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				{
 					"id": "VgMCqWfU386rrzhzXxBv3",
 					"type": "arrow"
+				},
+				{
+					"id": "x_NXKkUgfIQGKpIG2EhW1",
+					"type": "arrow"
 				}
 			],
-			"updated": 1712168265228,
+			"updated": 1712761853172,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 591,
-			"versionNonce": 414381647,
+			"version": 648,
+			"versionNonce": 1906459588,
 			"isDeleted": false,
 			"id": "avq0tpBe",
 			"fillStyle": "solid",
@@ -320,8 +329,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1544.0688801334707,
-			"y": -780.8939360581435,
+			"x": -1728.9577961490957,
+			"y": -791.5606095064943,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 215.059814453125,
@@ -331,7 +340,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168296762,
+			"updated": 1712761853172,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -347,8 +356,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "line",
-			"version": 103,
-			"versionNonce": 2119232673,
+			"version": 267,
+			"versionNonce": 594004604,
 			"isDeleted": false,
 			"id": "mk1fwtIZhyi1Gz-TyUCF7",
 			"fillStyle": "solid",
@@ -357,12 +366,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1656.5389729069075,
-			"y": -849.5050132608344,
+			"x": -1901.4278889225325,
+			"y": -750.1716867091852,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 55.11115180121533,
-			"height": 92.44439019097206,
+			"width": 73.11110602484814,
+			"height": 256.4444054497611,
 			"seed": 1111800783,
 			"groupIds": [],
 			"frameId": null,
@@ -370,7 +379,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168265228,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -384,15 +393,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				],
 				[
-					-55.11115180121533,
-					92.44439019097206
+					-73.11110602484814,
+					256.4444054497611
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 74,
-			"versionNonce": 900509825,
+			"version": 320,
+			"versionNonce": 1977677948,
 			"isDeleted": false,
 			"id": "x_NXKkUgfIQGKpIG2EhW1",
 			"fillStyle": "solid",
@@ -401,12 +410,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1316.9834444780881,
-			"y": -749.9494848320151,
+			"x": -1496.5389729069075,
+			"y": -757.0606230698625,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 152.88886176215283,
-			"height": 1.7777506510416288,
+			"width": 80,
+			"height": 0.00003390842027783947,
 			"seed": 2096785903,
 			"groupIds": [],
 			"frameId": null,
@@ -414,11 +423,19 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168265228,
+			"updated": 1712761870224,
 			"link": null,
 			"locked": false,
-			"startBinding": null,
-			"endBinding": null,
+			"startBinding": {
+				"elementId": "IS43N2flNLvAIz9oJXSmK",
+				"gap": 3.1111653645839397,
+				"focus": -0.054544687511978364
+			},
+			"endBinding": {
+				"elementId": "EINzXv7F4XkEo5ac3dQZc",
+				"gap": 2.999756522475309,
+				"focus": 0.30979620083444587
+			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -428,15 +445,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				],
 				[
-					152.88886176215283,
-					1.7777506510416288
+					80,
+					-0.00003390842027783947
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 578,
-			"versionNonce": 2123533953,
+			"version": 714,
+			"versionNonce": 2105613052,
 			"isDeleted": false,
 			"id": "L90GMjponLrfk1XDpCevb",
 			"fillStyle": "solid",
@@ -445,8 +462,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -764.977823893229,
-			"y": -798.8589226858955,
+			"x": -1056.5334065755208,
+			"y": -825.5255893525625,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -471,14 +488,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					"type": "arrow"
 				}
 			],
-			"updated": 1712168590942,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 871,
-			"versionNonce": 276673505,
+			"version": 1004,
+			"versionNonce": 1794056900,
 			"isDeleted": false,
 			"id": "pgoHR9Cn",
 			"fillStyle": "solid",
@@ -487,8 +504,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -759.0999908447263,
-			"y": -793.8589226858955,
+			"x": -1050.655573527018,
+			"y": -820.5255893525625,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 231.79983520507812,
@@ -498,7 +515,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168788142,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -514,8 +531,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "arrow",
-			"version": 184,
-			"versionNonce": 199227247,
+			"version": 568,
+			"versionNonce": 94505340,
 			"isDeleted": false,
 			"id": "WCFUwjNxlMkKNgyltWHtb",
 			"fillStyle": "solid",
@@ -524,12 +541,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -917.9944139902004,
-			"y": -742.01821947839,
+			"x": -1166.883167245409,
+			"y": -758.0729389463643,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 152.0165900969714,
-			"height": 1.8010129474347423,
+			"width": 105.79425936780513,
+			"height": 3.722882475028655,
 			"seed": 1371377121,
 			"groupIds": [],
 			"frameId": null,
@@ -537,18 +554,18 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168864474,
+			"updated": 1712761870224,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "EINzXv7F4XkEo5ac3dQZc",
 				"gap": 3.100547836939768,
-				"focus": -0.34990433421736516
+				"focus": -0.3519421504574806
 			},
 			"endBinding": {
 				"elementId": "L90GMjponLrfk1XDpCevb",
-				"gap": 1,
-				"focus": 0.34493001584089156
+				"gap": 4.55550130208303,
+				"focus": 0.17439439783435898
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -559,15 +576,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				],
 				[
-					152.0165900969714,
-					1.8010129474347423
+					105.79425936780513,
+					3.722882475028655
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 130,
-			"versionNonce": 1391276431,
+			"version": 694,
+			"versionNonce": 516108156,
 			"isDeleted": false,
 			"id": "HfNfRz-98vvS0zCYexho1",
 			"fillStyle": "solid",
@@ -576,12 +593,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -519.9945360605129,
-			"y": -726.5224341221915,
+			"x": -808.9247895977499,
+			"y": -742.5037142113401,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 152.88886176215283,
-			"height": 1.7777506510416288,
+			"width": 142.15367174217,
+			"height": 0.49249065333378894,
 			"seed": 523355567,
 			"groupIds": [],
 			"frameId": null,
@@ -589,15 +606,19 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168864474,
+			"updated": 1712761870225,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "L90GMjponLrfk1XDpCevb",
-				"gap": 1.427786530632602,
-				"focus": -0.22995136702488847
+				"gap": 4.0531156756874225,
+				"focus": -0.1066924576801234
 			},
-			"endBinding": null,
+			"endBinding": {
+				"elementId": "_qRw6gWGjYGxl0HWh6O9W",
+				"gap": 3.022134084538493,
+				"focus": 0.19213334253575784
+			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -607,15 +628,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				],
 				[
-					152.88886176215283,
-					1.7777506510416288
+					142.15367174217,
+					0.49249065333378894
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 547,
-			"versionNonce": 7705263,
+			"version": 599,
+			"versionNonce": 276532220,
 			"isDeleted": false,
 			"id": "Rdxfac9NbjgmpNnXIXeRy",
 			"fillStyle": "solid",
@@ -624,8 +645,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -370.177775065104,
-			"y": -779.6589715140205,
+			"x": -286.62227376302053,
+			"y": -774.3256178356352,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -644,16 +665,20 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				{
 					"id": "Q4eIziD_Uyy8EjMsfs7hT",
 					"type": "arrow"
+				},
+				{
+					"id": "wOYZcuTH4ivxalqjQFN_d",
+					"type": "arrow"
 				}
 			],
-			"updated": 1712168620206,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 748,
-			"versionNonce": 2014679585,
+			"version": 800,
+			"versionNonce": 1875919300,
 			"isDeleted": false,
 			"id": "N7ODynK8",
 			"fillStyle": "solid",
@@ -662,8 +687,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -349.63993835449196,
-			"y": -774.6589715140205,
+			"x": -266.0844370524085,
+			"y": -769.3256178356352,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 202.47982788085938,
@@ -673,7 +698,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168613988,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -689,8 +714,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "arrow",
-			"version": 175,
-			"versionNonce": 1418602415,
+			"version": 255,
+			"versionNonce": 88746748,
 			"isDeleted": false,
 			"id": "Q4eIziD_Uyy8EjMsfs7hT",
 			"fillStyle": "solid",
@@ -699,12 +724,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -121.69012560737214,
-			"y": -727.5050711509231,
+			"x": -39.912510590010825,
+			"y": -721.4321661539309,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 152.88886176215283,
-			"height": 1.7777506510416288,
+			"width": 69.33336046006937,
+			"height": 2.815949983476571,
 			"seed": 515758529,
 			"groupIds": [],
 			"frameId": null,
@@ -712,13 +737,13 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168864474,
+			"updated": 1712761870224,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "Rdxfac9NbjgmpNnXIXeRy",
-				"gap": 4.932148155648406,
-				"focus": -0.07656424435111477
+				"gap": 3.1542618709262484,
+				"focus": -0.11978485122343144
 			},
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -730,15 +755,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				],
 				[
-					152.88886176215283,
-					1.7777506510416288
+					69.33336046006937,
+					2.815949983476571
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 543,
-			"versionNonce": 1397211343,
+			"version": 550,
+			"versionNonce": 1131112772,
 			"isDeleted": false,
 			"id": "-mDssHyQ7syCvpk7-el0F",
 			"fillStyle": "solid",
@@ -767,20 +792,16 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				{
 					"id": "4pe2fjGBtGBg9tau52htb",
 					"type": "arrow"
-				},
-				{
-					"id": "_HRB40BkNyg0snjmQU7Bo",
-					"type": "arrow"
 				}
 			],
-			"updated": 1712168719837,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 792,
-			"versionNonce": 1229488769,
+			"version": 799,
+			"versionNonce": 172866812,
 			"isDeleted": false,
 			"id": "BvMX7WcM",
 			"fillStyle": "solid",
@@ -800,7 +821,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168653608,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -816,8 +837,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "ellipse",
-			"version": 600,
-			"versionNonce": 48766209,
+			"version": 606,
+			"versionNonce": 1479909572,
 			"isDeleted": false,
 			"id": "x4tr_94kF8SIv7GsdD8r7",
 			"fillStyle": "solid",
@@ -844,14 +865,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					"type": "arrow"
 				}
 			],
-			"updated": 1712168660777,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 259,
-			"versionNonce": 1320390849,
+			"version": 265,
+			"versionNonce": 671399292,
 			"isDeleted": false,
 			"id": "vvMSzt3WvDxJ7F7kyjNwr",
 			"fillStyle": "solid",
@@ -873,14 +894,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168660777,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 113,
-			"versionNonce": 1729972207,
+			"version": 129,
+			"versionNonce": 2135145596,
 			"isDeleted": false,
 			"id": "4pe2fjGBtGBg9tau52htb",
 			"fillStyle": "solid",
@@ -902,7 +923,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168864474,
+			"updated": 1712761870225,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -930,271 +951,9 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			]
 		},
 		{
-			"id": "_HRB40BkNyg0snjmQU7Bo",
 			"type": "arrow",
-			"x": 144.6747659350208,
-			"y": -635.7715804084896,
-			"width": 0,
-			"height": 106.66666666666663,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1522025281,
-			"version": 155,
-			"versionNonce": 1525569647,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712168864474,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					0,
-					106.66666666666663
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "-mDssHyQ7syCvpk7-el0F",
-				"gap": 2.4873666914684236,
-				"focus": 0.04373012399080952
-			},
-			"endBinding": {
-				"elementId": "vJya0fSIPOOPcJG7mkYH2",
-				"gap": 4.555528428819457,
-				"focus": -0.06934174460345181
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
-		},
-		{
-			"type": "rectangle",
-			"version": 626,
-			"versionNonce": 1802163105,
-			"isDeleted": false,
-			"id": "vJya0fSIPOOPcJG7mkYH2",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 31.341296968006418,
-			"y": -524.5493853130035,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 243.55550130208348,
-			"height": 110,
-			"seed": 223551279,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 3
-			},
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "QGrzUkow"
-				},
-				{
-					"id": "_HRB40BkNyg0snjmQU7Bo",
-					"type": "arrow"
-				},
-				{
-					"id": "CwEtH8CUxu0K0_mhwFsVa",
-					"type": "arrow"
-				}
-			],
-			"updated": 1712168748425,
-			"link": null,
-			"locked": false
-		},
-		{
-			"type": "text",
-			"version": 883,
-			"versionNonce": 1334818191,
-			"isDeleted": false,
-			"id": "QGrzUkow",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 50.14913795107941,
-			"y": -507.04938531300354,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 205.9398193359375,
-			"height": 75,
-			"seed": 1394958671,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1712168744005,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 1,
-			"text": "El usuario selecciona\nsu playlist en la\nbiblioteca",
-			"rawText": "El usuario selecciona su playlist en la biblioteca",
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"containerId": "vJya0fSIPOOPcJG7mkYH2",
-			"originalText": "El usuario selecciona su playlist en la biblioteca",
-			"lineHeight": 1.25,
-			"baseline": 68
-		},
-		{
-			"type": "arrow",
-			"version": 210,
-			"versionNonce": 527640815,
-			"isDeleted": false,
-			"id": "CwEtH8CUxu0K0_mhwFsVa",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 152.55013216939764,
-			"y": -412.6805653487186,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 0,
-			"height": 106.66666666666663,
-			"seed": 1184980015,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1712168864474,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "vJya0fSIPOOPcJG7mkYH2",
-				"gap": 1.8688199642849668,
-				"focus": 0.0046717519958203585
-			},
-			"endBinding": {
-				"elementId": "8SI0wU7DCQcA-A5S5PfL9",
-				"gap": 7.686708464534604,
-				"focus": -0.0922616758466532
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					0,
-					106.66666666666663
-				]
-			]
-		},
-		{
-			"type": "rectangle",
-			"version": 687,
-			"versionNonce": 1482314287,
-			"isDeleted": false,
-			"id": "8SI0wU7DCQcA-A5S5PfL9",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 42.00780087425687,
-			"y": -298.32719021751734,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 243.55550130208348,
-			"height": 135,
-			"seed": 1106807617,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 3
-			},
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "ngqOkDwl"
-				},
-				{
-					"id": "CwEtH8CUxu0K0_mhwFsVa",
-					"type": "arrow"
-				},
-				{
-					"id": "M0dESYMqJ8YVVtViKznSx",
-					"type": "arrow"
-				}
-			],
-			"updated": 1712168805044,
-			"link": null,
-			"locked": false
-		},
-		{
-			"type": "text",
-			"version": 1106,
-			"versionNonce": 562899823,
-			"isDeleted": false,
-			"id": "ngqOkDwl",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 51.435644603911896,
-			"y": -293.32719021751734,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 224.69981384277344,
-			"height": 125,
-			"seed": 1814526753,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1712168797018,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 1,
-			"text": "El sistema muestra la\nvista detallada de la\nplaylist: nombre,\ndescripción, imagen y la\nlista de canciones",
-			"rawText": "El sistema muestra la vista detallada de la playlist: nombre, descripción, imagen y la lista de canciones",
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"containerId": "8SI0wU7DCQcA-A5S5PfL9",
-			"originalText": "El sistema muestra la vista detallada de la playlist: nombre, descripción, imagen y la lista de canciones",
-			"lineHeight": 1.25,
-			"baseline": 118
-		},
-		{
-			"type": "arrow",
-			"version": 258,
-			"versionNonce": 1556855151,
+			"version": 1362,
+			"versionNonce": 1389388412,
 			"isDeleted": false,
 			"id": "M0dESYMqJ8YVVtViKznSx",
 			"fillStyle": "solid",
@@ -1203,12 +962,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 157.74746910700742,
-			"y": -162.32719021751734,
+			"x": -1085.4714738697826,
+			"y": -126.02149708246571,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 0,
-			"height": 105.79238049611848,
+			"width": 180.78510694679312,
+			"height": 2.80293691015558,
 			"seed": 1243162127,
 			"groupIds": [],
 			"frameId": null,
@@ -1216,18 +975,18 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168864475,
+			"updated": 1712761870226,
 			"link": null,
 			"locked": false,
 			"startBinding": {
-				"elementId": "8SI0wU7DCQcA-A5S5PfL9",
+				"elementId": "wwGbOCzxiXAgMT276ont2",
 				"gap": 1,
-				"focus": 0.04958280462572777
+				"focus": 0.10357431805683075
 			},
 			"endBinding": {
 				"elementId": "0r1qN3Nf1PmXs3CeS9bI8",
-				"gap": 7.540912147110646,
-				"focus": -0.05323377701177021
+				"gap": 3.138378273592025,
+				"focus": 0.30148341261701295
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1238,15 +997,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				],
 				[
-					0,
-					105.79238049611848
+					180.78510694679312,
+					2.80293691015558
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 701,
-			"versionNonce": 541909729,
+			"version": 1149,
+			"versionNonce": 1074741188,
 			"isDeleted": false,
 			"id": "0r1qN3Nf1PmXs3CeS9bI8",
 			"fillStyle": "solid",
@@ -1255,12 +1014,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 42.452408079118186,
-			"y": -48.99389757428821,
+			"x": -901.5479886493974,
+			"y": -176.59393419538196,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
-			"height": 110,
+			"height": 160,
 			"seed": 351972495,
 			"groupIds": [],
 			"frameId": null,
@@ -1277,14 +1036,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					"type": "arrow"
 				}
 			],
-			"updated": 1712168808687,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1007,
-			"versionNonce": 1333773409,
+			"version": 1578,
+			"versionNonce": 2069401212,
 			"isDeleted": false,
 			"id": "aRQziDjd",
 			"fillStyle": "solid",
@@ -1293,158 +1052,35 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 70.17024509490602,
-			"y": -18.993897574288212,
+			"x": -885.4601565164221,
+			"y": -171.59393419538196,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 188.1198272705078,
-			"height": 50,
+			"width": 211.3798370361328,
+			"height": 150,
 			"seed": 221528751,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168817950,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "El usuario presiona\nañadir canción",
-			"rawText": "El usuario presiona añadir canción",
+			"text": "El usuario selecciona\nen una canción\nconcreta la opción de\nañadir a lista y\nselecciona la playlist\nque quiere",
+			"rawText": "El usuario selecciona en una canción concreta la opción de añadir a lista y selecciona la playlist que quiere",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "0r1qN3Nf1PmXs3CeS9bI8",
-			"originalText": "El usuario presiona añadir canción",
+			"originalText": "El usuario selecciona en una canción concreta la opción de añadir a lista y selecciona la playlist que quiere",
 			"lineHeight": 1.25,
-			"baseline": 43
-		},
-		{
-			"type": "arrow",
-			"version": 323,
-			"versionNonce": 1427157903,
-			"isDeleted": false,
-			"id": "hAic0oxjSUnrY4vySacLA",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 165.44487536057017,
-			"y": 60.935833210317185,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 0,
-			"height": 105.79238049611848,
-			"seed": 1943267265,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1712168864475,
-			"link": null,
-			"locked": false,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "qknJkFuZxnoj5V328Yt6n",
-				"gap": 4.27802435295655,
-				"focus": -0.06301785192656906
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					0,
-					105.79238049611848
-				]
-			]
+			"baseline": 143
 		},
 		{
 			"type": "rectangle",
-			"version": 769,
-			"versionNonce": 679749007,
-			"isDeleted": false,
-			"id": "qknJkFuZxnoj5V328Yt6n",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 51.34129696800642,
-			"y": 171.00623805939222,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 243.55550130208348,
-			"height": 110,
-			"seed": 900288161,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 3
-			},
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "kUJXeulC"
-				},
-				{
-					"id": "hAic0oxjSUnrY4vySacLA",
-					"type": "arrow"
-				}
-			],
-			"updated": 1712168839327,
-			"link": null,
-			"locked": false
-		},
-		{
-			"type": "text",
-			"version": 1142,
-			"versionNonce": 733247055,
-			"isDeleted": false,
-			"id": "kUJXeulC",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 76.07912299746613,
-			"y": 176.00623805939222,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 194.07984924316406,
-			"height": 100,
-			"seed": 1739117185,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1712168858812,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 1,
-			"text": "El usuario busca la\ncanción que desea\nañadir y presiona\naceptar",
-			"rawText": "El usuario busca la canción que desea añadir y presiona aceptar",
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"containerId": "qknJkFuZxnoj5V328Yt6n",
-			"originalText": "El usuario busca la canción que desea añadir y presiona aceptar",
-			"lineHeight": 1.25,
-			"baseline": 93
-		},
-		{
-			"type": "rectangle",
-			"version": 794,
-			"versionNonce": 1721808239,
+			"version": 1052,
+			"versionNonce": 1864017732,
 			"isDeleted": false,
 			"id": "saD0F_Aj4n5el2-GO7Bqy",
 			"fillStyle": "solid",
@@ -1453,8 +1089,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 51.78563290550687,
-			"y": 365.17276909237853,
+			"x": -492.2144586472275,
+			"y": -194.82723090762147,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -1471,22 +1107,18 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					"id": "V6E13GJf"
 				},
 				{
-					"id": "42Dk43k3vr2gDny0uHHUV",
-					"type": "arrow"
-				},
-				{
 					"id": "RNrM4Yvt9iWrZDC_8iGBI",
 					"type": "arrow"
 				}
 			],
-			"updated": 1712168912532,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1188,
-			"versionNonce": 1079968193,
+			"version": 1446,
+			"versionNonce": 582573820,
 			"isDeleted": false,
 			"id": "V6E13GJf",
 			"fillStyle": "solid",
@@ -1495,8 +1127,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 66.24346015566971,
-			"y": 382.67276909237853,
+			"x": -477.75663139706467,
+			"y": -177.32723090762147,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 214.6398468017578,
@@ -1506,7 +1138,7 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712168899343,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1522,8 +1154,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		},
 		{
 			"type": "arrow",
-			"version": 405,
-			"versionNonce": 1372079489,
+			"version": 1107,
+			"versionNonce": 122494660,
 			"isDeleted": false,
 			"id": "42Dk43k3vr2gDny0uHHUV",
 			"fillStyle": "solid",
@@ -1532,12 +1164,12 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 172.25971031469533,
-			"y": 280.60090852216115,
+			"x": -658.9408206911639,
+			"y": -122.99913781291826,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1.7776150173608585,
-			"height": 80.90346448049348,
+			"width": 167.42294650607664,
+			"height": 2.503388745260395,
 			"seed": 1300786881,
 			"groupIds": [],
 			"frameId": null,
@@ -1545,15 +1177,11 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168907368,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
-			"endBinding": {
-				"elementId": "saD0F_Aj4n5el2-GO7Bqy",
-				"gap": 3.668396089723899,
-				"focus": -0.03768433635574118
-			},
+			"endBinding": null,
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -1563,15 +1191,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				],
 				[
-					-1.7776150173608585,
-					80.90346448049348
+					167.42294650607664,
+					2.503388745260395
 				]
 			]
 		},
 		{
 			"type": "ellipse",
-			"version": 660,
-			"versionNonce": 1820123585,
+			"version": 917,
+			"versionNonce": 917249916,
 			"isDeleted": false,
 			"id": "xOpAGejDfxnvWfZFSd64X",
 			"fillStyle": "solid",
@@ -1580,8 +1208,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 436.15851019479396,
-			"y": 412.80788203648194,
+			"x": -107.84158135794041,
+			"y": -147.19211796351806,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
 			"width": 34.28553989955344,
@@ -1598,14 +1226,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					"type": "arrow"
 				}
 			],
-			"updated": 1712168912260,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 319,
-			"versionNonce": 938354049,
+			"version": 576,
+			"versionNonce": 1900324420,
 			"isDeleted": false,
 			"id": "jNMDjDgw9uugkpYD9j-GP",
 			"fillStyle": "solid",
@@ -1614,8 +1242,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 423.80131066214886,
-			"y": 399.45069776262585,
+			"x": -120.19878089058557,
+			"y": -160.54930223737415,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 61.999969482421875,
@@ -1627,14 +1255,14 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168912260,
+			"updated": 1712761853173,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 233,
-			"versionNonce": 1390817167,
+			"version": 1010,
+			"versionNonce": 1660132988,
 			"isDeleted": false,
 			"id": "RNrM4Yvt9iWrZDC_8iGBI",
 			"fillStyle": "solid",
@@ -1643,8 +1271,8 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 296.579181688082,
-			"y": 426.8951133849132,
+			"x": -247.42090986465246,
+			"y": -133.1048866150868,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ffec99",
 			"width": 128.00021701388852,
@@ -1656,18 +1284,18 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712168912532,
+			"updated": 1712761870225,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "saD0F_Aj4n5el2-GO7Bqy",
-				"focus": -0.08559489936985672,
-				"gap": 1.2380474804916162
+				"gap": 1.2380474804915593,
+				"focus": -0.0855948993698567
 			},
 			"endBinding": {
 				"elementId": "xOpAGejDfxnvWfZFSd64X",
-				"focus": 0.1782406583240218,
-				"gap": 11.741183895690721
+				"gap": 11.741183895690781,
+				"focus": 0.1782406583240218
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1682,6 +1310,469 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 					0
 				]
 			]
+		},
+		{
+			"type": "rectangle",
+			"version": 505,
+			"versionNonce": 1373584836,
+			"isDeleted": false,
+			"id": "_qRw6gWGjYGxl0HWh6O9W",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -663.7489837710414,
+			"y": -789.6401170562699,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 229.33336046006957,
+			"height": 119.11112467447913,
+			"seed": 1554439839,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "SSDQeQPU"
+				},
+				{
+					"id": "HfNfRz-98vvS0zCYexho1",
+					"type": "arrow"
+				}
+			],
+			"updated": 1712761853173,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 282,
+			"versionNonce": 755986556,
+			"isDeleted": false,
+			"id": "SSDQeQPU",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -641.3822379282136,
+			"y": -755.0845547190304,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 184.59986877441406,
+			"height": 50,
+			"seed": 420533617,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1712761853173,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "El sistema crea la\nplaylist",
+			"rawText": "El sistema crea la playlist",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "_qRw6gWGjYGxl0HWh6O9W",
+			"originalText": "El sistema crea la playlist",
+			"lineHeight": 1.25,
+			"baseline": 43
+		},
+		{
+			"type": "arrow",
+			"version": 90,
+			"versionNonce": 625175420,
+			"isDeleted": false,
+			"id": "wOYZcuTH4ivxalqjQFN_d",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -437.9712602467357,
+			"y": -734.9734792117604,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 146.44444783528638,
+			"height": 0,
+			"seed": 1062574801,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1712761870224,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "Rdxfac9NbjgmpNnXIXeRy",
+				"gap": 4.904538648428797,
+				"focus": 0.28450657047500366
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					146.44444783528638,
+					0
+				]
+			]
+		},
+		{
+			"type": "line",
+			"version": 406,
+			"versionNonce": 2135163132,
+			"isDeleted": false,
+			"id": "-FZUKdwr6_VT78_uMToQ0",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dashed",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1918.5278051643502,
+			"y": -153.76104033454374,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 59.111014472113766,
+			"height": 335.55564032660607,
+			"seed": 1495060804,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1712761853173,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": null,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-59.111014472113766,
+					-335.55564032660607
+				]
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 2029,
+			"versionNonce": 648183932,
+			"isDeleted": false,
+			"id": "lFprAZi4jxqIXrDhI8oTR",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1884.0527503000967,
+			"y": -141.15170599848472,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 137.8076662265796,
+			"height": 0.9823111065598766,
+			"seed": 1759626108,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1712761870225,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "w7MGtvnCwjD5ZgVY2oFkm",
+				"gap": 1.2949064759642965,
+				"focus": 0.07901314522630914
+			},
+			"endBinding": {
+				"elementId": "hgdin5QtVFCOPkqZAmwj0",
+				"gap": 4.7651384491844055,
+				"focus": 0.06452500645480501
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					137.8076662265796,
+					0.9823111065598766
+				]
+			]
+		},
+		{
+			"type": "ellipse",
+			"version": 631,
+			"versionNonce": 764576124,
+			"isDeleted": false,
+			"id": "w7MGtvnCwjD5ZgVY2oFkm",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1919.5737910963521,
+			"y": -159.7733514243564,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#1e1e1e",
+			"width": 34.28553989955344,
+			"height": 34.28553989955344,
+			"seed": 1398010876,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [
+				{
+					"id": "lFprAZi4jxqIXrDhI8oTR",
+					"type": "arrow"
+				}
+			],
+			"updated": 1712761853173,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "rectangle",
+			"version": 716,
+			"versionNonce": 200107076,
+			"isDeleted": false,
+			"id": "hgdin5QtVFCOPkqZAmwj0",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1741.4799456243327,
+			"y": -200.01724438577844,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 243.55550130208348,
+			"height": 130,
+			"seed": 19666044,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "8LgrfJSW"
+				},
+				{
+					"id": "lFprAZi4jxqIXrDhI8oTR",
+					"type": "arrow"
+				},
+				{
+					"id": "Iv3Bjy-mrZLUil1QPyPJF",
+					"type": "arrow"
+				}
+			],
+			"updated": 1712761853173,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 1028,
+			"versionNonce": 2134700540,
+			"isDeleted": false,
+			"id": "8LgrfJSW",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1724.6221092188964,
+			"y": -172.51724438577844,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 209.83982849121094,
+			"height": 75,
+			"seed": 1881941244,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1712761853173,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "El usuario busca una\ncanción y entra al a\nálbum que la contiene",
+			"rawText": "El usuario busca una canción y entra al a\nálbum que la contiene",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "hgdin5QtVFCOPkqZAmwj0",
+			"originalText": "El usuario busca una canción y entra al a\nálbum que la contiene",
+			"lineHeight": 1.25,
+			"baseline": 68
+		},
+		{
+			"type": "arrow",
+			"version": 1556,
+			"versionNonce": 155120508,
+			"isDeleted": false,
+			"id": "Iv3Bjy-mrZLUil1QPyPJF",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1496.9013174684696,
+			"y": -132.5494977723296,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 165.87434229660357,
+			"height": 0.1394016459134093,
+			"seed": 745524932,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1712761870226,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "hgdin5QtVFCOPkqZAmwj0",
+				"gap": 1.0231268537795586,
+				"focus": 0.03649172736042429
+			},
+			"endBinding": {
+				"elementId": "wwGbOCzxiXAgMT276ont2",
+				"gap": 1,
+				"focus": -0.027409067761131722
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					165.87434229660357,
+					0.1394016459134093
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 675,
+			"versionNonce": 275128572,
+			"isDeleted": false,
+			"id": "wwGbOCzxiXAgMT276ont2",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1330.026975171866,
+			"y": -188.81721691995813,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 243.55550130208348,
+			"height": 110,
+			"seed": 1996351812,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "WlFt7ycY"
+				},
+				{
+					"id": "M0dESYMqJ8YVVtViKznSx",
+					"type": "arrow"
+				},
+				{
+					"id": "Iv3Bjy-mrZLUil1QPyPJF",
+					"type": "arrow"
+				}
+			],
+			"updated": 1712761890790,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 917,
+			"versionNonce": 748482556,
+			"isDeleted": false,
+			"id": "WlFt7ycY",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1318.619135714672,
+			"y": -171.31721691995813,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 220.7398223876953,
+			"height": 75,
+			"seed": 1970806980,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1712761884602,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "El sistema muestra la\nlista de canciones del\nálbum",
+			"rawText": "El sistema muestra la lista de canciones del álbum",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "wwGbOCzxiXAgMT276ont2",
+			"originalText": "El sistema muestra la lista de canciones del álbum",
+			"lineHeight": 1.25,
+			"baseline": 68
 		}
 	],
 	"appState": {
@@ -1694,15 +1785,15 @@ El sistema actualiza la base de datos con la nueva canción añadida ^V6E13GJf
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
+		"currentItemFontFamily": 2,
 		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2778.3095238095225,
-		"scrollY": 1076.0652588132825,
+		"scrollX": 2273.3641472679974,
+		"scrollY": 1240.9764148772708,
 		"zoom": {
-			"value": 0.35000000000000003
+			"value": 0.45
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
