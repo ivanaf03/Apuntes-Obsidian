@@ -6,7 +6,7 @@ Según el estándar se puede crear una vista partir de una secuencia `select` co
 ```sql
 create view vista [(<atributos>)]
 as <sentencia select>
-[<check option>]
+[<with [cascaded | local] check option>]
 ```
 
 #### 1.1.1.Ejemplos
@@ -67,126 +67,75 @@ Formalmente, debe cumplir:
 + La consulta no viene de uniones, intersecciones o excepciones.
 + No puede tener una subconsulta a su propia tabla en el `where`.
 + Deben cumplirse las restricciones de la tabla base, teniendo cuidado con los `not null` sobre todo.
-+ 
++ No se pueden actualizar vistas ni añadir nuevas filas en vistas que usen expresiones, por ejemplo, cálculos o funciones.
++ A partir de SQL 1999 si la vista está definida sobre un `join` se pueden actualizar los atributos preservados por clave primaria.
 
+#### 1.3.2.Check option y tuplas migratorias
+Las tuplas migratorias son filas que no cumplen las condiciones de la vista al insertarlas, por tanto no se ven en la vista pero que sí se insertan en la tabla base.
 
-
-+ [p] **Es actualizable:**
-+ Si no hay eliminación de duplicados ni agrupamientos (no se usa `select distinct` ni `group by` o `having`).
-+ Si no se define la vista con `join`.
-+ Si no es el resultado de una `union`, `intersect` o `except`.
-+ Si tiene un `where` con una subconsulta, no puede ser a la misma tabla del `from`.
-
-Se deben satisfacer las restricciones de la tabla base.
-```sql
-create table empleados (
-    id int primary key,
-    nombre varchar(50) not null,
-    salario decimal(10, 2)
-);
-
-create view vista_empleados as
-select id, salario
-from empleados;
-
-insert into vista_empleados (id, salario) values (1, 5000.00); -- Error
-```
-
-Si la vista utiliza expresiones no permitirá actualizar la expresión ni insertar nuevas filas.
-```sql
-create view vista_salario_doble as
-select id, nombre, salario * 2 as salario_doble
-from empleados;
-
-update vista_salario_doble
-set salario_doble = salario_doble + 1000; -- Error
-```
-
-## Tupla migratoria
-Ocurre al insertar una fila que no cumple las condiciones de la vista. Se inserta en la tabla base y no se ve en la vista. Se puede evitar con `check option`:
-
-+ [<] **Atributos de check option:**
-+ *Local:* comprueba solo la condición de la vista.
-+ *Cascaded:* por defecto, comprueba la condición de la vista y de todas las que depende.
-
-### Ejemplo 1
 ```sql
 insert into emp10(empno, ename, deptno)
 values(1234, 'PEPE', 20);
-
-update emp10
-set deptno=20 
-where ename='CLARK';
+--Se inserta a Pepe en la tabla base, pero no aparece en la vista porque es del departamento 20
 ```
+
+También puede ocurrir que desaparezcan filas de la vista por culpa de modificaciones.
 
 ```sql
-create view emp10check
-as select * from emp
-where deptno=10 
-with check option; 
-
-insert into emp10check(empno, ename, deptno)
-values(1234, 'PEPE', 20); --Falla
+update emp10
+set deptno=20
+where ename='CLARK';
+--Ahora no se ve a Clark en la vista porque se ha cambiado su departamento en la tabla base
 ```
 
-### Ejemplo 2
+Esto se puede evitar con `with check option`. Esta condición actúa de dos formas:
++ **Local:** comprueba la condición de la propia vista:
+
 ```sql
 create view clerks10loc
 as select empno, ename, job, deptno
-from emp10 where job='CLERK'
+from emp10
+where job='CLERK'
 with local check option;
 
 insert into clerks10loc
-values(1234, 'PEPE', 'MANAGER', 10); -- No inserta
-
-insert into clerks10loc 
-values(1234, 'PEPE', 'CLERK', 20); -- Inserta
-```
-
-```sql
-create view clerks10loc
-as select empno, ename, job, deptno
-from emp10 where job='CLERK'
-with cascaded check option;
+values(1234, 'PEPE', 'MANAGER', 10); 
+--No se inserta porque el trabajo no es 'CLERK'
 
 insert into clerks10loc
-values(1234, 'PEPE', 'MANAGER', 10); -- No inserta
-
-insert into clerks10loc 
-values(1234, 'PEPE', 'CLERK', 20); -- No inserta
+values(1234, 'PEPE', 'CLERK', 20);
+--Se inserta igual
 ```
 
-## Ventajas e inconvenientes
++ **Cascaded:** es la acción por defecto, comprueba la condición de la vista y de todas en las que está definida:
 
-+ [p] **Ventajas:**
-+ Permiten definir esquemas externos.
-+ Ayudan a conseguir independencia lógica.
-+ Facilitan las consultas complejas.
 ```sql
-select deptno, dname, avg(sal)
-from emp natural join dept
-group by deptno, dname
-having count(*)>2;
+create view clerks10casc
+as select empno, ename, job, deptno
+from emp10
+where job='CLERK'
+with cascaded check option;
 
+insert into clerks10casc
+values(1234, 'PEPE', 'MANAGER', 10); 
+--No se inserta porque el trabajo no es 'CLERK'
 
--- Esta consulta se puede facilitar con vistas
-
-create view ed1
-as select *
-from emp natural join dept;
-
-create view ed2
-as select deptno, dname, avg(sal) media, count(*) cnt
-from ed1 group by deptno, dname;
-
-select deptno, dname, media
-from ed2
-where cnt>2;
+insert into clerks10casc
+values(1234, 'PEPE', 'CLERK', 20);
+-- No se inserta porque el departamento no es el 10
 ```
-+ Permite seguridad, por ejemplo ocultando datos.
-+ Permite establecer condiciones de integridad con `check option`.
-+ Los datos siempre están actualizados con respecto a las tablas base.
-$\space$
-+ [c] **Inconvenientes:**
-+ Limitaciones a la hora de actualizar los datos.
-+ No aumentan la eficiencia de las consultas, se hace un `sql rewriting`.
+
+## 2.Ventajas e inconvenientes
+### 2.1.Ventajas del uso de vistas
+Usar vistas permite:
++ [p] Definir diferentes esquemas externos.
++ [p] Conseguir independencia lógica.
++ [p] Mejora la seguridad, por ejemplo, ocultando datos.
++ [p] Facilitar consultas complejas.
++ [p] Establecer condiciones de integridad de datos con `check option`.
++ [p] Tener datos siempre actualizados con respecto a las tablas base. 
+
+### 2.2.Inconvenientes del uso de vistas
+A veces el uso de vistas puede resultar un problema:
++ [c] No siempre se pueden actualizar los datos a través de las vistas.
++ [c] No aumentan el rendimiento de las consultas, el rendimiento es el mismo. Al lanzar una consulta se hace SQL rewriting.
