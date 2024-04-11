@@ -8,23 +8,27 @@ tags: [excalidraw]
 
 
 # Text Elements
-Hace scroll por la pantalla para leer las publicaciones y escuchar las canciones asociadas a ellas ^lspvMHOK
+El usuario hace scroll por la pantalla para leer las publicaciones y escuchar las canciones asociadas a ellas ^lspvMHOK
 
 El usuario presiona el icono del corazón para indicar que le gusta la publicación ^AHPT6IHz
 
 Usuario registrado ^bEsFOIyD
 
-Un usuario abre el apartado de feed para ver las publicaciones ^97Vg4326
+Un usuario inicia sesión  ^97Vg4326
 
-El algoritmo muestra una publicación de un artista que no seguía con una canción que le ha gustado al usuario ^LxjG2be2
+El algoritmo del sistema muestra una publicación de un artista que no seguía con una canción que le ha gustado al usuario ^LxjG2be2
 
 El sistema suma un like a la publicación en base de datos ^dcH2VHXb
 
-Presiona la foto y nombre del usuario y accede a su perfil ^op70DfmR
+El usuario presiona la foto y nombre del usuario y accede a su perfil ^op70DfmR
 
 Presiona el icono de seguir usuario ^Oree50A3
 
 El sistema registra el seguimiento en base de datos ^CBbG1IIO
+
+El sistema muestra el feed ^0wgJWpDZ
+
+El sistema muestra la información del usuario ^zyhqCTS7
 
 %%
 # Drawing
@@ -36,8 +40,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 	"elements": [
 		{
 			"type": "arrow",
-			"version": 1437,
-			"versionNonce": 169089807,
+			"version": 1447,
+			"versionNonce": 895310559,
 			"isDeleted": false,
 			"id": "d3GbaEFO8hQA05Hw5nO4R",
 			"fillStyle": "solid",
@@ -59,7 +63,7 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743142158,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -88,8 +92,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 		},
 		{
 			"type": "rectangle",
-			"version": 326,
-			"versionNonce": 1696211297,
+			"version": 495,
+			"versionNonce": 537913087,
 			"isDeleted": false,
 			"id": "K2t0Id12Yw9oecxGtiyjr",
 			"fillStyle": "solid",
@@ -98,12 +102,12 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1244.6504631292237,
-			"y": -800.5266969909228,
+			"x": -873.9837557724529,
+			"y": -809.8600404967822,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
-			"height": 135,
+			"height": 169.66664632161468,
 			"seed": 117067247,
 			"groupIds": [],
 			"frameId": null,
@@ -118,16 +122,20 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				{
 					"id": "D2cIajxOsQJvNZPGU9khD",
 					"type": "arrow"
+				},
+				{
+					"id": "Yd8eJZpBlobtZATR31Nv-",
+					"type": "arrow"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742651088,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 456,
-			"versionNonce": 706470191,
+			"version": 637,
+			"versionNonce": 55635839,
 			"isDeleted": false,
 			"id": "lspvMHOK",
 			"fillStyle": "solid",
@@ -136,35 +144,35 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1234.8126233668538,
-			"y": -795.5266969909228,
+			"x": -865.015903497876,
+			"y": -787.5267173359748,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 223.87982177734375,
+			"width": 225.6197967529297,
 			"height": 125,
 			"seed": 1433974799,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712742651088,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "Hace scroll por la\npantalla para leer las\npublicaciones y\nescuchar las canciones\nasociadas a ellas",
-			"rawText": "Hace scroll por la pantalla para leer las publicaciones y escuchar las canciones asociadas a ellas",
+			"text": "El usuario hace scroll\npor la pantalla para\nleer las publicaciones y\nescuchar las canciones\nasociadas a ellas",
+			"rawText": "El usuario hace scroll por la pantalla para leer las publicaciones y escuchar las canciones asociadas a ellas",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "K2t0Id12Yw9oecxGtiyjr",
-			"originalText": "Hace scroll por la pantalla para leer las publicaciones y escuchar las canciones asociadas a ellas",
+			"originalText": "El usuario hace scroll por la pantalla para leer las publicaciones y escuchar las canciones asociadas a ellas",
 			"lineHeight": 1.25,
 			"baseline": 118
 		},
 		{
 			"type": "arrow",
-			"version": 815,
-			"versionNonce": 2129743169,
+			"version": 1218,
+			"versionNonce": 1345919935,
 			"isDeleted": false,
 			"id": "D2cIajxOsQJvNZPGU9khD",
 			"fillStyle": "solid",
@@ -173,12 +181,12 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1000.0949618271402,
-			"y": -736.3852222983755,
+			"x": -629.4282544703694,
+			"y": -738.212983220217,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 100.66141661728352,
-			"height": 1.3101466280101022,
+			"width": 97.99479064072125,
+			"height": 0.12167002397984561,
 			"seed": 954523183,
 			"groupIds": [],
 			"frameId": null,
@@ -186,15 +194,19 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743142159,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "K2t0Id12Yw9oecxGtiyjr",
 				"gap": 1,
-				"focus": -0.025483485464132524
+				"focus": -0.15336704970748083
 			},
-			"endBinding": null,
+			"endBinding": {
+				"elementId": "r6qX6CUNhTK4qJjwcOBZ7",
+				"gap": 2.5682851789235883,
+				"focus": 0.25287917810383764
+			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -204,15 +216,15 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					0
 				],
 				[
-					100.66141661728352,
-					-1.3101466280101022
+					97.99479064072125,
+					-0.12167002397984561
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 959,
-			"versionNonce": 495313743,
+			"version": 1106,
+			"versionNonce": 51362321,
 			"isDeleted": false,
 			"id": "1g_4R2sNJ7ZqK38FlFsXb",
 			"fillStyle": "solid",
@@ -221,8 +233,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -890.1090335132394,
-			"y": -574.2339503410748,
+			"x": -519.4423261564687,
+			"y": -583.5672938469341,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -251,14 +263,14 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"type": "arrow"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742611388,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 791,
-			"versionNonce": 1354235169,
+			"version": 938,
+			"versionNonce": 1980780529,
 			"isDeleted": false,
 			"id": "AHPT6IHz",
 			"fillStyle": "solid",
@@ -267,8 +279,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -881.5111992440336,
-			"y": -569.2339503410748,
+			"x": -510.84449188726285,
+			"y": -578.5672938469341,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 226.35983276367188,
@@ -278,7 +290,7 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712742611388,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -399,8 +411,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 		},
 		{
 			"type": "rectangle",
-			"version": 486,
-			"versionNonce": 2145511649,
+			"version": 487,
+			"versionNonce": 12969695,
 			"isDeleted": false,
 			"id": "ZRVT4sFj0_I0ESUNRYN1T",
 			"fillStyle": "solid",
@@ -429,16 +441,20 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				{
 					"id": "d3GbaEFO8hQA05Hw5nO4R",
 					"type": "arrow"
+				},
+				{
+					"id": "ukPVWlHFABc6CeoJXPuNe",
+					"type": "arrow"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742690904,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 742,
-			"versionNonce": 1446400431,
+			"version": 776,
+			"versionNonce": 1755329343,
 			"isDeleted": false,
 			"id": "97Vg4326",
 			"fillStyle": "solid",
@@ -447,30 +463,30 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1632.878885321459,
-			"y": -779.8939360581435,
+			"x": -1630.498872809252,
+			"y": -754.8939360581435,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 232.67982482910156,
-			"height": 75,
+			"width": 227.9197998046875,
+			"height": 25,
 			"seed": 2074590351,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743142159,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "Un usuario abre el\napartado de feed para\nver las publicaciones",
-			"rawText": "Un usuario abre el apartado de feed para ver las publicaciones",
+			"text": "Un usuario inicia sesión",
+			"rawText": "Un usuario inicia sesión ",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ZRVT4sFj0_I0ESUNRYN1T",
-			"originalText": "Un usuario abre el apartado de feed para ver las publicaciones",
+			"originalText": "Un usuario inicia sesión ",
 			"lineHeight": 1.25,
-			"baseline": 68
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -518,8 +534,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 		},
 		{
 			"type": "arrow",
-			"version": 82,
-			"versionNonce": 771638223,
+			"version": 124,
+			"versionNonce": 626801887,
 			"isDeleted": false,
 			"id": "ukPVWlHFABc6CeoJXPuNe",
 			"fillStyle": "solid",
@@ -528,12 +544,12 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1396.9834444780881,
+			"x": -1392.9835055132444,
 			"y": -748.9494848320151,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 152.88886176215283,
-			"height": 1.7777506510416288,
+			"width": 148.79227561170546,
+			"height": 1.776626863506408,
 			"seed": 1556030671,
 			"groupIds": [],
 			"frameId": null,
@@ -541,11 +557,19 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743142160,
 			"link": null,
 			"locked": false,
-			"startBinding": null,
-			"endBinding": null,
+			"startBinding": {
+				"elementId": "ZRVT4sFj0_I0ESUNRYN1T",
+				"gap": 1.777716742622033,
+				"focus": -0.14225441828002433
+			},
+			"endBinding": {
+				"elementId": "2pFayI2PnvU9jkkiKUZ_9",
+				"gap": 1,
+				"focus": 0.0803920305755036
+			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -555,15 +579,15 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					0
 				],
 				[
-					152.88886176215283,
-					1.7777506510416288
+					148.79227561170546,
+					1.776626863506408
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 983,
-			"versionNonce": 1792271521,
+			"version": 1432,
+			"versionNonce": 1507443775,
 			"isDeleted": false,
 			"id": "DbNAmcD0VwAgdXDs4vShj",
 			"fillStyle": "solid",
@@ -572,8 +596,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -308.5779036704928,
-			"y": -522.3399012207242,
+			"x": 62.08880368627797,
+			"y": -531.6732447265836,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 144.95893009427283,
@@ -585,7 +609,7 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743142159,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -614,8 +638,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 		},
 		{
 			"type": "ellipse",
-			"version": 783,
-			"versionNonce": 1212346863,
+			"version": 930,
+			"versionNonce": 1321941329,
 			"isDeleted": false,
 			"id": "nTppUgJpvfkWIACUj7QCy",
 			"fillStyle": "solid",
@@ -624,8 +648,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -149.99872944709227,
-			"y": -542.529050253881,
+			"x": 220.66797790967848,
+			"y": -551.8623937597404,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
 			"width": 34.28553989955344,
@@ -642,14 +666,14 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"type": "arrow"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742611388,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 503,
-			"versionNonce": 118532225,
+			"version": 650,
+			"versionNonce": 345630513,
 			"isDeleted": false,
 			"id": "In8nzzNN1O3PxYqYTi56F",
 			"fillStyle": "solid",
@@ -658,8 +682,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -162.35592897973743,
-			"y": -555.8862345277371,
+			"x": 208.31077837703333,
+			"y": -565.2195780335965,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 61.999969482421875,
@@ -676,14 +700,14 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"type": "arrow"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742611388,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 604,
-			"versionNonce": 772594703,
+			"version": 753,
+			"versionNonce": 1362219071,
 			"isDeleted": false,
 			"id": "r6qX6CUNhTK4qJjwcOBZ7",
 			"fillStyle": "solid",
@@ -692,12 +716,12 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -899.5318860074954,
-			"y": -788.8871280906209,
+			"x": -528.8651786507246,
+			"y": -798.2204715964803,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
-			"height": 135,
+			"height": 160,
 			"seed": 177833263,
 			"groupIds": [],
 			"frameId": null,
@@ -712,53 +736,57 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				{
 					"id": "CphrnlJAgSBJvymRYmBgo",
 					"type": "arrow"
+				},
+				{
+					"id": "D2cIajxOsQJvNZPGU9khD",
+					"type": "arrow"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742907352,
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "LxjG2be2",
 			"type": "text",
-			"x": -888.8240434985435,
-			"y": -783.8871280906209,
-			"width": 222.1398162841797,
-			"height": 125,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 459,
+			"versionNonce": 289300799,
+			"isDeleted": false,
+			"id": "LxjG2be2",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -518.1573361417727,
+			"y": -793.2204715964803,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 222.1398162841797,
+			"height": 150,
+			"seed": 365461185,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 365461185,
-			"version": 300,
-			"versionNonce": 717877345,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712164971504,
+			"boundElements": [],
+			"updated": 1712742908560,
 			"link": null,
 			"locked": false,
-			"text": "El algoritmo muestra\nuna publicación de un\nartista que no seguía\ncon una canción que le\nha gustado al usuario",
-			"rawText": "El algoritmo muestra una publicación de un artista que no seguía con una canción que le ha gustado al usuario",
 			"fontSize": 20,
 			"fontFamily": 1,
+			"text": "El algoritmo del\nsistema muestra una\npublicación de un\nartista que no seguía\ncon una canción que le\nha gustado al usuario",
+			"rawText": "El algoritmo del sistema muestra una publicación de un artista que no seguía con una canción que le ha gustado al usuario",
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 118,
 			"containerId": "r6qX6CUNhTK4qJjwcOBZ7",
-			"originalText": "El algoritmo muestra una publicación de un artista que no seguía con una canción que le ha gustado al usuario",
-			"lineHeight": 1.25
+			"originalText": "El algoritmo del sistema muestra una publicación de un artista que no seguía con una canción que le ha gustado al usuario",
+			"lineHeight": 1.25,
+			"baseline": 143
 		},
 		{
 			"type": "arrow",
-			"version": 975,
-			"versionNonce": 861176367,
+			"version": 1432,
+			"versionNonce": 1320005503,
 			"isDeleted": false,
 			"id": "CphrnlJAgSBJvymRYmBgo",
 			"fillStyle": "solid",
@@ -767,12 +795,12 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -768.8798047850235,
-			"y": -651.7515256599518,
+			"x": -398.20213064559334,
+			"y": -636.0848691658111,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 0.044202693983038444,
-			"height": 75.99289477232128,
+			"width": 0.031353127438194406,
+			"height": 50.99289477232128,
 			"seed": 1572253135,
 			"groupIds": [],
 			"frameId": null,
@@ -780,18 +808,18 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743142159,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "r6qX6CUNhTK4qJjwcOBZ7",
 				"gap": 2.1356024306691097,
-				"focus": -0.0725171814582742
+				"focus": -0.07251718144605106
 			},
 			"endBinding": {
 				"elementId": "1g_4R2sNJ7ZqK38FlFsXb",
-				"gap": 1.5246805465557713,
-				"focus": -0.0038703027997083915
+				"gap": 1.5246805465557145,
+				"focus": -0.0038703027997077106
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -802,39 +830,48 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					0
 				],
 				[
-					0.044202693983038444,
-					75.99289477232128
+					0.031353127438194406,
+					50.99289477232128
 				]
 			]
 		},
 		{
-			"id": "eJevfguPKQ7V6H94_5lPc",
 			"type": "arrow",
-			"x": -768.6371856557626,
-			"y": -463.1100274243595,
-			"width": 1.7778862847221717,
-			"height": 85.33331976996544,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 379,
+			"versionNonce": 2008351327,
+			"isDeleted": false,
+			"id": "eJevfguPKQ7V6H94_5lPc",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -397.9704782989918,
+			"y": -472.44337093021886,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 1.7778862847221717,
+			"height": 85.33331976996544,
+			"seed": 1152212719,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1152212719,
-			"version": 81,
-			"versionNonce": 1003437121,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712164971504,
+			"boundElements": [],
+			"updated": 1712743142158,
 			"link": null,
 			"locked": false,
+			"startBinding": {
+				"elementId": "1g_4R2sNJ7ZqK38FlFsXb",
+				"gap": 1.123922916715287,
+				"focus": -0.007024011431756537
+			},
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -844,93 +881,84 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					-1.7778862847221717,
 					85.33331976996544
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "1g_4R2sNJ7ZqK38FlFsXb",
-				"gap": 1.123922916715287,
-				"focus": -0.007024011431756537
-			},
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "h0tsvnil8cCRX5cbVoNC8",
 			"type": "arrow",
-			"x": -645.553532211156,
-			"y": -526.6345547603688,
-			"width": 99.13856877761577,
-			"height": 2.369218193593383,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 670,
+			"versionNonce": 981891071,
+			"isDeleted": false,
+			"id": "h0tsvnil8cCRX5cbVoNC8",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -274.88682485438517,
+			"y": -535.9678982662282,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 99.13856877761563,
+			"height": 2.369218193593383,
+			"seed": 1273533953,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1273533953,
-			"version": 215,
-			"versionNonce": 419587151,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712164971504,
+			"boundElements": [],
+			"updated": 1712743142159,
 			"link": null,
 			"locked": false,
+			"startBinding": {
+				"elementId": "1g_4R2sNJ7ZqK38FlFsXb",
+				"gap": 1,
+				"focus": -0.1784615473038655
+			},
+			"endBinding": {
+				"elementId": "8brhss4yOSqm633AafjzE",
+				"gap": 1.7778862847225128,
+				"focus": -0.004785817955389765
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
 					0
 				],
 				[
-					99.13856877761577,
+					99.13856877761563,
 					2.369218193593383
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "1g_4R2sNJ7ZqK38FlFsXb",
-				"gap": 1,
-				"focus": -0.17846154730386551
-			},
-			"endBinding": {
-				"elementId": "8brhss4yOSqm633AafjzE",
-				"gap": 1.7778862847225128,
-				"focus": -0.004785817955389812
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "8brhss4yOSqm633AafjzE",
 			"type": "rectangle",
-			"x": -544.6370771488178,
-			"y": -589.3322225198456,
-			"width": 232.88886176215283,
-			"height": 135.1110839843751,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 334,
+			"versionNonce": 2093671985,
+			"isDeleted": false,
+			"id": "8brhss4yOSqm633AafjzE",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -173.970369792047,
+			"y": -598.665566025705,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 232.88886176215283,
+			"height": 135.1110839843751,
+			"seed": 1305839041,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
-			"seed": 1305839041,
-			"version": 187,
-			"versionNonce": 973081633,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "h0tsvnil8cCRX5cbVoNC8",
@@ -945,51 +973,51 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"type": "arrow"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742611388,
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "dcH2VHXb",
 			"type": "text",
-			"x": -539.0825617340499,
-			"y": -559.2766805276581,
-			"width": 221.7798309326172,
-			"height": 75,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 374,
+			"versionNonce": 1137768465,
+			"isDeleted": false,
+			"id": "dcH2VHXb",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -168.41585437727917,
+			"y": -568.6100240335174,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 221.7798309326172,
+			"height": 75,
+			"seed": 1176666063,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1176666063,
-			"version": 227,
-			"versionNonce": 1861157487,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712164971504,
+			"boundElements": [],
+			"updated": 1712742611388,
 			"link": null,
 			"locked": false,
-			"text": "El sistema suma un\nlike a la publicación en\nbase de datos",
-			"rawText": "El sistema suma un like a la publicación en base de datos",
 			"fontSize": 20,
 			"fontFamily": 1,
+			"text": "El sistema suma un\nlike a la publicación en\nbase de datos",
+			"rawText": "El sistema suma un like a la publicación en base de datos",
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 68,
 			"containerId": "8brhss4yOSqm633AafjzE",
 			"originalText": "El sistema suma un like a la publicación en base de datos",
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"baseline": 68
 		},
 		{
 			"type": "rectangle",
-			"version": 1178,
-			"versionNonce": 2102124545,
+			"version": 1325,
+			"versionNonce": 383894961,
 			"isDeleted": false,
 			"id": "hUC00XOOxIZHxOK8F2w74",
 			"fillStyle": "solid",
@@ -998,8 +1026,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -889.6372466909193,
-			"y": -381.3322259106874,
+			"x": -518.9705393341485,
+			"y": -390.66556941654676,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -1016,14 +1044,14 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"id": "op70DfmR"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712742611388,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1058,
-			"versionNonce": 904060047,
+			"version": 1219,
+			"versionNonce": 264060831,
 			"isDeleted": false,
 			"id": "op70DfmR",
 			"fillStyle": "solid",
@@ -1032,35 +1060,35 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -868.2194050974947,
-			"y": -363.8322259106874,
+			"x": -508.4927001821302,
+			"y": -385.66556941654676,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 200.71981811523438,
-			"height": 75,
+			"width": 222.59982299804688,
+			"height": 100,
 			"seed": 336285647,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743113322,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "Presiona la foto y\nnombre del usuario y\naccede a su perfil",
-			"rawText": "Presiona la foto y nombre del usuario y accede a su perfil",
+			"text": "El usuario presiona la\nfoto y nombre del\nusuario y accede a su\nperfil",
+			"rawText": "El usuario presiona la foto y nombre del usuario y accede a su perfil",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "hUC00XOOxIZHxOK8F2w74",
-			"originalText": "Presiona la foto y nombre del usuario y accede a su perfil",
+			"originalText": "El usuario presiona la foto y nombre del usuario y accede a su perfil",
 			"lineHeight": 1.25,
-			"baseline": 68
+			"baseline": 93
 		},
 		{
 			"type": "arrow",
-			"version": 243,
-			"versionNonce": 867317729,
+			"version": 735,
+			"versionNonce": 1712064063,
 			"isDeleted": false,
 			"id": "PzXlWVujnv6mQPU5TMaU8",
 			"fillStyle": "solid",
@@ -1069,12 +1097,12 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -773.5005324489257,
-			"y": -273.70109413973415,
+			"x": -402.83382509215494,
+			"y": -283.0344376455935,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 2.019556426099257,
-			"height": 83.99993896484389,
+			"width": 1.6204280903061772,
+			"height": 73.33333333333348,
 			"seed": 742463311,
 			"groupIds": [],
 			"frameId": null,
@@ -1082,14 +1110,14 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712164971504,
+			"updated": 1712743252758,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
 			"endBinding": {
-				"elementId": "TqCoAmKxKF74SwgDX_Wtx",
-				"gap": 2.6942752269697507,
-				"focus": 0.0655984175956394
+				"elementId": "pkAaZdCe-rH_9x1MPPDDa",
+				"gap": 5.199375122683421,
+				"focus": -0.030920937528027978
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1100,15 +1128,15 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					0
 				],
 				[
-					2.019556426099257,
-					83.99993896484389
+					1.6204280903061772,
+					73.33333333333348
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1273,
-			"versionNonce": 1100378799,
+			"version": 1518,
+			"versionNonce": 1287051537,
 			"isDeleted": false,
 			"id": "TqCoAmKxKF74SwgDX_Wtx",
 			"fillStyle": "solid",
@@ -1117,8 +1145,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -899.9467908454944,
-			"y": -187.00687994792054,
+			"x": -538.6133761319527,
+			"y": 34.32648390299096,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 243.55550130208348,
@@ -1131,83 +1159,88 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			},
 			"boundElements": [
 				{
-					"id": "PzXlWVujnv6mQPU5TMaU8",
-					"type": "arrow"
-				},
-				{
 					"type": "text",
 					"id": "Oree50A3"
 				}
 			],
-			"updated": 1712164971504,
+			"updated": 1712743137859,
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "Oree50A3",
 			"type": "text",
-			"x": -876.2689547452339,
-			"y": -157.00687994792054,
-			"width": 196.1998291015625,
-			"height": 50,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 297,
+			"versionNonce": 781115199,
+			"isDeleted": false,
+			"id": "Oree50A3",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -514.9355400316922,
+			"y": 64.32648390299096,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 196.1998291015625,
+			"height": 50,
+			"seed": 1052060161,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1052060161,
-			"version": 53,
-			"versionNonce": 524456897,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712164971504,
+			"boundElements": [],
+			"updated": 1712743131871,
 			"link": null,
 			"locked": false,
-			"text": "Presiona el icono de\nseguir usuario",
-			"rawText": "Presiona el icono de seguir usuario",
 			"fontSize": 20,
 			"fontFamily": 1,
+			"text": "Presiona el icono de\nseguir usuario",
+			"rawText": "Presiona el icono de seguir usuario",
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 43,
 			"containerId": "TqCoAmKxKF74SwgDX_Wtx",
 			"originalText": "Presiona el icono de seguir usuario",
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"baseline": 43
 		},
 		{
-			"id": "LxM8q6ZJ4jOue8W8N0C7-",
 			"type": "arrow",
-			"x": -659.5021836406333,
-			"y": -136.89572814670532,
-			"width": 115.55555555555566,
-			"height": 1.846421174657678,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 566,
+			"versionNonce": 800384095,
+			"isDeleted": false,
+			"id": "LxM8q6ZJ4jOue8W8N0C7-",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -298.1687689270916,
+			"y": 84.43763570420617,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 115.55555555555566,
+			"height": 1.846421174657678,
+			"seed": 1740226895,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1740226895,
-			"version": 73,
-			"versionNonce": 820485345,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712165000123,
+			"boundElements": [],
+			"updated": 1712743142160,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "ouH246JlIvvxj0Kev3DiA",
+				"gap": 1.7778184678818434,
+				"focus": 0.08704473386932168
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -1217,21 +1250,12 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					115.55555555555566,
 					1.846421174657678
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "ouH246JlIvvxj0Kev3DiA",
-				"gap": 1.7778184678818434,
-				"focus": 0.08704473386932168
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
 			"type": "rectangle",
-			"version": 274,
-			"versionNonce": 763239247,
+			"version": 518,
+			"versionNonce": 1229427615,
 			"isDeleted": false,
 			"id": "ouH246JlIvvxj0Kev3DiA",
 			"fillStyle": "solid",
@@ -1240,8 +1264,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -542.1688096171958,
-			"y": -194.67350592448315,
+			"x": -180.8353949036541,
+			"y": 26.659857926428344,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 232.88886176215283,
@@ -1266,51 +1290,51 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"type": "arrow"
 				}
 			],
-			"updated": 1712165006990,
+			"updated": 1712743131871,
 			"link": null,
 			"locked": false
 		},
 		{
-			"id": "CBbG1IIO",
 			"type": "text",
-			"x": -534.3842832160999,
-			"y": -164.6179639322956,
-			"width": 217.31980895996094,
-			"height": 75,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 298,
+			"versionNonce": 1131530175,
+			"isDeleted": false,
+			"id": "CBbG1IIO",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -173.05086850255816,
+			"y": 56.7153999186159,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 217.31980895996094,
+			"height": 75,
+			"seed": 24764559,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"seed": 24764559,
-			"version": 54,
-			"versionNonce": 198881569,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1712164999298,
+			"boundElements": [],
+			"updated": 1712743131871,
 			"link": null,
 			"locked": false,
-			"text": "El sistema registra el\nseguimiento en base\nde datos",
-			"rawText": "El sistema registra el seguimiento en base de datos",
 			"fontSize": 20,
 			"fontFamily": 1,
+			"text": "El sistema registra el\nseguimiento en base\nde datos",
+			"rawText": "El sistema registra el seguimiento en base de datos",
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"baseline": 68,
 			"containerId": "ouH246JlIvvxj0Kev3DiA",
 			"originalText": "El sistema registra el seguimiento en base de datos",
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"baseline": 68
 		},
 		{
 			"type": "arrow",
-			"version": 1133,
-			"versionNonce": 148625775,
+			"version": 1875,
+			"versionNonce": 1491114143,
 			"isDeleted": false,
 			"id": "kxpfhNc9qntPQqMJIDyoe",
 			"fillStyle": "solid",
@@ -1319,8 +1343,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -306.35966053508264,
-			"y": -130.34933889079912,
+			"x": 54.9737541784591,
+			"y": 90.98402496011238,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 144.95893009427283,
@@ -1332,18 +1356,18 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712165006990,
+			"updated": 1712743142160,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "ouH246JlIvvxj0Kev3DiA",
-				"focus": -0.05203251908582997,
-				"gap": 2.92028731996038
+				"gap": 2.92028731996038,
+				"focus": -0.05203251908582997
 			},
 			"endBinding": {
 				"elementId": "WK9dM-h-v5ksS3HrCT5Vu",
-				"focus": -0.0964545934429425,
-				"gap": 1.3939526678266816
+				"gap": 1.3939526678266816,
+				"focus": -0.0964545934429425
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1361,8 +1385,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 		},
 		{
 			"type": "ellipse",
-			"version": 858,
-			"versionNonce": 1077607873,
+			"version": 1102,
+			"versionNonce": 89944127,
 			"isDeleted": false,
 			"id": "kiu-Bgx7yMLeUqqlXR1_e",
 			"fillStyle": "solid",
@@ -1371,8 +1395,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -147.78048631168213,
-			"y": -150.53848792395593,
+			"x": 213.55292840185962,
+			"y": 70.79487592695557,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#1e1e1e",
 			"width": 34.28553989955344,
@@ -1389,14 +1413,14 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"type": "arrow"
 				}
 			],
-			"updated": 1712165006061,
+			"updated": 1712743131871,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 578,
-			"versionNonce": 242720161,
+			"version": 822,
+			"versionNonce": 771887199,
 			"isDeleted": false,
 			"id": "WK9dM-h-v5ksS3HrCT5Vu",
 			"fillStyle": "solid",
@@ -1405,8 +1429,8 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -160.13768584432728,
-			"y": -163.89567219781202,
+			"x": 201.19572886921446,
+			"y": 57.43769165309948,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 61.999969482421875,
@@ -1423,9 +1447,267 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 					"type": "arrow"
 				}
 			],
-			"updated": 1712165006061,
+			"updated": 1712743131871,
 			"link": null,
 			"locked": false
+		},
+		{
+			"type": "rectangle",
+			"version": 608,
+			"versionNonce": 1849074335,
+			"isDeleted": false,
+			"id": "2pFayI2PnvU9jkkiKUZ_9",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1243.191229901539,
+			"y": -796.1683958562429,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 243.55550130208348,
+			"height": 110,
+			"seed": 321462751,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "0wgJWpDZ"
+				},
+				{
+					"id": "ukPVWlHFABc6CeoJXPuNe",
+					"type": "arrow"
+				},
+				{
+					"id": "Yd8eJZpBlobtZATR31Nv-",
+					"type": "arrow"
+				}
+			],
+			"updated": 1712742630698,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 923,
+			"versionNonce": 1041682303,
+			"isDeleted": false,
+			"id": "0wgJWpDZ",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1230.583385866708,
+			"y": -766.1683958562429,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 218.33981323242188,
+			"height": 50,
+			"seed": 1854377471,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1712742625355,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "El sistema muestra el\nfeed",
+			"rawText": "El sistema muestra el feed",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "2pFayI2PnvU9jkkiKUZ_9",
+			"originalText": "El sistema muestra el feed",
+			"lineHeight": 1.25,
+			"baseline": 43
+		},
+		{
+			"type": "arrow",
+			"version": 309,
+			"versionNonce": 367776031,
+			"isDeleted": false,
+			"id": "Yd8eJZpBlobtZATR31Nv-",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -998.4905459833515,
+			"y": -733.6618831799332,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 123.45892193331986,
+			"height": 0.24045878118272412,
+			"seed": 476026879,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1712743142160,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "2pFayI2PnvU9jkkiKUZ_9",
+				"gap": 1.1451826161039662,
+				"focus": 0.14023031055667753
+			},
+			"endBinding": {
+				"elementId": "K2t0Id12Yw9oecxGtiyjr",
+				"gap": 1.0478682775786865,
+				"focus": 0.10714465206816079
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					123.45892193331986,
+					-0.24045878118272412
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 1428,
+			"versionNonce": 1855466065,
+			"isDeleted": false,
+			"id": "pkAaZdCe-rH_9x1MPPDDa",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -517.8578762231532,
+			"y": -204.50172918957662,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 243.55550130208348,
+			"height": 110,
+			"seed": 764087583,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "zyhqCTS7"
+				},
+				{
+					"id": "PzXlWVujnv6mQPU5TMaU8",
+					"type": "arrow"
+				},
+				{
+					"id": "MOjmCqlCtEXpeAfKXJu4a",
+					"type": "arrow"
+				}
+			],
+			"updated": 1712743378411,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 1375,
+			"versionNonce": 956381695,
+			"isDeleted": false,
+			"id": "zyhqCTS7",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -507.3400208968185,
+			"y": -174.50172918957662,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 222.51979064941406,
+			"height": 50,
+			"seed": 336204095,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1712743252103,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "El sistema muestra la\ninformación del usuario",
+			"rawText": "El sistema muestra la información del usuario",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "pkAaZdCe-rH_9x1MPPDDa",
+			"originalText": "El sistema muestra la información del usuario",
+			"lineHeight": 1.25,
+			"baseline": 43
+		},
+		{
+			"id": "MOjmCqlCtEXpeAfKXJu4a",
+			"type": "arrow",
+			"x": -390.4135199406012,
+			"y": -93.33509304048778,
+			"width": 0,
+			"height": 134.66669718424475,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1078912607,
+			"version": 71,
+			"versionNonce": 1528520817,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1712743378411,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					134.66669718424475
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "pkAaZdCe-rH_9x1MPPDDa",
+				"focus": -0.046532355879590155,
+				"gap": 1.1666361490888448
+			},
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
@@ -1443,10 +1725,10 @@ El sistema registra el seguimiento en base de datos ^CBbG1IIO
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2108.335598354176,
-		"scrollY": 1216.6526747104272,
+		"scrollX": 2150.1912977183797,
+		"scrollY": 1040.3098201701832,
 		"zoom": {
-			"value": 0.39999999999999963
+			"value": 0.44999999999999996
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
