@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md",
+                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md",
+                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md"
+                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Prácticas/Semana 10 ACL.md",
+                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,14 +171,25 @@
   },
   "active": "686545d80fd5274b",
   "lastOpenFiles": [
+    "Q6/AS/Tema 6/Tema 6-Disponibilidad.md",
+    "Q6/AS/Tema 6/Definición de disponibilidad.md",
+    "Excalidraw/Idea AS/idea Anton e Iván.md",
+    "Q6/AS/Tema 6",
+    "Q6/ER/Tema 7/Cuantificación de requisitos no funcionales.md",
+    "Q6/ER/Tema 7/Tema 7-Requisitos no funcionales.md",
+    "Q6/ER/Tema 7/Algunos requisitos no funcionales.md",
+    "Q6/ER/Tema 7/Importancia de los requisitos no funcionales.md",
+    "Q6/Q6.md",
+    "Q6/ER/Tema 7",
+    "Q6/ER/Enxeñaría de requisitos.md",
+    "Q6/ER/Tema 6/Tema 6-Especificación de requisitos según la ISO 29148.md",
+    "Q6/ACL/Prácticas/Semana 10 ACL.md",
     "Q6/ACL/Prácticas/Semana 4 ACL.md",
     "Q6/ACL/Prácticas/Semana 8 ACL.md",
     "Q6/ACL/Prácticas/Semana 7 ACL.md",
     "Q6/ACL/Prácticas/Semana 5 ACL.md",
-    "Q6/ACL/Prácticas/Semana 10 ACL.md",
     "Q6/ACL/Aseguramento da calidade.md",
     "Q6/ACL/Prácticas/TGR ACL.md",
-    "Excalidraw/Idea AS/idea Anton e Iván.md",
     "Q6/BDA/Python/Acceso a bases de datos con Python.md",
     "Q6/BDA/Bases de datos avanzadas.md",
     "Excalidraw/Idea AS/idea Anton e Iván.png",
@@ -195,16 +206,7 @@
     "Desarrollo web/HTML/Introducción a HTML.md",
     "Desarrollo web/HTML/Fundamentos de texto HTML.md",
     "Desarrollo web/HTML/Cabecera HTML.md",
-    "Excalidraw/Clase 6 ER/iniciar sesión.md",
     "Excalidraw/Clase 6 ER/publicaciones.png",
-    "Excalidraw/Clase 6 ER/publicaciones.md",
-    "Internacionalización.md",
-    "Q6/PA/Tema 7/Layout y enrutamiento.md",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/Q6.md",
-    "Q6/BDA/Tema 7/Optimización algebraica.md",
-    "Ingeniería Informática.md",
-    "Q6/BDA/Tema 2/Tema 2-Vistas.md",
     "Q6/BDA/Tema 7",
     "Excalidraw/Massimo Dutti/massimo dutti.png",
     "Excalidraw/Massimo Dutti/massimo dutti.svg",
@@ -216,8 +218,6 @@
     "Excalidraw/Clase 6 ER",
     "Q6/PA/Tema 6",
     "Excalidraw/Massimo Dutti",
-    "Desarrollo web/JS",
-    "Desarrollo web/CSS",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
