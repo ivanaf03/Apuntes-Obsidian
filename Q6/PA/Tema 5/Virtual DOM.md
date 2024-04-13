@@ -1,18 +1,14 @@
-[[Tema 5-Desarrolllo basado en componentes React]]
+[[Tema 5-Desarrolllo basado en componentes con React]]
 
-# 1.Qué es el Virtual DOM?
-Los componentes de React no renderizan directamente en el árbol DOM del navegador, sino que en una estructura propia llamada Virtual DOM.
+## 1.Qué es el Virtual DOM?
+Los componentes de React no renderizan directamente en el DOM del navegador, sino en una estructura llamada Virtual DOM. Contiene el árbol de elementos renderizados por los componentes.
 
-## 1.1.Nomenclatura
-Los elementos HTML en realidad son elementos de React. Deben ir en minúsculas. Los creados por el desarrollador tienen que empezar por mayúscula.
+Los elementos HTML de los JSX corresponden con los elementos HTML del mismo nombre. Los nombres de los componentes creados por el desarrollador tienen que empezar por mayúscula, por ejemplo, `Todo`. Los atributos van en camelCase. Existen algunas diferencias, como por ejemplo el uso de `classsName` en lugar de `class` de HTML.
 
-Los atributos deben estar en camelCase. Los atributos se nombran de formas especiales a veces. Por ejemplo, `className` en lugar de `class`.
+### 1.1.Ventajas
+El uso del Virtual DOM permite:
++ [p] Evitar realizar actualizaciones completas del DOM.
++ [p] Mantener siempre la UI sincronizada con el desarrollo.
 
-## 1.2.Ventajas
-React sigue un modelo de programación muy amigable para el desarrollador. Sus ventajas son:
-+ [p] Cada vez que modifica el estado de un componente se vuelve a renderizar.
-+ [p] Los componentes que se usan en la renderización también se vuelven a renderizar.
-+ [p] La UI siempre está sincronizada con los cambios de estado.
-
-# 2.Renderización de componentes
-Cada vez que se renderiza un componente React calcula la diferencia entre el componente antiguo y el nuevo. Mira las diferencias con el DOM del navegador y cambia solo lo necesario.
+### 1.2.Funcionamiento
+La forma de trabajar del Virtual DOM es muy simple. Cada vez que se renderiza un componente, React calcula la diferencia entre el resultado anterior y el nuevo. Después aplica las diferencias en el DOM del navegador.
