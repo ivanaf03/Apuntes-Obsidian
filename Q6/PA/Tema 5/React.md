@@ -1,84 +1,76 @@
-[[Tema 5-Desarrolllo basado en componentes React]]
+[[Tema 5-Desarrolllo basado en componentes con React]]
 
-# 1.Qué es React?
-Es una librería de Javascript que sigue el paradigma del desarrollo basado en componentes. No asume el uso en tecnologías diferentes por defecto, por lo que no separa navegador, escritorio, móvil, etc. 
+## 1.Qué es React?
+React es una librería de JavaScript que sigue el paradigma de desarrollo basado en componentes. Se adapta a diferentes entornos y tecnologías por defecto, como móvil, navegador, escritorio, etc. 
 
-Sigue un enfoque minimalista, aporta lo mínimo para desarrollar un frontend. Sin embargo, contiene muchas librerías desarrolladas por la comunidad.
+Sigue un enfoque minimalista, solo aporta lo mínimo necesario para el desarrollo del frontend. Sin embargo, se complementa con la gran variedad de librerías desarrolladas por la comunidad.
 
-# 2.Componentes en React
-Un componente se puede implementar con una estructura similar a una clase extendiendo de `React.Component`. Redefine los métodos que necesite, aunque el único obligatorio de implementar es `render`, que devuelve el markup del componente.
+### 1.1.Componentes en React
+Un componente se puede implementar como una clase que hereda de `React.Component`. Puede redefinir todos los métodos que necesite, pero el único obligatorio es `render`, que devuelve el markup del componente.
 
-## 2.1.Estado de los componentes
-Los componentes pueden tener estado. Se inicializa en el constructor. Para leerlo usamos `this.state` y para actualizarlo `this.setState`. Cada vez que se invoca a `this.setState` el componente se vuelve a renderizar.
+#### 1.1.1.Estado de los componentes
+El estado de los componentes se inicializa en el constructor y es una propiedad del objeto. Se puede leer con `this.state` y se puede actualizar con `this.setState`. Este método recibe un objeto con las propiedades que se desean modificar. Cuando se llama a este método el componente se vuelve a renderizar.
 
-## 2.2.Ejemplo
+#### 1.1.2.Ejemplo: pa-counter
 
 ```javascript
+// App.jsx
 import React from 'react';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: 0 };
-  }
 
-  handleIncrement() {
-    this.setState({ value: this.state.value + 1 });
-  }
+    constructor(props) {
+        super(props);
+        this.state = { value: 0 };
+    }
 
-  handleDecrement() {
-    this.setState({ value: this.state.value - 1 });
-  }
+    handleIncrement() {
+        this.setState({ value: this.state.value + 1 });
+    }
 
-  handleReset() {
-    this.setState({ value: 0 });
-  }
+    handleDecrement() {
+        this.setState({ value: this.state.value - 1 });
+    }
 
-  render() {
-    return (
-      <div>
-        <p>Value: {this.state.value}</p>
-        <button onClick={() => this.handleIncrement()}>Increment</button>
-        <button onClick={() => this.handleDecrement()}>Decrement</button>
-        <button onClick={() => this.handleReset()}>Reset</button>
-      </div>
-    );
-  }
+    handleReset() {
+        this.setState({ value: 0 });
+    }
+
+    render() {
+        return (
+            <div>
+                {this.state.value + ' '}
+                <button onClick={() => this.handleIncrement()}>+</button>
+                {' '}
+                <button onClick={() => this.handleDecrement()}>-</button>
+                {' '}
+                <button onClick={() => this.handleReset()}>Reset</button>
+            </div>
+        );
+    }
+
 }
 
 export default App;
 ```
 
-## 2.3.JSX
-La implementación de `render` se hace en JSX. JSX es una extensión sintáctica a JS que permite escribir expresiones en XML para describir un conjunto de elementos devueltos por un componente.
+## 2.JSX
+La implementación de render se hace en JSX. Es una extensión de la sintaxis de JavaScript que permite escribir código HTML de manera similar a la sintaxis de XML.
 
-Una expresión JSX se puede incluir en cualquier lugar donde se pueda incluir una expresión.
+Los ficheros que utilizan expresiones JSX deben tener la extensión `.jsx`.
 
-```javascript
-const element = <h1>Hello, world!</h1>;
-
-//El entorno de ejecución transpila a:
-const element = React.createElement("h1", null, "Hello, world!");
-```
-
-Dentro de una expresión JSX se puede incluir una expresión JS entre llaves.
+### 2.1.Expresiones JSX
+Una expresión JSX funciona igual que una expresión JavaScript.
 
 ```javascript
-import React from 'react';
+const element=<h1>Hola mundo!</h1>
 
-const App = () => {
-  const name = "John";
-  const age = 30;
-
-  return (
-    <div>
-      <p>My name is {name}.</p>
-      <p>I am {age} years old.</p>
-      <p>Next year I'll be {age + 1}.</p>
-    </div>
-  );
-}
-
-export default App;
+//Equivale a 
+const elemento=React.createElement("h1", null, "Hola mundo!");
 ```
 
+Permiten incluir expresiones JavaScript dentro de ellas entre llaves.
+
+```javascript
+<button onClick={() => this.handleReset()}>Reset</button>
+```
