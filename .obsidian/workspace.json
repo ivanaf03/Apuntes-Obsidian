@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md",
+                "file": "Q6/PA/Tema 6/Introducción a Redux.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md",
+                "file": "Q6/PA/Tema 6/Introducción a Redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md"
+                "file": "Q6/PA/Tema 6/Introducción a Redux.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/AS/Tema 6/Definición de disponibilidad.md",
+                "file": "Q6/PA/Tema 6/Introducción a Redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,21 @@
   },
   "active": "686545d80fd5274b",
   "lastOpenFiles": [
+    "Q6/PA/Tema 6/Tema 6-Gestión de estado con Redux.md",
+    "Q6/PA/Tema 6/Ejemplo de un gestor de TODOs 2.md",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/PA/Tema 5/Tema 5-Desarrolllo basado en componentes con React.md",
+    "Q6/PA/Tema 5/Inmutabilidad.md",
+    "Q6/PA/Tema 5/Virtual DOM.md",
+    "Q6/PA/Tema 5/Ejemplo de un gestor de TODOs.md",
+    "Q6/PA/Tema 5/Vite.md",
+    "Q6/PA/Tema 5/Desarrollo basado en componentes.md",
+    "Q6/PA/Tema 5/React.md",
+    "Q6/PA/Tutorial JS/Tutorial JavaScript.md",
+    "Q6/Q6.md",
+    "Q6/AS/Arquitectura do software.md",
     "Q6/AS/Tema 6/Tema 6-Disponibilidad.md",
+    "Q6/AS/Tema 6/Tácticas de disponibilidad.md",
     "Q6/AS/Tema 6/Definición de disponibilidad.md",
     "Excalidraw/Idea AS/idea Anton e Iván.md",
     "Q6/AS/Tema 6",
@@ -179,33 +194,19 @@
     "Q6/ER/Tema 7/Tema 7-Requisitos no funcionales.md",
     "Q6/ER/Tema 7/Algunos requisitos no funcionales.md",
     "Q6/ER/Tema 7/Importancia de los requisitos no funcionales.md",
-    "Q6/Q6.md",
     "Q6/ER/Tema 7",
     "Q6/ER/Enxeñaría de requisitos.md",
     "Q6/ER/Tema 6/Tema 6-Especificación de requisitos según la ISO 29148.md",
     "Q6/ACL/Prácticas/Semana 10 ACL.md",
     "Q6/ACL/Prácticas/Semana 4 ACL.md",
     "Q6/ACL/Prácticas/Semana 8 ACL.md",
-    "Q6/ACL/Prácticas/Semana 7 ACL.md",
-    "Q6/ACL/Prácticas/Semana 5 ACL.md",
-    "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/ACL/Prácticas/TGR ACL.md",
-    "Q6/BDA/Python/Acceso a bases de datos con Python.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
     "Excalidraw/Idea AS/idea Anton e Iván.png",
     "Q6/BDA/Python",
     "Excalidraw/Idea AS/Sin título.canvas",
     "Excalidraw/Idea AS",
-    "Excalidraw/Clase 6 ER/escuchar canción.md",
     "Excalidraw/Clase 6 ER/escuchar canción.png",
-    "Excalidraw/Clase 6 ER/canciones.md",
     "Excalidraw/Clase 6 ER/canciones.png",
-    "Excalidraw/Clase 6 ER/playlists.md",
     "Excalidraw/Clase 6 ER/iniciar sesión.png",
-    "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
-    "Desarrollo web/HTML/Introducción a HTML.md",
-    "Desarrollo web/HTML/Fundamentos de texto HTML.md",
-    "Desarrollo web/HTML/Cabecera HTML.md",
     "Excalidraw/Clase 6 ER/publicaciones.png",
     "Q6/BDA/Tema 7",
     "Excalidraw/Massimo Dutti/massimo dutti.png",
