@@ -1,19 +1,21 @@
 [[Tema 2-La máquina y el mundo]]
 
-# ¿Cómo se hace la especificación?
-+ [<] **Partes de un requisito:**
-+ *R:* parte optativa, expresa lo que el sistema debería cambiar cuando esté funcionando.
-+ *E:* parte indicativa, es lo que ya existe, una asunción del entorno.
+## 1.Cómo se elabora la especificación?
+Para demostrar que los requisitos son satisfacibles por el software se hace una especificación de requisitos. Funciona como puente entre el entorno y el sistema, actuando como interfaz.
 
-Para demostrar que los requisitos son satisfacibles por un software hacemos una especificación de este. Todos los artefactos relacionados con nuestro sistema tienen una función en él.
+### 1.1.Formalización
+Si un software que satisface la especificación se instala en un entorno, entonces el sistema podrá cumplir con los requisitos propuestos,
+
+$$S, E\rightarrow R$$
 
  La formalización no es infalible. Por ejemplo, en un sistema de gestión de tráfico a veces los coches no paran aunque el semáforo esté en rojo.
 
-## Designaciones
-Una designación es un `mapping` entre los términos de los requisitos y una especificación formal. Por ejemplo, en la entrada de un parque con un torno giratorio:
-+ El cliente dice que quiere una entrada.
-+ El sistema reconoce que entrar es girar el torno de la entrada N grados.
-+ La especificación es el puente intermedio entre lo que dice el cliente y lo que hace el sistema.
+### 1.2.Designación
+Una designación es una conversión entre los términos del cliente expresando los requisitos y los términos de la especificación. Esta debe estar en un lenguaje formal, cercana a la implementación del sistema.
 
-# Ejemplo
-Si el requisito es que un paciente tiene una desviación en el pulso, el sistema emite un sonido. La especificación es que emita un sonido. Esto es incompleto, tenemos que tener en cuenta el entorno o dominio. Si no hay nadie escuchando, esto no sería correcto.
+## 2.El entorno en la especificación
+Muchas veces debemos tener en cuenta el entorno en la especificación de requisitos. 
+
+Por ejemplo, tenemos como requisito que si un paciente tiene una desviación en el pulso, el sistema emitirá un sonido. La especificación simplemente indica que el sistema emite un sonido.
+
+Sin embargo, esto estaría incompleto. Debemos tener en cuenta que debe haber alguien escuchando en el entorno.
