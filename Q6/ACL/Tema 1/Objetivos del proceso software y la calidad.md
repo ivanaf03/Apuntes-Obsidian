@@ -1,25 +1,20 @@
 [[Tema 1-Mejoras del proceso software]]
 
-# 1.¿Es mejorable el proceso software?
-La respuesta a esta pregunta se basa en cuál sea la meta a alcanzar y cómo de lejos estemos de esa meta. Para saberlo necesitamos métricas como:
-+ [>] Los objetivos de un proyecto.
-+ [>] El grado de cumplimiento de estos.
+## 1.Es mejorable el proceso software?
+Para saberlo tenemos que definir que meta se quiere alcanzar y cómo de lejos se está de esa meta. Para saberlo se debe tener en cuenta:
++ Los objetivos de un proyecto.
++ El grado de cumplimiento de los objetivos.
 
-## 1.1.Objetivos de un proyecto
-La gestión de proyectos software busca cumplir con:
-+ [>] *Esfuerzo:* se mide en días por persona, horas por persona, etc. 
-+ [>] *Tiempo:* se mide en días, meses, horas, etc. 
-+ [>] *Coste:* se mide en las unidades monetarias correspondientes. 
+### 1.1.Objetivos de un proyecto
+#### 1.1.1.Objetivos en relación a la gestión del proyecto
+En base a la gestión de los proyectos se busca cumplir con lo planificado para:
++ **Esfuerzo:** días por persona, horas por semana, etc.
++ **Tiempo:** días, meses, horas u otras unidades de tiempo.
++ **Coste:** dólares, euros u otras unidades monetarias.
 
-$\space$
-Para los productos se busca que sean de calidad.
+#### 1.1.2.Objetivos en relación a un producto
+Se busca que los productos sean de buena calidad. Sin embargo, no es tan fácil de medir. Cada empresa debe definir lo que entiende por calidad y cómo puede cuantificarla. Para ello se basan en las opiniones del cliente.
 
-### 1.1.1.Calidad
-No se puede medir tan fácil la calidad. Cada empresa define cómo cuantifica la calidad, pero quién refuerza la definición es el cliente.
-
-Para definir la calidad se debe:
-+ [>] Establecer las métricas por anticipado, antes de hacer el proyecto.
-+ [>] Poder cuantificar y verificar los parámetros que midan la calidad.
-
-$\space$
-Algunos ejemplos de estos parámetros son la facilidad de uso, el tiempo medio entre fallos (MTBF), el número de errores permitido, etc.
+Para definir la calidad de un producto solo hay que tener en cuenta:
++ Se deben establecer las métricas antes de hacer el proyecto.
++ Los parámetros que midan la calidad se deben poder cuantificar y verificar.
