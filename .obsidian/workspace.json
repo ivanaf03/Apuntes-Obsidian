@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
-                "mode": "source",
+                "file": "Q6/Q6.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
+                "file": "Q6/Q6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md"
+                "file": "Q6/Q6.md"
               }
             }
           },
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
+                "file": "Q6/Q6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,15 +171,22 @@
   },
   "active": "686545d80fd5274b",
   "lastOpenFiles": [
-    "Q6/ER/Tema 1/Tema 1-Introducción a la ingeniería de requisitos.md",
     "Q6/ER/Enxeñaría de requisitos.md",
+    "Q6/ER/Tema 2/Tema 2-La máquina y el mundo.md",
+    "Q6/ER/Tema 2/Especificación.md",
+    "Q6/ER/Tema 2/Requisitos.md",
+    "Q6/ER/Tema 2/El modelo WRSPM.md",
+    "Q6/ER/Tema 2/Entorno.md",
+    "Imagen de WhatsApp 2024-01-28 a las 13.28.32_9e43bf20.jpg",
     "Q6/Q6.md",
+    "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
+    "Q6/ER/Tema 1/Tema 1-Introducción a la ingeniería de requisitos.md",
     "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
     "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
     "Q6/ACL/Tema 2/Modelos de calidad del software.md",
     "Q6/ACL/Tema 2/Evolución de la calidad.md",
     "Q6/ACL/Tema 2/Calidad del software.md",
-    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
     "Pasted image 20240421183517.png",
     "Q6/AS/Tema 1/Tema 1-Introducción a la arquitectura de software.md",
     "Q6/AS/Arquitectura do software.md",
@@ -193,13 +199,7 @@
     "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
     "Q6/ACL/Tema 1/Solución para la mejora.md",
     "Q6/ACL/Tema 1/Grado de cumplimiento.md",
-    "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
-    "Q6/ACL/Prácticas/Semana 11 ACL.md",
-    "Q6/ACL/Prácticas/TGR ACL.md",
-    "Q6/ER/Tema 8/Introducción a la gestión de requisitos.md",
-    "Q6/ER/Tema 8/Tema 8-Gestión de requisitos.md",
     "Q6/ER/Tema 8",
-    "Q6/ACL/Prácticas/Semana 10 ACL.md",
     "Pasted Image 20240416234441_313.png",
     "Imágenes/fases auditorías.png",
     "Pasted image 20240416105435.png",
@@ -213,7 +213,6 @@
     "Excalidraw/Idea AS",
     "Excalidraw/Clase 6 ER/escuchar canción.png",
     "Excalidraw/Clase 6 ER/canciones.png",
-    "Excalidraw/Clase 6 ER/iniciar sesión.png",
     "Q6/BDA/Tema 7",
     "Q6/AS/Tema 5",
     "Q6/PA/Tema 7",
