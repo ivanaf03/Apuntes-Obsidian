@@ -39,14 +39,7 @@ Debe ser una función pura, lo que significa que siempre debe devolver el mismo 
 
 El estado es inmutable. El reductor devuelve un nuevo objeto, no modifica el estado anterior. Esto permite reducir el número de renderizaciones en el Virtual DOM.
 
+#### 2.1.3.Notificaciones
+Los componentes reciben notificaciones cuando el reductor produce un nuevo estado. Se pueden suscribir con la función `store.subscribe` y leen el estado con `store.getState`. Reciben la parte del estado que les interesa mediante propiedades o hooks.
 
-
-
-
-
-
-#### 1.2.3.Notificaciones
-Los componentes que lo necesiten reciben una notificación cuando el reductor produce un estado nuevo. Lo hacen mediante `store.subscribe` y leen el estado con `store.getState`. 
-
-Los componentes pueden recibir solo la parte del estado que les interese mediante propiedades o hooks.
-
+Funciona de forma muy similar al patrón Observador.
