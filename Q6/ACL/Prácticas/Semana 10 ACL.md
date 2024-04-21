@@ -25,7 +25,7 @@ Son como las otras, pero no hay Jefe de Proyecto que las planifique. Tiene que p
 
 El Responsable designa a un auditor y pasa lo mismo que con el otro tipo de auditorías. Los auditores de la verificación de fase tienen auditores con conocimientos en desarrollo de software.
 
-## 2..Acciones (1 diapositiva)
+## 2.Acciones (1 diapositiva)
 ### 2.1.Acciones correctivas
 Se hacen cuando un auditor interno detecta una no conformidad. Solo es necesario reflejar en la diapositiva el ciclo de vida de una acción correctiva.
 
