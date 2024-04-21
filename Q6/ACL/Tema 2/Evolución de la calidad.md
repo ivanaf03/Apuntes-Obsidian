@@ -1,23 +1,22 @@
 [[Tema 2-Calidad y software]]
 
-## Siglos XVIII y XIX
-Antes los artesanos hacían a medida los productos a sus clientes. Con la Revolución Industrial empezaron los sistemas de medición, supervisión y control para intentar asegurar calidad en producciones masivas.
+## 1.Historia de la calidad
+### 1.1.Siglos XVIII y XIX
+Los orígenes de la calidad surgieron en la Revolución Industrial. Antes de ella, los artesanos conocían al cliente y realizaban los productos a medida.
 
-Con ello aparece la necesidad de nuevos operarios especializados en calidad para medir la calidad de los productos.
+Sin embargo, con el inicio de la revolución los obreros comenzaron a trabajar en cadenas de montaje sin conocer las necesidades del usuario y el grado de satisfacción de los clientes. Por tanto, no podían saber si estaban produciendo productos de calidad.
 
-## De 1900 a 1950
-Nace la `organización taylorista`. La dirección debe definir la tarea de cada uno de sus operarios especificando el método que deben usar y cuantificando su duración.
+Para ello era necesario montar algún sistema de medición, supervisión y control integrado en las producciones masivas. De esto surge la necesidad de nuevos operarios que inspeccionaran la calidad de los productos sin involucrarse directamente en la producción.
 
-Cada empleado realiza una tarea de la descomposición del proceso de producción. Esto reduce la formación y es fácil aumentar la producción contratando nuevos operarios.
+### 1.2.Principios del siglo 20
+A principios del siglo XX nace la organización taylorista. Consiste en que la dirección defina las tareas de los operarios, indicando qué métodos deben usar y cuánto tiempo tiene que durar cada tarea.
 
-Es necesario comprobar que los productos finales tienen calidad. Así nace el departamento de control de calidad. La calidad se centraba en el producto.
+Esto permitió separar el proceso de producción y especializar a los operarios en tareas más concretas. Generaban menor oferta de productos que demanda había, por tanto, los clientes tenían que adaptarse a los productos ofertados. 
 
-## Años 50
-Aparecen normas y estándares de control de calidad. Surgen en el entorno militar.
+Pero para mantener una visión global y comprobar que los productos finales son de calidad era necesario un departamento de control de calidad. Los inspectores detectaban productos de mala calidad y analizaban los resultados de la producción. La calidad en esta época se centraba en el producto.
 
-La calidad se centraba en el proceso.
+### 1.3.Años 50
+Nace el aseguramiento de la calidad. Empezaron a desarrollarse normas y estándares de control de calidad. Los primeros surgieron en el entorno militar de Estados Unidos. La calidad se comenzó a centrar en el proceso.
 
-## Actualidad
-A partir de los años 60 comienza el TQM (Total Quality Management). Consiste en que todos los departamentos, no solo el de calidad, tienen responsabilidad en alcanzar la calidad. Se centra en reducir costes.
-
-Al principio se centraba en la realización de pruebas. Poco a poco este concepto se fue ampliando.
+### 1.4.Actualidad
+A partir de los años 60 comienza el TQM (Total Quality Management). Hasta ahora el concepto de calidad se asociaba al departamento de calidad, pero este modelo intenta introducirlo a todos los demás. La calidad se centra en reducir costes.
