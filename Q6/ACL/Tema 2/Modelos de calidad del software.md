@@ -1,17 +1,20 @@
 [[Tema 2-Calidad y software]]
 
-# Modelos habituales
-## Capacibity Maturity Model
-CMM, ahora llamado CMMI, es un modelo que separa en niveles las capacidades que tiene una empresa. Permite medir la calidad y sirve como marco de referencia para el proceso de desarrollo software.
+## 1.Modelos habituales
 
-## Bootstrap
-Es una aplicación europea de CMM. Está vinculado a la norma ISO 9000.
+### 1.1.Capability Maturity Model (CMM)
+Ahora se conoce como CCMI (CMM Integration). Se basa en dividir en niveles las capacidades que tiene una empresa software mediante metas que se deben tratar de alcanzar. Sirve como marco de referencia para el proceso de desarrollo software.
 
-## ISO 9000
-Es una normal internacional genérica que contiene guías de aplicación a las empresas de desarrollo de software.
+### 1.2.Bootstrap Model
+Es un modelo europeo de CMMI adaptado a la ISO 9000.
 
-## SPICE
-La ISO intentó mezclar todos los modelos para estandarizar la valoración del proceso software.
+### 1.3.ISO 9000
+Es una guía internacional de normas que establecen los requisitos para implantar un sistema de gestión de la calidad en una organización y promover la mejora continua.
 
-# Opciones que se suelen tomar
-En América se suele usar CMMI. En Europa se tiende a usar ISO 9000. No hay un paso directo de ISO 9000 a CMMI, aunque es sencillo obtener el certificado ISO 9000 y poder pasar a modelo CMMI.
+### 1.4.Software Process Improvement and Capability Determination (SPICE)
+Marco que trata de unir los diferentes modelos de referencia para poder internacionalizarlos. Fue propuesto por la ISO.
+
+## 2.Preferencias en las empresas
+Las empresas de desarrollo software de EEUU suelen seguir CMMI. Algunas empresas europeas también lo hacen, aunque tienden a decantarse más por ISO 9000. 
+
+El problema de la ISO 9000 es que no está enfocada a desarrollo software, por lo que muchas empresas suelen obtener certificación ISO 9000 y después implantan CMMI.
