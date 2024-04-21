@@ -1,53 +1,43 @@
 [[Tema 2-Calidad y software]]
 
-## ¿Qué es la calidad?
-En la norma UNE-EN ISO 9000:2015 se define la calidad como el grado en el que un conjunto de características inherentes de un objeto cumple con los requisitos, siendo ese objeto cualquier cosa que se pueda percibir o concebir. Por ejemplo, un producto, un servicio...
+## 1.Qué es la calidad?
+Según la ISO 9000 la calidad es el grado en que un conjunto de características propias de un objeto cumple con los requisitos solicitados. Esto aplica a cualquier cosa que se pueda percibir, como productos, procesos, organizaciones, servicios, etc.
 
-En la ISO 8402, que complementa a la 9000 se define como el conjunto de propiedades y características de un producto o servicio que le confiere aptitud para satisfacer unas necesidades explícitas o implícitas. Un requisito implícito es aquel que se asume, por ejemplo, contraseñas encriptadas, velocidad...
+La ISO 8402 complementa la definición de calidad de ISO 9000. Define la calidad como un conjunto de propiedades y características de un producto o servicio que le permiten satisfacer necesidades, tanto explícitas como implícitas. Un requisito implícito es todo aquel que, sin decirlo en ningún momento, se asume. Por ejemplo, contraseñas cifradas, velocidad, etc.
 
-No es un concepto absoluto, es el consumidor el que judga el producto o servicio según su criterio.
+Pese a las definiciones, la calidad es algo subjetivo. Cada consumidor judga la calidad según su criterio.
 
-### Calidad como función organizativa
-La calidad es un staff directamente vinculado a la dirección cuyo responsable es el Responsable de Calidad. Vigila a toda la empresa y si hay desviaciones avisa directamente a dirección. 
+### 1.1.Calidad como función administrativa
+La calidad en una organización es personal vinculado a dirección cuyo máximo responsable es el Responsable de Calidad. Su responsabilidad es vigilar la empresa y seguir lo definido en el sistema de calidad tanto en la empresa como en proyectos, avisando de las posibles desviaciones a dirección.
 
-No participan en el proyecto. Por tanto pueden judgar fácilmente si se está siguiendo un enfoque de calidad.
+No participan en los proyectos. Esto les permite judgar desde una perspectiva externa si se sigue correctamente el sistema de calidad.
 
-### Actividades vinculadas con la calidad
-+ **Quality assurance:** consiste en asegurarse de que se cumple la calidad siguiendo el proceso definido, los estándares, las herramientas, etc. Por ejemplo, en una auditoría de fin de fase.
-+ **Quality control:** consiste en controlar técnicamente que un producto es de calidad. Por ejemplo, la revisión de os entregables.
+### 1.2.Actividades vinculadas con la calidad
+Existen dos actividades vinculadas con la calidad en las empresas:
++ **Aseguramiento de la calidad:** consiste en comprobar que se siguen el proceso, los estándares y las herramientas definidos por el sistema de calidad. Un ejemplo son las auditorías internas. Lo realiza el departamento de gestión de calidad.
++ **Control de la calidad:** es un proceso técnico. Se comprueba que los productos obtenidos sean de calidad. Por ejemplo, la revisión de los entregables. Lo realizan técnicos.
 
-El control de calidad lo hace siempre un técnico. El aseguramiento de la calidad lo hace el departamento de gestión de calidad.
+## 2.Calidad del software
+La gestión de la calidad se debe aplicar a lo largo de todo el proceso software. Por ejemplo, una forma de comprobar la calidad en la fase de diseño es verificando que se cumple con las formas normales establecidas.
 
-## Calidad del software
-La calidad del software no es algo que se pueda mirar después de generar código. Un ejemplo es comprobando que el entidad-relación cumple las formas normales. Se aplica a lo largo de todo el proceso de desarrollo. Abarca:
-+ Proceso de garantía de la calidad del software.
-+ Tareas de aseguramiento y control de la calidad.
-+ Prácticas de ingeniería de software.
+### 2.1.Situaciones donde se aplica la calidad
+La gestión de calidad abarca:
++ Aseguramiento de la calidad.
++ Control de la calidad.
++ Métodos y herramientas usados.
 + Gestión de configuración software.
-+ Procedimiento de garantización de estándares.
-+ Mecanismos de generación y medición de informes.
++ Procedimientos para ajustarse a los estándares de desarrollo de software.
++ Mecanismos de medición y generación de informes.
 
-### Eficacia y eficiencia
-Algo eficaz es algo que resuelve el problema. Algo eficiente es algo que gestiona bien el uso de recursos.
+### 2.2.Términos de la calidad del software
+#### 2.2.1.Eficacia vs eficiencia
+La eficacia consiste en buscar una solución que resuelva un problema. La eficiencia consiste en gestionar correctamente los recursos para resolver un problema.
 
-### Verificación y validación
-La verificación es el conjunto de actividades que garantizan que el resultado de cada fase se corresponde a las entradas a dicha fase, es decir, que está bien construido. Se hace en cada fase de los ciclos de vida.
+#### 2.2.2.Verificación y validación
+La verificación es el conjunto de actividades que garantizan que el resultado de cada fase se corresponde con el previsto. Se realiza en todas las fases del ciclo de vida. La validación es el conjunto de actividades que comprueban que el software se corresponde con lo que el cliente quiere. Por ejemplo, las pruebas de aceptación.
 
-La validación es el conjunto de actividades que aseguran que el software se corresponde con lo que el cliente quiere. Son las pruebas de aceptación.
-
-### Problemas en lograr la calidad
-Problemas con el cliente:
-+ No participa en el proyecto.
-+ Pide cambios constantes.
-
-Problemas con el proyecto:
-+ Se define vagamente el proyecto.
-+ Inexistencia de documentos de especificación de requisitos.
-+ Los requisitos cambian continuamente y no se hace gestión.
-+ No se planifica.
-
-Problemas con el desarrollo:
-+ Los miembros no siguen un estándar.
-+ No se dispone de las versiones correctas de los entregables.
-+ Falta de pruebas y documentación.
-
+### 2.3.Problemática para lograr la calidad del software
+A veces es difícil garantizar calidad del software. Algunos problemas son:
++ **Con el cliente:** no participa en el proyecto y a veces puede pedir cambios que afecten a lo acordado inicialmente.
++ **Con el proyecto:** se definen mal los requisitos del proyecto o se gestionan mal. También puede haber problemas planificando el proyecto y calculando mal el esfuerzo, tiempo y coste.
++ **Con el desarrollo:** los miembros del equipo de desarrollo pueden trabajar por su cuenta, sin definir estándares. A veces también faltan la documentación y las pruebas o no se dispone de las versiones correctas de los entregables por un mal control de cambios.
