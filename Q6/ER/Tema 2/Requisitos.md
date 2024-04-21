@@ -1,11 +1,14 @@
 [[Tema 2-La máquina y el mundo]]
 
-# ¿Qué es un requisito?
-Son indicaciones de los cambios qué queremos que haga el sistema en el entorno. Por ejemplo: "quiero que el sistema avise a una enferma si ocurre un cambio en el ritmo cardiaco". Se expresan en subjuntivo o optativo.
+## 1.Qué es un requisito?
+Los requisitos son los cambios que queremos que haga el sistema en el entorno. Por ejemplo: 
 
-Los eventos del entorno se expresan en indicativo. Los requisitos son parte del entorno.
+```
+Requisito:
+	Quiero que el sistema avise a una enfermera si ocurre un cambio en las constantes vitales.
+```
 
-Un requisito es lo qué el cliente pide, mientras que una especificación es  una explicación más detallada. Un requisito suele ser satisfecho por más de una especificación.
+Los requisitos se expresan en subjuntivo o optativo. En cambio, los eventos del entorno se expresan en indicativo. Además suele haber varias especificaciones para un mismo requisito.
 
-## ¿Cómo satisfacen el sistema?
-En la interfaz existen eventos del entorno que el sistema sí conoce. El sistema influye solo en esos eventos, pero de forma que afecten al resto del entorno.
+### 1.1.Cómo satisfacen los requisitos el sistema?
+En la interfaz existen eventos del entorno que el sistema conoce. El sistema actúa con estos eventos solamente, pero lo hace de forma que puedan afectar al resto del entorno.
