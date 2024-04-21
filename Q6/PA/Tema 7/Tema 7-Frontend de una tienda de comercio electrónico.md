@@ -1,8 +1,10 @@
 [[Programación avanzada]]
 
-+ [[Distribución fuente]]
-+ [[Desarrollo multi-modular]]
-+ [[Reductor raíz]]
+Contenido:
++ [[Estructura general del frontend]]
 + [[Layout y enrutamiento]]
 + [[Internacionalización]]
 + [[Acceso a servicios en frontend]]
++ [[Búsqueda de productos]]
++ [[Detalles de productos]]
++ [[Recargas y políticas]]
