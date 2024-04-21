@@ -1,9 +1,10 @@
 [[Tema 1-Mejoras del proceso software]]
 
-# 1.Mejora de las pruebas
-No es una buena solución. Los programadores suelen cometer sobre 100 defectos por cada 1000 líneas de código. Además las pruebas suelen detectar menos del 50% de los errores. Incluso muchas veces se prescinde de realizar pruebas.
+## 1.Posibles soluciones
+### 1.1.Mejora de las pruebas
+No es buena solución tratar de buscar mejoras en las pruebas. Por cada 1000 líneas de código se estima que un programador tiene 100 defectos. Generalmente las pruebas detectan menos de la mitad de los errores y muchas veces incluso se prescinde de ellas por falta de tiempo.
 
-Hay que intentar hacer las pruebas de la mejor forma posible. Para que esto se pueda, tiene que llegar a ellas un producto con buena calidad desde el principio. 
+Las pruebas se deben hacer de la mejor forma posible. Sin embargo, para que esto sea posible debe llegar a ellas un producto de buena calidad.
 
-## 1.1.Solución
-La solución es seguir criterios de calidad desde el principio del proyecto. Las pruebas tienen que ser un complemento al proceso de calidad.
+### 1.2.Solución mejorada
+La solución para poder tener un buen producto que probar el seguir un Sistema de Calidad desde el principio. Las pruebas deben ser usadas como un complemento.
