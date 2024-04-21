@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/PA/Tema 6/Introducción a Redux.md",
+                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/PA/Tema 6/Introducción a Redux.md",
+                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/PA/Tema 6/Introducción a Redux.md"
+                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/PA/Tema 6/Introducción a Redux.md",
+                "file": "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,34 +172,41 @@
   },
   "active": "686545d80fd5274b",
   "lastOpenFiles": [
-    "Q6/PA/Tema 6/Tema 6-Gestión de estado con Redux.md",
-    "Q6/PA/Tema 6/Ejemplo de un gestor de TODOs 2.md",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Tema 5/Tema 5-Desarrolllo basado en componentes con React.md",
-    "Q6/PA/Tema 5/Inmutabilidad.md",
-    "Q6/PA/Tema 5/Virtual DOM.md",
-    "Q6/PA/Tema 5/Ejemplo de un gestor de TODOs.md",
-    "Q6/PA/Tema 5/Vite.md",
-    "Q6/PA/Tema 5/Desarrollo basado en componentes.md",
-    "Q6/PA/Tema 5/React.md",
-    "Q6/PA/Tutorial JS/Tutorial JavaScript.md",
-    "Q6/Q6.md",
-    "Q6/AS/Arquitectura do software.md",
-    "Q6/AS/Tema 6/Tema 6-Disponibilidad.md",
-    "Q6/AS/Tema 6/Tácticas de disponibilidad.md",
-    "Q6/AS/Tema 6/Definición de disponibilidad.md",
-    "Excalidraw/Idea AS/idea Anton e Iván.md",
-    "Q6/AS/Tema 6",
-    "Q6/ER/Tema 7/Cuantificación de requisitos no funcionales.md",
-    "Q6/ER/Tema 7/Tema 7-Requisitos no funcionales.md",
-    "Q6/ER/Tema 7/Algunos requisitos no funcionales.md",
-    "Q6/ER/Tema 7/Importancia de los requisitos no funcionales.md",
-    "Q6/ER/Tema 7",
+    "Q6/ER/Tema 1/Tema 1-Introducción a la ingeniería de requisitos.md",
     "Q6/ER/Enxeñaría de requisitos.md",
-    "Q6/ER/Tema 6/Tema 6-Especificación de requisitos según la ISO 29148.md",
+    "Q6/Q6.md",
+    "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
+    "Q6/ACL/Tema 2/Modelos de calidad del software.md",
+    "Q6/ACL/Tema 2/Evolución de la calidad.md",
+    "Q6/ACL/Tema 2/Calidad del software.md",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
+    "Pasted image 20240421183517.png",
+    "Q6/AS/Tema 1/Tema 1-Introducción a la arquitectura de software.md",
+    "Q6/AS/Arquitectura do software.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/BDA/Tema 1/Tema 1-Catálogo.md",
+    "Q6/BDA/Tema 1/Uso del catálogo con Oracle y PostgreSQL.md",
+    "Q6/BDA/Tema 1/Catálogo en SQL estándar.md",
+    "Q6/BDA/Tema 1/Catálogo del sistema.md",
+    "Q6/BDA/Tema 1/Sistemas de información.md",
+    "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+    "Q6/ACL/Tema 1/Solución para la mejora.md",
+    "Q6/ACL/Tema 1/Grado de cumplimiento.md",
+    "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
+    "Q6/ACL/Prácticas/Semana 11 ACL.md",
+    "Q6/ACL/Prácticas/TGR ACL.md",
+    "Q6/ER/Tema 8/Introducción a la gestión de requisitos.md",
+    "Q6/ER/Tema 8/Tema 8-Gestión de requisitos.md",
+    "Q6/ER/Tema 8",
     "Q6/ACL/Prácticas/Semana 10 ACL.md",
-    "Q6/ACL/Prácticas/Semana 4 ACL.md",
-    "Q6/ACL/Prácticas/Semana 8 ACL.md",
+    "Pasted Image 20240416234441_313.png",
+    "Imágenes/fases auditorías.png",
+    "Pasted image 20240416105435.png",
+    "Imágenes/findproductsresult.png",
+    "Imágenes/findProducts.png",
+    "Q6/AS/Tema 6",
+    "Q6/ER/Tema 7",
     "Excalidraw/Idea AS/idea Anton e Iván.png",
     "Q6/BDA/Python",
     "Excalidraw/Idea AS/Sin título.canvas",
@@ -207,18 +214,11 @@
     "Excalidraw/Clase 6 ER/escuchar canción.png",
     "Excalidraw/Clase 6 ER/canciones.png",
     "Excalidraw/Clase 6 ER/iniciar sesión.png",
-    "Excalidraw/Clase 6 ER/publicaciones.png",
     "Q6/BDA/Tema 7",
-    "Excalidraw/Massimo Dutti/massimo dutti.png",
-    "Excalidraw/Massimo Dutti/massimo dutti.svg",
-    "Imágenes/arquitectura orientada a eventos.png",
-    "Imágenes/arquitectura hexagonal.png",
     "Q6/AS/Tema 5",
-    "Excalidraw/Clase 6 ER/playlists.png",
     "Q6/PA/Tema 7",
     "Excalidraw/Clase 6 ER",
     "Q6/PA/Tema 6",
-    "Excalidraw/Massimo Dutti",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
