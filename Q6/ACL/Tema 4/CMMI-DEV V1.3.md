@@ -1,118 +1,264 @@
 [[Tema 4-CMMI]]
 
-# 1.PA y categorías
-## 1.1.Gestión de proyectos
+## 1.Requisitos para entrar al nivel 2
+### 1.1.Gestión de Requisitos (REQM)
+Consiste en gestionar los requisitos del producto y de sus componentes para asegurar que estos sigan los planes y dean como resultado los productos deseados.
 
-## 1.2.Gestión de procesos
+#### 1.1.1.SG-Gestionar los requisitos
+Se puede hacer mediante las siguientes SP:
++ Comprender los requisitos. Para ello se debe incluir al equipo de desarrollo en la reunión de toma de requisitos.
++ Comprometerse con los requisitos.
++ Gestionar los cambios en los requisitos.
++ Mantener la trazabilidad entre requisitos y productos. Para ello se pueden usar matrices de trazabilidad.
++ Alinear el proyecto y los requisitos.
 
-## 1.3.Ingeniería
+### 1.2.Planicación del Proyecto (PP)
+Consiste en establecer y mantener planes que definan las actividades del proyecto.
 
-## 1.4.Soporte
+#### 1.2.1.SG-Establecer las estimaciones
+Se puede hacer mediante las siguientes SP:
++ Estimar el alcance.
++ Estimar el tiempo, esfuerzo y coste.
++ Definir las fases del ciclo de vida.
 
-# 2.Requisitos para entrar a nivel 2
-Los requisitos que hay que cumplir para entrar a lo que se considera el primer nivel de calidad son:
-+ **Gestión de Requisitos (REQM):** consiste en gestionar los requisitos del producto y de sus componentes para asegurar la alineación de estos con los planes y productos del proyecto. Las SG son:
-	+ Gestionar los requisitos:
-		+ Comprender los requisitos. Es importante incluir al equipo de desarrollo en la reunión de toma de requisitos.
-		+ Obtener el compromiso sobre los requisitos. 
-		+ Gestionar los cambios en los requisitos.
-		+ Mantener la trazabilidad bidireccional entre requisitos y productos de trabajo (matrices de trazabilidad).
-		+ Asegurar la alineación entre el trabajo del proyecto y los requisitos.
-+ **Planificación del Proyecto (PP):** consiste en establecer y mantener planes que definan las actividades del proyecto.
-	+ Establecer estimaciones:
-		+ Estimar el alcance. Se indica que se compromete la empresa a hacer.
-		+ Estimar los atributos que permitan estimar esfuerzo, tiempo y coste. 
-		+ Definir las fases del ciclo de vida del proyecto.
-		+ Estimar el esfuerzo y el coste.
-	+ Desarrollar el plan de proyecto:
-		+ Establecer el presupuesto y el calendario.
-		+ Identificar los riesgos.
-		+ Planificar la gestión de riesgos. Basta con llevar una lista de riesgos y ver qué ocurre con ellos a lo largo del proyecto.
-		+ Planificar los recursos para realizar el proyecto.
-		+ Planificar el conocimiento y habilidades del personal.
-		+ Planificar la involucración de las partes interesadas. Todo el mundo debe conocer sus responsabilidades.
-		+ Establecer el plan de proyecto global.
-	+ Obtener compromiso con el plan:
-		+ Revisar los planes que afectan al proyecto.
-		+ Conciliar los niveles de trabajo y de recursos.
-		+ Obtener el compromiso con el plan.
-+ **Monitorización y Control del Proyecto (PMC):** seguir el progreso del proyecto para que se puedan tomar las acciones correctivas  apropiadas cuando haya desviaciones que bajen el rendimiento del proyecto.
-	+ Monitorizar el proyecto frente al plan:
-		+ Monitorizar los parámetros de planificación del proyecto.
-		+ Monitorizar los compromisos.
-		+ Monitorizar los riesgos del proyecto.
-		+ Monitorizar la gestión de datos.
-		+ Monitorizar la involucración de las partes interesadas.
-		+ Llevar a cabo las revisiones de progreso.
-		+ Llevar a cabo las revisiones de hitos.
-	+ Gestionar las acciones correctivas hasta su cierre: 
-		+ Analizar las cuestiones.
-		+ Llevar a cabo las acciones correctivas.
-		+ Gestionar las acciones correctivas.
-+ **Medición y Análisis (MA):** desarrollar y mantener la capacidad de medición utilizada para dar soporte a las necesidades de medición.
-	+ Alinear las actividades de medición y análisis:
-		+ Establecer los objetivos de medición.
-		+ Especificar las mediciones.
-		+ Especificar los procedimientos de recogida y almacenamiento de datos.
-		+ Especificar los procedimientos de análisis.
-	+ Proporcionar los resultados de medición:
-		+ Obtener datos de medición.
-		+ Analizar datos de medición.
-		+ Almacenar los datos y los resultados.
-		+ Comunicar los resultados.
-+ **Aseguramiento de la Calidad del Proceso y del Producto (PPQA):** proporcionar al personal y a la gerencia una visión objetiva de los procesos y productos asociados.
-	+ Evaluar objetivamente procesos y productos de trabajo:
-		+ Evaluar objetivamente los procesos.
-		+ Evaluar objetivamente los productos de trabajo.
-	+ Proporcionar una visión objetiva:
-		+ Comunicar y resolver las no-conformidades.
-		+ Establecer los registros. 
-+ **Gestión de la Configuración (CM):** establecer y mantener la integridad de los productos mediante la identificación y control de la configuración, el informe de estado de la configuración y las auditorías de la configuración.
-	+ Establecer las líneas base:
-		+ Identificar los elementos de configuración.
-		+ Establecer un sistema de gestión de la configuración.
-		+ Crear o liberar las líneas base.
-	+ Seguir y controlar los cambios:
-		+ Seguir las peticiones de cambio.
-		+ Controlar los elementos de configuración.
-	+ Establecer la integridad:
-		+ Establecer los registros de gestión de configuración.
-		+ Realizar auditorías de configuración.
-+ **Gestión de Acuerdos con Proveedores (SAM):** gestionar la adquisición de productos y servicios de proveedores.
-	+ Establecer acuerdos con proveedores:
-		+ Determinar el tipo de adquisición.
-		+ Seleccionar proveedores.
-		+ Establecer acuerdos con proveedores.
-	+ Satisfacer acuerdos con proveedores:
-		+ Ejecutar el acuerdo con el proveedor.
-		+ Aceptar el producto adquirido.
-		+ Asegurar la transición de los productos.
+#### 1.2.2.SG-Desarrollar el plan de proyecto
+Se puede hacer mediante las siguientes SP:
++ Establecer el presupuesto y el calendario.
++ Identificar riesgos.
++ Planificar la gestión de riesgos. En nivel 2 basta con llevar una lista de riesgos y ver qué ocurre con ellos a lo largo del proyecto.
++ Planificar los recursos necesarios para el proyecto.
++ Planificar el conocimiento y las habilidades del personal.
++ Planificar y definir las responsabilidades de todos los interesados.
++ Establecer el plan de proyecto.
 
-## 3.Requisitos para entrar a nivel 3
+#### 1.2.3.SG-Comprometerse con el plan
+Se puede hacer mediante las siguientes SP:
++ Revisar los planes que afectan al proyecto.
++ Resolver los conflictos de nivelación de trabajo y recursos.
++ Obtener compromiso con el plan.
 
-### 3.1.Otras Process Areas
-Otras PA que se indican en el nivel 3 son:
-+ **Definición de Procesos Organizacionales (OPD):** establecer y mantener estándares en procesos organizacionales, como procedimientos o guías. Es decir, mantener un sistema de calidad.
-+ **Enfoque en Procesos (OPF):** dar evidencias de que el personal de la organización comprende los procesos estándar y se identifican mejoras.
-+ **Gestión Integrada de Proyecto (IPM):** cada proyecto debe ajustar los procesos estándar a sus necesidades particulares.
-+ **Análisis y Resolución de Decisiones (DAR):** definición de un proceso estructurado que compara las alternativas con criterios objetivos establecidos para tomar las mejores decisiones posibles.
-+ **Formación (OT):** definición de un plan para que los miembros de la organización puedan obtener habilidades y conocimiento necesarios para trabajar.
+### 1.3.Monitorización y Control del Proyecto (MCP)
+Consiste en seguir el progreso del proyecto para que se puedan tomar las acciones correctivas  apropiadas cuando haya desviaciones que bajen el rendimiento del proyecto.
 
-En el nivel 4 se definen las siguientes PA:
+#### 1.3.1.SG-Monitorizar el proyecto en base al plan
+Se puede hacer mediante las siguientes SP:
++ Monitorizar los parámetros de planificación del proyecto
++ Monitorizar los compromisos.
++ Monitorizar los riesgos.
++ Monitorizar la gestión de datos.
++ Monitorizar la involucración de los interesados.
++ Hacer revisiones en el progreso.
++ Hacer revisiones en los hitos.
 
-## CMMI continua
-Es otra forma de implementar CMMI. Se trabaja por PAs en vez de niveles de madurez. Esto permite tener diferentes niveles de calidad dependiendo del proceso.
+#### 1.3.2.SG-Gestionar las acciones correctivas hasta su cierre
+Se puede hacer mediante las siguientes SP:
++ Analizar las cuestiones.
++ Llevar a cabo las acciones correctivas.
++ Gestionar las acciones correctivas.
 
-Es mucho más adaptable que el escalonado.
+### 1.4.Medición y Análisis (MA)
+Consiste en desarrollar y mantener sistemas de medición efectivos para recopilar datos relevantes sobre los procesos y productos de una organización.
 
-Para poder compararse con otras empresas en las auditorías se da una nota global que puede ser comparable con algún nivel de CMMI escalonado.
+#### 1.4.1.SG-Alinear las actividades de medición y análisis
+Se puede hacer mediante las siguientes SP:
++ Establecer objetivos de medición.
++ Especificar las mediciones.
++ Especificar procedimientos de recogida de datos y de almacenamiento.
++ Especificar procedimientos de análisis.
 
-Los valores de cada PA se llaman niveles de capacidad. El nivel de calidad es el indicador global.
+#### 1.4.2.SG-Proporcionar los resultados de medición
+Se puede hacer mediante las siguientes SP:
++ Obtener los datos de las mediciones.
++ Analizar esos datos.
++ Almacenar los datos y los resultados.
++ Comunicar los resultados.
 
-### Perfiles
-+ **Sponsor:** es el directivo, por ejemplo, en la facultad, el decano.
-+ **Champion:** es la persona concienciada con que es importante la calidad y se la vende a dirección. Suele ser el responsable de calidad.
-+ **EPG:** jefe de proyecto de mejora.
-+ **EPG members:** miembros del PAT.
-+ **PAT:** profesionales que ejecutan los procesos para mejorar cosas.
-+ **Transition partner:** consultores expertos que ayudan al proyecto de mejora.
+### 1.5.Aseguramiento de la Calidad del Proceso y del Producto (PPQA)
+Consiste en proporcional al personal y a la dirección una visión global objetiva de los procesos y productos asociados a estos.
+
+#### 1.5.1.SG-Evaluar objetivamente los procesos y los productos de trabajo
+Se puede hacer mediante las siguientes SP:
++ Evaluar los procesos.
++ Evaluar los productos.
+
+#### 1.5.2.Proporcionar una visión objetiva
+Se puede hacer mediante las siguientes SP:
++ Comunicar y resolver no conformidades.
++ Mantener registros de las evaluaciones.
+
+### 1.6.Gestión de la Configuración (CM)
+Consiste en establecer y mantener la integridad de los productos de trabajo identificando, controlando, manteniendo informes del estado y realizando auditorías sobre la configuración software.
+
+#### 1.6.1.SG-Establecer las líneas base
+Se puede hacer mediante las siguientes SP:
++ Identificar los elementos de la configuración software.
++ Establecer un sistema de gestión de configuración software.
++ Crear líneas base.
+
+#### 1.6.2.SG-Seguir y controlar los cambios
+Se puede hacer mediante las siguientes SP:
++ Seguir las peticiones de cambio.
++ Mantener control sobre los cambios en los elementos de la configuración software.
+
+#### 1.6.3.SG-Establecer la integridad
+Se puede hacer mediante las siguientes SP:
++ Realizar y mantener registros de gestión de configuración software.
++ Realizar auditorías de configuración software.
+
+### 1.7.Gestión de Acuerdos con Proveedores (SAM)
+Consiste en gestionar la adquisición de productos y servicios de proveedores.
+
+#### 1.7.1.SG-Establecer acuerdos con proveedores
+Se puede hacer mediante las siguientes SP:
++ Determinar el tipo de adquisición.
++ Seleccionar los proveedores.
++ Establecer acuerdos con proveedores.
+
+#### 1.7.2.SG-Satisfacer los acuerdos con proveedores
+Se puede hacer mediante las siguientes SP:
++ Ejecutar los acuerdos con los proveedores.
++ Aceptar los productos adquiridos.
++ Asegurar la transición de los productos.
+
+## 2.Requisitos para entrar al nivel 3
+### 2.1.Desarrollo de Requisitos (RD)
+Consiste en elicitar, analizar y establecer los requisitos del cliente, del producto y de los componentes del producto.
+
+#### 2.1.1.SG-Desarrollar los requisitos del cliente
+Se puede hacer mediante las siguientes SP:
++ Descubrir las necesidades
++ Transformar las necesidades del los interesados en requisitos.
+
+#### 2.1.2.SG-Desarrollar los requisitos del producto
+Se puede hacer mediante las siguientes SP:
++ Establecer los requisitos del producto y de sus componentes.
++ Asignar los requisitos de los componentes.
++ Identificar los requisitos de la interfaz.
+
+#### 2.1.3.SG-Analizar y validar los requisitos
+Se puede hacer mediante las siguientes SP:
++ Establecer los escenarios.
++ Definir las funcionalidades y los atributos de calidad requeridos.
++ Analizar los requisitos y buscar equilibrio entre ellos.
++ Validar los requisitos.
+
+### 2.2.Solución técnica (TS)
+Consiste en seleccionar, diseñar e implementar soluciones para los requisitos.
+
+#### 2.2.1.SG-Seleccionar soluciones de componentes de producto
+Se puede hacer mediante las siguientes SP:
++ Desarrollar soluciones alternativas y criterios de selección.
++ Seleccionar las soluciones de los componentes del producto.
+
+#### 2.2.2.SG-Desarrollar el diseño
+Se puede hacer mediante las siguientes SP:
++ Diseñar el producto y los componentes.
++ Establecer un paquete de datos técnicos.
++ Diseñar las interfaces.
++ Analizar el diseño.
+
+#### 2.2.3.SG-Implementar el diseño del producto
+Se puede hacer mediante las siguientes SP:
++ Implementar el diseño.
++ Desarrollar la documentación.
+
+### 2.3.Validación (VAL)
+Consiste en demostrar que un producto o componente cumple con su uso previsto cuando se ubica en el entorno previsto.
+
+#### 2.3.1.SG-Preparar la validación
+Se puede hacer mediante las siguientes SP:
++ Seleccionar los productos a validar.
++ Establecer el entorno de validación.
++ Establecer los procedimientos y criterios de validación.
+
+#### 2.3.2.SG-Validar el producto y los componentes
+Se puede hacer mediante las siguientes SP:
++ Realizar la validación.
++ Analizar los resultados de la validación.
+
+### 2.4.Verificación (VER)
+Consiste en asegurar que los productos cumplen con los requisitos especificados.
+
+#### 2.4.1.SG-Preparar la verificación
+Se puede hacer mediante las siguientes SP:
++ Seleccionar los productos a verificar.
++ Establecer el entorno de verificación.
++ Establecer los procedimientos y criterios de verificación.
+
+#### 2.4.2.SG-Realizar revisiones P2P
+Se puede hacer mediante las siguientes SP:
++ Preparar las revisiones.
++ Realizar las revisiones.
++ Analizar los datos de las revisiones.
+
+#### 2.4.3.SG-Verificar los productos seleccionados
+Se puede hacer mediante las siguientes SP:
++ Realizar la verificación.
++ Analizar los resultados de la verificación.
+
+### 2.5.Integración del Producto (PI)
+Consiste en ensamblar el producto a partir de los componentes y asegurar que el producto una vez integrado se comporta correctamente.
+
+#### 2.5.1.SG-Prepararse para la integración del producto
+Se puede hacer mediante las siguientes SP:
++ Establecer una estrategia para hacer la integración.
++ Establecer el entorno de integración del producto.
++ Establecer los procedimientos y los criterios de integración.
+
+#### 2.5.2.SG-Asegurar la compatibilidad de las interfaces
+Se puede hacer mediante las siguientes SP:
++ Revisar la completitud de las descripciones.
++ Gestionar las interfaces.
+
+#### 2.5.3.SG-Ensamblar los componentes y entregar el producto
+Se puede hacer mediante las siguientes SP:
++ Confirmar la disponibilidad de los componentes.
++ Ensamblar los componentes.
++ Evaluar los componentes una vez ensamblados.
++ Empaquetar y entregar el producto.
+
+### 2.6.Gestión de Riesgos (RISKM)
+Consiste en identificar problemas potenciales antes de que ocurran para que se puedan planificar actividades de tratamiento de riesgos y ponerlas en marcha para mitigar el impacto de los estos.
+
+#### 2.6.1.SG-Preparar la gestión de riesgos
+Se puede hacer mediante las siguientes SP:
++ Determinar las fuentes y categorías de los riesgos.
++ Definir los parámetros de los riesgos.
++ Establecer una estrategia de gestión de riesgos.
+
+#### 2.6.2.SG-Identificar y analizar los riesgos
+Se puede hacer mediante las siguientes SP:
++ Identificar los riesgos.
++ Evaluar, clasificar y priorizar los riesgos.
+
+#### 2.6.3.SG-Mitigar los riesgos
+Se puede hacer mediante las siguientes SP:
++ Desarrollar planes de mitigación de riesgos.
++ Implementar los planes de mitigación.
+
+## 3.Otras PAs
+### 3.1.Otras PA para conseguir nivel 3
+Existen otras PA menos detalladas para el nivel 3:
++ **Definición de Procesos Organizacionales (OPD):** consiste en establecer y mantener estándares en procesos organizacionales.
++ **Enfoque en Procesos (OPF):** consiste en obtener evidencias de que el personal comprende los procesos definidos y pueden identificar posibles mejoras.
++ **Gestión Integrada del Proyecto (IPM):** consiste en ajustar los procesos estándar a cada proyecto en particular.
++ **Análisis y Resolución de Decisiones (DAR):** consiste en definir un proceso para la toma de decisiones que compara las alternativas con con criterios objetivos para tomar las mejores decisiones posibles.
++ **Formación (OT):** consiste en definir un plan para que los miembros de la organización obtengan las capacidades necesarias para su trabajo.
+
+### 3.2.PA para conseguir nivel 4
+Para conseguir nivel 4 se deben alcanzar:
++ **Rendimiento de Procesos (OPP):** consiste en crear mecanismos que permitan medir y gestionar el rendimiento de los procesos en función de los objetivos estratégicos de la organización.
++ **Gestión Cuantitativa del Proyecto (QPM):** consiste en obtener métricas sobre los procesos para medir la calidad y poder alcanzar el objetivo establecido. Además estos datos deben ser analizados para buscar posibles mejoras en lox procesos.
+
+### 3.2.PA para conseguir nivel 5
+Para conseguir nivel 5 se deben alcanzar:
++ **Gestión del Rendimiento de la Organización (OPM):** consiste en conseguir evidencias de que se identifican mejoras continuas en la organización.
++ **Análisis Causal y Resolución (CAR):** consiste en obtener evidencias de que se identifican las causas de los problemas y se toman acciones correctivas.
+
+## 4.Modelo continuo
+CMMI se puede implementar de forma continua en lugar de escalonada. Se trabaja separando las PA, no separando niveles de madurez. Cada PA tiene un nivel de capacidad (CL) del 1 al 5, de forma similar a los escalones.
+
+Esta variante de CMMI permite tener diferentes niveles de calidad para cada área. Esto lo hace mucho más adaptable y flexible. Permite a las organizaciones elegir que PAs quiere mejorar según sus intereses.
+
+### 4.1.Problema de este modelo
+No es muy popular debido a que no permite a las empresas compararse tan fácilmente con sus competidores. Para ello en las auditorías se da una nota global que puede ser comparable con un nivel de CMMI escalonado.
