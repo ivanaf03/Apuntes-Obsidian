@@ -7,4 +7,5 @@ Contenido:
 + [[Acceso a servicios en frontend]]
 + [[Búsqueda de productos]]
 + [[Detalles de productos]]
++ [[Compra de productos]]
 + [[Recargas y políticas]]
