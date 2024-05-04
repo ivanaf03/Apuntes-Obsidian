@@ -9,4 +9,5 @@ Temario:
 + [[Tema 6-Especificación de requisitos según la ISO 29148]]
 + [[Tema 7-Requisitos no funcionales]]
 +  [[Tema 8-Gestión de requisitos]]
++  [[Tema 9-Validación de requisitos]]
 + [[Preguntas quiz]]
