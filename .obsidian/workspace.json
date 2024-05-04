@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md",
-                "mode": "preview",
+                "file": "Q6/ACL/Aseguramento da calidade.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md",
+                "file": "Q6/ACL/Aseguramento da calidade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md"
+                "file": "Q6/ACL/Aseguramento da calidade.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md",
+                "file": "Q6/ACL/Aseguramento da calidade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,14 +142,15 @@
             }
           },
           {
-            "id": "d7babed2616decdf",
+            "id": "fda606a653fbbf5e",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -171,54 +172,54 @@
   },
   "active": "686545d80fd5274b",
   "lastOpenFiles": [
+    "Q6/ACL/Tema 6/Tema 6-Otros modelos de calidad.md",
     "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Tema 6",
+    "Sin título.canvas",
     "Q6/Q6.md",
-    "Q6/ACL/Tema 4/Tema 4-CMMI.md",
-    "Q6/ACL/Tema 4/Evaluación CMMI 2.0.md",
-    "Q6/ACL/Tema 4/CMMI V2.0.md",
-    "Imágenes/cmmi 20 PA.png",
-    "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md",
-    "Q6/ACL/Tema 4/CMMI-DEV V1.3.md",
-    "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
-    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
-    "Q6/ACL/Tema 4/Constelaciones CMMI V1.3.md",
-    "Q6/ACL/Tema 4/Introducción a CMMI.md",
-    "Imágenes/cmmi ciclo de vida.png",
+    "Ingeniería Informática.md",
+    "Q6/ACL/Tema 3/Tema 3-ISO 9000.md",
+    "Q6/ACL/Tema 3/Certificación ISO 9001.md",
+    "Q6/ACL/Tema 3/ISO 9001.md",
+    "Q6/ACL/Tema 3/ISO 90003.md",
+    "Q6/AS/Tema 8/Tácticas de seguridad.md",
+    "Q6/AS/Tema 8/Tema 8-Tácticas de seguridad en software.md",
+    "Q6/AS/Tema 8/Seguridad en el software.md",
+    "Q6/AS/Arquitectura do software.md",
+    "Q6/AS/Tema 8",
     "Q6/ER/Enxeñaría de requisitos.md",
-    "Q6/ER/Tema 2/Tema 2-La máquina y el mundo.md",
-    "Q6/ER/Tema 2/Especificación.md",
-    "Q6/ER/Tema 2/Requisitos.md",
-    "Q6/ER/Tema 2/El modelo WRSPM.md",
-    "Q6/ER/Tema 2/Entorno.md",
-    "Imagen de WhatsApp 2024-01-28 a las 13.28.32_9e43bf20.jpg",
-    "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
-    "Q6/ER/Tema 1/Tema 1-Introducción a la ingeniería de requisitos.md",
+    "Q6/ER/Tema 9/Tema 9-Validación de requisitos.md",
+    "Q6/ER/Tema 9",
+    "Pasted image 20240502171315.png",
+    "Q6/ACL/Tema 3/Introducción a ISO 9000.md",
+    "Q6/ACL/Prácticas/TGR ACL corrección.md",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
+    "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
+    "Pasted image 20240501231956.png",
+    "Imágenes/iso 9000 punto 4.png",
+    "Pasted image 20240501223555.png",
+    "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
     "Q6/ACL/Tema 2/Modelos de calidad del software.md",
     "Q6/ACL/Tema 2/Evolución de la calidad.md",
+    "Pasted image 20240501182819.png",
+    "Pasted image 20240501182143.png",
+    "Q6/ACL/Tema 1/Grado de cumplimiento.md",
+    "Pasted image 20240501180026.png",
     "Q6/ACL/Tema 2/Calidad del software.md",
-    "Pasted image 20240421183517.png",
-    "Q6/AS/Tema 1/Tema 1-Introducción a la arquitectura de software.md",
-    "Q6/AS/Arquitectura do software.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
-    "Q6/BDA/Tema 1/Tema 1-Catálogo.md",
+    "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+    "Q6/ACL/Tema 1/Solución para la mejora.md",
+    "Q6/ACL/Tema 5/Modelado de métricas.md",
+    "Q6/BDA/Tema 9",
+    "Q6/BDA/Tema 8",
+    "Q6/AS/Tema 7",
+    "Pasted image 20240425193920.png",
+    "Pasted image 20240425193834.png",
+    "Imágenes/metrica plantilla.png",
+    "Q6/ACL/Tema 5",
     "Q6/ER/Tema 8",
-    "Pasted Image 20240416234441_313.png",
-    "Imágenes/fases auditorías.png",
-    "Pasted image 20240416105435.png",
-    "Imágenes/findproductsresult.png",
-    "Imágenes/findProducts.png",
     "Q6/AS/Tema 6",
     "Q6/ER/Tema 7",
-    "Excalidraw/Idea AS/idea Anton e Iván.png",
-    "Q6/BDA/Python",
     "Excalidraw/Idea AS/Sin título.canvas",
-    "Excalidraw/Idea AS",
-    "Q6/BDA/Tema 7",
-    "Q6/AS/Tema 5",
-    "Q6/PA/Tema 7",
-    "Excalidraw/Clase 6 ER",
-    "Q6/PA/Tema 6",
-    "Sin título.canvas",
     "Sin título 1.canvas"
   ]
 }
