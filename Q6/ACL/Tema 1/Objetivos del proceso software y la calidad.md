@@ -1,20 +1,21 @@
 [[Tema 1-Mejoras del proceso software]]
-
-## 1.Es mejorable el proceso software?
-Para saberlo tenemos que definir que meta se quiere alcanzar y cómo de lejos se está de esa meta. Para saberlo se debe tener en cuenta:
-+ Los objetivos de un proyecto.
-+ El grado de cumplimiento de los objetivos.
-
+$\space$
+## 1. Es mejorable el proceso software?
+Sí, basta con definir una meta y analizar como de lejos se está de ella. En un proyecto concreto esto se puede ver como los objetivos que persigue este y en que grado se están cumpliendo.
+$\space$
 ### 1.1.Objetivos de un proyecto
-#### 1.1.1.Objetivos en relación a la gestión del proyecto
-En base a la gestión de los proyectos se busca cumplir con lo planificado para:
-+ **Esfuerzo:** días por persona, horas por semana, etc.
-+ **Tiempo:** días, meses, horas u otras unidades de tiempo.
-+ **Coste:** dólares, euros u otras unidades monetarias.
+Podemos ver los objetivos de un proyecto desde dos puntos de vista:
++ Con respecto a la gestión.
++ Con respecto al propio producto.
+$\space$
+#### 1.1.1.Objetivos con respecto a la gestión
+Se busca cumplir con lo planificado para:
++ **Esfuerzo:** se mide en horas por persona, días por persona, etc.
++ **Tiempo:** se mide en días, meses, horas u otras unidades de tiempo.
++ **Coste:** se mide en dólares, euros u otras unidades monetarias.
+$\space$
+#### 1.1.2.Objetivos con respecto al producto
+Se busca que los productos sean de alta calidad. El problema es que no es tan sencillo medirla. Para cada empresa o para cada producto se debe adaptar la definición según sus necesidades y se tienen que establecer métricas para cuantificarla. Es muy importante definir la calidad en base a las opiniones del cliente.
 
-#### 1.1.2.Objetivos en relación a un producto
-Se busca que los productos sean de buena calidad. Sin embargo, no es tan fácil de medir. Cada empresa debe definir lo que entiende por calidad y cómo puede cuantificarla. Para ello se basan en las opiniones del cliente.
+Para definir la calidad de un producto se deben definir parámetros que midan la calidad antes de comenzar con el proyecto. Deben ser cuantificables y verificables.
 
-Para definir la calidad de un producto solo hay que tener en cuenta:
-+ Se deben establecer las métricas antes de hacer el proyecto.
-+ Los parámetros que midan la calidad se deben poder cuantificar y verificar.
