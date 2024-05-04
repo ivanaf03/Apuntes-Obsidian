@@ -1,5 +1,5 @@
 [[Enxeñaría de requisitos]]
 
 Contenido:
-+ [[Arquitectura de software]]
++ [[Introducción a las arquitecturas]]
 + [[Requisitos no funcionales]]
