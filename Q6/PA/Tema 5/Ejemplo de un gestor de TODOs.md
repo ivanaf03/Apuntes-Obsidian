@@ -140,7 +140,7 @@ let nextTodoId = 0;
 
 class App extends React.Component {
     constructor(props) {
-        super(props);
+        super(props);  // Se inicializa el estado en el constructor
         this.state = { todos: [] };
     }
 
@@ -274,7 +274,8 @@ const App = () => {
         <div>  
             <AddTodo onAddTodo={handleAddTodo}/>  
             <Todos todos={todos} onToggleCompleted={handleToggleCompleted}/>  
-        </div>    );  
+        </div>   
+    );  
   
 }  
   
