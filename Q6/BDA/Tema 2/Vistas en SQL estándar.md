@@ -3,6 +3,7 @@
 ## 1.Definición en el estándar
 ### 1.1.Creación
 Según el estándar se puede crear una vista partir de una secuencia `select` con este formato:
+
 ```sql
 create view vista [(<atributos>)]
 as <sentencia select>
