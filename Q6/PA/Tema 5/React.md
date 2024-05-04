@@ -1,7 +1,7 @@
 [[Tema 5-Desarrolllo basado en componentes con React]]
 
 ## 1.Qué es React?
-React es una librería de JavaScript que sigue el paradigma de desarrollo basado en componentes. Se adapta a diferentes entornos y tecnologías por defecto, como móvil, navegador, escritorio, etc. 
+React es una librería de JavaScript que sigue el paradigma de desarrollo basado en componentes. Se adapta a diferentes entornos y tecnologías como móvil, navegador, escritorio, etc. 
 
 Sigue un enfoque minimalista, solo aporta lo mínimo necesario para el desarrollo del frontend. Sin embargo, se complementa con la gran variedad de librerías desarrolladas por la comunidad.
 
@@ -55,7 +55,7 @@ export default App;
 ```
 
 ## 2.JSX
-La implementación de render se hace en JSX. Es una extensión de la sintaxis de JavaScript que permite escribir código HTML de manera similar a la sintaxis de XML.
+La implementación de `render` se hace en JSX. Es una extensión de la sintaxis de JavaScript que permite escribir código HTML de manera similar a la sintaxis de XML.
 
 Los ficheros que utilizan expresiones JSX deben tener la extensión `.jsx`.
 
