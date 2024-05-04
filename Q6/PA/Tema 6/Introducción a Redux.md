@@ -21,7 +21,7 @@ En PA-Shop hay varios casos donde no serviría esta aproximación:
 + [c] Los datos de los productos buscados aparecen en el body, pero el body en un componente enorme.
 + [c] Con los datos de los pedidos ocurre lo mismo que en el punto anterior.
 
-## 2.Introducción a Redux
+## 2. Qué es Redux?
 Redux es otra librería de JavaScript que permite solucionar el problema mencionado. Utiliza una arquitectura funcional. Permite gestionar el estado de una aplicación de forma centralizada y modular. Permite recoger la mayor parte del estado y de la lógica de los componentes.
 
 Funciona de forma similar al patrón Provider-Consumer. Los componentes reciben notificaciones cuando cambia el estado. Además permite que el estado que solo se utiliza en un componente sea gestionado por él mismo.
