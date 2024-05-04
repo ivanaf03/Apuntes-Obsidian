@@ -16,7 +16,7 @@ Algunos ejemplos son:
 + Competidores
 
 ## 2.Qué es la ingeniería de requisitos?
-La ingeniería de requisitos es el proceso de elicitar, analizar, especificar, validar y mantener los requisitos durante el curso de un proyecto. Es un proceso iterativo
+La ingeniería de requisitos es el proceso de elicitar, analizar, especificar, validar y mantener los requisitos durante el curso de un proyecto. Es un proceso iterativo.
 
 ### 2.1.Elicitar
 Consiste en descubrir y obtener los requisitos del sistema para conocer el dominio en el que se va a trabajar. Esto engloba conocer los objetivos del negocio, aprender sobre el entorno, etc.
