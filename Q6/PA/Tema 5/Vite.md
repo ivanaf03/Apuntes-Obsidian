@@ -41,7 +41,7 @@ import App from './App';
 /* Render application. */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode> // Advertencias sobre fallos en React
     <App/>
   </React.StrictMode>
 );
