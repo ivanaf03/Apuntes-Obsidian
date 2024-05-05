@@ -1,8 +1,8 @@
 [[Tema 4-CMMI]]
-
+$\space$
 ## 1.Qué es CMMI V2.0?
 Es una nueva versión de CMMI que pretende definir un modelo único y flexible, basándose en el modelo continuo. Cada empresa podrá seleccionar las PA que necesita.
-
+$\space$
 ### 1.1.Diferencias con CMMI V1.3
 Los nuevos cambios que trae CMMI V2.0 son:
 + Ahora las constelaciones se llaman vistas.
@@ -13,19 +13,21 @@ Los nuevos cambios que trae CMMI V2.0 son:
 + Cada PG s divide en Practices.
 + No hay metas ni GP. Se cambian por dos PA; Governance e Implementation Infrastructure.
 + Hay muchísimas menos prácticas con respecto a CMMI V1.3.
-
+$\space$
 ### 1.2.PAs
 
 ![[cmmi 20 PA.png]]
-
+$\space$
 ## 2.Algunas PAs
+Algunos ejemplos relevantes de CMMI 2.0 son las PA de estimación, de gerencia y de infraestructura.
+$\space$
 ### 2.1.Estimating (EST)
 En el nivel 1 se suelen realizar estimaciones de alto nivel para desarrollar el trabajo.
 
 En nivel 2 se suelen estimar el alcance y tamaño. En base al tamaño se estiman esfuerzo, tiempo y coste. Además se pide mantener registros que justifiquen las estimaciones.
 
 En el nivel 3 se desarrolla, se mantiene y se usa un método formal de estimación. Además se utilizan los históricos para analizar las estimaciones.
-
+$\space$
 ### 2.2.Governance (GOV)
 En el nivel 1 la dirección identifica como lograr las mejoras con éxito.
 
@@ -34,7 +36,7 @@ En el nivel 2 la dirección comunica directivas para implementar las mejoras en 
 En el nivel 3 la gerencia asegura que exista un proceso de medición para los objetivos de mejora y asegura que las competencias y prácticas están alineadas con los objetivos de la organización.
 
 En el nivel 4 la dirección asegura que las decisiones se toman en base a análisis y métricas.
-
+$\space$
 ### 2.3.Implementation Infrastructure (II)
 En el nivel 1 se realizan acciones que lleven a cabo actividades específicas destinadas a abordar las necesidades y requisitos de las prácticas asociadas con el nivel de madurez 1.
 
