@@ -1,6 +1,8 @@
 [[Tema 2-Vistas]]
-
+$\space$$\space$
 ## 1.Definición en el estándar
+Las vistas se definieron en SQL-92.
+$\space$$\space$
 ### 1.1.Creación
 Según el estándar se puede crear una vista partir de una secuencia `select` con este formato:
 
@@ -9,7 +11,7 @@ create view vista [(<atributos>)]
 as <sentencia select>
 [<with [cascaded | local] check option>]
 ```
-
+$\space$$\space$
 #### 1.1.1.Ejemplos
 
 ```sql
@@ -30,19 +32,19 @@ as select deptno, dname, count(*), avg(sal)
 from emp natural join dept
 group by deptno, dname;
 ```
-
+$\space$$\space$
 ### 1.2.Borrado
 Según el estándar podemos usar `drop view` para eliminar una vista.
 
 ```sql
 drop view vista [restrict | cascade]
 ```
-
+$\space$$\space$
 #### 1.2.1.Parámetros de drop view
 Se puede borrar una vista de dos formas:
 + **Restrict:** es la acción por defecto, no elimina las vistas dependientes y falla si hay vistas dependientes.
 + **Cascade:** elimina las vistas dependientes y después la actual.
-
+$\space$$\space$
 #### 1.2.2.Ejemplos
 
 ```sql
@@ -55,10 +57,10 @@ drop view emp10 cascade;
 --Borrado de resumedep
 drop view resumedep restrict;
 ```
-
+$\space$$\space$
 ### 1.3.Actualización
 No existe `alter view`. Para modificar una vista debemos hacer un borrado y crearla de nuevo.
-
+$\space$$\space$
 #### 1.3.1.Normas
 Una vista es actualizable si cuando actualizamos datos de la vista el SGBD es capaz de rastrear a que fila corresponde la actualización, es decir, tiene que corresponderse con una única fila.
 
@@ -70,7 +72,7 @@ Formalmente, debe cumplir:
 + Deben cumplirse las restricciones de la tabla base, teniendo cuidado con los `not null` sobre todo.
 + No se pueden actualizar vistas ni añadir nuevas filas en vistas que usen expresiones, por ejemplo, cálculos o funciones.
 + A partir de SQL 1999 si la vista está definida sobre un `join` se pueden actualizar los atributos preservados por clave primaria.
-
+$\space$$\space$
 #### 1.3.2.Check option y tuplas migratorias
 Las tuplas migratorias son filas que no cumplen las condiciones de la vista al insertarlas, por tanto no se ven en la vista pero que sí se insertan en la tabla base.
 
@@ -125,8 +127,10 @@ insert into clerks10casc
 values(1234, 'PEPE', 'CLERK', 20);
 -- No se inserta porque el departamento no es el 10
 ```
-
+$\space$$\space$
 ## 2.Ventajas e inconvenientes
+Las vistas tiene cosas buenas, pero a veces no son la mejor solución.
+$\space$$\space$
 ### 2.1.Ventajas del uso de vistas
 Usar vistas permite:
 + [p] Definir diferentes esquemas externos.
@@ -135,7 +139,7 @@ Usar vistas permite:
 + [p] Facilitar consultas complejas.
 + [p] Establecer condiciones de integridad de datos con `check option`.
 + [p] Tener datos siempre actualizados con respecto a las tablas base. 
-
+$\space$$\space$
 ### 2.2.Inconvenientes del uso de vistas
 A veces el uso de vistas puede resultar un problema:
 + [c] No siempre se pueden actualizar los datos a través de las vistas.
