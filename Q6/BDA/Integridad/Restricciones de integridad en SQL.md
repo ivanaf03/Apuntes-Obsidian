@@ -1,4 +1,4 @@
-[[Integridad]]
+[[Tema 3-Integridad]]
 
 # Restricciones
 + [<] **Pueden ser:**
