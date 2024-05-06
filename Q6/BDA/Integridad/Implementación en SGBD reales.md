@@ -1,4 +1,4 @@
-[[Integridad]]
+[[Tema 3-Integridad]]
 
 # 1.Oracle
 Oracle no implementa dominios. Implementa las restricciones:
