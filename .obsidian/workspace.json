@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/Q6.md",
-                "mode": "preview",
+                "file": "Q6/BDA/Integridad/Introducción a la integridad.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/Q6.md",
+                "file": "Q6/BDA/Integridad/Introducción a la integridad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/Q6.md"
+                "file": "Q6/BDA/Integridad/Introducción a la integridad.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/Q6.md",
+                "file": "Q6/BDA/Integridad/Introducción a la integridad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,49 +173,49 @@
   },
   "active": "686545d80fd5274b",
   "lastOpenFiles": [
-    "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/ACL/Tema 4/Tema 4-CMMI.md",
-    "Q6/ACL/Tema 4/Evaluación CMMI 2.0.md",
-    "Q6/ACL/Tema 4/CMMI V2.0.md",
-    "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md",
-    "Q6/ACL/Tema 4/CMMI-DEV V1.3.md",
-    "Q6/ACL/Tema 4/Constelaciones CMMI V1.3.md",
-    "Q6/ACL/Tema 4/Introducción a CMMI.md",
+    "Q6/BDA/Integridad/Tema 3-Integridad.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/BDA/Tema 2/Tema 2-Vistas.md",
+    "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
+    "Q6/BDA/Tema 2/Vistas materializadas en Oracle.md",
+    "Q6/BDA/Tema 2/Vistas en Oracle.md",
+    "Q6/BDA/Tema 2/Introducción a las vistas.md",
+    "Q6/BDA/Tema 1/Tema 1-Catálogo.md",
+    "Q6/BDA/Tema 1/Uso del catálogo con Oracle y PostgreSQL.md",
+    "Q6/BDA/Tema 1/Catálogo en SQL estándar.md",
+    "Q6/BDA/Tema 1/Catálogo del sistema.md",
+    "Q6/BDA/Tema 1/Sistemas de información.md",
     "Q6/Q6.md",
     "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Tema 1/Tema 1-Introducción al desarrollo con frameworks modernos.md",
-    "Q6/PA/Tema 1/Visión global del ejemplo.md",
-    "Q6/AS/Prácticas/Agent.md",
-    "Q6/PA/Tema 1/Entornos de desarrollo.md",
-    "Q6/PA/Tema 1/Arquitecturas típicas de aplicaciones.md",
-    "Ingeniería Informática.md",
-    "Q6/ACL/Tema 6/Algunos modelos de calidad más.md",
-    "Q6/ACL/Tema 6/Tema 6-Otros modelos de calidad.md",
-    "Q6/ACL/Tema 6/SPICE y MMIS V2.md",
+    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
+    "Q6/PA/Tema 2/Desarrollo de DAOs.md",
+    "Q6/PA/Tema 2/Modelado de relaciones en JPA.md",
+    "Q6/PA/Tema 2/Modelado de entidades en JPA.md",
+    "Q6/PA/Tema 2/Configuración de Spring Boot.md",
+    "Q6/PA/Tema 2/Spring Boot.md",
+    "Q6/PA/Tema 2/Introducción a JPA.md",
+    "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Tema 5/Tema 5-Medición de la calidad.md",
+    "Q6/ACL/Tema 5/Métricas habituales.md",
+    "Sin título.canvas",
+    "Imágenes/curva S.png",
+    "Q6/ACL/Tema 5/GQM y PSM.md",
+    "Imágenes/PSM2.png",
+    "Imágenes/PSM 1.png",
+    "Imágenes/GQM.png",
+    "Pasted image 20240506134940.png",
+    "Q6/ACL/Tema 5/Modelado de métricas.md",
     "Imágenes/iso 15504.png",
     "Q6/ACL/Tema 6",
-    "Sin título.canvas",
-    "Q6/ACL/Tema 3/Tema 3-ISO 9000.md",
-    "Q6/ACL/Tema 3/Certificación ISO 9001.md",
-    "Q6/ACL/Tema 3/ISO 9001.md",
-    "Q6/ACL/Tema 3/ISO 90003.md",
-    "Q6/AS/Tema 8/Tácticas de seguridad.md",
-    "Q6/AS/Tema 8/Tema 8-Tácticas de seguridad en software.md",
-    "Q6/AS/Tema 8/Seguridad en el software.md",
     "Q6/AS/Tema 8",
     "Q6/ER/Tema 9",
     "Pasted image 20240502171315.png",
     "Pasted image 20240501231956.png",
     "Imágenes/iso 9000 punto 4.png",
     "Pasted image 20240501223555.png",
-    "Pasted image 20240501182819.png",
-    "Pasted image 20240501182143.png",
-    "Pasted image 20240501180026.png",
     "Q6/BDA/Tema 9",
     "Q6/BDA/Tema 8",
     "Q6/AS/Tema 7",
-    "Pasted image 20240425193920.png",
-    "Pasted image 20240425193834.png",
     "Q6/ACL/Tema 5",
     "Q6/ER/Tema 8",
     "Q6/AS/Tema 6",
