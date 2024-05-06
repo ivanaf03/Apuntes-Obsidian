@@ -3,7 +3,7 @@
 Temario:
 + [[Tema 1-Catálogo]]
 + [[Tema 2-Vistas]]
-+ [[Integridad]]
++ [[Tema 3-Integridad]]
 + [[Seguridad]]
 + [[Bases de datos activas]]
 + [[Tema 6-Diseño físico]]
