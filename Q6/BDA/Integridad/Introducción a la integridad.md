@@ -1,4 +1,8 @@
-[[Integridad]]
+[[Tema 3-Integridad]]
+$\space$$\space$
+## 1.
+
+
 
 # ¿Qué es la integridad?
 + [<] **La información de una BBDD debe ser:**
