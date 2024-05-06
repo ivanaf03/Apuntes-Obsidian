@@ -2,7 +2,7 @@
 
 Contenido:
 + [[Introducción a las métricas]]
-+ [[Tipos y catálogo de métricas]]
++ [[Tipos y ejemplos de métricas]]
 + [[Modelado de métricas]]
 + [[GQM y PSM]]
 + [[Métricas habituales]]
