@@ -1,8 +1,8 @@
 [[Tema 1-Catálogo]]
-
+$\space$$\space$
 ## 1.Oracle
 Oracle no sigue el estándar. 
-
+$\space$$\space$
 ### 1.1.Elementos de una instalación
 El Container Database (CDB) es una característica que permite tener varias bases de datos en una misma instalación, llamadas Pluggable Database (PDB). Cada PDB contiene su propio diccionario de datos y conjunto de archivos, pero todas mantienen la misma estructura de sistema de archivos y procesos.
 
@@ -15,14 +15,14 @@ El nombre de un elemento tiene el formato `USER.OBJECT`. Por ejemplo:
 ```sql
 select * from scott.emp;
 ```
-
+$\space$$\space$
 ### 1.2.Vistas del catálogo
 Podemos usar las vistas del catálogo para ver que objetos hay en la BD:
 + **USER_\<OBJECT>:** objetos creados por el usuario actual.
 + **ALL_\<OBJECT>:** objetos a los cuales el usuario actual tiene privilegios de acceso.
 + **DBA_\<OBJECT>:** todos los objetos de la BD. Solo pueden ser consultadas por los DBA, los usuarios con el rol de administrador.
 + **CDB_\<OBJECT>:** todos los objetos de todas las PDB si se accede desde el contenedor raíz CDB$ROOT. Solo pueden ser consultadas por los DBA.
-
+$\space$$\space$
 #### 1.2.1.Que objetos podemos utilizar?
 Oracle permite, entre otros, consultar las vistas de:
 + Objects (todos los objetos)
@@ -31,7 +31,7 @@ Oracle permite, entre otros, consultar las vistas de:
 + Indexes
 + Constraints
 + Synonyms
-
+$\space$$\space$
 #### 1.2.2.Otras vistas
 Otras vistas interesante que podemos consultar en el catálogo son:
 + **DICTIONARY o DICT:** descripción breve de las vistas del catálogo.
@@ -40,10 +40,10 @@ Otras vistas interesante que podemos consultar en el catálogo son:
 + **COLS:** sinónimo de `USER_TAB_COLUMNS`. Son las columnas de las tablas del usuario.
 + **TAB:** tablas y vistas del usuario.
 + **USER_CONS_COLUMNS:** columnas implicadas en las restricciones de las tablas.
-
+$\space$$\space$
 ## 2.PostgreSQL
 PostgreSQL sigue el estándar, pero varia un poco la nomenclatura de las cosas.
-
+$\space$$\space$
 ### 2.1.Nomenclatura
 
 | **Estándar** | **PostgreSQL** |
@@ -52,12 +52,12 @@ PostgreSQL sigue el estándar, pero varia un poco la nomenclatura de las cosas.
 | Catálogo     | Database       |
 | Cluster      | -              |
 | Entorno SQL  | Cluster        |
-
+$\space$$\space$
 ### 2.2.Elementos de una instalación
 Los usuarios pueden crear múltiples bases de datos y una base de datos pertenece a solo un usuario. Se puede acceder a bases de datos de otros usuarios, a lo que equivaldría el cluster en el estándar, pero no tiene un nombre concreto el conjunto.
 
 Las bases de datos están formadas por esquemas. Un usuario puede crear varios esquemas en una sola base de datos. Cada base de datos contiene el `information_schema` y el `pg_catalog`.
-
+$\space$$\space$
 ### 2.3.Ejemplo de uso del catálogo
 
 ```sql
@@ -98,7 +98,7 @@ CREATE TABLE bda.estudiante (
     CONSTRAINT ch_mencion CHECK (mencion IN ('ES', 'SI'))
 );
 ```
-
+$\space$$\space$
 #### 2.3.1.Uso de information_schema
 
 ```sql
@@ -112,7 +112,7 @@ where table_schema in ('abd','bda','mai');
 | abd          | estudiante  | BASE TABLE |
 | bda          | estudiante  | BASE TABLE |
 | mai          | estudiante  | BASE TABLE |
-
+$\space$$\space$
 #### 2.3.2.Uso de pg_catalog
 
 ```sql
