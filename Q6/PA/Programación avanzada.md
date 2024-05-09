@@ -9,3 +9,4 @@ Temario:
 + [[Tema 5-Desarrolllo basado en componentes con React]]
 + [[Tema 6-Gestión de estado con Redux]]
 + [[Tema 7-Frontend de una tienda de comercio electrónico]]
++ [[Preguntas examen PA]]
