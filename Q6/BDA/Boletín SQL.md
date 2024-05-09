@@ -1,0 +1,101 @@
+[[Bases de datos avanzadas]]
+
+## 1.Control transaccional
+
+```sql
+CREATE TABLE XEMP AS
+SELECT * 
+FROM EMP 
+WHERE ENAME IN ('SMITH', 'KING');
+```
+
+```sql
+UPDATE XEMP 
+SET SAL = 1000 
+WHERE ENAME = 'SMITH';
+```
+
+```sql
+UPDATE XEMP
+SET COMM = 100 
+WHERE ENAME = 'SMITH';
+```
+
+```sql
+UPDATE XEMP
+SET SAL = 4000
+WHERE ENAME='KING';
+```
+
+```sql
+UPDATE XEMP
+SET SAL = 1500
+WHERE ENAME='SMITH';
+```
+
+```sql
+UPDATE XEMP
+SET SAL = 1350
+WHERE ENAME='SMITH';
+```
+
+```sql
+UPDATE XEMP
+SET SAL = 4700
+WHERE ENAME='KING';
+```
+
+```sql
+DELETE FROM XEMP;
+```
+
+```sql
+INSERT INTO XEMP 
+SELECT * FROM EMP
+WHERE ENAME='KING';
+```
+
+```sql
+UPDATE XEMP
+SET SAL = SAL*2
+WHERE ENAME='KING';
+```
+
+```sql
+INSERT INTO XEMP (EMPNO, ENAME, SAL)
+VALUES (1234, NOBODY, 1000);
+```
+
+```sql
+UPDATE XEMP
+SET SAL = 2000
+WHERE ENAME='NOBODY';
+```
+
+```sql
+SET TRANSACTION ISOLATIONLEVEL SERIALIZABLE;
+```
+
+```sql
+UPDATE XEMP
+SET SAL = 3000
+WHERE ENAME='KING';
+```
+
+```sql
+SELECT *
+FROM XEMP
+WHERE ENAME = 'KING';
+
+UPDATE EMP
+SET SAL = SAL * 2
+WHERE ENAME = 'KING';
+```
+
+```sql
+ALTER SESSION SET READ ONLY;
+```
+
+```sql
+
+```
