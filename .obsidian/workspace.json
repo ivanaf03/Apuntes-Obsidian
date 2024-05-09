@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e492e6a61d802dda",
+        "id": "ae388e3245192e7d",
         "type": "tabs",
         "children": [
           {
-            "id": "686545d80fd5274b",
+            "id": "4eba483cf42548b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Integridad/Introducción a la integridad.md",
+                "file": "Q6/BDA/Boletín SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Integridad/Introducción a la integridad.md",
+                "file": "Q6/BDA/Boletín SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Integridad/Introducción a la integridad.md"
+                "file": "Q6/BDA/Boletín SQL.md"
               }
             }
           },
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Integridad/Introducción a la integridad.md",
+                "file": "Q6/BDA/Boletín SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,48 +170,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "686545d80fd5274b",
+  "active": "4eba483cf42548b0",
   "lastOpenFiles": [
-    "Q6/BDA/Integridad/Tema 3-Integridad.md",
     "Q6/BDA/Bases de datos avanzadas.md",
-    "Q6/BDA/Tema 2/Tema 2-Vistas.md",
-    "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
-    "Q6/BDA/Tema 2/Vistas materializadas en Oracle.md",
-    "Q6/BDA/Tema 2/Vistas en Oracle.md",
-    "Q6/BDA/Tema 2/Introducción a las vistas.md",
-    "Q6/BDA/Tema 1/Tema 1-Catálogo.md",
-    "Q6/BDA/Tema 1/Uso del catálogo con Oracle y PostgreSQL.md",
-    "Q6/BDA/Tema 1/Catálogo en SQL estándar.md",
-    "Q6/BDA/Tema 1/Catálogo del sistema.md",
-    "Q6/BDA/Tema 1/Sistemas de información.md",
-    "Q6/Q6.md",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
-    "Q6/PA/Tema 2/Desarrollo de DAOs.md",
-    "Q6/PA/Tema 2/Modelado de relaciones en JPA.md",
-    "Q6/PA/Tema 2/Modelado de entidades en JPA.md",
-    "Q6/PA/Tema 2/Configuración de Spring Boot.md",
-    "Q6/PA/Tema 2/Spring Boot.md",
-    "Q6/PA/Tema 2/Introducción a JPA.md",
+    "Q6/BDA/Boletín SQL.md",
     "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/ACL/Tema 5/Tema 5-Medición de la calidad.md",
-    "Q6/ACL/Tema 5/Métricas habituales.md",
+    "Práctica corrección.md",
+    "Q6/ACL/Tema 4/Tema 4-CMMI.md",
+    "Q6/ACL/Tema 4/CMMI-DEV V1.3.md",
+    "Q6/ACL/Tema 4/Constelaciones CMMI V1.3.md",
+    "Q6/ACL/Tema 4/Introducción a CMMI.md",
+    "Q6/ACL/Tema 3/Tema 3-ISO 9000.md",
+    "Q6/ACL/Tema 3/ISO 90003.md",
+    "Q6/ACL/Tema 3/ISO 9001.md",
+    "Q6/ACL/Tema 3/Introducción a ISO 9000.md",
+    "Q6/ACL/Tema 3/Certificación ISO 9001.md",
+    "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
+    "Q6/ACL/Tema 2/Modelos de calidad del software.md",
+    "Q6/ACL/Tema 2/Evolución de la calidad.md",
+    "Q6/ACL/Tema 2/Calidad del software.md",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
+    "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
+    "Q6/ACL/Tema 1/Solución para la mejora.md",
+    "Q6/ACL/Tema 1/Grado de cumplimiento.md",
+    "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
+    "Q6/BDA/Integridad/Restricciones de integridad en SQL.md",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/BDA/Integridad/Tema 3-Integridad.md",
+    "Q6/Q6.md",
+    "Pasted image 20240506202743.png",
+    "Imágenes/integridad 3.png",
+    "Imágenes/integridad 2.png",
     "Sin título.canvas",
+    "Imágenes/integridad 1.png",
     "Imágenes/curva S.png",
-    "Q6/ACL/Tema 5/GQM y PSM.md",
     "Imágenes/PSM2.png",
     "Imágenes/PSM 1.png",
     "Imágenes/GQM.png",
     "Pasted image 20240506134940.png",
-    "Q6/ACL/Tema 5/Modelado de métricas.md",
     "Imágenes/iso 15504.png",
     "Q6/ACL/Tema 6",
     "Q6/AS/Tema 8",
     "Q6/ER/Tema 9",
-    "Pasted image 20240502171315.png",
-    "Pasted image 20240501231956.png",
-    "Imágenes/iso 9000 punto 4.png",
-    "Pasted image 20240501223555.png",
     "Q6/BDA/Tema 9",
     "Q6/BDA/Tema 8",
     "Q6/AS/Tema 7",
