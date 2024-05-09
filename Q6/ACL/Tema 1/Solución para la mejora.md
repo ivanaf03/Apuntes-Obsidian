@@ -1,7 +1,7 @@
 [[Tema 1-Mejoras del proceso software]]
 $\space$
 ## 1.Solución propuesta: mejora de las pruebas
-La principal solución que se propone para mejorar la calidad del software es mejorar las pruebas. Sin embargo, es es una buena solución.
+La principal solución que se propone para mejorar la calidad del software es mejorar las pruebas. Sin embargo, no es una buena solución.
 $\space$
 ### 1.1.Problemas de las pruebas
 Los tests tiene ciertas carencias que hacen que no baste solo con mejorarlos:
