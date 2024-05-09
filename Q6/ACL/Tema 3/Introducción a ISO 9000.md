@@ -83,4 +83,4 @@ $\space$
 Las decisiones se tienen que basar en hechos justificados, no en creencias o suposiciones.
 $\space$
 ### 4.8.Relaciones mutuamente beneficiosas con el proveedor
-Las empresas y los proveedores sin interdependientes. Si una empresa tiene buenos proveedores, dará buenos resultados. Para conseguirlo se establecen sistemas concertados. Son acuerdos entre la organización y los proveedores que buscan en beneficio mutuo mediante inspecciones aleatorias, transparencia, intercambio de información y datos, etc.
+Las empresas y los proveedores son interdependientes. Si una empresa tiene buenos proveedores, dará buenos resultados. Para conseguirlo se establecen sistemas concertados. Son acuerdos entre la organización y los proveedores que buscan en beneficio mutuo mediante inspecciones aleatorias, transparencia, intercambio de información y datos, etc.
