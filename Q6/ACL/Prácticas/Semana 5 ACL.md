@@ -18,7 +18,7 @@ En la diapositiva debemos marcar quién hace el trabajo, que productos de entrad
 # 2.Programación
 + [!] 1 diapositiva
 
-En las empresas suelen indicar cómo nombrar las variables, en qué orden van los campos, cómo poner los comentarios, etc. Incluso hay empresas con compiladores no compilan códigos con complejidad ciclomática muy alta.
+En las empresas suelen indicar cómo nombrar las variables, en qué orden van los campos, cómo poner los comentarios, etc. Incluso hay empresas con compiladores que no compilan códigos con complejidad ciclomática muy alta.
 
 Dada la flexibilidad del ciclo en base al tamaño del software el jefe de proyecto decide cuáles son las entradas de la fase de programación. Para saberlo se sigue el plan de proyecto.
 
