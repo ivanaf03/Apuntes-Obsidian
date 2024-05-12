@@ -3,7 +3,7 @@ $\space$
 ## 1.Como se certifica una empresa en ISO 9001?
 Se puede certificar a una empresa con ISO 9001. Una empresa certificada puede generar productos defectuosos y no se le retirará el certificado salvo que los auditores demuestren que la empresa no hizo nada por corregirlo.
 
-El certificado indica que la empresa ha implantado correctamente la norma. No certifica lo productos en sí, sino el proceso general que sigue la empresa. Para conseguirlo la empresa debe someterse a una auditoría externa que comprueba que se sigue la norma y que la forma de trabajar se adecúa al sistema de calidad.
+El certificado indica que la empresa ha implantado correctamente la norma. No certifica los productos en sí, sino el proceso general que sigue la empresa. Para conseguirlo la empresa debe someterse a una auditoría externa que comprueba que se sigue la norma y que la forma de trabajar se adecúa al sistema de calidad.
 
 Tras una auditoría satisfactoria se entrega el certificado. Después se realizarán auditorías periódicas de seguimiento.
 $\space$
@@ -13,7 +13,7 @@ Se divide en 3 fases:
 + Auditoría de certificación.
 + Auditorías de seguimiento.
 $\space$
-### 2.1.Auditoría de certificación previa
+### 2.1.Auditoría de evaluación previa
 Es una auditoría opcional que sirve como un preliminar para ver si se va por buen camino. Se hace de 2 a 3 meses antes de la auditoría de certificación. Se suele hacer porque tiene las siguientes ventajas:
 + [p] Evalúa el nivel de preparación para la auditoría de certificación.
 + [p] Permite mitigar riesgos en áreas que la empresa cree que no cumplen los requisitos.
@@ -45,7 +45,7 @@ Evalúan partes del SGC. Los auditores avisan con antelación qué áreas van a 
 Al final de estas se hace un informe donde se dictan las no conformidades al igual que en la auditoría de certificación.
 $\space$
 #### 2.3.1.Apartados de evaluación general
-Algunos de los apartados siempre se auditan. Estos son;
+Algunos de los apartados siempre se auditan. Estos son:
 + Revisiones de la dirección.
 + Auditorías internas.
 + Acciones correctivas y preventivas.
