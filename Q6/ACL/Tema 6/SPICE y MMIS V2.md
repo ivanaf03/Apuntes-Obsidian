@@ -40,6 +40,7 @@ Otro modelo más actual y simple es el esquema AENOR, de la versión de 2008 de 
 	- Verificación de sistemas.
 	- Validación de sistemas.
 	- Operación de sistemas.
+	
 $\space$
 ## 2.Qué es MMIS V2?
 Son las siglas de Modelo de Madurez de Ingeniería del Software. Sirve como marco para evaluar y mejorar la madurez de los procesos de forma similar a SPICE. 
@@ -54,4 +55,4 @@ Define 5 niveles de madurez y 5 niveles de capacidad por proceso:
 + **Nivel 2-Gestionado:** los procesos de nivel de madurez 2 alcanzan nivel de capacidad 2.
 + **Nivel 3-Establecido:** los proceso de nivel de madurez 2 y 3 alcanzan nivel de capacidad 3.
 + **Nivel 4-Predecible:** los procesos de nivel de madurez 2, 3 y 4 alcanzan nivel de capacidad 3. Además los procesos que la organización considere que deben definir métricas deben alcanzar nivel de capacidad 4.
-+ **Nivel 4-Innovado:** los procesos de nivel de madurez 2, 3, y 5 alcanzan nivel de capacidad 3. Además los procesos que la organización considere que deben definir métricas deben alcanzar nivel de capacidad 5.
++ **Nivel 5-Innovado:** los procesos de nivel de madurez 2, 3, y 5 alcanzan nivel de capacidad 3. Además los procesos que la organización considere que deben definir métricas deben alcanzar nivel de capacidad 5.
