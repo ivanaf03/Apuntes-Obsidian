@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4eba483cf42548b0",
+            "id": "a3a620e24f7dd1bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Boletín SQL.md",
+                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Boletín SQL.md",
+                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Boletín SQL.md"
+                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Boletín SQL.md",
+                "file": "Q6/ACL/Tema 4/Tema 4-CMMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,34 +171,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4eba483cf42548b0",
+  "active": "a3a620e24f7dd1bc",
   "lastOpenFiles": [
-    "Q6/BDA/Bases de datos avanzadas.md",
-    "Q6/BDA/Boletín SQL.md",
-    "Q6/ACL/Aseguramento da calidade.md",
-    "Práctica corrección.md",
+    "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md",
     "Q6/ACL/Tema 4/Tema 4-CMMI.md",
     "Q6/ACL/Tema 4/CMMI-DEV V1.3.md",
     "Q6/ACL/Tema 4/Constelaciones CMMI V1.3.md",
     "Q6/ACL/Tema 4/Introducción a CMMI.md",
+    "Q6/ACL/Aseguramento da calidade.md",
+    "Q6/ACL/Tema 5/Tema 5-Medición de la calidad.md",
+    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
+    "Q6/ACL/Tema 6/Tema 6-Otros modelos de calidad.md",
+    "Q6/ACL/Tema 6/SPICE y MMIS V2.md",
+    "Q6/ACL/Tema 6/Algunos modelos de calidad más.md",
+    "Q6/ACL/Ejercicios de métricas.md",
     "Q6/ACL/Tema 3/Tema 3-ISO 9000.md",
-    "Q6/ACL/Tema 3/ISO 90003.md",
     "Q6/ACL/Tema 3/ISO 9001.md",
     "Q6/ACL/Tema 3/Introducción a ISO 9000.md",
-    "Q6/ACL/Tema 3/Certificación ISO 9001.md",
     "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
     "Q6/ACL/Tema 2/Modelos de calidad del software.md",
     "Q6/ACL/Tema 2/Evolución de la calidad.md",
     "Q6/ACL/Tema 2/Calidad del software.md",
-    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
     "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
     "Q6/ACL/Tema 1/Solución para la mejora.md",
     "Q6/ACL/Tema 1/Grado de cumplimiento.md",
     "Q6/ACL/Tema 1/Objetivos del proceso software y la calidad.md",
-    "Q6/BDA/Integridad/Restricciones de integridad en SQL.md",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/BDA/Integridad/Tema 3-Integridad.md",
-    "Q6/Q6.md",
+    "Práctica corrección.md",
+    "Q6/ACL/Prácticas/Semana 7 ACL.md",
+    "Q6/ACL/Prácticas/Semana 5 ACL.md",
     "Pasted image 20240506202743.png",
     "Imágenes/integridad 3.png",
     "Imágenes/integridad 2.png",
