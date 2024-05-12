@@ -2,7 +2,7 @@
 
 ## 1.Notas de Rubén
 diaopo 1
-faltan aprobaciones 
+faltan aprobaciones->aprueba director técnico y jefe proyecto participa en alto nivel
 revisiones -> El de alto nivel necesita mayor revision(opcion dependiendo del plan de proyecto) y con la aprobacion igual 
 la caja de desarollo sobra, y el plan de pruebas tambien, todo lo que no sea diseño como tal 
 
@@ -29,7 +29,7 @@ mismos errores que en el anterior
 sie 
 solo entran errores detectados en pruebas de aceptacion y sistema 
 el tester no accede al sie, el responsable de calidad si
-informe detallado de errores (ta mal)se llama informe de estado de inspeccion y ensallo. 
+informe detallado de errores (ta mal)se llama informe de estado de inspeccion y ensayo. 
 
 formacion 
 falta que es el empleado el que dice si la formacion vale 
@@ -51,6 +51,7 @@ recepcionisya de productos (deberia ser jefe de proyecto ) al igual que en la in
 falta tema de seguros y daños , falta la devolucion del producto 
 
 control de la documentacion 
+ver tgr
 
 productos entregables 
 el jefe de proyecto decide si algo opcionalmente revisable se revisa, y designa el al revisor, en caso de no designar qa nadie todos revisan
