@@ -62,7 +62,7 @@ Las PA básicas son aquellas que son genéricas a todas las áreas de una organi
 + **PPQA:** Aseguramiento de la Calidad del Proceso y del Producto (Soporte, N2)
 + **CM:** Gestión de la Configuración (Soporte, N2)
 + **DAR:** Análisis de Decisiones y Resolución (Soporte, N3)
-+ **CAR:** Análisis Causal y Resolución (Soporte, N3)
++ **CAR:** Análisis Causal y Resolución (Soporte, N5)
 $\space$
 #### 4.4.2.PA de CMMI-SVC
 Las PA aplicadas a servicios son:
