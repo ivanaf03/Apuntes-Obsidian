@@ -19,4 +19,5 @@ Prácticas:
 + [[Semana 11 ACL]]
 + [[TGR ACL corrección]]
 + [[Práctica corrección]]
++ [[Ejercicios de métricas]]
 
