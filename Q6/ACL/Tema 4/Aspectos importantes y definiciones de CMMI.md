@@ -16,10 +16,10 @@ $\space$
 CMMI se aplica en diferentes sectores de la industria del software.
 $\space$
 ### 2.1.Gestión de proyectos
-CMMI aplica en nivel 2 con PP y con PMP.
+CMMI aplica en nivel 2 con PP y con CMP.
 $\space$
 ### 2.2.Gestión de riesgos
-CMMI aplica ligeramente en nivel 2 con PP y PMP. Se mejora en nivel 3 con RISKM.
+CMMI aplica ligeramente en nivel 2 con PP y CMP. Se mejora en nivel 3 con RISKM.
 $\space$
 ### 2.3.Gestión de la configuración
 En nivel 2 se aplica CMMI con CM. En otros niveles se mejora con diferentes SP.
