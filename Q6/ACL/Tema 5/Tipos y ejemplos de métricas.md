@@ -10,6 +10,7 @@ Las métricas pueden ser directas/indirectas y estáticas/dinámicas:
 	+ **Porcentaje:** es la expresión en % de una proporción. No es recomendable a menos que la muestra sea muy grande.
 + **Dinámicas:**  visión del fenómeno durante un tiempo.
 	+ **índice:** medida cuantitativa utilizada para evaluar y cuantificar algún aspecto específico del comportamiento, rendimiento o calidad de un sistema de software mientras está en funcionamiento. Por ejemplo, el índice de disponibilidad del sistema.
+	
 $\space$
 ## 2.Ejemplos de métricas
 Podemos medir una gran cantidad de cosas en una organización.
