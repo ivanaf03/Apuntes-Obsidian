@@ -14,7 +14,7 @@ Se puede hacer mediante las siguientes SP:
 + Mantener la trazabilidad entre requisitos y productos. Para ello se pueden usar matrices de trazabilidad.
 + Alinear el proyecto y los requisitos.
 $\space$
-### 1.2.Planicación del Proyecto (PP)
+### 1.2.Planificación del Proyecto (PP)
 Consiste en establecer y mantener planes que definan las actividades del proyecto.
 $\space$
 #### 1.2.1.SG-Establecer las estimaciones
