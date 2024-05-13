@@ -5,7 +5,7 @@ La principal solución que se propone para mejorar la calidad del software es me
 $\space$
 ### 1.1.Problemas de las pruebas
 Los tests tiene ciertas carencias que hacen que no baste solo con mejorarlos:
-+ [c] Se suelen cometer de media 100 fallos por cada 1000 líneas de códigos.
++ [c] Se suelen cometer de media 100 fallos por cada 1000 líneas de código.
 + [c] Las pruebas suelen detectar menos de la mitad de errores totales.
 + [c] Cuando hay falta de tiempo se prescinde de ciertos niveles de pruebas.
 $\space$
