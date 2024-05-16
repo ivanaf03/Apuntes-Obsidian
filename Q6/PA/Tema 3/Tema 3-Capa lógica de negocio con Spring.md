@@ -1,8 +1,8 @@
 [[Programación avanzada]]
 
 Contenido:
-+ [[Introducción a capa lógica de negocio con Spring]]
++ [[Servicios de PA Shop]]
 + [[Inyección de dependencias]]
-+ [[Transaccionalidad]]
++ [[Transaccionalidad en Spring]]
 + [[Optimistic Locking]]
 + [[Pruebas automatizadas]]
