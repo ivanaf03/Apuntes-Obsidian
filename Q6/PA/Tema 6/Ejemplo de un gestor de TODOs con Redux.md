@@ -1,7 +1,7 @@
 [[Tema 6-Gestión de estado con Redux]]
-
+$\space$
 ## 1.Iteración 1-Crear un gestor de TODOs y que permita cambiar su estado
-
+$\space$
 ### 1.1.App.jsx
 
 ```javascript
@@ -17,7 +17,7 @@ const App = () => (
   
 export default App;
 ```
-
+$\space$
 ### 1.2.AddTodo.jsx
 
 ```javascript
@@ -47,7 +47,7 @@ const AddTodo = () => {
   
 export default AddTodo;
 ```
-
+$\space$
 ### 1.3.Todos.jsx
 
 ```javascript
@@ -75,14 +75,14 @@ const Todos = () => {
   
 export default Todos;
 ```
-
+$\space$
 ### 1.4.ActionTypes.js
 
 ```javascript
 export const ADD_TODO = 'ADD_TODO';  
 export const TOGGLE_TODO = 'TOGGLE_TODO';
 ```
-
+$\space$
 ### 1.5.Actions.js
 
 ```javascript
@@ -106,7 +106,7 @@ export const toggleTodo = id => ({
     id  
 });
 ```
-
+$\space$
 ### 1.6.Reducer.js
 
 ```javascript
@@ -135,9 +135,9 @@ export const reducer = (state=initialState, action) => {
   
 export default reducer;
 ```
-
+$\space$
 ## 2.Iteración 2-Añadir un filtro para seleccionar el tipo de TODOs
-
+$\space$
 ### 2.1.Filter.jsx
 
 ```javascript
@@ -166,7 +166,7 @@ const Filter = () => {
   
 export default Filter;
 ```
-
+$\space$
 ### 2.2.Selectors.js
 
 ```javascript
@@ -189,7 +189,7 @@ export const getVisibleTodos = state => {
   
 export const getFilterType = state => state.filterType;
 ```
-
+$\space$
 ### 2.3.Reducer.js
 
 ```javascript
@@ -224,11 +224,11 @@ export const reducer = (state=initialState, action) => {
   
 export default reducer;
 ```
-
+$\space$
 ## 3.Iteración 3-Implementar el reductor como una composición de reductores sencillos
 Con `combineReducers` podemos combinar varios reductores individuales en uno solo para reducir la complejidad en aplicaciones grandes.
-
-### 3.1.Redcuer.js
+$\space$
+### 3.1.Reducer.js
 
 ```javascript
 import * as actionTypes from './actionTypes';
