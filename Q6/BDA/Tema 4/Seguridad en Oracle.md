@@ -1,4 +1,8 @@
 [[Tema 4-Seguridad]]
+$\space$
+
+
+
 
 Ejercicio 1: falla sentencia 3
 Ejercicio 2: el usuario pierde los permisos de r1
