@@ -1,15 +1,21 @@
 [[Tema 3-Capa lógica de negocio con Spring]]
+$\space$
+## 1.Servicios locales
+Los servicios locales necesitan los DAOs y el servicio `PermissionChecker` para su implementación. Para implementar cada servicio se necesita una instancia de cada DAO y de los servicios internos sin conocer las clases de su implementación.
 
-# 1.Servicios locales
-Los servicios locales usan los DAOs y el servicio interno `PermissionChecker`. La implementación de cada servicio debe poder obtener una instancia de cada DAO y del servicio interno sin conocer las clases de implementación.
+Una forma es utilizando el patrón factoría para cada DAO y otra para el `PermissionChecker`. Sin embargo, puede haber muchos DAOs en un caso real. Para ello los frameworks suelen utilizar la inyección de dependencias.
 
-Se podría definir una factoría para cada DAO, pero en una situación real habría demasiadas factorías. Los frameworks utilizan el principio de inyección de dependencias.
+El principio de inyección de dependencias es un patrón de diseño en el que los componentes de un sistema no crean directamente las otras partes de las que dependen, sino que se les pasan desde el exterior.
+$\space$
+### 1.1.Inyección de dependencias en Spring
+Spring tiene un contenedor de objetos que se encarga de crearlos e inyectarles las referencias de los objetos de los que dependen al arrancar la aplicación. Estos se llaman beans. Se usa la inyección de dependencias en los DAO y en los servicios locales.
 
-Consiste en tener un contenedor de objetos que crea los objetos, que denomina `beans`, y les inyecta las referencias a los objetos de los que dependen al arranque de la aplicación. Se puede hacer mediante:
-+ [>] Ficheros
-+ [>] Anotaciones
+Spring permite hacer inyección de dependencias de dos formas:
++ Mediante anotaciones
++ En ficheros de configuración
+$\space$
+#### 1.1.1.Uso de anotaciones
 
-## 1.1.Inyección de dependencias mediante anotaciones
 ```java
 @Service  
 @Transactional  
@@ -27,10 +33,11 @@ public class ShoppingServiceImpl implements ShoppingService {
 }
 ```
 
-Las anotaciones que usa son:
-+ [>] *@Repository:* clases DAO en caso de que los DAOs no sean implementados por Spring Data. No es el caso.
-+ [>]  *@Service:* clases de servicios locales.
-+ [>] *@Autowired:*  inyecta un bean que implementa la interfaz del atributo. Si hay más de un bean que implementa esa interfaz es necesario especificarlo con otras anotaciones.
+Las anotaciones que se usan son:
++ **@Repository:** clases DAO en caso de que los DAOs no sean implementados por Spring Data. En nuestro caso si los implementa.
++ **@Service:** servicio local.
++ **@Autowired:** inyecta un bean que implementa la interfaz del atributo. Si más de un bean implementa esa interfaz lanza una `NoUniqueBeanDefinitionException`.
+$\space$
+#### 1.1.1.Beans
+Un bean es un singleton que forma una instancia única de cada servicio local o DAO. Al arrancar la aplicación el contenedor de Spring busca las clases anotadas con `@Repository` o con `@Service` y crea una instancia de ellas. Para cada atributo anotado con `@Autowired` crea un bean.
 
-### 1.1.1.Beans
-Los beans son `singletons`. Son una instancia única de un DAO o servicio local. Al arrancar el backend el contenedor de objetos de Spring crea una instancia de cada `@Repository` y `@Service`, estén no no anotadas explicitamente. Para cada bean inspecciona los atributos anotados con `@Autowired` y crea un bean.
