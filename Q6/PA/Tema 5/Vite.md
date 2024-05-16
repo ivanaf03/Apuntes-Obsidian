@@ -1,5 +1,5 @@
 [[Tema 5-Desarrolllo basado en componentes con React]]
-
+$\space$
 ## 1.Qué es Vite?
 Vite es una herramienta que facilita el desarrollo de frontend en JavaScript proporcionando plantillas para frameworks de JavaScript, por ejemplo, para aplicaciones SPA con React.
 
@@ -8,10 +8,10 @@ Permite crear una aplicación con:
 ```
 npm create vite@latest my-app -- --template react
 ```
-
+$\space$
 ## 2.Estructura de ficheros Vite
 Vite genera automáticamente una estructura de ficheros que crean la base de la aplicación.
-
+$\space$
 ### 1.1.Index.html
 Es la base de la página web. Contiene el `div` raíz.
 
@@ -29,7 +29,7 @@ Es la base de la página web. Contiene el `div` raíz.
   </body>
 </html>
 ```
-
+$\space$
 ### 1.2.Main.jsx
 Renderiza la aplicación React en el elemento HTML con el ID `root`. Además, utiliza `React.StrictMode` para activar el modo estricto de React, que ayuda a identificar y evitar problemas en la aplicación durante el desarrollo.
 
@@ -46,15 +46,15 @@ root.render(
   </React.StrictMode>
 );
 ```
-
+$\space$
 ## 3.Modos de trabajo
 Vite permite trabajar en modo desarrollo, para hacer la aplicación y en modo producción, para generarla.
-
+$\space$
 ### 3.1.Modo desarrollo
 Se hace con `npm run dev`. Arranca un servidor web local, que abre la página `index.html`. El resto de ficheros JavaScript se van sirviendo al navegador a medida que sea necesario. Vite transforma los ficheros JSX en JavaScript para que se puedan ejecutar en el navegador.
 
 Al modificar el código del frontend se recarga automáticamente en el navegador. 
-
+$\space$
 ### 3.2.Modo producción
 Se hace con `npm run build`. Genera una carpeta llamada dist que contiene el código transformado en JavaScript minimizado en un solo fichero. También minimiza todo el CSS y lo incluye en el `index.html`. 
 
