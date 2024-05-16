@@ -1,8 +1,8 @@
 [[Tema 5-Desarrolllo basado en componentes con React]]
-
+$\space$
 ## 1.Iteración 1-Texto plano de TODOs
 La primera iteración consiste simplemente en crear dos etiquetas de texto plano con dos tareas.
-
+$\space$
 ### 1.1.App.jsx
 
 ```javascript
@@ -19,7 +19,7 @@ class App extends React.Component {
         return (
             <div>
                 <ul>
-                    <Todo todo={todos[0]} />
+                    <Todo todo={todos[0]} />  // los componentes pueden recibir propiedades
                     <Todo todo={todos[1]} />
                 </ul>
             </div>
@@ -29,7 +29,7 @@ class App extends React.Component {
 
 export default App;
 ```
-
+$\space$
 ### 1.2.Todo.jsx
 
 ```javascript
@@ -37,7 +37,7 @@ import React from 'react';
 
 class Todo extends React.Component {
     render() {
-        const todo = this.props.todo;
+        const todo = this.props.todo;  // los parámetros se reciben como propiedades de this.props
         return (
             <li>{todo.text}</li>
         );
@@ -46,10 +46,10 @@ class Todo extends React.Component {
 
 export default Todo;
 ```
-
+$\space$
 ## 2.Iteración 2-Hacer que `Todo` sea un componente función
 Cuando un componente solo necesita redefinir `render` y no tiene estado propio puede escribirse directamente como una función que devuelva el markup del componente. Recibe `props` como parámetro, que es un objeto que contiene los parámetros del componente.
-
+$\space$
 ### 2.1.Todo.jsx
 
 ```javascript
@@ -69,14 +69,14 @@ const Todo = ({todo}) => (
   
 export default Todo;
 ```
-
+$\space$
 ## 3.Iteración 3-Crear la lista de TODOs
 Cuando se renderiza una lista de un tipo de elemento, en este caso de `Todo`, se utiliza una propiedad llamada `key`. El valor de la clave es un identificador de cada uno de los ítems de la lista. Generalmente se utiliza el ID de la base de datos.
 
 Esta estrategia no se puede emplear cuando la interfaz permita reordenar los elementos. Podría afectar a la semántica o a la renderización.
 
 Cuando no tienen un ID natural se puede utilizar la función `map` para asignar IDs.
-
+$\space$
 ### 3.1.App.jsx
 
 ```javascript
@@ -100,7 +100,7 @@ class App extends React.Component {
 
 export default App;
 ```
-
+$\space$
 ### 3.2.Todos.jsx
 
 ```javascript
@@ -109,13 +109,13 @@ import Todo from './Todo';
 
 const Todos = ({ todos }) => (
     <ul>
-        {todos.map(todo => <Todo key={todo.id} todo={todo} />)}
+        {todos.map(todo => <Todo key={todo.id} todo={todo} />)}  // expresión JSX dentro de expresión JS dentro de expresion JSX
     </ul>
 );
 
 export default Todos;
 ```
-
+$\space$
 ## 4.Iteración 4-Añadir TODOs de forma dinámica
 Podemos hacer un método `handleAddTodo` que modifique el estado de la propiedad `todos`.
 
@@ -128,7 +128,7 @@ handleAddTodo(text) {
 ```
 
 Sin embargo, es mejor mantener el estado inmutable. En lugar de cambiar el array de TODOs, es mejor crear uno nuevo.
-
+$\space$
 ### 4.1.App.jsx
 
 ```javascript
@@ -164,7 +164,7 @@ class App extends React.Component {
 
 export default App;
 ```
-
+$\space$
 ### 4.2.AddTodo.jsx
 
 ```javascript
@@ -182,7 +182,7 @@ const AddTodo = ({ onAddTodo }) => {
                 input.value = '';
             }}
         >
-            <input type="text" ref={node => input = node} />
+            <input type="text" ref={node => input = node} />  // ref permite acceder al DOM para recoger el valor del formulario
             <button type="submit">Add</button>
         </form>
     );
@@ -190,23 +190,23 @@ const AddTodo = ({ onAddTodo }) => {
 
 export default AddTodo;
 ```
-
+$\space$
 ## 5.Iteración 5-Hacer que `App` sea un componente función
 Para convertir los componentes en funciones podemos utilizar hooks. Son funciones que permiten acceder a características de React, como el estado de los componentes. 
 
 Por ejemplo, `useState` permite añadir estado a un componente función. Declara una variable que mantiene el estado. Recibe el valor inicial como parámetro y devuelve un array con dos elementos, el valor actual y una función para actualizar el valor y volver a renderizar el componente.
-
+$\space$
 ### 5.1.Ventajas del uso de hooks
 Los hooks nos permiten:
 + [p] Reducir la dificultad de la lógica del estado entre componentes.
 + [p] Evitar redefinir métodos de `React.Component`.
 + [p] Evitar el uso de clases en JavaScript.
-
+$\space$
 ### 5.2.Reglas del uso de hooks
 Los hooks solo se pueden invocar desde componentes función o desde hooks a medida. Estos últimos son funciones que encapsulan varios hooks para encapsular lógica específica y reutilizable en componentes de React.
 
 Los hooks se deben invocar siempre en el mismo orden. Para garantizarlo se debe evitar su uso en bucles, condicionales y funciones anidadas.
-
+$\space$
 ### 5.3.App.jsx
 
 ```javascript
@@ -235,10 +235,10 @@ const App = () => {
 
 export default App;
 ```
-
-## Iteración 6-Cambiar el estado de un TODO
+$\space$
+## 6.Iteración 6-Cambiar el estado de un TODO
 A pesar de que se haga un cambio de estado, los ítems seguirán siendo inmutables. La función `handleToggleCompleted` creará un nuevo array de TODOs con referencias a todos los TODOs excepto el que se desea cambiar, en el cual se cambiará la propiedad `completed`.
-
+$\space$
 ### 6.1.App.jsx
 
 ```javascript
@@ -281,7 +281,7 @@ const App = () => {
   
 export default App;
 ```
-
+$\space$
 ### 6.2.Todos.jsx
 
 ```javascript
@@ -298,21 +298,21 @@ const Todos = ({todos, onToggleCompleted}) => (
   
 export default Todos;
 ```
-
+$\space$
 ### 6.3.Todo.jsx
 
 ```javascript
 const Todo = ({todo, onToggleCompleted}) => (  
-    <li className={todo.completed ? 'completed' : ''}   
+    <li className={todo.completed ? 'completed' : ''}  // el atributo se llama className, no class por conflictos con HTML
         onClick={() => onToggleCompleted(todo.id)}>{todo.text}</li>  
 );  
   
 export default Todo;
 ```
-
+$\space$
 ## 7.Iteración 7-Filtro para seleccionar el tipo de TODOs
 Se añade un nuevo componente que permite filtrar los TODOs.
-
+$\space$
 ### 7.1.App.jsx
 
 ```javascript
@@ -327,6 +327,7 @@ let nextTodoId = 0;
 const App = () => {
     const [todos, setTodos] = useState([]);
     const [filterType, setFilterType] = useState(filterTypes.ALL);
+    // estos dos hooks siempre se ejecutarán en el mismo orden en cada renderización de App. Internamente React mantiene un puntero a la celda actual de cada componente función. La función useState lee la celda actual y mueve el puntero a la siguiente celda.
 
     const todo = text => {
         return { id: nextTodoId++, text, completed: false }
