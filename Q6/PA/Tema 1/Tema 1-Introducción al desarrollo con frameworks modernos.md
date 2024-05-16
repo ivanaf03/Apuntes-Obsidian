@@ -2,5 +2,5 @@
 
 Contenido:
 + [[Arquitecturas típicas de aplicaciones]]
-+ [[Entornos de desarrollo]]
++ [[Entornos de desarrollo modernos]]
 + [[Visión global del ejemplo]]
