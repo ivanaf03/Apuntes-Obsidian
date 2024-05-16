@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ae388e3245192e7d",
+        "id": "89260c61d2967b5e",
         "type": "tabs",
         "children": [
           {
-            "id": "a3a620e24f7dd1bc",
+            "id": "367cef338f67eccb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md",
+                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md",
+                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md"
+                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md"
               }
             }
           },
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md",
+                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,45 +170,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a3a620e24f7dd1bc",
+  "active": "367cef338f67eccb",
   "lastOpenFiles": [
-    "Q6/ACL/Tema 4/Tema 4-CMMI.md",
-    "Q6/ACL/Tema 4/CMMI-DEV V1.3.md",
-    "Q6/ACL/Tema 4/Constelaciones CMMI V1.3.md",
-    "Q6/ACL/Tema 4/Introducción a CMMI.md",
-    "Q6/ACL/Aseguramento da calidade.md",
-    "Q6/ACL/Ejercicios de métricas.md",
-    "Q6/ACL/Prácticas/Semana 11 ACL.md",
-    "Q6/ACL/Prácticas/Semana 10 ACL.md",
-    "Q6/ACL/Prácticas/Semana 8 ACL.md",
-    "Q6/ACL/Prácticas/Semana 7 ACL.md",
-    "Q6/ACL/Prácticas/Semana 5 ACL.md",
-    "Q6/ACL/Prácticas/Semana 4 ACL.md",
-    "Q6/ACL/Prácticas/Práctica 1 ACL.md",
-    "Práctica corrección.md",
-    "Q6/ACL/Tema 5/Tema 5-Medición de la calidad.md",
-    "Q6/ACL/Tema 5/GQM y PSM.md",
-    "Q6/ACL/Tema 6/Tema 6-Otros modelos de calidad.md",
-    "Q6/ACL/Tema 6/Algunos modelos de calidad más.md",
-    "Q6/ACL/Tema 6/SPICE y MMIS V2.md",
-    "Q6/ACL/Tema 4/Aspectos importantes y definiciones de CMMI.md",
-    "Q6/ACL/Tema 2/Tema 2-Calidad y software.md",
-    "Q6/ACL/Tema 2/Calidad del software.md",
-    "Q6/ACL/Tema 1/Tema 1-Mejoras del proceso software.md",
-    "Q6/ACL/Tema 1/Creencias en contra y realidades a favor.md",
-    "Q6/ACL/Tema 1/Solución para la mejora.md",
-    "Q6/ACL/Tema 1/Grado de cumplimiento.md",
-    "Pasted image 20240506202743.png",
-    "Imágenes/integridad 3.png",
-    "Imágenes/integridad 2.png",
+    "Q6/BDA/Tema 4/Introducción a la seguridad en BBDD.md",
+    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
+    "Q6/BDA/Tema 4/Autenticación y autorización.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/Q6.md",
+    "Q6/BDA/Tema 5/Bases de datos activas.md",
+    "Q6/BDA/Bases de datos activas/te.md",
+    "Q6/BDA/Tema 3/Tema 3-Integridad.md",
+    "Q6/BDA/Tema 3/Implementación en SGBD reales.md",
+    "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
+    "Q6/BDA/TEMA 3/Sin título.md",
+    "Imágenes/match 2.png",
+    "Imágenes/match 1.png",
+    "Q6/BDA/Tema 7/Tema 7-Optimización.md",
+    "Q6/BDA/Tema 7/Optimización basada en costes.md",
+    "Q6/BDA/Tema 7/Optimización algebraica.md",
+    "Excalidraw/Drawing 2024-05-16 09.27.58.excalidraw.md",
+    "Q6/BDA/Tema 3/Restricciones en los modelos de datos.md",
+    "Q6/BDA/Tema 3/Introducción a la integridad.md",
+    "Ingeniería Informática.md",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
+    "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
+    "Imágenes/jwt3.png",
+    "Imágenes/jwt 2.png",
+    "Q6/PA/Tema 4/Internalización de mensajes.md",
+    "Q6/PA/Tema 4/Gestión de excepciones.md",
+    "Q6/PA/Tema 4/Validación básica de datos.md",
+    "Q6/PA/Tema 4/Desarrollo de controladores.md",
+    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
+    "Sin título 1.canvas",
     "Sin título.canvas",
-    "Imágenes/integridad 1.png",
-    "Imágenes/curva S.png",
-    "Imágenes/PSM2.png",
-    "Imágenes/PSM 1.png",
-    "Imágenes/GQM.png",
-    "Pasted image 20240506134940.png",
-    "Imágenes/iso 15504.png",
+    "Imágenes/ejemplo3controller.png",
+    "Imágenes/ejemplo2controller.png",
+    "Imágenes/springwebjsontodto.png",
+    "Pasted image 20240515112606.png",
+    "Imágenes/shoppingservice.png",
+    "Imágenes/catalogservice.png",
     "Q6/ACL/Tema 6",
     "Q6/AS/Tema 8",
     "Q6/ER/Tema 9",
@@ -220,7 +220,6 @@
     "Q6/ER/Tema 8",
     "Q6/AS/Tema 6",
     "Q6/ER/Tema 7",
-    "Excalidraw/Idea AS/Sin título.canvas",
-    "Sin título 1.canvas"
+    "Excalidraw/Idea AS/Sin título.canvas"
   ]
 }
