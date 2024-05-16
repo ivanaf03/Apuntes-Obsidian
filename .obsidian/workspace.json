@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
-                "mode": "preview",
+                "file": "Q6/Q6.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
+                "file": "Q6/Q6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md"
+                "file": "Q6/Q6.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
+                "file": "Q6/Q6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,44 +173,44 @@
   },
   "active": "367cef338f67eccb",
   "lastOpenFiles": [
-    "Q6/BDA/Tema 4/Introducción a la seguridad en BBDD.md",
-    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
-    "Q6/BDA/Tema 4/Autenticación y autorización.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
+    "Q6/PA/Tema 7/Layout y enrutamiento.md",
+    "Q6/PA/Tema 7/Estructura general del frontend.md",
+    "Q6/PA/Tema 7/Compra de productos.md",
+    "Q6/PA/Tema 7/Recargas y políticas.md",
+    "Q6/PA/Tema 6/Tema 6-Gestión de estado con Redux.md",
+    "Q6/PA/Tema 6/Ejemplo de un gestor de TODOs con Redux.md",
+    "Q6/PA/Tema 6/Desarrollo de un contador.md",
+    "Q6/PA/Tema 6/Introducción a Redux.md",
     "Q6/Q6.md",
+    "Q6/PA/Tema 5/Tema 5-Desarrolllo basado en componentes con React.md",
+    "Q6/PA/Tema 5/Inmutabilidad.md",
+    "Q6/PA/Tema 5/Virtual DOM.md",
+    "Q6/PA/Tema 5/Ejemplo de un gestor de TODOs.md",
+    "Q6/PA/Tema 5/Vite.md",
+    "Q6/PA/Tema 5/React.md",
+    "Q6/PA/Tema 5/Desarrollo basado en componentes.md",
+    "Q6/BDA/Tema 4/Seguridad en Oracle.md",
+    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
+    "Q6/BDA/Tema 4/Control de acceso discrecional.md",
+    "Imágenes/roles 6.png",
+    "Imágenes/roles 5.png",
+    "Imágenes/roles 4.png",
+    "Imágenes/roles 3.png",
+    "Imágenes/roles 2.png",
+    "Imágenes/roles 1.png",
+    "Imágenes/permisos cadenas 2.png",
+    "Imágenes/permisos cadena 1.png",
+    "Q6/BDA/Tema 4/Autenticación y autorización.md",
+    "Q6/BDA/Tema 4/Introducción a la seguridad en BBDD.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
     "Q6/BDA/Tema 5/Bases de datos activas.md",
     "Q6/BDA/Bases de datos activas/te.md",
-    "Q6/BDA/Tema 3/Tema 3-Integridad.md",
-    "Q6/BDA/Tema 3/Implementación en SGBD reales.md",
-    "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
-    "Q6/BDA/TEMA 3/Sin título.md",
     "Imágenes/match 2.png",
     "Imágenes/match 1.png",
-    "Q6/BDA/Tema 7/Tema 7-Optimización.md",
-    "Q6/BDA/Tema 7/Optimización basada en costes.md",
-    "Q6/BDA/Tema 7/Optimización algebraica.md",
-    "Excalidraw/Drawing 2024-05-16 09.27.58.excalidraw.md",
-    "Q6/BDA/Tema 3/Restricciones en los modelos de datos.md",
-    "Q6/BDA/Tema 3/Introducción a la integridad.md",
-    "Ingeniería Informática.md",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
-    "Q6/PA/Tema 4/Autenticación, acceso y control de acceso.md",
-    "Imágenes/jwt3.png",
-    "Imágenes/jwt 2.png",
-    "Q6/PA/Tema 4/Internalización de mensajes.md",
-    "Q6/PA/Tema 4/Gestión de excepciones.md",
-    "Q6/PA/Tema 4/Validación básica de datos.md",
-    "Q6/PA/Tema 4/Desarrollo de controladores.md",
-    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
     "Sin título 1.canvas",
     "Sin título.canvas",
-    "Imágenes/ejemplo3controller.png",
-    "Imágenes/ejemplo2controller.png",
-    "Imágenes/springwebjsontodto.png",
-    "Pasted image 20240515112606.png",
-    "Imágenes/shoppingservice.png",
-    "Imágenes/catalogservice.png",
     "Q6/ACL/Tema 6",
     "Q6/AS/Tema 8",
     "Q6/ER/Tema 9",
