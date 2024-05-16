@@ -14,7 +14,7 @@ $\space$
 ### 2.1.Componentes
 Los dos componentes principales de PSM son:
 + **Modelo de proceso y medición:** se describen las fases y tareas de forma iterativa, por ejemplo, la planificación de la medición, la identificación de los objetivos de medición, la selección de las métricas apropiadas, la recopilación y análisis de datos, y la utilización de los resultados para la toma de decisiones y la mejora continua.
-+ **Modelo de información:** se definen las relaciones entre la terminología común y los conceptos e medición.
++ **Modelo de información:** se definen las relaciones entre la terminología común y los conceptos de medición.
 $\space$
 ### 2.2.Esquema
 ![[PSM 1.png]]
