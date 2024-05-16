@@ -1,2 +1,0 @@
-[[Bases de datos activas]]
-
