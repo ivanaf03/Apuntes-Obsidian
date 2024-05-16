@@ -1,8 +1,8 @@
 [[Tema 6-Gestión de estado con Redux]]
-
+$\space$
 ## 1.Creación de `store`
 Para crear el `store` utilizamos la función `configureStore` de Redux Toolkit. Esta función crea el árbol y a mayores añade integración con Redux DevTools, con Redux Thunk y detecta modificaciones del estado. Recibe un objeto que puede tener varios campos, entre ellos el `reducer`.
-
+$\space$
 ### 1.1.Main.jsx
 
 ```javascript
@@ -15,21 +15,21 @@ import App from './App';
 import reducer from './reducer';  
   
 
-const store = configureStore({reducer});  
+const store = configureStore({reducer});  // creación del store
   
 const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(  
     <React.StrictMode>  
-        <Provider store={store}>  
+        <Provider store={store}>  // se pasa el store a todos los componentes y permite suscribirlos a el con store.subscribe
             <App/> 
         </Provider>    
     </React.StrictMode>
 );
 ```
-
+$\space$
 ## 2.Suscripciones
 Con `useSelector` podemos suscribir un componente al `store`. Recibe un selector como parámetro.
-
+$\space$
 ### 2.1.App.jsx
 
 ```javascript
@@ -58,12 +58,12 @@ const App = () => {
   
 export default App;
 ```
-
+$\space$
 ### 2.2.Selectores en Redux
 Un selector es una función pura que devuelve un valor a partir del estado almacenado. Permiten ocultar la estructura interna del estado a los componentes. 
 
 La estructura interna solo se conoce en este ejemplo en `reducer.js` y en `selectors.js`. Si esta estructura interna varía, los componentes internos no se ven afectados.
-
+$\space$
 #### 2.2.1.Reducer.js
 
 ```javascript
@@ -77,23 +77,23 @@ const reducer = (state={value: 0}, action) => {
         case 'RESET':  
             return {value: 0};  
         default:  
-            return state;  
+            return state;  // para obteneer el estado inicial se invoca como (undefined, {'type':<<valor aleatorio>>})
     }  
   
 }  
   
 export default reducer;
 ```
-
+$\space$
 #### 2.2.2.Selectors.js
 
 ```javascript
 export const getValue = state => state.value;
 ```
-
+$\space$
 ### 2.3.Acciones
 Al ejecutar una acción el componente suscrito al `store` se vuelve a renderizar si algún selector devuelve un valor diferente al de la última vez. Utiliza comparación con igualdad referencial `===` y asume estado inmutable.
-
+$\space$
 #### 2.3.1.Actions.js
 
 ```javascript
