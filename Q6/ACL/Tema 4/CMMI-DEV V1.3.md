@@ -39,7 +39,7 @@ Se puede hacer mediante las siguientes SP:
 + Resolver los conflictos de nivelación de trabajo y recursos.
 + Obtener compromiso con el plan.
 $\space$
-### 1.3.Monitorización y Control del Proyecto (MCP)
+### 1.3.Monitorización y Control del Proyecto (PMC)
 Consiste en seguir el progreso del proyecto para que se puedan tomar las acciones correctivas  apropiadas cuando haya desviaciones que bajen el rendimiento del proyecto.
 $\space$
 #### 1.3.1.SG-Monitorizar el proyecto en base al plan
