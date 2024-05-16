@@ -1,7 +1,7 @@
 [[Tema 4-Capa de servicios REST con Spring]]
-
-# 1.Introducción
-Usamos la librería spring-web para implementar la capa de servicios REST. Al usar Spring Boot, el servicio debe tener una clase anotada con `@SpringBootApplication` con un método `main`.
+$\space$
+## 1.Introducción
+Usamos la librería spring-web para implementar los servicios REST. Al usar Spring Boot, es necesario que el servicio contenga una clase anotada con `@SpringBootApplication` con un método main para arrancarlo.
 
 ```java
 package es.udc.pashop.backend;
@@ -21,15 +21,14 @@ public class Application {
 ...
 
 }
-
 ```
+$\space$
+### 1.1.Ejecución en modo desarrollo
+Al hacer `mvn spring-boot:run` en el directorio del backend la clase anotada invoca al método main. Este método arranca un servidor de aplicaciones. El contenedor de objetos de Spring escanea los ficheros `.class` para encontrar las clases anotadas como bean y crea los beans correspondientes.
 
-## 1.1.Ejecución del backend
-Al ejecutar `mvn spring-boot:run` busca la clase con esta notación e invoca al main. El main arranca un servidor de aplicaciones, el contenedor de objetos escanea los `.class`, crea los beans correspondientes y deja el backend listo para recibir peticiones.
-
-Al ejecutar `mvn package` se genera un fichero `.jar`. Tenemos dos opciones:
-+ [>] *Ejecutar `java -jar target/pa-shop-backend.jar`:* es un fat JAR formado por:
-	+ [>] Todos los `.class` del backend.
-	+ [>] Todos los `.jar` de las dependencias.
-	+ [>] Un fichero con metadatos para el nombre completo de la clase con la anotación `@SpringBootApplication` . La máquina virtual de Java ejecuta el `main` de esa clase.
-+ [>] *Instalar `target/pa-shop-backend.war` en un servidor de aplicaciones de Java estándar:* se pasa el `.jar` a `.war` y, una vez instalado, el contenedor de objetos de Spring estará listo para recibir peticiones.
+Una vez hecho esto el backend queda listo para recibir peticiones.
+$\space$
+### 1.2.Ejecución en modo producción
+Al hacer `mvn package` se genera un fichero `.jar`. Tenemos dos posibilidades:
++ Se ejecuta `java -jar target/pa-shop-backend.jar`. Es un fat jar formado por todos los ficheros `.class` del backend, todos las librerías de las que depende y un fichero de metadatos con el nombre de la clase que corre el main.
++ Generar un .war e instalarlo en un servidor de aplicaciones Java.
