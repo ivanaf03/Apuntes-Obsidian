@@ -13,6 +13,5 @@ Temario:
 
 Prácticas:
 + [[Modelado de datos]]
-+ [[Acceso a bases de datos con Python]]
 + [[Boletín SQL]]
 
