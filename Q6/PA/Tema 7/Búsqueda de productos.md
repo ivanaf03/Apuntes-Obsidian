@@ -1,24 +1,24 @@
 [[Tema 7-Frontend de una tienda de comercio electrónico]]
-
+$\space$
 ## 1.Uncontrolled components
 El componente `AddTodo` de los primeros ejemplos accedía a la entrada mediante el atributo `ref`. Los componentes que implementan formularios de este estilo se llaman uncontrolled components.
 
 Los datos del formulario se guardan directamente en el DOM de la página. Para conocer los valores de los componentes hay que consultar directamente el DOM. 
-
+$\space$
 ### 1.1.Problemas
 React no recomienda hacer esto:
 + [c] Parte del estado de la UI no se controla por React o Redux.
 + [c] Complica la implementación de funcionalidades adicionales.
-
+$\space$
 ## 2.Controlled components
 Los componentes controlados se implementan con otro estilo. Los datos del formulario se guardan en el estado del componente. Los campos de entrada usan `value` y `onChange` para actualizar el estado.
-
+$\space$
 ### 2.1.Ventajas
 Con respecto a los uncontrolled componentes, los controlled:
 + [p] Requieren algo más cantidad de código.
 + [p] Facilitan añadir funcionalidades.
 + [p] Muestran los datos en mayúscula. 
-
+$\space$
 ### 2.2.FindProducts
 
 ![[findProducts.png]]
@@ -68,7 +68,7 @@ const FindProducts = () => {
   
 export default FindProducts;
 ```
-
+$\space$
 ### 2.3.FindProductsResult
 
 ![[findproductsresult.png]]
@@ -116,7 +116,7 @@ const FindProductsResult = () => {
   
 export default FindProductsResult;
 ```
-
+$\space$
 ### 2.4.Products
 
 ```javascript
@@ -152,7 +152,7 @@ Products.propTypes = {
   
 export default Products;
 ```
-
+$\space$
 ## 3.Propiedades
 En estos ejemplos se usa la librería `prop-types` para especificar las propiedades que se pasan a los componentes. Por ejemplo, `Products` recibe los productos y categorías.
 
@@ -164,7 +164,7 @@ Products.propTypes = {
 ```
 
 React verifica en tiempo de ejecución que el componente recibe los valores según se especifiquen y lanza un warning en caso contrario.
-
+$\space$
 ## 4.Acciones
 
 ```javascript
@@ -228,19 +228,19 @@ export const clearProduct = () => ({
     type: actionTypes.CLEAR_PRODUCT  
 });
 ```
-
+$\space$
 ### 4.1.Acciones asíncronas
 Cuando se realizan peticiones al backend se realizan peticiones asíncronas. El código que realiza las peticiones no se bloquea mientras espera la respuesta. 
-
+$\space$
 #### 4.1.1.Comunicación con el reductor
 Las acciones deben:
 + Avisar al reductor del comienzo de la petición.
 + Informar de que la petición terminó correctamente.
 + Informar de que la petición terminó en error.
-
+$\space$
 ### 4.2.HandleSubmit
 Para implementar el `handleSubmit` utilizaremos Redux Thunk. Esta función se usa para manejar la lógica de envío de datos después de que un usuario completa y envía un formulario. Permite que un action creator devuelva funciones en lugar de objetos. 
-
+$\space$
 ## 5.Reductor
 
 ```javascript
