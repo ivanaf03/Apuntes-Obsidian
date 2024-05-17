@@ -1,50 +1,47 @@
-[[Bases de datos activas]]
-
-# 1.Bases de datos activas y pasivas
-Las bases de datos pasivas son simples almacenes de datos. Hoy en día apenas existen. 
-
-## 1.1.Bases de datos activas
-Las bases de datos activas realizan controles con restricciones y reaccionan ante eventos como cambios en los datos.
-
-Las ventajas de esto son:
-+ [p] *Control de restricciones:* validaciones de DNI, salario, etc. o reglas como que un empleado no gane más que su jefe.
-+ [p] *Actualización de datos:* generación de claves primarias, campos autoactualizados, etc.
-+ [p] *Acciones externas a la base de datos:* alertas, como un stock mínimo de un producto.
-
+[[Tema 5-Bases de datos activas]]
 $\space$
-Estas actividades se suelen implementar con triggers.
-
-# 2.Actividades sin triggers
-## 2.1.Restricciones
-Las restricciones del estándar son:
-+ [>] *Not null:* no permite nulos.
-+ [>] *Unique y Primary key:*  garantizan la unicidad. En caso de primary key también evita nulos.
-+ [>] *Check:* verifica la validez de los valores mediante una condición.
-+ [>] *Foreign key:*  establece una relación entre dos tablas.
+## 1.Tipos de bases de datos
+Las bases de datos pasivas son simples almacenes de datos. Hoy en día apenas existen. 
+$\space$
+### 1.1.Bases de datos activas
+Las bases de datos activas realizan controles con restricciones y reaccionan ante eventos como cambios en los datos. Se implementan mediante triggers.
+$\space$
+#### 1.1.1.Ventajas
+Las ventajas de las bases de datos activas son:
++ [p] **Control de restricciones:** validaciones de DNI, sueldo, etc. o reglas del dominio.
++ [p] **Actualización de datos:** generación de claves primarias, campos autoactualizables, etc.
++ [p] **Acciones externas a la base de datos:** alertas, como la llegada al stock mínimo.
+$\space$
+## 2.Actividades sin triggers
+Hay cosas que no necesitan triggers para poder hacerse.
+$\space$
+### 2.1.Restricciones
+Las restricciones reaccionan ante operaciones DML. Por ejemplo:
 
 ```sql
-create table emp(
-empno numeric(3) not null,
-ename char(20) not null,
-email char(25) not null constraint u_email unique,
-mgr numeric(3),
-deptno numeric(3),
-sal numeric(7,2),
-constraint pk_emp primary key(empno),
-constraint fk_emp foreign key(mgr)
-references emp(empno) on delete cascade on update cascade,
-constraint c_sal_pos check(sal > 0) deferrable initially deferred);
+create table emp (
+  empno number(3) not null primary key,
+  ename char(20) not null,
+  email char(25) not null unique constraint u_email,
+  mgr number(3),
+  deptno number(3),
+  sal number(7,2) constraint c_sal_pos check (sal > 0) deferrable initially deferred,
+  constraint fk_emp foreign key (mgr) references emp(empno)
+  on delete cascade
+  on update cascade
+);
 ```
 
-### 2.1.1.Consideraciones
-Debemos tener en cuenta que:
-+ [>] La acción por defecto es abortar.
-+ [>] Solo se puede hacer check a nivel de fila.
-+ [>] No afectan a borrados de filas excepto `Foreign key`.
-+ [>] Se pueden aplazar hasta el final de la transacción.
+No permite hacer:
 
-## 2.2.Afirmaciones
-Las afirmaciones o assertions son restricciones adicionales que se pueden aplicar a una base de datos para garantizar la integridad de los datos. Funcionan como condiciones que deben cumplirse en todo momento, y si alguna de estas condiciones no se cumple, se produce una violación de la afirmación y la operación que desencadenó la violación puede ser rechazada.
+```sql
+insert into emp (empno, ename, email, mgr, deptno, sal)
+values (123, 'John Doe', 'invalid_email', 999, 10, -500);
+-- Email inválido, no existe ese mánager, salario negativo
+```
+$\space$
+### 2.2.Assertions
+Los gestores no las implementan. Son restricciones adicionales que se pueden aplicar a una base de datos para garantizar la integridad de los datos. Funcionan como condiciones que deben cumplirse en todo momento, y si alguna de estas condiciones no se cumple, se produce una violación de la afirmación y la operación que desencadenó la violación puede ser rechazada. Por ejemplo:
 
 ```sql
 create assertion <nome> check <condicion>;
@@ -60,4 +57,3 @@ group by deptno
 having count(*)>10));
 ```
 
-Por defecto siempre abortan. Los SGBD no las implementan.
