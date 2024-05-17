@@ -96,4 +96,29 @@ end;
 ![[trigger insercion borrado.png]]
 $\space$
 ### 2.4.Auditorías de grano fino
-Podemos hacerlas con DBMS_FGA. Por ejemplo, si queremos que se registren los accesos a la tabla `dept` 
+Podemos hacerlas con DBMS_FGA. Por ejemplo, si queremos que se registren los accesos a la tabla `dept` de Scott siempre que se acceda al nombre del departamento y el número de departamento sea 30:
+
+```sql
+begin
+  dbms_fga.add_policy(
+    object_schema => 'SCOTT',
+    object_name => 'DEPT',
+    policy_name => 'nome_ventas',
+    audit_column => 'DNAME',
+    audit_condition => 'deptno = 30'
+  );
+end;
+/
+
+select timestamp, db_user, object_name, sql_text
+from dba_fga_audit_trail;
+```
+
+![[grano fino audit.png]]
+
+En cambio, las consultas que no cumplan las condiciones no se registran:
+
+```sql
+select loc from dept where deptno=10;
+select deptno, loc from dept;
+```
