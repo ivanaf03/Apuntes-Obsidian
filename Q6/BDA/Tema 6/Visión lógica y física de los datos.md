@@ -1,4 +1,7 @@
 [[Tema 6-Diseño físico]]
+$\space$
+
+
 
 ## 1.Arquitectura ANSI/SPARK
 La arquitectura ANSI/SPARC es una conceptualización de la arquitectura de una base de datos que se basa en la separación en 3 niveles como se explica en [[Catálogo del sistema#2.Contenido del catálogo]].
