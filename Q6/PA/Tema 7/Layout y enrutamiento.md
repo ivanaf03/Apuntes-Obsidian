@@ -1,8 +1,8 @@
 [[Tema 7-Frontend de una tienda de comercio electrónico]]
-
+$\space$
 ## 1.Renderizado
 El componente `App` se renderiza en `src/main.jsx`. Este componente define el layout de la interfaz.
-
+$\space$
 ### 1.1.App.jsx
 
 ```javascript
@@ -39,10 +39,10 @@ const App = () => {
   
 export default App;
 ```
-
+$\space$
 ## 2.Enrutamiento
 Para poder navegar entre pantallas el frontend utiliza una librería de enrutamiento mediante enlaces llamada React Router. Cambia la URL del navegador para que sea consistente con la pantalla que se muestra.
-
+$\space$
 ### 2.1.BrowserRouter
 El componente `BrowseRouter` envuelve a `App` en el main. Funciona de forma similar al `Provider` de Redux. De esta forma proporciona información para enrutar todos los componentes del árbol.
 
@@ -61,7 +61,7 @@ root.render(
 	</React.StrictMode>
 );
 ```
-
+$\space$
 ### 2.2.Componente Link
 El componente `Link` permite insertar un enlace a una pantalla. Funciona como la etiqueta `<a href=...>` de HTML. Por ejemplo:
 
@@ -72,7 +72,7 @@ El componente `Link` permite insertar un enlace a una pantalla. Funciona como la
     </Link>
 </li>
 ```
-
+$\space$
 ### 2.3.Componente Routes
 El componente `Routes` funciona como una especie de estructura `switch-case` con los paths que se dan al cambiar de pantallas. Por ejemplo:
 
@@ -80,7 +80,7 @@ El componente `Routes` funciona como una especie de estructura `switch-case` con
 <div className="container">  
     <br/>    
     <AppGlobalComponents/>   
-    <Routes>        
+    <Routes>  // renderiza el path más específico   
 	    <Route path="/*" element={<Home/>}/>  
         <Route path="/catalog/find-products-result" element={<FindProductsResult/>}/>  
         <Route path="/catalog/product-details/:id" element={<ProductDetails/>}/>  
@@ -97,12 +97,12 @@ El componente `Routes` funciona como una especie de estructura `switch-case` con
     </Routes>  
 </div>
 ```
-
+$\space$
 #### 2.3.1.Cambios de pantalla
 Cuando se produce un cambio de pantalla se renderiza el Route cuyo path concuerde mejor y se muestra el componente especificado en él. 
 
 Por ejemplo, cuando se llama a `/catalog/find-products-result` hay dos paths que concuerdan, el de `Home` y el de `FindProductsResult`. Como es más concreto el segundo, se carga ese componente.
-
+$\space$
 #### 2.3.2.Parámetros
 Los paths de Route pueden contener parámetros. Por ejemplo, el path del componente `ProductDetails`.
 
