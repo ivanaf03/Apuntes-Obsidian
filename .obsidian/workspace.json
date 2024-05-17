@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Tema 4/Auditorías.md",
+                "file": "Q6/BDA/Bases de datos avanzadas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Tema 4/Auditorías.md",
+                "file": "Q6/BDA/Bases de datos avanzadas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Tema 4/Auditorías.md"
+                "file": "Q6/BDA/Bases de datos avanzadas.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Tema 4/Auditorías.md",
+                "file": "Q6/BDA/Bases de datos avanzadas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,44 +170,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "367cef338f67eccb",
   "lastOpenFiles": [
+    "Q6/Q6.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/BDA/Tema 6/Tema 6-Diseño físico.md",
+    "Q6/BDA/Tema 6/Visión lógica y física de los datos.md",
+    "Q6/BDA/Tema 5/Tema 5-Bases de datos activas.md",
+    "Q6/BDA/Tema 5/Triggers en Oracle.md",
+    "Imágenes/triggers catalogo.png",
+    "Q6/PA/Programación avanzada.md",
+    "Q6/PA/Preguntas examen PA.md",
+    "Q6/PA/Tema 7/Recargas y políticas.md",
+    "Imágenes/cors.png",
+    "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
+    "Q6/PA/Tema 7/Compra de productos.md",
+    "Q6/PA/Tema 7/Detalles de productos.md",
+    "Q6/PA/Tema 7/Búsqueda de productos.md",
+    "Q6/PA/Tema 7/Acceso a servicios en frontend.md",
+    "Q6/PA/Tema 7/Internacionalización.md",
+    "Q6/PA/Tema 7/Layout y enrutamiento.md",
+    "Q6/PA/Tema 7/Estructura general del frontend.md",
+    "Q6/BDA/Tema 5/Triggers en el SQL estándar 2008.md",
+    "Imágenes/sintaxis trigger.png",
+    "Pasted image 20240517135532 1.png",
+    "Imágenes/tablas transición.png",
+    "Q6/BDA/Tema 5/Triggers.md",
+    "Q6/BDA/Tema 5/Introducción a triggers.md",
+    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
+    "Q6/BDA/Tema 4/Auditorías.md",
+    "Imágenes/grano fino audit.png",
     "Imágenes/trigger insercion borrado.png",
     "Imágenes/audit.png",
-    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
     "Q6/BDA/Tema 7/Tema 7-Optimización.md",
     "Q6/BDA/Tema 7/Optimización algebraica.md",
     "Q6/BDA/Tema 7/Optimización basada en costes.md",
     "Q6/BDA/Tema 8/Copias de seguridad.md",
-    "Q6/BDA/Tema 4/Auditorías.md",
-    "Q6/BDA/Tema 4/Técnicas adicionales.md",
-    "Q6/BDA/Tema 3/Tema 3-Integridad.md",
-    "Q6/BDA/Tema 3/Implementación en SGBD reales.md",
-    "Q6/BDA/Tema 2/Vistas materializadas en Oracle.md",
-    "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
-    "Q6/BDA/Tema 2/Tema 2-Vistas.md",
-    "Q6/BDA/Tema 4/Seguridad en Oracle.md",
-    "Q6/BDA/Tema 4/Control de acceso discrecional.md",
-    "Q6/BDA/Tema 4/Introducción a la seguridad en BBDD.md",
-    "Q6/BDA/Tema 4/Autenticación y autorización.md",
-    "Q6/Q6.md",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
-    "Q6/PA/Tema 7/Layout y enrutamiento.md",
-    "Q6/PA/Tema 7/Estructura general del frontend.md",
-    "Q6/PA/Tema 7/Compra de productos.md",
-    "Q6/PA/Tema 7/Recargas y políticas.md",
-    "Q6/PA/Tema 6/Tema 6-Gestión de estado con Redux.md",
     "Imágenes/roles 6.png",
     "Imágenes/roles 5.png",
-    "Imágenes/roles 4.png",
-    "Imágenes/roles 3.png",
-    "Imágenes/roles 2.png",
-    "Imágenes/roles 1.png",
-    "Imágenes/permisos cadenas 2.png",
-    "Imágenes/permisos cadena 1.png",
-    "Imágenes/match 2.png",
     "Sin título 1.canvas",
     "Sin título.canvas",
     "Q6/ACL/Tema 6",
