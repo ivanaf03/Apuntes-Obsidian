@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "89260c61d2967b5e",
+        "id": "99998a9c3a9d8c1f",
         "type": "tabs",
         "children": [
           {
-            "id": "367cef338f67eccb",
+            "id": "5489a39a026335b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Bases de datos avanzadas.md",
-                "mode": "source",
+                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Bases de datos avanzadas.md",
+                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Bases de datos avanzadas.md"
+                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Bases de datos avanzadas.md",
+                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,46 +170,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "367cef338f67eccb",
+  "active": "5489a39a026335b3",
   "lastOpenFiles": [
-    "Q6/Q6.md",
+    "Q6/BDA/Tema 3/Tema 3-Integridad.md",
+    "Q6/BDA/Tema 3/Implementación en SGBD reales.md",
+    "Q6/BDA/Tema 3/Restricciones en los modelos de datos.md",
+    "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
+    "Q6/BDA/Tema 4/Control de acceso discrecional.md",
+    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
+    "Q6/BDA/Tema 4/Técnicas adicionales.md",
     "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/Q6.md",
+    "Q6/BDA/Boletín SQL.md",
+    "Q6/BDA/Prácticas/Modelado de datos.md",
     "Q6/BDA/Tema 6/Tema 6-Diseño físico.md",
-    "Q6/BDA/Tema 6/Visión lógica y física de los datos.md",
-    "Q6/BDA/Tema 5/Tema 5-Bases de datos activas.md",
-    "Q6/BDA/Tema 5/Triggers en Oracle.md",
-    "Imágenes/triggers catalogo.png",
+    "Q6/BDA/Tema 6/Otras organizaciones e índices.md",
+    "iot.png",
+    "Q6/BDA/Tema 9/Tema 9-Concurrencia en bases de datos.md",
+    "Q6/BDA/Tema 9/Bloqueos.md",
     "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Preguntas examen PA.md",
-    "Q6/PA/Tema 7/Recargas y políticas.md",
+    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
+    "Q6/PA/Tema 3/Pruebas automatizadas.md",
+    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
+    "Q6/PA/Tema 2/Desarrollo de DAOs.md",
+    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
+    "Q6/PA/Tema 4/Validación básica de datos.md",
+    "Q6/PA/Tema 4/Gestión de excepciones.md",
+    "Q6/PA/Tema 4/Introducción a REST con Spring.md",
+    "Imágenes/index partitions.png",
+    "Imágenes/partición oracle.png",
+    "Q6/BDA/Tema 6/índices.md",
+    "Imágenes/bitmap example.png",
+    "Q6/BDA/Tema 5/Tema 5-Bases de datos activas.md",
+    "Sin título.canvas",
+    "Imágenes/bitmap index.png",
+    "Imágenes/triggers catalogo.png",
     "Imágenes/cors.png",
-    "Q6/PA/Tema 7/Tema 7-Frontend de una tienda de comercio electrónico.md",
-    "Q6/PA/Tema 7/Compra de productos.md",
-    "Q6/PA/Tema 7/Detalles de productos.md",
-    "Q6/PA/Tema 7/Búsqueda de productos.md",
-    "Q6/PA/Tema 7/Acceso a servicios en frontend.md",
-    "Q6/PA/Tema 7/Internacionalización.md",
-    "Q6/PA/Tema 7/Layout y enrutamiento.md",
-    "Q6/PA/Tema 7/Estructura general del frontend.md",
-    "Q6/BDA/Tema 5/Triggers en el SQL estándar 2008.md",
     "Imágenes/sintaxis trigger.png",
     "Pasted image 20240517135532 1.png",
     "Imágenes/tablas transición.png",
-    "Q6/BDA/Tema 5/Triggers.md",
-    "Q6/BDA/Tema 5/Introducción a triggers.md",
-    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
-    "Q6/BDA/Tema 4/Auditorías.md",
-    "Imágenes/grano fino audit.png",
-    "Imágenes/trigger insercion borrado.png",
-    "Imágenes/audit.png",
-    "Q6/BDA/Tema 7/Tema 7-Optimización.md",
-    "Q6/BDA/Tema 7/Optimización algebraica.md",
-    "Q6/BDA/Tema 7/Optimización basada en costes.md",
-    "Q6/BDA/Tema 8/Copias de seguridad.md",
-    "Imágenes/roles 6.png",
-    "Imágenes/roles 5.png",
     "Sin título 1.canvas",
-    "Sin título.canvas",
     "Q6/ACL/Tema 6",
     "Q6/AS/Tema 8",
     "Q6/ER/Tema 9",
