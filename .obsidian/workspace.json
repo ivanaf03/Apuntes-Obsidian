@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
-                "mode": "preview",
+                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
+                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md"
+                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
+                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,43 +172,43 @@
   },
   "active": "5489a39a026335b3",
   "lastOpenFiles": [
+    "Q6/BDA/Tema 8/Tema 8-Recuperación.md",
+    "Q6/BDA/Tema 8/Recuperación basada en logs.md",
+    "Q6/BDA/Tema 8/Recuperación en transacciones.md",
+    "Q6/BDA/Bases de datos avanzadas.md",
+    "Q6/BDA/Tema 9/Tema 9-Concurrencia en bases de datos.md",
+    "Q6/BDA/Tema 8/Almacenamiento y fallos.md",
+    "Q6/BDA/Tema 8/Introducción a recuperación.md",
+    "Q6/BDA/Tema 7/Tema 7-Optimización.md",
+    "Q6/BDA/Tema 7/Casos prácticos con Oracle y PostgreSQL.md",
+    "Q6/BDA/Tema 7/Optimización basada en costes.md",
+    "Q6/BDA/Tema 7/Optimización algebraica.md",
+    "Imágenes/ejemplo 1 plan.png",
+    "Imágenes/set autotrace.png",
+    "Imágenes/explain plan.png",
+    "Imágenes/agrupación.png",
+    "Imágenes/hash join.png",
+    "Imágenes/merge.png",
+    "Imágenes/sort.png",
+    "Imágenes/algebra 3.png",
+    "Imágenes/algebra 2.png",
+    "Imágenes/algebra 1.png",
+    "Q6/BDA/Tema 7/Fases de ejecución de una consulta.md",
+    "Ingeniería Informática.md",
+    "Desarrollo web/Desarrollo web.md",
+    "Desarrollo web/HTML/Introducción a HTML.md",
+    "Currículum y entrevista.md",
+    "Q6/BDA/Tema 7/Introducción a álgebra relacional.md",
     "Q6/BDA/Tema 3/Tema 3-Integridad.md",
+    "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
     "Q6/BDA/Tema 3/Implementación en SGBD reales.md",
     "Q6/BDA/Tema 3/Restricciones en los modelos de datos.md",
-    "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
     "Q6/BDA/Tema 4/Control de acceso discrecional.md",
     "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
     "Q6/BDA/Tema 4/Técnicas adicionales.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
     "Q6/Q6.md",
     "Q6/BDA/Boletín SQL.md",
-    "Q6/BDA/Prácticas/Modelado de datos.md",
-    "Q6/BDA/Tema 6/Tema 6-Diseño físico.md",
-    "Q6/BDA/Tema 6/Otras organizaciones e índices.md",
-    "iot.png",
-    "Q6/BDA/Tema 9/Tema 9-Concurrencia en bases de datos.md",
-    "Q6/BDA/Tema 9/Bloqueos.md",
-    "Q6/PA/Programación avanzada.md",
-    "Q6/PA/Tema 3/Tema 3-Capa lógica de negocio con Spring.md",
-    "Q6/PA/Tema 3/Pruebas automatizadas.md",
-    "Q6/PA/Tema 2/Tema 2-Capa acceso a datos con Spring y JPA.md",
-    "Q6/PA/Tema 2/Desarrollo de DAOs.md",
-    "Q6/PA/Tema 4/Tema 4-Capa de servicios REST con Spring.md",
-    "Q6/PA/Tema 4/Validación básica de datos.md",
-    "Q6/PA/Tema 4/Gestión de excepciones.md",
-    "Q6/PA/Tema 4/Introducción a REST con Spring.md",
-    "Imágenes/index partitions.png",
-    "Imágenes/partición oracle.png",
-    "Q6/BDA/Tema 6/índices.md",
-    "Imágenes/bitmap example.png",
-    "Q6/BDA/Tema 5/Tema 5-Bases de datos activas.md",
     "Sin título.canvas",
-    "Imágenes/bitmap index.png",
-    "Imágenes/triggers catalogo.png",
-    "Imágenes/cors.png",
-    "Imágenes/sintaxis trigger.png",
-    "Pasted image 20240517135532 1.png",
-    "Imágenes/tablas transición.png",
     "Sin título 1.canvas",
     "Q6/ACL/Tema 6",
     "Q6/AS/Tema 8",
