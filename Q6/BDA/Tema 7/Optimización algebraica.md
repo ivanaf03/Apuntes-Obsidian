@@ -1,27 +1,32 @@
 [[Tema 7-Optimización]]
+$\space$
+## 1.Operadores de álgebra relacional
 
-## Ejemplo boletín
+![[algebra relacional.png]]
 
-```sql
-select numfac, nifcli, nomart
-from factura f, liña l, artigo a
-where f.numfac=l.numfac and l.codart=a.codart
-and data < '01/06/2014'
-and numli=1
-```
+![[group by.png]]
 
-$$
-\pi_{\text{numfac}, \text{nifcli}, \text{nomart}} \left( \sigma_{\text{data} < '01/06/2014' \land \text{numli} = 1} \left( \text{factura} \times \text{liña} \times \text{artigo} \right) \right)
-$$
-Recordar hacer optimización:
+![[order by.png]]
 
+Nota: ejercicios y ejemplos en papel
+$\space$
+## 2.Optimización
+La optimización algebraica se basa en heurística. No utiliza información asociada a tablas, como el número de filas. Utiliza equivalencias algebraicas. 
 
-.                                                        G o2
-.                                |                                                                       |
-.                            G o1 X                                                        PI codart, nomart
-|                                                             |                                           |
-PI numfac, nifcli                                   PI numfac, codart           ARTIGO
-|                                                             |
-o data < '01/06/2014'                        o numli=1
-|                                                             |
-FACTURA                                             LIÑA
+Se basa en descartar lo antes posible todos los datos que no hacen falta para resolver la consulta. La salida se denomina forma canónica.
+$\space$
+### 2.1.Reglas
+
+![[algebra 1.png]]
+
+![[algebra 2.png]]
+
+![[algebra 3.png]]
+
+Nota: ejercicios y ejemplos en papel
+
+Las reglas de la heurística se basan en:
++ Se bajan las selecciones lo máximo posible
++ Se descartan lo antes posible los atributos no necesarios mediante proyecciones
++ Se sustituyen los productos cartesianos por joins
++ Se ordenan los joins, primero se hacen los más restrictivos
