@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md",
+                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md",
+                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md"
+                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/BDA/Tema 8/Recuperación basada en logs.md",
+                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,42 +172,42 @@
   },
   "active": "5489a39a026335b3",
   "lastOpenFiles": [
-    "Q6/BDA/Tema 8/Tema 8-Recuperación.md",
-    "Q6/BDA/Tema 8/Recuperación basada en logs.md",
-    "Q6/BDA/Tema 8/Recuperación en transacciones.md",
-    "Q6/BDA/Bases de datos avanzadas.md",
-    "Q6/BDA/Tema 9/Tema 9-Concurrencia en bases de datos.md",
-    "Q6/BDA/Tema 8/Almacenamiento y fallos.md",
-    "Q6/BDA/Tema 8/Introducción a recuperación.md",
-    "Q6/BDA/Tema 7/Tema 7-Optimización.md",
-    "Q6/BDA/Tema 7/Casos prácticos con Oracle y PostgreSQL.md",
-    "Q6/BDA/Tema 7/Optimización basada en costes.md",
-    "Q6/BDA/Tema 7/Optimización algebraica.md",
-    "Imágenes/ejemplo 1 plan.png",
-    "Imágenes/set autotrace.png",
-    "Imágenes/explain plan.png",
-    "Imágenes/agrupación.png",
-    "Imágenes/hash join.png",
-    "Imágenes/merge.png",
-    "Imágenes/sort.png",
-    "Imágenes/algebra 3.png",
-    "Imágenes/algebra 2.png",
-    "Imágenes/algebra 1.png",
-    "Q6/BDA/Tema 7/Fases de ejecución de una consulta.md",
-    "Ingeniería Informática.md",
-    "Desarrollo web/Desarrollo web.md",
-    "Desarrollo web/HTML/Introducción a HTML.md",
-    "Currículum y entrevista.md",
-    "Q6/BDA/Tema 7/Introducción a álgebra relacional.md",
-    "Q6/BDA/Tema 3/Tema 3-Integridad.md",
-    "Q6/BDA/Tema 3/Restricciones de integridad en SQL.md",
-    "Q6/BDA/Tema 3/Implementación en SGBD reales.md",
-    "Q6/BDA/Tema 3/Restricciones en los modelos de datos.md",
-    "Q6/BDA/Tema 4/Control de acceso discrecional.md",
-    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
-    "Q6/BDA/Tema 4/Técnicas adicionales.md",
+    "Q6/AS/Tema 3/Tema 3-Arquitecturas centradas en la independencia de componentes.md",
+    "Q6/AS/Arquitectura do software.md",
+    "Q6/AS/Tema 2/Tema 2-Arquitecturas de división de responsabilidades.md",
+    "Q6/AS/Tema 2/Arquitectura pipe&filter o pipeline.md",
+    "Q6/AS/Tema 2/Arquitectura en capas.md",
+    "Imágenes/contenedores pipe.png",
+    "Imágenes/contexto pipe.png",
+    "Pasted image 20240523175916.png",
+    "Imágenes/contenedores capas.png",
+    "Imágenes/capas contexto.png",
+    "Q6/AS/Tema 1/Tema 1-Introducción a la arquitectura de software.md",
+    "Q6/AS/Tema 1/Introducción a las arquitecturas.md",
+    "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
     "Q6/Q6.md",
-    "Q6/BDA/Boletín SQL.md",
+    "Currículum y entrevista.md",
+    "Ingeniería Informática.md",
+    "Q6/ER/Enxeñaría de requisitos.md",
+    "Q6/ER/Tema 1/Tema 1-Introducción a la ingeniería de requisitos.md",
+    "Q6/AS/Tema 1/Definición de arquitectura.md",
+    "Q6/ER/Preparación examen/Preguntas quiz.md",
+    "Q6/AS/Tema 1/Requisitos no funcionales.md",
+    "Imágenes/confiabilidad.png",
+    "Imágenes/RNF.png",
+    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
+    "Q6/BDA/Tema 4/Seguridad en Oracle.md",
+    "Q6/BDA/Tema 9/Bloqueos.md",
+    "Q6/BDA/Tema 9/Introducción a la concurrencia en BBDD.md",
+    "Q6/BDA/Tema 9/Marcas de tiempo.md",
+    "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
+    "Q6/BDA/Tema 9/Multiversión.md",
+    "Imágenes/multiversion ejemplo.png",
+    "Imágenes/multiversion.png",
+    "Q6/BDA/Tema 9/Tema 9-Concurrencia en bases de datos.md",
+    "Imágenes/ejemplo thomas.png",
+    "Q6/BDA/Tema 5/Triggers en Oracle.md",
+    "Q6/BDA/Tema 5/Tema 5-Bases de datos activas.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Q6/ACL/Tema 6",
