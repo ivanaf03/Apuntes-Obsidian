@@ -9,7 +9,7 @@ Temario:
 + [[Tema 6-Diseño físico]]
 + [[Tema 7-Optimización]]
 + [[Tema 8-Recuperación]]
-+ [[Tema 9-Bloqueos]]
++ [[Tema 9-Concurrencia en bases de datos]]
 
 Prácticas:
 + [[Modelado de datos]]
