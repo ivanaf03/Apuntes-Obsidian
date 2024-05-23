@@ -148,7 +148,7 @@ $\space$
 4. revoke r1 from usuario
 ```
 
-El usuario pierde los permisos de r1. Solo conserva los de r2.
+El usuario mantiene los permisos de r1 a través de r2.
 $\space$
 ### 2.3.Ejercicio 3
 
