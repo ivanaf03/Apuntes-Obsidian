@@ -1,52 +1,54 @@
 [[Tema 1-Introducción a la arquitectura de software]]
-
+$\space$
 ## 1.Qué es la arquitectura de software?
-La arquitectura de software es la descomposición de este en un conjunto de componentes o módulos más pequeños y de sus interacciones. Definir la arquitectura consiste en seleccionar adecuadamente los elementos, sus interacciones y sus restricciones en el contexto dado por los requisitos no funcionales. Es la base del diseño e implementación.
+La arquitectura de software es la descomposición de software en un conjunto de componentes o módulos más pequeños. Además tiene en cuentas sus relaciones e interacciones.
 
-Para definirla se toman decisiones en función al impacto que tendrán en cuanto al coste de los cambios.
-
-Los estilos de arquitectura determinan el uso de los elementos y su organización. Sirven para mejorar el trabajo colaborativo entre los desarrolladores, al igual que los patrones de diseño software.
-
+Definir la arquitectura consiste en realizar la selección de los elementos y ver sus interacciones y restricciones que tienen en el contexto dado, satisfaciendo los requisitos no funcionales. Sirve como base para el diseño e implementación.
+$\space$
 ### 1.1.Diseño vs arquitectura
-El diseño se hace siguiendo las requisitos funcionales. Se realiza mediante patrones de diseño y un mismo diseño se puede utilizar en diferentes arquitecturas.
+El diseño se hace siguiendo los requisitos funcionales. Se organiza mediante patrones de diseño. 
 
-La arquitectura deriva de los requisitos no funcionales. Se realiza mediante estilos arquitectónicos.
+La arquitectura deriva de los requisitos no funcionales. Se organiza mediante estilos arquitectónicos. Un mismo diseño puede aparecer en diferentes arquitecturas.
+$\space$
+### 1.2.Impacto en el software
+Para definir la arquitectura hay que tener en cuenta que es la parte donde la toma de decisiones tendrá el mayor impacto en cuanto a coste. Se eligen en esta fase la estructura, las tecnologías y los requisitos no funcionales.
 
+Los diferentes estilos determinan el uso de los elementos y la forma en la que se organizan. Sirven como medio de comunicación para los desarrolladores.
+$\space$
 ## 2.Representación de la arquitectura
-La arquitectura se suele presentar de forma informal y heterogénea. Se pueden utilizar muchas herramientas y métodos para representarla de forma similar. Existe un estándar, el IEEE 1471, pero no se suele seguir.
-
-### 2.1.Limitaciones
-Las representaciones para ser correctas deben:
-+ Indicar que es cada componente y que rol toman en la arquitectura.
-+ Mostrar las interacciones entre los componentes y su finalidad.
-+ Mantener coherencia entre componentes similares.
-+ Mantener coherencia entre interacciones similares.
-
+La arquitectura se suele representar de forma informal, aunque existen estándares. Por ejemplo, el IEEE 1471.
+$\space$
+### 2.1.Limitaciones de una representación
+Cualquier representación de una arquitectura debe:
++ Indicar en cada componente que papel juega.
++ Mostrar las interacciones entre los componentes.
++ Mantener coherencia entre componentes.
++ Mantener coherencia entre interacciones.
+$\space$
 ### 2.2.Especificación de la arquitectura
-#### 2.2.1.Elementos de la arquitectura
-En la especificación se deben indicar los elementos que forman la arquitectura. Estos son:
-+ **Procesos:** métodos que transforman datos.
-+ **Datos:** elementos que contienen la información.
-+ **Elementos de conexión:** llamadas a procedimientos, mensajes, etc.
-
-#### 2.2.2.Forma de la arquitectura
-En la especificación se debe indicar la forma de la arquitectura. Esta se define por:
-+ **Propiedades:** restricciones que tienen los elementos.
-+ **Relaciones:** restricciones que tienen las interacciones.
-
-#### 2.2.3.Justificación de la arquitectura
-En la especificación se debe justificar por qué se hace cada cosa. Sirve para evitar posibles desvíos en la lógica del software o fallos futuros. Se incluyen requisitos funcionales, no funcionales, de negocio, etc.
-
-
+Una arquitectura está definida por:
++ Elementos:
+	+ Procesos de transformación de datos.
+	+ Datos que contienen la información.
+	+ Elementos de conexión, como llamadas a procedimientos, mensajes, etc.
++ Forma:
+	+ Propiedades de los elementos.
+	+ Relaciones.
++ Justificación de la arquitectura:
+	+ Motivación de las elecciones.
+	+ Claves para evitar desviaciones.
+	+ Aspectos funcionales, no funcionales, de negocio, etc.
+	
+$\space$
 ### 2.3.Representación de la arquitectura
-La arquitectura se representa normalmente mediante una serie de vistas:
-+ **De datos:** se enfoca en el flujo de los datos.
+La arquitectura se representa desde varias vistas:
++ **De datos:** se enfoca en el flujo de datos.
 + **De proceso:** se enfoca en la lógica.
 + **De despliegue:** se enfoca en la distribución física.
-
+$\space$
 #### 2.3.1.Modelo C4
-Un modelo que se suele utilizar para representar las vistas de la arquitectura es el C4. Está formado por 4 niveles de vistas:
+El modelo C4 es una forma de representar las vistas de una arquitectura. Se basa en 4 niveles:
 + **Contexto:** relaciona el sistema con otros sistemas.
 + **Contenedores:** muestra la distribución física de los componentes.
-+ **Componentes:** muestra las relaciones entre los componentes.
-+ **Código:** son habitualmente los diagramas de clases UML más detallados sobre el código.
++ **Componentes:** muestra las relaciones entre componentes.
++ **Código:** diagramas de componentes y clases UML.
