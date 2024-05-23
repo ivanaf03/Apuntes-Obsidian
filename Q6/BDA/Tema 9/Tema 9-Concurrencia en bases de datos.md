@@ -7,4 +7,3 @@ Contenido:
 + [[Bloqueos]]
 + [[Marcas de tiempo]]
 + [[Multiversión]]
-+ [[Concurrencia en SQL]]
