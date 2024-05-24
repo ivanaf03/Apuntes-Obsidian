@@ -30,5 +30,16 @@ $\space$
 #### 2.1.6.Limitación de acceso
 Consiste en restringir el acceso a recursos a usuarios no autorizados. Normalmente se hace con un buen diseño y configuración de firewalls.
 $\space$
-## 2.2.Detección de ataques
-Consiste en 
+### 2.2.Detección de ataques
+Consiste en encontrar posibles intrusos en el sistema. Se conocen como tácticas de detección de intrusos. Se pueden hacer comparando los patrones de tráfico de la red, filtrando las peticiones, monitorizando la red, etc.
+$\space$
+### 2.3.Recuperación de ataques
+Consisten en recuperar el sistema tras sufrir ataques. 
+$\space$
+#### 2.3.1.Restauración del estado
+Consiste en emplear tácticas de disponibilidad para devolver al sistema al estado anterior a la caída.
+$\space$
+#### 2.3.2.Identificación de atacantes
+Consiste en mantener un audit trail, que es una copia de cada transacción con registros que identifiquen a los participantes y acciones. Se usa para rastrear ataques, elaborar informes y restaurar el sistema. 
+
+El audit trail debe estar muy protegido ante ataques.
