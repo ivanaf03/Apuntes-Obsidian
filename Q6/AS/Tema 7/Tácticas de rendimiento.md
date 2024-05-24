@@ -1,8 +1,12 @@
 [[Tema 7-Rendimiento]]
+$\space$
+## 1.Para que sirven las tácticas de rendimiento?
+El rendimiento se evalúa en función de la respuesta del sistema ante eventos temporales. Por tanto, las tácticas tratan de controlar la latencia.
 
-## 1.Qué son las tácticas de rendimiento?
-
-## 2.Tipos de tácticas
-### 2.1.Tácticas de demandas de recursos
-Algunas tácticas de demanda de recursos son:
-+ **Incremento da eficiencia funcional:** consiste en optimizar 
+Puede hacerse con:
++ Espera activa
++ Espera inactiva
+$\space$
+### 1.1.Tácticas
+Pueden ser:
++ 
