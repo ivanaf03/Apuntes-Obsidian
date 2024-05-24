@@ -1,17 +1,8 @@
 [[Tema 5-Otras arquitecturas emergentes]]
+$\space$
+Son variantes de la arquitectura en capas:
 
-## 1.Motivación
-Uno de los grandes problemas de las aplicaciones es combinar la lógica de negocio con la interfaz de usuario. Complica:
-+ Las pruebas.
-+ El uso de otros programas.
-+ El cambio de uso de la aplicación.
-
-## 2.Solución
-La arquitectura hexagonal permite separar la aplicación en capas aisladas por responsabilidades que faciliten la reutilización.
-
-![[arquitectura hexagonal.png]]
-
-### 2.1.Definición de la arquitectura
-Antes se llamaba patrón puertos-adaptadores. Propone que el dominio sea el núcleo de las capas y que no se acople a nada externo mediante el principio de inversión de las dependencias.
-
-Todas las capas son punto único de fallo.
++ https://medium.com/@edusalguero/arquitectura-hexagonal-59834bb44b7f
++ https://adictosaltrabajo.com/2019/07/02/capas-cebollas-y-colmenas-arquitecturas-en-el-backend/
++ https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
++ https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165
