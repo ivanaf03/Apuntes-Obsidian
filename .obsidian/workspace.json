@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md",
+                "file": "Q6/AS/Tema 7/Tácticas de rendimiento.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md",
+                "file": "Q6/AS/Tema 7/Tácticas de rendimiento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md"
+                "file": "Q6/AS/Tema 7/Tácticas de rendimiento.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/AS/Tema 3/Arquitectura cliente-servidor.md",
+                "file": "Q6/AS/Tema 7/Tácticas de rendimiento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,42 +172,42 @@
   },
   "active": "5489a39a026335b3",
   "lastOpenFiles": [
-    "Q6/AS/Tema 3/Tema 3-Arquitecturas centradas en la independencia de componentes.md",
+    "Q6/AS/Tema 6/Tácticas de disponibilidad.md",
+    "Q6/AS/Tema 7/Tácticas de rendimiento.md",
+    "Q6/AS/Tema 7/Introducción al rendimiento.md",
+    "Q6/AS/Tema 7/Tema 7-Rendimiento.md",
+    "Q6/AS/Tema 6/Tema 6-Disponibilidad.md",
+    "Q6/AS/Tema 6/Definición de disponibilidad.md",
     "Q6/AS/Arquitectura do software.md",
-    "Q6/AS/Tema 2/Tema 2-Arquitecturas de división de responsabilidades.md",
-    "Q6/AS/Tema 2/Arquitectura pipe&filter o pipeline.md",
-    "Q6/AS/Tema 2/Arquitectura en capas.md",
-    "Imágenes/contenedores pipe.png",
-    "Imágenes/contexto pipe.png",
-    "Pasted image 20240523175916.png",
-    "Imágenes/contenedores capas.png",
-    "Imágenes/capas contexto.png",
-    "Q6/AS/Tema 1/Tema 1-Introducción a la arquitectura de software.md",
-    "Q6/AS/Tema 1/Introducción a las arquitecturas.md",
-    "Q6/ER/Tema 1/Bases de la ingeniería de requisitos.md",
     "Q6/Q6.md",
-    "Currículum y entrevista.md",
-    "Ingeniería Informática.md",
+    "Plantilla.md",
+    "Q6/ER/Tema 6/Tema 6-Especificación de requisitos según la ISO 29148.md",
+    "Q6/AS/Tema 5/Tema 5-Otras arquitecturas emergentes.md",
+    "Q6/AS/Tema 5/Arquitecturas centradas en BigData.md",
+    "Q6/AS/Tema 5/Arquitecturas orientadas a eventos.md",
+    "Q6/AS/Tema 5/Arquitectura hexagonal, en cebolla o clean.md",
+    "Q6/AS/Tema 3/Tema 3-Arquitecturas centradas en la independencia de componentes.md",
     "Q6/ER/Enxeñaría de requisitos.md",
+    "Q6/ER/Tema 3/Tema 3-Todo es peligroso.md",
+    "Q6/ER/Tema 3/Cuantificadores universales.md",
+    "Q6/ER/Tema 3/El lenguaje natural.md",
+    "Q6/ER/Tema 3/Ambigüedades del lenguaje.md",
+    "Q6/ER/Tema 2/Tema 2-La máquina y el mundo.md",
+    "Q6/ER/Tema 2/Especificación.md",
+    "Q6/ER/Tema 2/Requisitos.md",
+    "Q6/ER/Tema 2/Entorno.md",
+    "Q6/ER/Tema 2/El modelo WRSPM.md",
     "Q6/ER/Tema 1/Tema 1-Introducción a la ingeniería de requisitos.md",
-    "Q6/AS/Tema 1/Definición de arquitectura.md",
-    "Q6/ER/Preparación examen/Preguntas quiz.md",
-    "Q6/AS/Tema 1/Requisitos no funcionales.md",
-    "Imágenes/confiabilidad.png",
-    "Imágenes/RNF.png",
-    "Q6/BDA/Tema 4/Tema 4-Seguridad.md",
-    "Q6/BDA/Tema 4/Seguridad en Oracle.md",
-    "Q6/BDA/Tema 9/Bloqueos.md",
-    "Q6/BDA/Tema 9/Introducción a la concurrencia en BBDD.md",
-    "Q6/BDA/Tema 9/Marcas de tiempo.md",
-    "Q6/BDA/Tema 2/Vistas en SQL estándar.md",
-    "Q6/BDA/Tema 9/Multiversión.md",
-    "Imágenes/multiversion ejemplo.png",
-    "Imágenes/multiversion.png",
-    "Q6/BDA/Tema 9/Tema 9-Concurrencia en bases de datos.md",
-    "Imágenes/ejemplo thomas.png",
-    "Q6/BDA/Tema 5/Triggers en Oracle.md",
-    "Q6/BDA/Tema 5/Tema 5-Bases de datos activas.md",
+    "Imágenes/contenedores p2p.png",
+    "Imágenes/p2p contexto.png",
+    "Imágenes/repositorio contenedor.png",
+    "Imágenes/contexto repositorio 1.png",
+    "Imágenes/cli-server dsitr contenedor.png",
+    "Pasted image 20240523194541.png",
+    "Imágenes/clie-server distr contexto.png",
+    "Imágenes/cliente distr contenedor.png",
+    "Imágenes/contexto cliente distr.png",
+    "Imágenes/contenedor cliente server.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Q6/ACL/Tema 6",
