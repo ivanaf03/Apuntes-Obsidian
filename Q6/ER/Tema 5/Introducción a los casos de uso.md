@@ -1,4 +1,8 @@
 [[Tema 5-Casos de uso]]
+$\space$
+
+
+
 
 # 1.Sistemas software
 Los sistemas software se desarrollan para servir a sus usuarios. Los distintos usuarios perciben el sistema de diferentes formas. Por ejemplo, en un torno de un metro:
