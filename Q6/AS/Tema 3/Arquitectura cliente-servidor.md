@@ -8,7 +8,7 @@ La arquitectura cliente-servidor:
 + [p] Es muy robusta, si falla un servicio no afecta en nada el resto.
 + [c] El servidor es un punto único de fallo y limita el rendimiento.
 $\space$
-## ## 2.Diagramas
+## 2.Diagramas
 Veremos el diagrama de contexto y de contenedores.
 $\space$
 ### 2.1.Diagrama de contexto
