@@ -19,6 +19,8 @@ $\space$
 ### 2.2.Diagrama de contenedores
 
 ![[contenedores p2p.png]]
+
+Nota: faltan las flechas entre peers.
 $\space$
 ## 3.Características
 Esta arquitectura se usa en sistema en que los pares transmiten información entre ellos o en sistemas donde se usa un servidor cuya única función es avisar a cada nodo de cuales son sus vecinos. 
