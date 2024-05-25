@@ -1,9 +1,9 @@
  [[Enxeñaría de requisitos]]
-
-Sección 5.2.7
-
-# 2.Sección 8.4.2
-## 2.1.índice
+$\space$
+## 2.Sección 8.4.2
+La sección 8.4.2 nos da un índice para realizar una especificación de requisitos que se adapte a la norma.
+$\space$
+### 2.1.índice
 1. Introducción
     1.1 Propósito
     1.2 Alcance
@@ -24,22 +24,22 @@ Sección 5.2.7
 4. Apéndices
     4.1 Suposiciones y dependencias
     4.2 Acrónimos y abreviaturas
-
-### 2.1.1.Introducción
+$\space$
+#### 2.1.1.Introducción
 El propósito consiste en explicar el propósito del documento que se va a elaborar.
 
 El objetivo tiene que tener nombre. Se debe explicar a grandes rasgos qué va a hacer y qué no va a hacer. Además hay que decidir los objetivos de la empresa en ese proyecto.
 
 El resumen del producto debe tener:
-+ [>] Entorno del proyecto, por ejemplo, un diagrama de bloques con las interfaces externas. Por ejemplo, un diagrama de contexto.
-+ [>] Funcionalidades del producto. Una buena forma es un listado de casos de uso.
-+ [>] Explicar a que tipo de usuarios está enfocado el producto. Por ejemplo, el nivel de educación, la experiencia, el trabajo, etc.
-+ [>] Limitaciones por temas de seguridad, de legislación, etc.
-
-### 2.1.2.Apéndices
++ Entorno del proyecto, por ejemplo, un diagrama de bloques con las interfaces externas. Por ejemplo, un diagrama de contexto.
++ Funcionalidades del producto. Una buena forma es un listado de casos de uso.
++ Explicar a que tipo de usuarios está enfocado el producto. Por ejemplo, el nivel de educación, la experiencia, el trabajo, etc.
++ Limitaciones por temas de seguridad, de legislación, etc.
+$\space$
+#### 2.1.2.Apéndices
 Las suposiciones y dependencias son asunciones que afectan a los requisitos, de forma que si nuestras teorías cambian, la especificación cambiará.
-
-### 2.1.3.Requisitos específicos
+$\space$
+#### 2.1.3.Requisitos específicos
 Las interfaces externas es una enumeración detallada de todas las interfaces externas con las que los usuarios interactúan con el sistema. 
 
 Las funciones son los requisitos funcionales (casos de uso).
@@ -51,6 +51,6 @@ Las restricciones de diseño son el tipo de SO en el que vamos a desplegar el so
 Los atributos del sistema software son los requisitos de accesibilidad, observabilidad (capacidad de observar el rendimiento del sistema), seguridad, etc. Por ejemplo, saber cuántas consultas recibo.
 
 En información de soporte va lo que no cuadra en los apartados anteriores.
-
-# 3.Sección 9.2
+$\space$
+## 3.Sección 9.2
 Explica que tiene que llevar la portada. Una ERS debe ser lo suficientemente detallada para servir como parte de un contrato entre un cliente y un proveedor. Además debe ser lo suficientemente buena para poder realizar las pruebas de aceptación.
