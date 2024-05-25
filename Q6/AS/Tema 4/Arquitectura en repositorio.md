@@ -23,4 +23,4 @@ Esta arquitectura se usa en sistemas en los que es necesario intercambiar una gr
 
 La ventaja del sistema es que los componentes son totalmente independientes. Las políticas aplicadas a los datos solo se trabajan en el repositorio. Una vez se hacen cambios en la información, todos los componentes lo sabrán inmediatamente.
 
-El problema es que el repositorio, el ser el único punto de fallo, puede dar problemas a la hora de hacer copias de seguridad. Además, la información del repositorio debe tener un formato válido para todos los componentes, evitando así pérdidas de rendimiento haciendo conversiones.
+El problema es que el repositorio, al ser el único punto de fallo, puede dar problemas a la hora de hacer copias de seguridad. Además, la información del repositorio debe tener un formato válido para todos los componentes, evitando así pérdidas de rendimiento haciendo conversiones.
