@@ -1,33 +1,21 @@
 [[Tema 4-Diagramas de clases en ingeniería de requisitos]]
+$\space$
+## 1.El papel del ingeniero de requisitos
+Los ingenieros de requisitos deben detectar e identificar lo que no entienden del dominio para hacer las preguntas necesarias para aclararlo.
 
-# 1.Ingeniería de requisitos
+En las primeras fases de la extracción de requisitos las decisiones parten de la ignorancia.
+$\space$
+### 1.1.Abstracciones
+Podemos partir de:
++ Un sustantivo es una clase.
++ Un verbo es un método.
++ Un adjetivo es una propiedad.
++ Un adverbio es un RNF.
+$\space$
+### 1.2.Ejemplo
+Es necesario poder realizar modelos sin conocer el dominio a partir de lo que diga el cliente. Por ejemplo, una equivalencia abstracta:
 
-## 1.1.Uso del lenguaje
-Podemos partir del siguiente uso de las palabras:
-+ [>] *Sustantivo:* clase, entidad del entorno
+![[abstracción ejemplo.png]]
 
-# 2.Ejemplo
-```mermaid
-classDiagram
-    class Fluwinki {
-        + makalea()
-    }
+![[ejemplo abstracción 2.png]]
 
-    class Puffon {
-	    + verrevesa()
-    }
-
-	class Maresas {
-	}
-
-	class  {
-	}
-
-    class Contalacas {
-    }
-
-    Puffon -- Casting : macalea
-
-```
-
-//Recordar a miña idea, qie competicion teña un atributo tipo en vez de herencia
