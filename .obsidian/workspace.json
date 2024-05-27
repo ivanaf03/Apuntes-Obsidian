@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q6/ER/Tema 9/Tema 9-Validación de requisitos.md",
-                "mode": "source",
+                "file": "Q6/AS/Tema 8/Tema 8-Tácticas de seguridad en software.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Q6/ER/Tema 9/Tema 9-Validación de requisitos.md",
+                "file": "Q6/AS/Tema 8/Tema 8-Tácticas de seguridad en software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Q6/ER/Tema 9/Tema 9-Validación de requisitos.md"
+                "file": "Q6/AS/Tema 8/Tema 8-Tácticas de seguridad en software.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Q6/ER/Tema 9/Tema 9-Validación de requisitos.md",
+                "file": "Q6/AS/Tema 8/Tema 8-Tácticas de seguridad en software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,13 +172,25 @@
   },
   "active": "5489a39a026335b3",
   "lastOpenFiles": [
+    "Q6/AS/Arquitectura do software.md",
+    "Q6/AS/Tema 3/Tema 3-Arquitecturas centradas en la independencia de componentes.md",
+    "Q6/AS/Tema 2/Tema 2-Arquitecturas de división de responsabilidades.md",
+    "Q6/AS/Tema 8/Tácticas de seguridad.md",
+    "Q6/AS/Tema 8/Seguridad en el software.md",
+    "Q6/ER/Tema 9/Técnicas de validación de requisitos.md",
+    "Pasted image 20240526231058.png",
+    "Q6/ER/Tema 9/Tema 9-Validación de requisitos.md",
+    "Q6/ER/Tema 9/Prototipado.md",
+    "Pasted image 20240526223545.png",
+    "Pasted image 20240526222722.png",
+    "Q6/ER/Tema 9/Objetivos de la validación de requisitos.md",
+    "Pasted image 20240526004916.png",
     "Q6/ER/Tema 8/Control de versiones de requisitos.md",
     "Imágenes/matriz trazabilidad.png",
     "Pasted image 20240526003931.png",
     "Q6/ER/Tema 8/Tema 8-Gestión de requisitos.md",
     "Q6/ER/Tema 8/Introducción a la gestión de requisitos.md",
     "Q6/ER/Enxeñaría de requisitos.md",
-    "Q6/ER/Tema 9/Tema 9-Validación de requisitos.md",
     "Q6/ER/Tema 7/Tema 7-Requisitos no funcionales.md",
     "Q6/ER/Tema 7/Cuantificación de requisitos no funcionales.md",
     "Q6/ER/Tema 7/Algunos requisitos no funcionales.md",
@@ -189,10 +201,6 @@
     "Q6/ER/Tema 5/Tema 5-Casos de uso.md",
     "Q6/ER/Tema 5/UML para casos de uso.md",
     "Imágenes/actividad.png",
-    "Pasted image 20240525203538.png",
-    "Imágenes/include.png",
-    "Imágenes/extends.png",
-    "Pasted image 20240525202936.png",
     "Q6/ER/Tema 5/Ejemplo de casos de uso.md",
     "Q6/ER/Tema 5/Definición de caso de uso.md",
     "Q6/ER/Tema 5/Introducción a los casos de uso.md",
@@ -200,13 +208,6 @@
     "Q6/ER/Tema 6/Tema 6-Especificación de requisitos según la ISO 29148.md",
     "Q6/ER/Tema 4/Tema 4-Diagramas de clases en ingeniería de requisitos.md",
     "Q6/ER/Tema 4/Aplicación de diagramas de clases en ingeniería de requisitos.md",
-    "Q6/ER/Tema 4/Relaciones.md",
-    "Q6/ER/Tema 4/Ejemplo del diseño del torno de entrada al metro.md",
-    "Q6/ER/Tema 4/Introducción a los diagramas de clases.md",
-    "Q6/ER/Tema 3/Tema 3-Todo es peligroso.md",
-    "Q6/ER/Tema 3/Ambigüedades del lenguaje.md",
-    "Q6/ER/Tema 3/Cuantificadores universales.md",
-    "Q6/ER/Tema 3/El lenguaje natural.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Q6/ACL/Tema 6",
