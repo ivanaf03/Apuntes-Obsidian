@@ -768,7 +768,371 @@ Predicate Information (identified by operation id):
 ```
 
 ```sql
+-- Forza a que o join se faga usando nested loops utilizando un hint e compara o coste co anterior.
 
+select /*+ use_nl(artigo venda) */ * from artigo natural join venda;
+
+/*
+-----------------------------------------------------------------------------
+| Id  | Operation          | Name   | Rows  | Bytes | Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------
+|   0 | SELECT STATEMENT   |        |  1002 | 47094 |    43   (0)| 00:00:01 |
+|   1 |  NESTED LOOPS      |        |  1002 | 47094 |    43   (0)| 00:00:01 |
+|   2 |   TABLE ACCESS FULL| ARTIGO |    20 |   500 |     3   (0)| 00:00:01 |
+|*  3 |   TABLE ACCESS FULL| VENDA  |    50 |  1100 |     2   (0)| 00:00:01 |
+-----------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   3 - filter("ARTIGO"."CODART"="VENDA"."CODART")
+
+Hint Report (identified by operation id / Query Block Name / Object Alias):
+Total hints for statement: 1 (U - Unused (1))
+---------------------------------------------------------------------------
+
+   2 -  SEL$58A6D7F6 / ARTIGO@SEL$1
+         U -  use_nl(artigo venda)
+*/
+```
+
+```sql
+-- Forza agora a que utilize sort merge join.
+
+select /*+ use_merge(artigo venda) */ * from artigo natural join venda;
+
+/*
+------------------------------------------------------------------------------
+| Id  | Operation           | Name   | Rows  | Bytes | Cost (%CPU)| Time     |
+------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT    |        |  1002 | 47094 |     9  (23)| 00:00:01 |
+|   1 |  MERGE JOIN         |        |  1002 | 47094 |     9  (23)| 00:00:01 |
+|   2 |   SORT JOIN         |        |    20 |   500 |     4  (25)| 00:00:01 |
+|   3 |    TABLE ACCESS FULL| ARTIGO |    20 |   500 |     3   (0)| 00:00:01 |
+|*  4 |   SORT JOIN         |        |  1002 | 22044 |     5  (20)| 00:00:01 |
+|   5 |    TABLE ACCESS FULL| VENDA  |  1002 | 22044 |     4   (0)| 00:00:01 |
+------------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   4 - access("ARTIGO"."CODART"="VENDA"."CODART")
+       filter("ARTIGO"."CODART"="VENDA"."CODART")
+
+Hint Report (identified by operation id / Query Block Name / Object Alias):
+Total hints for statement: 1 (U - Unused (1))
+---------------------------------------------------------------------------
+
+   3 -  SEL$58A6D7F6 / ARTIGO@SEL$1
+         U -  use_merge(artigo venda)
+*/
+```
+
+```sql
+-- Forza agora a que se utilize un hash join.
+
+select /*+ use_hash(artigo venda) */ * from artigo natural join venda;
+
+/*
+-----------------------------------------------------------------------------
+| Id  | Operation          | Name   | Rows  | Bytes | Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------
+|   0 | SELECT STATEMENT   |        |  1002 | 47094 |     7   (0)| 00:00:01 |
+|*  1 |  HASH JOIN         |        |  1002 | 47094 |     7   (0)| 00:00:01 |
+|   2 |   TABLE ACCESS FULL| ARTIGO |    20 |   500 |     3   (0)| 00:00:01 |
+|   3 |   TABLE ACCESS FULL| VENDA  |  1002 | 22044 |     4   (0)| 00:00:01 |
+-----------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   1 - access("ARTIGO"."CODART"="VENDA"."CODART")
+
+Hint Report (identified by operation id / Query Block Name / Object Alias):
+Total hints for statement: 1 (U - Unused (1))
+---------------------------------------------------------------------------
+
+   2 -  SEL$58A6D7F6 / ARTIGO@SEL$1
+         U -  use_hash(artigo venda)
+*/
+```
+
+```sql
+-- Que estratexia usarıa se queremos obter o antes posible as primeiras filas? Por que? Discute o coste obtido polo planificador.
+
+select /*+ first_rows */ * from artigo natural join venda;
+
+/*
+-----------------------------------------------------------------------------
+| Id  | Operation          | Name   | Rows  | Bytes | Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------
+|   0 | SELECT STATEMENT   |        |  1002 | 47094 |     7   (0)| 00:00:01 |
+|*  1 |  HASH JOIN         |        |  1002 | 47094 |     7   (0)| 00:00:01 |
+|   2 |   TABLE ACCESS FULL| ARTIGO |    20 |   500 |     3   (0)| 00:00:01 |
+|   3 |   TABLE ACCESS FULL| VENDA  |  1002 | 22044 |     4   (0)| 00:00:01 |
+-----------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   1 - access("ARTIGO"."CODART"="VENDA"."CODART")
+*/
+
+select /*+ all_rows */ * from artigo natural join venda;
+
+/*
+-----------------------------------------------------------------------------
+| Id  | Operation          | Name   | Rows  | Bytes | Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------
+|   0 | SELECT STATEMENT   |        |  1002 | 47094 |     7   (0)| 00:00:01 |
+|*  1 |  HASH JOIN         |        |  1002 | 47094 |     7   (0)| 00:00:01 |
+|   2 |   TABLE ACCESS FULL| ARTIGO |    20 |   500 |     3   (0)| 00:00:01 |
+|   3 |   TABLE ACCESS FULL| VENDA  |  1002 | 22044 |     4   (0)| 00:00:01 |
+-----------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   1 - access("ARTIGO"."CODART"="VENDA"."CODART")
+*/
+
+ select /*+ first_rows(1) */ * from artigo natural join venda;
+
+/*
+-----------------------------------------------------------------------------
+| Id  | Operation          | Name   | Rows  | Bytes | Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------
+|   0 | SELECT STATEMENT   |        |     2 |    94 |     4   (0)| 00:00:01 |
+|   1 |  NESTED LOOPS      |        |     2 |    94 |     4   (0)| 00:00:01 |
+|   2 |   TABLE ACCESS FULL| ARTIGO |    20 |   500 |     2   (0)| 00:00:01 |
+|*  3 |   TABLE ACCESS FULL| VENDA  |     2 |    44 |     2   (0)| 00:00:01 |
+-----------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   3 - filter("ARTIGO"."CODART"="VENDA"."CODART")
+*/
+```
+
+```sql
+-- Mostra o plan de execucion da consulta que obten o total vendido de cada artigo, obtendo o codigo e a suma de prezo de venda pola cantidade. Atopas algo extrano?
+
+select codart, sum(prezoven*cantven)
+from artigo natural join venda
+group by codart; -- La idea es que no usara la tabla artigo
+
+/*
+------------------------------------------------------------------------------
+| Id  | Operation           | Name   | Rows  | Bytes | Cost (%CPU)| Time     |
+------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT    |        |    20 |   260 |     8  (13)| 00:00:01 |
+|   1 |  HASH GROUP BY      |        |    20 |   260 |     8  (13)| 00:00:01 |
+|*  2 |   HASH JOIN         |        |  1002 | 13026 |     7   (0)| 00:00:01 |
+|   3 |    TABLE ACCESS FULL| ARTIGO |    20 |    60 |     3   (0)| 00:00:01 |
+|   4 |    TABLE ACCESS FULL| VENDA  |  1002 | 10020 |     4   (0)| 00:00:01 |
+------------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - access("ARTIGO"."CODART"="VENDA"."CODART")
+*/
+```
+$\space$
+## 9.Concurrencia
+
+```sql
+-- Crea una taboa XEMP coa mesma estructura que EMP, pero so cos datos dos empregados SMITH e KING.
+
+create table xemp as
+select * from emp
+where ename in ('SMITH', 'KING');
+
+select * from xemp;
+```
+
+```sql
+-- Fai que a sesion 1 actualice o salario de SMITH a 1000.
+
+update emp set sal = 1000 where ename = 'SMITH';
+```
+
+```sql
+-- Fai que a sesion 2 actualice a comision de SMITH a 100
+
+update emp set comm = 100 where ename = 'SMITH'; 
+
+-- Espera a que terminal 1 haga commit
+```
+
+```sql
+-- Fai que a sesion 1 baixe o salario de KING a 4000.
+
+update xemp set sal = 4000 where ename = 'KING';
+```
+
+```sql
+-- Fai que a sesion 2 suba o salario de SMITH a 1500.
+
+update xemp set sal = 1500 where ename = 'SMITH';
+```
+
+```sql
+-- Fai que a sesion 1 estableza o salario de SMITH a 1350.
+
+update xemp set sal = 1350 where ename = 'SMITH';
+
+-- Espera commit de sesión 2
+```
+
+```sql
+-- A sesion 2 cambia o salario de KING a 4700.
+
+update xemp set sal = 4700 where ename = 'KING';
+
+-- Detección de interbloqueo en sesión 1
+```
+
+```sql
+-- Para empezar, nunha sesion 1 de SQL*Plus borra o contido de XEMP e inserta os datos de KING. Confirma a transaccion. Logo inicia unha sesion 2 de SQL*Plus.
+
+delete from xemp;
+
+insert into xemp
+select *
+from emp
+where ename='KING';
+
+commit;
+```
+
+```sql
+-- Sen modificar o nivel de aillamento de Oracle, na sesion 1 duplica o salario de KING e engade un novo empregado de codigo 1234, nome NOBODY e salario 1000.
+
+update xemp set sal = sal * 2 where ename = 'KING';
+
+insert into xemp (empno, ename, sal) values (1234, 'NOBODY', 1000);
+
+-- Sesión 1
+/*
+     EMPNO ENAME      JOB              MGR HIREDATE        SAL       COMM
+---------- ---------- --------- ---------- -------- ---------- ----------
+    DEPTNO PHONE
+---------- --------------------
+      1234 NOBODY                                         1000
+
+
+      7839 KING       PRESIDENT            17/11/81      10000
+        10
+*/
+
+-- Sesión 2
+/*
+     EMPNO ENAME      JOB              MGR HIREDATE        SAL       COMM
+---------- ---------- --------- ---------- -------- ---------- ----------
+    DEPTNO PHONE
+---------- --------------------
+      7839 KING       PRESIDENT            17/11/81       5000
+        10
+*/
+```
+
+```sql
+-- Confirma os datos na sesion 1, e verifica o que se ve en ambas sesions.
+
+commit; -- Se ve en ambas.
+```
+
+```sql
+-- Na sesion 1, actualiza o salario de NOBODY a 2000.
+
+update xemp set sal = 2000 where ename = 'NOBODY';
+```
+
+```sql
+-- Na sesion 2, consulta os datos de NOBODY, que debe mostrar 1000. Actualiza o seu salario incrementandoo un 50 %.
+
+update xemp set sal = sal * 1.5 where ename = 'NOBODY'; -- Espera por el commit de la sesión 1
+```
+
+```sql
+-- Fai que a sesion 1 confirme os cambios
+
+commit; -- Sal en sesión 1=2000, sal en sesión 2=3000
+
+-- Oracle es read commited por defecto
+```
+
+```sql
+-- Confirma as transaccions de ambas sesions, para empezar transaccion novas. Fai que ambas se poñan en modo serializable (para este grupo de exercicios realmente so necesitarıamos que a sesion 2 usase este modo).
+
+commit;
+alter session set isolation_level = serializable;
+```
+
+```sql
+-- Na sesion 1 establece o salario de KING en 3000.
+
+update xemp set sal = 3000 where ename = 'KING';
+```
+
+```sql
+-- Na sesion 2, selecciona os datos de KING. Logo duplica o seu salario.
+
+select * from xemp where ename = 'KING';
+
+/*
+     EMPNO ENAME      JOB              MGR HIREDATE        SAL       COMM
+---------- ---------- --------- ---------- -------- ---------- ----------
+    DEPTNO PHONE
+---------- --------------------
+      7839 KING       PRESIDENT            17/11/81      10000
+        10
+*/
+
+update xemp set sal = sal * 2 where ename = 'KING'; -- Espera al commit de la sesión 1. Cuando se haga el commit salta error de serialización
+
+/*
+update xemp
+       *
+ERROR en línea 1:
+ORA-08177: no se puede serializar el acceso para esta transacción
+*/
+```
+
+```sql
+-- Confirma as 2 transaccions e pon a sesion 2 en modo READ ONLY.
+set transaction read only;
+```
+
+```sql
+-- Na sesion 1 establece o salario de KING a 5000, e inserta unha nova fila cun empregado 5432, SOMEBODY, que cobra 1900. Confirma os cambios e comproba que se ve en cada sesion.
+
+update xemp set sal = 5000 where ename = 'KING';
+
+insert into xemp (empno, ename, sal) values (5432, 'SOMEBODY', 1900);
+
+-- En sesión 1
+select ename, sal from xemp;
+
+/*
+ENAME             SAL
+---------- ----------
+NOBODY           3000
+SOMEBODY         1900
+KING             5000
+*/
+
+-- En sesión 2
+select ename, sal from xemp; -- Con read only no hubo cambios
+
+/*
+ENAME             SAL
+---------- ----------
+NOBODY           3000
+KING             3000
+*/
 ```
 
 
