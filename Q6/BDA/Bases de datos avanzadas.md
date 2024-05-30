@@ -13,5 +13,5 @@ Temario:
 
 Prácticas:
 + [[Modelado de datos]]
-+ [[Boletín SQL]]
++ [[Boletín SQL BDA]]
 
