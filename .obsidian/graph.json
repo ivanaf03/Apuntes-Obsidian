@@ -78,10 +78,10 @@
       }
     },
     {
-      "query": "path:\"Desarrollo web\"  ",
+      "query": "path:TFG  ",
       "color": {
         "a": 1,
-        "rgb": 12910484
+        "rgb": 7405531
       }
     }
   ],
@@ -95,6 +95,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.17427607362472264,
+  "scale": 0.11423767931452634,
   "close": true
 }
