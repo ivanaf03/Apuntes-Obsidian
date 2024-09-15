@@ -1,5 +1,5 @@
 {
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-sky",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-green",
   "anuppuccin-theme-settings@@anp-callout-color-toggle": true,
   "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-block",
   "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
@@ -37,5 +37,8 @@
   "anuppuccin-theme-settings@@anp-translucency-opacity": 0.15,
   "anuppuccin-theme-settings@@anp-code-bg-color@@light": "#79C9FF",
   "anuppuccin-theme-settings@@anp-code-bg-color@@dark": "#000000",
-  "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#72BBFF"
+  "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#72BBFF",
+  "anuppuccin-theme-settings@@h1-font": "Noto Serif",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha-old",
+  "anuppuccin-theme-settings@@anp-header-margin-value": 10
 }
