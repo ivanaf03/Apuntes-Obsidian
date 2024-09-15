@@ -28,7 +28,7 @@ create table artigo (
 -- Crea unha taboa venda. Ningun campo debe admitir nulos.
 
 create table venda(
-	idven number(6) not null,
+	idven number(6),
 	codart number(3) not null,
 	prezoven number(5,2) not null,
 	cantven number(3) not null,
