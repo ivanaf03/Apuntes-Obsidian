@@ -22,7 +22,7 @@ where sal+comm>2000
 and deptno=10;
 ```
 
-El SGBD comprueba que existe en el sistema la tabla o vista `emp`. Depués comprueba que el usuario tiene permiso para hacer el `select` sobre `emp`. Selecciona todas las columnas de la tabla y aplica la condición del `where`, comprobando que existan las columnas y que son del tipo adecuado, por ejemplo, para que se puedan sumar `sal` y `comm`. Además hace la consulta más óptima buscando índices, identificando los espacios de almacenamiento, etc. 
+El SGBD comprueba que existe en el sistema la tabla o vista `emp`. Después comprueba que el usuario tiene permiso para hacer el `select` sobre `emp`. Selecciona todas las columnas de la tabla y aplica la condición del `where`, comprobando que existan las columnas y que son del tipo adecuado, por ejemplo, para que se puedan sumar `sal` y `comm`. Además hace la consulta más óptima buscando índices, identificando los espacios de almacenamiento, etc. 
 
 El gestor saca toda esta información del catálogo.
 $\space$$\space$
