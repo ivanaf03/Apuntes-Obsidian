@@ -1,25 +1,33 @@
 [[Tema 1-Modelado de procesos con BPMN]]
 
 ## Qué es un proceso?
-Un proceso es el conjunto de actividades desarrolladas por diferentes actores utilizando ciertos recursos, ordenadas según un flujo de trabajo, cuyo fin es obtener un resultado concreto. 
+Un proceso es el conjunto de actividades desarrolladas por diferentes actores utilizando los recursos y ordenadas según un flujo de trabajo. Su finalidad es conseguir un resultado concreto.
 
-Las actividades no tienen por qué ejecutarse de forma secuencial. El orden puede variar según las entradas del proceso.
-
+Las actividades no tienen por qué ejecutarse secuencialmente. El orden depende de las entradas del proceso.
+$\space$
 ### Proceso y proyecto
-Un proyecto es un esfuerzo temporal con inicio y fin definidos que busca crear un producto o un servicio únicos. Los procesos son repetitivos. 
+Un proyecto es un esfuerzo temporal con un inicio y un fin determinados cuyo objetivo es crear un producto o un servicio únicos. Los proyectos no tienen como finalidad crear algo único, sino producir siempre el mismo resultado.
 
-Por ejemplo, para la fabricación de bicicletas siempre se siguen los mismos pasos, es decir, el mismo proceso. Por otro lado, cuando un cliente pide una aplicación software concreta se realiza un proyecto.
-
-### Ejemplo de un proceso: compra de comida online
+Por ejemplo, la fabricación de bicicletas es un proceso, ya que siempre se hacen de la misma forma. En cambio, cuando un cliente pide una aplicación software concreta se realiza un proyecto.
+$\space$
+### Ejemplo: proceso de compra de comida online
 ```
-El cliente comienza el proceso indicando su dirección. A continuación, el cliente selecciona un restaurante. Después, en una pantalla que muestra todos los platos que ofrece ese restaurante, selecciona los que quiere comprar. A continuación confirma su pedido y completa el pago. Al hacer un pedido, el cliente puede indicar si recogerá el pedido en el restaurante o si necesita reparto a domicilio. Una vez completado el pago, la aplicación notifica el nuevo pedido al restaurante y, si es el caso, al repartidor que lo tiene que ir a recoger. El restaurante prepara el pedido. Mientras, si es el caso, el repartidor se desplaza a recogerlo. Cuando el pedido está preparado, bien el cliente o bien el repartidor lo recogen. Si hay reparto a domicilio, consideramos que el cliente recoge el pedido en el momento en que el repartidor se lo entrega.
+1. El cliente indica su dirección.
+2. El cliente selecciona el restaurante.
+3. La aplicación muestra todos los platos que ofrece el restaurante.
+4. El cliente selecciona los platos que quiere.
+5. El cliente confirma el pedido y realiza el pago.
+6. El cliente indica si recoge el pedido o se entrega a domicilio.
+7. La aplicación notifica al restaurante y, si es el caso, al repartidor.
+8. El restaurante prepara el pedido y, si es el caso, el repartidor va a recogerlo.
+9. El cliente o el reapartidor recogen el pedido.
 ```
 
-Para este ejemplo no es buena idea utilizar un diagrama de casos de uso o un diagrama de secuencia, ya que las funcionalidades no están aisladas, sino que forman un proceso. El software debe garantizar que las actividades siguen un workflow o flujo de trabajo y que se ejecuten por el usuario correspondiente.
-
+En este caso las funcionalidades no están aisladas, sino que forman un flujo de trabajo o workflow. No sería buena idea modelarlo con diagramas de casos de uso. 
+$\space$
 ## Modelado de procesos
-El modelado se basa en recoger los elementos de la realidad que son relevantes en el sistema que se va a construir. Para modelar correctamente necesitamos:
-+ Conocer la semántica y sintaxis del lenguaje de modelado usado.
-+ Identificar correctamente los elementos a partir de la información que nos dan.
+Modelar consiste en seleccionar los elementos de la realidad que son relevantes para el sistema que se va a construir. Para modelar hay dos cosas imprescindibles:
++ Conocer la semántica y la sintaxis del lenguaje.
++ Ser capaces de identificar bien los elementos mediante la información que nos dan.
 
-En esta asignatura se usa BPMN (Business Process Management Notation).
+Un ejemplo de lenguaje de modelado de procesos es 
