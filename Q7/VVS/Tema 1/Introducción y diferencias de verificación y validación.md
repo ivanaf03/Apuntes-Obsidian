@@ -1,36 +1,36 @@
 [[Tema 1-Introducción a VVS]]
 
-## Los errores del software
-El software se puede ver conceptualmente como un producto complejo. Por tanto, los errores son inevitables. Afortunadamente, los ordenadores siempre hacen lo que se les pide. Sin embargo, los errores humanos hacen que a veces no consigamos el resultado esperado.
+## Errores en el software
+El software se puede ver como un producto, pero no es un objeto físico. Es mucho más complejo, por lo que es muy frecuente que tenga errores.
+
+Por suerte, los ordenadores se comportan siempre igual, son deterministas. El fallo está en que muchas veces nos equivocamos en lo que pedimos al ordenador. Los errores humanos son los que hacen que el resultado no sea el esperado.
 
 ### Errores de validación y verificación
-Pongamos como ejemplo un bucle sencillo para calcular los salarios de los 6 primeros meses:
+Por ejemplo, si queremos hacer un bucle que muestre el salario para los primeros 6 meses del año podemos hacer algo así:
 
 ```c
 for(i=0;i>=5;i++)
 	printf("%d\n", salary[j]);
 ```
 
-Este bucle tiene un error en el código, a pesar de que la lógica es correcta. Es un fallo de verificación, la variable debe ser `i`, no `j`.
+Este bucle tiene un error de verificación, la variable correcta es `i`, no `j`. El programador ha entendido lo que se pedía, pero no lo ha implementado correctamente. 
 
-Si arreglamos el error el código queda así:
+Se puede corregir así:
 
 ```c
 for(i=0;i>=5;i++)
 	printf("%d\n", salary[i]);
 ```
 
-Sin embargo, el programa puede seguir siendo erróneo. Por ejemplo, el cliente puede solicitar el salario total en lugar de una lista con los 6 salarios. Esto es un fallo de validación.
+Sin embargo, también está mal, porque realmente lo que quería la persona que pidió el programa era que se mostrara la suma de todos los salarios. En este caso es un fallo de validación.
 
-## Comportamiento del software
-Los programas pueden fallar de dos maneras:
-+ **Resultados erróneos o fallos:** son problemas de verificación.
-+ **Resultados inesperados:** son problemas de validación.
+## Comportamiento de un programa
+Un programa puede fallar de dos formas:
++ Si tiene fallos inesperados, se habla de verificación.
++ Si el programa no se ajusta a lo que se pide, se habla de validación.
 
-Cuando tratamos con problemas de verificación asumimos que el problema se ha entendido bien.
-
-## Ejemplo de verificación:  máximo común divisor
-Para obtener el máximo común divisor podemos hacer un programa así:
+### Verificación
+Cuando se habla de verificación solamente se da por hecho que el programa se ajusta a lo que se ha pedido. Por ejemplo, si nos piden realizar un programa que calcule el máximo común divisor podemos utilizar la definición.
 
 ```c
 gcd=1;
@@ -39,7 +39,7 @@ for (i=2; i<=y; i++)
 		gcd=i;
 ```
 
-Sin embargo, a pesar de que es correcta la definición plasmada tal cual, es muy ineficiente. Una forma de mejorarlo es con el algoritmo de Euclides.
+Sin embargo, para calcular el máximo común divisor de dos números grandes el programa es extremadamente ineficiente. Aunque parezca correcto, no lo es del todo, ya que se puede mejorar muchísimo. Una buena forma es con el algoritmo de Euclides.
 
 ```c
 a=x;
@@ -52,8 +52,7 @@ while (a!=b)
 gcd=a;
 ```
 
-## Ejemplo de verificación: conjetura de Collatz
-Algunos problemas todavía no se han podido demostrar. Por ejemplo, la conjetura de Collatz es un problema que todavía no está resuelto. 
+A veces no se puede verificar que algo es correcto. Un ejemplo muy clásico es la conjetura de Collatz. 
 
 ```c
 while (x!=1) 
@@ -62,3 +61,5 @@ while (x!=1)
 	else 
 		x=3*x+1;
 ```
+
+No se ha conseguido probar que funcione para cualquier número entero, aunque a priori parezca que si.
