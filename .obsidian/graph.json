@@ -78,23 +78,51 @@
       }
     },
     {
-      "query": "path:TFG  ",
+      "query": "path:Q7/MED  ",
       "color": {
         "a": 1,
-        "rgb": 7405531
+        "rgb": 13544553
+      }
+    },
+    {
+      "query": "path: Q7/MAD  ",
+      "color": {
+        "a": 1,
+        "rgb": 12506767
+      }
+    },
+    {
+      "query": "path: Q7/FD  ",
+      "color": {
+        "a": 1,
+        "rgb": 5930074
+      }
+    },
+    {
+      "query": "path: Q7/VVS  ",
+      "color": {
+        "a": 1,
+        "rgb": 7971543
+      }
+    },
+    {
+      "query": "path: Q7/XPN  ",
+      "color": {
+        "a": 1,
+        "rgb": 15636976
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.2,
-  "nodeSizeMultiplier": 0.997467608951708,
-  "lineSizeMultiplier": 0.524204946996466,
+  "textFadeMultiplier": -1.4,
+  "nodeSizeMultiplier": 1.02193347193347,
+  "lineSizeMultiplier": 0.818191268191268,
   "collapse-forces": false,
   "centerStrength": 1,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.11423767931452634,
+  "scale": 0.07488261069772764,
   "close": true
 }
