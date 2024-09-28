@@ -2,7 +2,7 @@
 
 Lo normal es que en un proceso haya varias instancias en paralelo. Cada instancia es totalmente independiente de las demás, lo que pase en una no influye en las otras. 
 
-```
+```c
 main() {
 	doA();
 	if(cond) {
@@ -14,7 +14,7 @@ main() {
 }
 ```
 
-```
+```c
 main() {
 	A();
 	while(cond) {
