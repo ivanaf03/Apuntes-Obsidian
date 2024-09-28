@@ -1,4 +1,4 @@
-[[Validación de verificación do software]]
+[[Validación e verificación do software]]
 
 Contenido:
 + [[Introducción y diferencias de verificación y validación]]
