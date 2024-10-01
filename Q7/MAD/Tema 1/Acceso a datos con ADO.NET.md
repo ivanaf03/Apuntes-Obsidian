@@ -1,6 +1,12 @@
 [[Tema 1-Introducción a .NET]]
 
-Usaremos SQLClient y SQLTypes. Todo lo que empieza por SQL hace referencia a SQLServer. ADO.NET equivale a JDBC. 
+## Qué es ADO.NET?
+Es un mapeador objeto-relacional para .NET. Proporciona soporte para la mayoría de gestores de bases de datos relacionales. 
 
-Tiene dos entornos. El entorno conectado es muy similar a Java. El desconectado dice a la base de datos que base de datos se quiere usar, las vuelca en memoria y, cuando se acaba de operar, devuelve todos los datos a la base de datos. Esto da muchos problemas de concurrencia. Se utiliza para tablas que no varían, por ejemplo, los países del mundo.
+El acceso a bases de datos relacionales está formado por dos entornos, el conectado y el desconectado. 
 
+### Entorno conectado
+Los usuarios están siempre directamente conectados a la fuente  de datos. Esto permite un mejor control de la concurrencia y datos constantemente actualizados, pero a cambio consume muchos recursos y limita la escalabilidad.
+
+### Entorno desconectado
+Se copian datos o tablas en local, se trabaja con la copia y después se sincroniza con la fuente de datos. Es muy cómodo si los datos solo necesitan lecturas, pero al no estar sincronizados no siempre se puede usar.
