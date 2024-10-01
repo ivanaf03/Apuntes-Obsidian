@@ -6,5 +6,3 @@ Contenido:
 + [[Framework .NET]]
 + [[Acceso a datos con ADO.NET]]
 + [[Aplicaciones web con ASP.NET]]
-+ [[Herramientas de desarrollo]]
-+ [[Implementaciones alternativas]]
