@@ -121,7 +121,7 @@ init {
 }
 ```
 
-Por ejemplo, en este código i=0 y x no está 
+Por ejemplo, en este código i=0 y x no está inicializado. Al ejecutarlo salta un timeout, ya que como todas las condiciones son falsas el sistema ya no puede seguir.
 
 ```c
 init {
@@ -134,4 +134,240 @@ init {
     printf("x=%d\n", x);
 }
 ```
+
+### Simulación de la cláusula else
+La cláusula else realmente es una negación de todas las cláusulas anteriores. Siempre se debe incluir para evitar timeouts. Se puede hacer con un skip:
+
+```c
+if 
+	:: i==0 -> j++ 
+	:: i!=0 -> skip 
+fi
+```
+
+También se puede poner `else` directamente:
+
+```c
+if 
+	:: i==0 -> j++ 
+	:: else -> skip
+fi
+```
+
+### Ejemplo: programa no determinista
+Este programa se mete en cualquier de las 2 ramas del if de forma aleatoria. Si se ejecuta varias veces se puede ver que el resultado varía:
+
+```c
+init {
+    int a = 3, b = 3, max, branch;
+
+    if
+    :: a >= b -> max = a; branch = 1
+    :: a <= b -> max = b; branch = 2
+    fi;
+
+    printf("max=%d, branch=%d\n", max, branch);
+}
+
+// En 5 ejecuciones printea, por ejemplo:
+// max=3, branch=1
+// max=3, branch=1
+// max=3, branch=2
+// max=3, branch=1
+// max=3, branch=2
+```
+
+### Ejercicio 1: crea un programa que muestre x=1, x=2 o x=3 de forma no determinista
+
+```c
+init {
+	int a = 0, x;
+
+	if 
+		:: a != 1 -> x = 1
+		:: a != 2 -> x = 2
+		:: a != 3 -> x = 3
+	fi;
+
+	printf("x = %d", x);
+}
+```
+
+## Bucles
+Los bucles también son no deterministas. Si una de las condiciones del bucle tiene un `break`, se sale del bucle. 
+
+```c
+init {
+    int x = 0;
+
+    do
+    :: x < 5 -> 
+        printf("x = %d\n", x);
+        x = x + 1
+    :: x >= 5 -> 
+        printf("x has reached the limit: %d\n", x);
+        break
+    od;
+
+    printf("Exited the loop. Final value of x = %d\n", x);
+}
+```
+
+### Ejercicio 2: crea un programa que muestre todos los números del 1 al 10
+
+```c
+init {
+	int x = 0;
+	do
+		:: x != 10 -> x = x + 1; printf("x = %d", x);
+		:: x == 10 -> break;
+	od;
+}
+```
+
+### Ejemplo: combinación de bucles y condicionales
+
+```c
+mtype = {red, yellow, green};
+mtype light = green;
+
+init {
+    do
+    :: if
+        :: light == red -> light = green
+        :: light == yellow -> light = red
+        :: light == green -> light = yellow
+    fi;
+    printf("The light is now %e\n", light)
+    od;
+}
+```
+
+Al ejecutar este código con `spin tlight.pml` se obtiene un bucle infinito. Se pueden limitar las ejecuciones con `spin -u40 tlight.pml`. 
+
+Si eliminamos una de las condiciones, el bucle iterará hasta que se no coincida con ninguna rama. Cuando no pueda seguir, saldrá con un timeout avisando del valor que tiene la variable `light` en ese momento.
+
+### Ejemplo: algoritmo de Euclides
+
+```c
+init {
+    int x = 15, y = 20;
+    int a = x, b = y;
+    
+    do
+	    :: a > b -> a = a - b
+	    :: b > a -> b = b - a
+	    :: a == b -> break
+    od;
+    printf("The GCD of %d and %d is = %d\n", x, y, a);
+}
+```
+
+## Statement conditions
+Se puede usar una condición como una sentencia normal. Por ejemplo:
+
+```c
+int x = 1;
+
+init {
+	(x>0);
+	printf("%d\n",x);
+}
+// Muestra el valor 1
+```
+
+```c
+int x = 1;
+
+init {
+	(x>0);
+	printf("%d\n",x);
+}
+// No se cumple la condición y sale con un timeout
+```
+
+### Ejercicio 3: crea un programa que muestre, de forma no determinista, cualquier número entre 1 y una constante N
+
+```c
+define N 10
+
+init {
+	int i = 1; 
+	
+	do 
+		:: (i <= N) -> printf("Number: %d\n", i); break; 
+		:: (i < N) -> i = i + 1;
+	od;
+}
+```
+
+## Assert
+La cláusula assert sirve para comprobar una condición y, si no se cumple, para la ejecución y muestra la condición violada. Por ejemplo:
+
+```c
+init {
+    int x = 15, y = 20;
+    int a = x, b = y;
+    
+    do
+	    :: a > b -> a = a - b
+	    :: b > a -> b = b - a
+	    :: a == b -> break
+    od;
+    printf("The GCD of %d and %d is = %d\n", x, y, a);
+    assert(x % a == 0 && y % a == 0);
+}
+```
+
+### Ejercicio 4: encuentra la postcondición
+
+```c
+init {
+    int x = 15, y = 4;
+    int q, r;
+    
+    assert (x >= 0 && y > 0); // precondition
+    
+    q = 0;
+    r = x;
+    
+    do
+    :: r >= y -> q++; r = r - y
+    :: else -> break
+    od;
+    
+    printf("%d/%d = %d; remainder %d\n", x, y, q, r);
+    
+    assert (x == q * y + r && r >= 0 && r < y); // postcondition
+}
+```
+
+## Verificación exhaustiva
+Si tenemos un programa no determinista con una aserción, a veces puede no saltar. Sin embargo, si en algún momento puede saltar, se dice que el programa está mal. Esto ocurre cuando SPIN trabaja en modo simulación. Por ejemplo:
+
+```c
+init {
+    int a = 3, b = 3, max;
+
+    if
+	    :: a >= b -> max = a
+	    :: a <= b -> max = b + 1
+    fi;
+
+    assert (max == a || max == b) && max >= a && max >= b;
+}
+// Rama 1: a = 3, b = 3, max = 3 (no salta la aserción)
+// Rama 2: a = 3, b = 3, max = 4 (salta la aserción ya que no se cumple la primera condición)
+```
+
+Para lanzar la verificación exhaustiva podemos hacer `spin -search max.pml` o podemos generarla con C:
+
+```
+spin -a max.pml 
+gcc -o pan pan.c 
+pan
+```
+
+
+
 
