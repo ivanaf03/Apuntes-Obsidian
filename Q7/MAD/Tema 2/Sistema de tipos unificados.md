@@ -14,7 +14,7 @@ Se pasan por referencia:
 + Clases
 + Interfaces
 + Arrays
-$\space$
+
 ### Boxing y unboxing
 El boxing consiste en la transformación de tipos valor a tipos referencia. Por ejemplo:
 
