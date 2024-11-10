@@ -1,5 +1,0 @@
-[[Ingeniería Informática]]
-
-Notas:
-+ [[Setup]]
-
