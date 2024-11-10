@@ -6,6 +6,4 @@ Cuatrimestres:
 + [[Q6]]
 + [[Q7]]
 
-TFG:
-+ [[TFG]]
 
