@@ -289,7 +289,7 @@ init {
 ### Ejercicio 3: crea un programa que muestre, de forma no determinista, cualquier número entre 1 y una constante N
 
 ```c
-define N 10
+#define N 10
 
 init {
 	int i = 1; 
@@ -368,6 +368,42 @@ gcc -o pan pan.c
 pan
 ```
 
+Si se violan aserciones o se producen deadlocks se genera un `.trail` con un contraejemplo. Para ejecutar el contraejemplo podemos hacer `spin -t -p -l max.pml`.
 
+### Ejercicio 5: intenta generar el valor 100
 
+```c
+#define N 100
 
+init {
+	int i = 1;
+
+	do
+		:: break
+		:: i < N -> i++
+	od;
+	printf("%d\n", i);
+}
+```
+
+Aunque es una salida posible, es tan poco probable que la probabilidad tiende a 0.
+
+### Ejercicio 6: simula el programa
+
+```c
+init {
+	byte i = 0;
+
+	do
+		:: i++
+	od
+}
+
+// Ejecutar con spin -u514 -p -l -m70000 simulacion.pml
+
+// Primero sin -u514
+// Cuántos estados se pueden conseguir?
+// Cambiar a tipo bool y a tipo short
+```
+
+Si no se limita el número de ejecuciones, se queda en un bucle infinito. Si usamos un bool, se sale de rango al llegar a `i = 2`. Con short y byte tarda más y al llegar al número máximo vuelve a empezar con el mínimo. Se pueden conseguir la cantidad de estados como número tiene el tipo numérico. Al limitar las ejecuciones llega a los 514 estados.
