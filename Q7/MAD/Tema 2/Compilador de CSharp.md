@@ -2,7 +2,7 @@
 
 ## El compilador
 El compilador se encuentra en `C:\windows\Microsoft.NET\Framework\vn.n.nnn\csc.exe`. Para compilar un archivo se utiliza `csc [options] file.cs`. Se puede compilar más de un archivo a la vez.
-$\space$
+
 ### Opciones
 Las opciones del compilador son:
 + /out:outputFile
