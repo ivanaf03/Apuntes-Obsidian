@@ -4,11 +4,12 @@
 Es un lenguaje de programación orientado a objetos para desarrollar aplicaciones en .NET. Busca reducir el tiempo de desarrollo evitando detalles de programación de bajo nivel.
 
 Para C# todo es un objeto, incluso los tipos primitivos. Permite el uso de mecanismos de boxing y unboxing, que es la conversión de tipos primitivos a objetos y viceversa.
-$\space$
+
 ### Nomenclatura
 Los métodos y nombres de clases se ponen en PascalCase, ya que es sensible a mayúsculas y minúsculas. Los atributos se ponen en camelCase. 
-$\space$
+
 ## Hola mundo
+
 ```CSharp
 using System; //librería que incluye clases básicas, como Console
 
@@ -25,10 +26,10 @@ namespace Es.Udc.DotNet.CSharpTutorial { // espacio de nombres para evitar confl
     }
 }
 ```
-$\space$
+
 ## Jerarquía de clases
 Solo admite herencia simple, como Java. También es idéntico en que sí permite implementación de múltiples interfaces. 
-$\space$
+
 ### System.Object
 Todos los tipos heredan de `System.Object`. 
 
