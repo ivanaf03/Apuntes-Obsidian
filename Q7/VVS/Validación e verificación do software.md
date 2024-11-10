@@ -5,5 +5,8 @@ Temario:
 + [[Tema 2-Model checkers]]
 + [[Tema 3-Promela y SPIN]]
 + [[Tema 4-Lógica linear temporal]]
++ [[Tema 5-Cáculo de secuentes]]
 
 Prácticas:
++ [[Informe  P1-SPIN]]
++ [[Práctica de pruebas]]
