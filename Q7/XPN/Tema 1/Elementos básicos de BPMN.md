@@ -12,7 +12,7 @@ Los elementos de BPMN son:
 
 + **Evento de inicio:** es el lugar donde comienza en proceso e indica donde empieza la ejecución de cada instancia del proceso. Es obligatorio. Se suele colocar en la calle donde va a realizarse la primera acción, aunque no es obligatorio. Los eventos son hitos, por lo que no representa trabajo. En el caso anterior el cliente comienza el proceso indicando la dirección.
 
-![[inicio_abstracto_bpmn.png]]
+![[Imágenes/inicio_abstracto_bpmn.png]]
 
 + **Actividad:** es una acción que realiza un actor en un punto concreto.. Se unen entre ellas para generar el workflow. En el caso anterior eran actividades indicar la dirección, seleccionar el restaurante, seleccionar los platos, confirmar el pedido, realizar el pago, notificar el pedido, preparar el pedido, recoger pedido siendo cliente, desplazarse hacia al restaurante, recoger pedido siendo repartidor y entregar el pedido.
 
