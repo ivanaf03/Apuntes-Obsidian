@@ -11,7 +11,7 @@ Es conocedor del plan del producto, de las posibilidades que hay y del plan de i
 En proyectos internos el PO suele ser el responsable de marketing. El proyectos externos suele ser el responsable del proceso de adquisición del cliente. A veces incluso recae la responsabilidad en el equipo de desarrollo dependiendo del tipo y tamaño del proyecto.
 
 ## Equipo de desarrollo
-Son los desarrolladores que se encargan del incremento de cada sprint. Deben ser entre 4 y 8 personas (two-pizza teams), sin contar el Scrum Master y el PO. Todos los miembros son multifuncionales y tienen responsabilidad compartida. No siempre es así, a veces algunos miembros son especialistas en ciertas áreas, pero la responsabilidad sigue siendo compartida. 
+Son los desarrolladores que se encargan del incremento de cada Sprint. Deben ser entre 4 y 8 personas (two-pizza teams), sin contar el Scrum Master y el PO. Todos los miembros son multifuncionales y tienen responsabilidad compartida. No siempre es así, a veces algunos miembros son especialistas en ciertas áreas, pero la responsabilidad sigue siendo compartida. 
 
 ### Grupo de trabajo vs equipo
 Un grupo de trabajo es un conjunto de personas que realizan un trabajo en base a una asignación específica de tareas y responsabilidades, siguiendo unas pautas o un proceso.
