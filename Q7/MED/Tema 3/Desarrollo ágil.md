@@ -12,6 +12,6 @@ El desarrollo ágil se basa en:
 
 ## Metodologías ágiles
 Dos de las más conocidas son:
-+ **Scrum:** todo el equipo trabajo junto, gestionan su propio trabajo sin centralización y se realizan reuniones diarias.
++ **Scrum:** todo el equipo trabaja junto, gestionan su propio trabajo sin centralización y se realizan reuniones diarias.
 + **XP:** se utilizan tarjetas para resumir los requisitos, se realiza pair programming y se involucra al cliente constantemente.
 
