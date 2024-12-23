@@ -6,39 +6,24 @@ Las puertas o gateways son los elementos que permiten controlar el flujo del pro
 ![[error_comun_bpmn.png]]
 
 ### Puerta XOR
-La puerta XOR puede funcionar como split o como merge. Cuando tiene una sola entrada y varias salidas, se produce un split y el fujo solo puede continuar por una de las dos salidas, la que cumpla la condición. Las condiciones de las salidas son excluyentes. 
+La puerta XOR puede funcionar como split o como merge. Cuando tiene una sola entrada y varias salidas, se produce un split y el fujo solo puede continuar por una de las dos salidas, la que cumpla la condición. Las condiciones de las salidas son excluyentes. Hay que tener cuidado, ya que los motores de automatización no comprueban que las condiciones sean excluyentes. 
 
-De forma similar, cuando funciona como merge, 
+De forma similar, cuando funciona como merge, unifica las entradas en un solo flujo de salida.
 
+![[xor_bpmn_merge_split.png]]
 
+No es recomendable que la puerta tenga más de una entrada y más de una salida a la vez. También se puede indicar una salida por defecto sin que obligatoriamente tenga asociada una condición.
 
+Se pueden modelar bucles con dos puertas XOR.
 
-Lo normal es que en un proceso haya varias instancias en paralelo. Cada instancia es totalmente independiente de las demás, lo que pase en una no influye en las otras. 
+![[loop_bpmn.png]]
 
-```c
-main() {
-	doA();
-	if(cond) {
-		doB();
-	} else {
-		doC();
-	}
-	doD();
-}
-```
+### Puerta AND
+La puerta AND permite ejecutar abrir y ejecutar varios caminos en paralelo. 
 
-```c
-main() {
-	A();
-	while(cond) {
-		B();
-	}
-	C();
-}
-```
+![[and_bpmn.png]]
 
-Es mala práctica resolver este bucle con una sola xor (2 entradas y 2 salidas). Para solucionarlo debemos utilizar 2 puertas xor.
+### Puerta OR
+Funciona de forma similar a la puerta XOR, pero permite activar más de una de sus salidas de forma simultánea.
 
-La puerta xor no realiza trabajo, solo evalúa condiciones.
-
-Las ramas de salida pueden llevar una condición asociada. Si no pueden salir por ninguna rama, el camino se queda parado. Los motores de automatización no comprueban que las condiciones sean excluyentes.
+![[or_bpmn.png]]
