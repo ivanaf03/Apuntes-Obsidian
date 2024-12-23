@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q7/XPN/Tema 1/Puertas.md",
-                "mode": "source",
+                "file": "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Puertas"
+              "title": "Tema 1-Modelado de procesos con BPMN"
             }
           }
         ]
@@ -190,20 +190,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "995f13a032b9c717",
+  "active": "4bad93336dcd27fa",
   "lastOpenFiles": [
-    "Imágenes/error_comun_bpmn.png",
+    "Q7/XPN/Tema 1/Eventos.md",
+    "Imágenes/proceso_evento_intermedio_bpmn.png",
     "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
+    "Plantilla.md",
+    "Imágenes/eventos_intermedios.png",
+    "Q7/XPN/Tema 1/Actividades o tareas.md",
+    "Q7/XPN/Tema 1/Puertas.md",
+    "Q7/XPN/Tema 1/Excepciones en BPMN.md",
+    "Imágenes/eventos_fin.png",
+    "Imágenes/evento_signal.png",
+    "Imágenes/evento_condicional.png",
+    "Imágenes/evento_temporal_bpmn.png",
+    "Currículum y entrevista.md",
+    "Imágenes/inicio_abstracto_bpmn 1.png",
     "Q7/XPN/Tema 1/Elementos básicos de BPMN.md",
     "Q7/XPN/Tema 1/Introducción a la gestión de procesos.md",
-    "Q7/XPN/Tema 1/Puertas.md",
-    "Imágenes/evento_fin_bpmn.png",
-    "Imágenes/xor_bpmn.png",
-    "Imágenes/actividad_bpmn.png",
-    "Imágenes/inicio_abstracto_bpmn.png",
-    "Imágenes/calles_bpmn.png",
-    "Imágenes/piscina_bpmn.png",
-    "Q7/XPN/Tema 1/Actividades.md",
+    "Q7/XPN/Tema 1/Colaboración en BPMN.md",
+    "Imágenes/subproceso_bpmn.png",
+    "Imágenes/tareas_tipos_bpmn.png",
+    "Imágenes/ejemplo_tareas_bpmn.png",
     "Q7/Q7.md",
     "Q7/XPN/Xestión de procesos de negocio.md",
     "Q7/XPN/Tema 4/Tema 4-Gestión por procesos.md",
@@ -223,15 +231,6 @@
     "Q7/MED/Tema 4/Épicas y divisiones.md",
     "Q7/MED/Tema 4/Reuniones en Scrum.md",
     "Q7/MED/Tema 4/Gestión de tiempos en Scrum.md",
-    "Q7/MED/Tema 4/Artefactos de Scrum.md",
-    "Q7/MED/Tema 4/Roles técnicos.md",
-    "Q7/MED/Tema 4/Origen de Scrum.md",
-    "Q7/MED/Tema 3/Tema 3-Metodologías ágiles.md",
-    "Q7/MED/Tema 3/Manifiesto ágil.md",
-    "Imágenes/barco.png",
-    "Imágenes/estrella de mar.png",
-    "Imágenes/burnup.png",
-    "Imágenes/burndown.png",
     "Q7/VVS/Tema 6",
     "Q7/MED/Tema 4",
     "Q7/XPN/Tema 3",
