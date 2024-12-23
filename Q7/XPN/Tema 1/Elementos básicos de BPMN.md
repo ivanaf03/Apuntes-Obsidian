@@ -1,50 +1,28 @@
 [[Tema 1-Modelado de procesos con BPMN]]
 
-## Piscina
-Es el proceso en sí. Todos los elementos del modelo se colocan en la piscina. El nombre del proceso se coloca en su cabecera.
+## Elementos básicos
+Los elementos de BPMN son:
++ **Piscina:** es el propio proceso. Todos los elementos se colocan dentro de ella. Se identifica con un nombre único que se pone en la cabecera. Por ejemplo, en el caso anterior es  "Proceso de compra de comida online".
 
-![[piscina bpmn.png]]
-$\space$
-### Ejemplo
-En el ejemplo la piscina es el proceso de compra de comida online.
-$\space$
-## Calles 
-Un actor es una abstracción de un conjunto de usuarios que interactúan con el sistema. Dos tipos de usuario que, dados los mismos recursos, ejecutan las mismas actividades, son el mismo actor.
+![[piscina_bpmn.png]]
 
-Cada calle representa a un actor. 
++ **Calles:** son los actores del proceso. Un actor es una abstracción de un usuario o conjunto de usuarios que interactúan con el sistema. Pueden ser un conjunto de usuarios, ya que si dados los mismos recursos ejecutan las mismas actividades, entonces son el mismo actor. En el caso anterior los actores son el cliente, la propia aplicación, el restaurante y el repartidor.
 
-![[actores bpmn.png]]
-$\space$
-### Ejemplo
-En el ejemplo las calles son el repartidor, el restaurante, la propia aplicación y el cliente.
-$\space$
-## Evento de inicio
-Todos los procesos tienen un evento de inicio. Indica donde empieza la ejecución de una instancia del proceso y quién la inicia. Se coloca en la calle donde el actor empieza la primera acción. Se representa con un círculo blanco.
+![[calles_bpmn.png]]
 
-Es un hito, no representa trabajo. 
++ **Evento de inicio:** es el lugar donde comienza en proceso e indica donde empieza la ejecución de cada instancia del proceso. Es obligatorio. Se suele colocar en la calle donde va a realizarse la primera acción, aunque no es obligatorio. Los eventos son hitos, por lo que no representa trabajo. En el caso anterior el cliente comienza el proceso indicando la dirección.
 
-![[inicio bpmn.png]]
-$\space$
-### Ejemplo
-En el ejemplo el cliente inicia el proceso indicando su dirección.
-$\space$
-## Actividades
-Una actividad es una acción que realiza un actor en un punto. Al unir actividades entre ellas se genera un flujo de trabajo. Se representan con rectángulos y el flujo con flechas.
+![[inicio_abstracto_bpmn.png]]
 
-![[actividad bpmn.png]]
-$\space$
-### Ejemplo
-En el ejemplo las actividades son indicar la dirección, seleccionar el restaurante, seleccionar los platos, confirmar el pedido, realizar el pago, notificar el pedido, preparar el pedido y recoger el pedido (tanto cliente como repartidor).
++ **Actividad:** es una acción que realiza un actor en un punto concreto.. Se unen entre ellas para generar el workflow. En el caso anterior eran actividades indicar la dirección, seleccionar el restaurante, seleccionar los platos, confirmar el pedido, realizar el pago, notificar el pedido, preparar el pedido, recoger pedido siendo cliente, desplazarse hacia al restaurante, recoger pedido siendo repartidor y entregar el pedido.
 
+![[actividad_bpmn.png]]
 
-### Condiciones
-Al preparar el pedido, el flujo se divide dependiendo de una condición: si el cliente recoge el pedido o no. Para modelarlo se utiliza una puerta XOR.
++ **Puerta XOR:** permite representar una condición que divide el flujo en varios caminos. Sirve tanto para dividir caminos, lo que se conoce como split, como para juntarlos, lo que se conoce como merge. En el caso anterior se utiliza para modelar si es un reparto a domicilio o no.
 
-![[actividad 2 bpmn.png]]
+![[xor_bpmn.png]]
 
-## Evento de fin
-Todos los procesos tienen eventos de inicio y de fin. El evento de fin indica que el proceso finaliza cuando se llega a ese punto.
++ **Evento de fin:** es el lugar donde termina el proceso. Puede haber más de un evento de fin.
 
-Se representa con un circulo blanco más marcado.
+![[evento_fin_bpmn.png]]
 
-![[evento fin bpmn.png]]
