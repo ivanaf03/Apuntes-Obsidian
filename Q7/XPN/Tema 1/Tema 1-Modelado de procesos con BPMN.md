@@ -4,7 +4,7 @@ Contenido:
 + [[Introducción a la gestión de procesos]]
 + [[Elementos básicos de BPMN]]
 + [[Puertas]]
-+ [[Actividades]]
++ [[Actividades o tareas]]
 + [[Eventos]]
 + [[Excepciones en BPMN]]
 + [[Transacciones en BPMN]]
