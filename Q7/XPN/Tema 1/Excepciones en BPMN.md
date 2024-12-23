@@ -1,11 +1,14 @@
-Una excepción se puede capturar y tratar, como un try catch.
+[[Tema 1-Modelado de procesos con BPMN]]
 
-Si ocurre un error no recuperable y han ocurrido cambios confirmados no es tan sencillo como deshacer con un rollback. 
+## Qué es una excepción?
+> [!abstract] Definición de excepción
+> Una excepción es una situación excepcional que implica tener que interrumpir el workflow normal del proceso y tomar medidas alternativas.
 
-La colaboración ocurre cuando dos procesos colaboran entre sí. Ocurre cuando actividades de otro proceso envían datos que necesitan otros procesos. Por ejemplo, cuando un proceso es diferente desde el punto de vista del cliente y del equipo de backend. Por ejemplo, en contratación de telecomunicaciones. 
+### Excepciones en BPMN
+En BPMN las excepciones se pueden capturar y tratar como un camino alternativo en la tarea en la que se producen.
 
-Inicio -> Registrar pedido -> Perfil riesgo cliente -> Lista morosos (puede acabar ahí) -> Firma contrato -> Fin
+![[excepcion_bpmn.png]]
 
-Provisión servicios -> (flujo complejo) -> Fin
+![[excepcion_bpmn_2.png]]
 
-Un ejemplo es cuando se firma el contrato, esa información puede ser necesaria por algún proceso de abajo. La notación es una línea discontinua con punta de flecha hueca y que inicia con un círculo. La actividad de partida tiene un sobre negro y la que recibe un sobre blanco. 
+El problema de las excepciones en los motores de automatización es que si ocurre un error no recuperable y hubo cambios no confirmados, no sirve solamente con hacer un rollback. Los sistemas externos pueden quedar en un estado inconsistente si hubo alguna transacción completada.
