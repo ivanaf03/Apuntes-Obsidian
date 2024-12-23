@@ -22,7 +22,7 @@ Como [rol], quiero [realizar acción] para [beneficio].
 
 Deben ser concretas, tener valor para el cliente o el producto, variables en el tiempo y testeables.
 
-Cuando una historia de usuario es muy grande se denomina épica. Estas se deben dividir en historias de usuario más pequeñas
+Cuando una historia de usuario es muy grande se denomina épica. Estas se deben dividir en historias de usuario más pequeñas.
 
 ### Preparación
 La preparación del product backlog consiste en la priorización, el detalle y las estimaciones de los elementos que lo componen. Se realiza en cualquier momento a lo largo del desarrollo y debe hacerse de forma rápida. El esfuerzo de cada uno de los elementos lo define el encargado de realizar ese trabajo.
