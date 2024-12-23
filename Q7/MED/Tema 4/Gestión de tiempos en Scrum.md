@@ -13,14 +13,14 @@ Trabajar con Timeboxing y Sprints permite:
 + Tener retroalimentación constante.
 
 ## Gráfico de avance o burn-down
-El burn-down es un gráfico que se actualiza en las reuniones de seguimiento del sprint para monitorizar el ritmo del avance y detectar las desviaciones lo antes posible. Mide el esfuerzo pendiente a lo largo del Sprint.
+El burn-down es un gráfico que se actualiza en las reuniones de seguimiento del Sprint para monitorizar el ritmo del avance y detectar las desviaciones lo antes posible. Mide el esfuerzo pendiente a lo largo del Sprint.
 
 En el eje x se ponen los días del Sprint y en el eje y el trabajo que falta por realizar.
 
 ![[burndown.png]]
 
 ### Project burn-down chart
-El project burn-down chart es un gráfico burndown para todo el proyecto. El eje x representa los Sprints y el eje y representa el trabajo total restante.
+El Project burn-down chart es un gráfico burn-down para todo el proyecto. El eje x representa los Sprints y el eje y representa el trabajo total restante.
 
 ## Gráfico burn-up
 El gráfico burn-up es una representación que muestra el progreso del producto de forma positiva, tal que refleja lo que está hecho en lugar de lo que queda por hacer. 
