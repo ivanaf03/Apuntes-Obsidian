@@ -1,12 +1,15 @@
 [[Xestión de procesos de negocio]]
 
-El problema de tener una arquitectura centralizada es que es muy extraño meter funcionalidades muy diferentes en un mismo sistema. Debido a eso, entre otras cosas, se paso a crear sistemas que cubran varias áreas de trabajo diferentes.
+Contenido:
++ [[Contexto de SOA y BPM]]
++ [[Introducción a SOA]]
++ [[SOA y BPM]]
++ [[BPEL]]
 
-Como integrar sistemas:
-+ Servicios web (REST, SOAP)
-+ BD compartidas
-+ Ficheros binarios
-+ Objetos distribuidos (CORBA)
+
+
+
+
 
 Patas SOA:
 + Servicios
