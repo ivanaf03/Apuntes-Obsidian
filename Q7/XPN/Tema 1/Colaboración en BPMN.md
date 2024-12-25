@@ -11,3 +11,7 @@ Esto ocurre en la mayoría de procesos complejos. Por ejemplo, al contratar un s
 
 ⭕ -> 📩Proveer servicios... -> 🔴
 ```
+
+### Ejemplo: colaboración en BPMN
+
+![[colaboracion_bpmn.png]]
