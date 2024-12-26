@@ -3,6 +3,6 @@
 Contenido:
 + [[Contexto de SOA y BPM]]
 + [[Introducción a SOA]]
-+ [[SOA y BPM]]
++ [[BPM en SOA]]
 + [[BPEL]]
 
