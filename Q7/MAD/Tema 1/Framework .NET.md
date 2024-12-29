@@ -1,64 +1,69 @@
 [[Tema 1-Introducción a .NET]]
 
-## Qué es .NET?
-Es un framework que incluye un entorno de ejecución, el CLR, y librerías. Se divide en tres variantes:
-+ .NET Framework Redistributable Package (CLR + CL)
-+ .NET Framework SDK (CLR + CL + compiladores + debuggers)
-+ .NET Compact Framework
+## Cómo está formado .NET?
+.NET es un framework que incluye un entorno de ejecución, el CRL y librerías. Existen 3 variantes:
++ **.NET framework Redistributable Package:** contiene el CRL y librerías.
++ **.NET framework SDK:** contiene a mayores compiladores, depuradores, etc.
++ **.NET Compact Framework:** contiene el CRL y librerías, pero mucho mas livianas.
 
 ## Common Language Runtime
-El CLR es un entorno de ejecución que puede ser usado por múltiples lenguajes de programación. Se encarga de cargar y ejecutar las aplicaciones .NET traduciendo código IL a lenguaje máquina. 
-
-También tiene un recolector de basura. Además se encarga de aislar las aplicaciones, aplicar políticas de seguridad, dar soporte para control de versiones y proporcionar servicios de debugging.
-
-Funciona como una capa extra que permite separar la aplicación del SO.
+El CLR, además de ejecutar aplicaciones, tiene las siguientes funciones:
++ Recolecta la basura.
++ Aísla unas aplicaciones de otras.
++ Aplica políticas de seguridad.
++ Proporciona servicios de debug.
++ Incluye control de versiones.
++ Desacopla la aplicación del SO.
 
 ## Class Library
-El framework incluye una serie de clases e interfaces organizados en namespaces de forma jerárquica. Por ejemplo, `System.Collections`.
+.NET ofrece una serie de clases e interfaces organizados en namespaces de forma jerárquica. Un ejemplo sería `System.Collections`. 
 
-Los tipos son independientes del lenguaje de programación que se esté usando. Todos están disponibles para todos los lenguajes. La libraría extensible y orientada a objetos. Se divide en dos partes.
+Los tipos son independientes del lenguaje que se esté usando. Todas las librerías están disponibles para todos los lenguajes. Se pueden extender las librerías, ya que están totalmente orientadas a objetos. Se dividen en 2 subgrupos.
 
-### Blase Class Library
-Incluye un pequeño subconjunto de la Class Library. Todas estas clases están disponibles en las diferentes implementaciones del .NET Framework.
+### Base Class Library
+Es un pequeño conjunto de librarías que incluye funcionalidades básicas. Por ejemplo, manejo de strings, acceso a bases de datos, colecciones, etc.
 
 ### Framework Class Library
-Es un superconjunto de las clases de la BCL formado por todas las clases que incluye el framework. Incluye algunas librarías como ADO.NET o ASP.NET.
+Es una colección mucho más grande que incluye la propia BCL y funcionalidades mucho más específicas, como librerías web, librerías de gráficos, etc. Contiene LINQ, ADO.NET, ASP.NET y muchas más.
 
 ### Enterprise Library
-Es otra librería a parte de la Class Library que agrupa funcionalidades que son comunes en aplicaciones empresariales.
+Es una librería a parte de la Class Library que contiene funcionalidades comunes en aplicaciones empresariales. Por ejemplo, manejo de excepciones, sistemas de caché, seguridad, etc.
 
 ## Common Type System
-El CTS es un conjunto de reglas que tienen que seguir las definiciones de los tipos de datos para que el CLR las acepte. Define datos orientados a objetos. 
+> [!abstract] Definición de Common Type System
+> El Common Type System (CTS) es un conjunto de reglas que tienen que seguir las definiciones de datos para que el CLR las acepte. 
 
-La filosofía de .NET es que todo es un objeto que hereda de `System.Object`. 
-
-Todos los lenguajes de programación .NET tienen que implementar los tipos definidos por el CTS. No es necesario que los implementen todos, basta con que implementen un subconjunto conocido como CLS. 
+Define datos orientados a objetos. La filosofía de .NET es que todo es un objeto, por tanto, todo hereda de `System.Object`. Todos los lenguajes de programación .NET implementan los tipos definidos por el CTS. Aunque no los implementen todos, basta con que implementen un subconjunto conocido como Common Language Specification.
 
 ![[CTS.png]]
 
 ### Common Language Specification
-El CLS es el conjunto mínimo de características que todos los lenguajes deben soportar para ajustarse al CLR. Esto permite a todos los componentes interactuar entre sí independientemente del lenguaje en que fueran escritos.
+> [!abstract] Definición de Common Language Specification
+> El Common Language Specification (CLS) es el conjunto mínimo de características que todos los lenguajes deben soportar para ajustarse al CLR. 
 
-Solo define las reglas con las que se definen los métodos visibles externamente para que puedan ser accesibles a otros lenguajes de programación.
+Esto permite que todos los componentes que sigan esta especificación pueda interactuar entre sí independientemente del lenguaje en que fueran escritos. Solo define los tipos y métodos visibles externamente para que estos sean accesibles desde cualquier lenguaje de programación. Las reglas no afectan al código del assembly en que se definen.
 
 ## Assemblies
-Un assembly es la unidad mínima de ejecución, distribución, instalación y versionado de aplicaciones .NET. Genera archivos con extensiones `.ddl` o `.exe`.
+> [!abstract] Definición de assembly
+> Un assembly o ensamblado es la unidad mínima de ejecución, instalación, distribución y versionado de aplicaciones .NET. 
 
-Está formado por código IL y por el manifiesto, que es un conjunto de archivos que forman el ensamblado. Las aplicaciones .NET se componen de uno o más ensamblados. 
+Son ficheros con extensiones `.exe` o `.dll`.
 
-### Tipos de ensamblados
+Están formados por código IL y por el manifest, que es la metadata del conjunto de archivos que conforman el assembly. Uno o varios assemblies forman una aplicación .NET.
+
+### Tipos de assemblies
 Pueden ser:
 + **Privados:** solo pueden ser usados por una aplicación.
 + **Compartidos:** pueden ser usados por varias aplicaciones. Se instalan en la Global Assembly Cache.
 
-## CLR Hosting y Application Domains
-Para ejecutar una aplicación .NET es necesario un Runtime Host. Es un fragmento de código que carga el CLR en un proceso y carga y ejecuta en código en los Application Domains.
+## CLR Hosting y AppDomains
+Para ejecutar una aplicación .NET es necesario un Runtime Host. Es un fragmento de código que carga el CLR en un proceso y carga y ejecuta la aplicación en los AppDomains.
 
-Los Application Domains son procesos virtuales del CLR. Se ejecutan dentro de un proceso del SO. Un proceso puede tener varios Application Domains, lo que es más eficiente que tener varios procesos del SO.
+### Qué es un AppDomain?
+> [!abstract] Definición de AppDomain
+> Un AppDomain es un proceso virtual que corre dentro del CLR, que funciona de forma similar a un proceso del SO, pero con la característica de que varios AppDomain pueden correr en el mismo proceso.
 
-Los ensamblados que conforman una aplicación se cargan sobre un Application Domain. 
-
-Los Application Domains permiten aislar las aplicaciones, lo que permite:
+Proporcionan aislamiento entre aplicaciones. Esto permite:
 + Detener una sola aplicación sin afectar al resto.
 + Aislar las aplicaciones del código de las otras.
 + Evitar que un fallo afecte al resto.
