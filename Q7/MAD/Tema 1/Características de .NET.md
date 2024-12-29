@@ -1,20 +1,20 @@
 [[Tema 1-Introducción a .NET]]
 
 ## Plataforma independiente del lenguaje
-A .NET no le importa el lenguaje de programación que se use; permite múltiples lenguajes. Para poder hacerlo convierte el código fuente en Intermediate Language. No es interpretado, hay que compilarlo antes de que pueda ser ejecutado.
+Permite programar en múltiples lenguajes. Para poder hacer esto, transforma el código fuente a Intermediate Language (IL). No es un lenguaje interpretado, hay que compilarlo antes de que pueda ser ejecutado.
 
-Se utiliza el Common Type System (CTS), que son tipos de datos comunes entre todos los lenguajes de .NET. Elegir un lenguaje no condiciona la potencia (teóricamente). Todos los lenguajes soportados tienen la misma capacidad de acceso a recursos y servicios.
+El IL utiliza tipos de datos comunes soportados por todos los lenguajes que soporta .NET. Este se conoce como el Common Type System (CTS). Gracias a esto, utilizar un lenguaje u otro no condiciona la potencia. Todos los lenguajes tienen la misma capacidad de acceso a recursos y servicios.
 
 ## Plataforma de ejecución intermedia
-El Common Language Runtime (CLR) es un motor que se encarga de gestionar la ejecución de las aplicaciones .NET. Utiliza compilación Just-In-Time (JIT), que consiste en compilar partes del código justo en el momento que sean necesarias para la ejecución del programa. 
+El Common Language Runtime (CLR) es un motor que se ocupa de gestionar la ejecución de las aplicaciones .NET. Compila el código solo en el momento exacto en que es necesario para ejecutar el programa. Esto se conoce como compilación Just-In-Time (JIT). La utiliza para pasar IL a lenguaje máquina.
 
-No usa una máquina virtual para ejecutar las aplicaciones. Se genera un fichero ejecutable en formato Portable Executable (PE). Al cambiar el compilador el código debería funcionar en otra plataforma.
+No utiliza una máquina virtual para ejecutar las aplicaciones. La compilación genera un fichero ejecutable en formato Portable Executable (PE). Gracias a esto, aunque se cambie el compilador, el código debería funcionar igualmente.
 
 ## Código gestionado
-Las aplicaciones .NET se consideran aplicaciones gestionadas, ya que no se ejecutan directamente sobre el SO, sino en el entorno del CLR. Funciona como un intermediario que controla la carga del código, el recolector de basura, etc.
+Las aplicaciones .NET se consideran aplicaciones gestionadas, ya que no se ejecutan directamente sobre el SO, sino en el entorno del CLR. Este se encarga del recolector de basura, de la carga y verificación del código, etc.
 
-### Metadatos
-Los metadatos se producen en tiempo de compilación. Son descripciones de tipos, propiedades, firmas de métodos y operaciones. Los componentes son autodescriptivos y esto permite interoperabilidad con componentes escritos en otros lenguajes.
+### Metadata
+La metadata se produce en tiempo de compilación. Describe tipos, propiedades, firmas de métodos y operaciones. Esto permite que los componentes de .NET sean autodescriptivos y no se necesite información adicional para interactuar entre componentes .NET escritos en otros lenguajes.
 
 ## Otras características
 Otras características de .NET son:
