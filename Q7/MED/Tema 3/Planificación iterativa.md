@@ -1,9 +1,9 @@
 [[Tema 3-Metodologías ágiles]]
 
 ## Planificación
-Al planificar una iteración hay que enfocarse en que funcionalidades y tareas se van a realizar. En cada iteración se deben priorizar las tareas con más valor y posibilidad de riesgo. 
+Al planificar una iteración se deben definir las funcionalidades que se van a realizar. Estas se dividen en tareas y se priorizan en función de del valor y del riesgo que pueden tener.
 
 ### Priorización
-Para priorizar las tareas existen dos enfoques que se deben combinar:
-+ **Enfoque en el riesgo:** primero se realizan las tareas con mayor riesgo.
-+ **Enfoque en el cliente:** primero se realizan las tareas que prioriza el cliente.
+Para priorizar las tareas se combinan dos enfoques:
++ **Enfoque en el riesgo:** se deben realizar primero las tareas que suponen un mayor riesgo.
++ **Enfoque en el cliente:** se deben realizar primero las tareas que el cliente considera prioritarias.
