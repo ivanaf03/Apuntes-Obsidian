@@ -14,9 +14,11 @@ En proyectos internos el PO suele ser el responsable de marketing. El proyectos 
 Son los desarrolladores que se encargan del incremento de cada Sprint. Deben ser entre 4 y 8 personas (two-pizza teams), sin contar el Scrum Master y el PO. Todos los miembros son multifuncionales y tienen responsabilidad compartida. No siempre es así, a veces algunos miembros son especialistas en ciertas áreas, pero la responsabilidad sigue siendo compartida. 
 
 ### Grupo de trabajo vs equipo
-Un grupo de trabajo es un conjunto de personas que realizan un trabajo en base a una asignación específica de tareas y responsabilidades, siguiendo unas pautas o un proceso.
+> [!abstract] Definición de grupo de trabajo
+> Un grupo de trabajo es un conjunto de personas que realizan un trabajo en base a una asignación específica de tareas y responsabilidades, siguiendo unas pautas o un proceso.
 
-Un equipo es un conjunto con propósito y responsabilidades comunes que trabajan de forma cohesionada y autoorganizada. No tienen un encargado de gestionar las tareas, se hace en conjunto.
+> [!abstract] Definición de equipo
+> Un equipo es un conjunto con propósito y responsabilidades comunes que trabajan de forma cohesionada y autoorganizada. No tienen un encargado de gestionar las tareas, se hace en conjunto.
 
 En Scrum el equipo de desarrollo trabaja como un equipo.
 
