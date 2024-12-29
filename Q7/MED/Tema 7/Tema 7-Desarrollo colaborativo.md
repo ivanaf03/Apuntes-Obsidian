@@ -1,4 +1,0 @@
-[[Metodoloxías de desenvolvemento]]
-
-Contenido:
-+ 
