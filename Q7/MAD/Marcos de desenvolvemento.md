@@ -2,5 +2,4 @@
 
 Temario:
 + [[Tema 1-Introducción a .NET]]
-
-Prácticas:
++ [[Tema 2-El lenguaje CSharp]]
