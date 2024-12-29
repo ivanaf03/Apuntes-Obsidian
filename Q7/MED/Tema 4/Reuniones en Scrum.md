@@ -1,13 +1,13 @@
 [[Tema 4-Scrum]]
 
 ## Sprint planning
-Es el primer evento o reunión de un Sprint. Se define que trabajo se hará en el Sprint y como se hará. Además, se aclara que se entrega al final del Sprint.
+Es el primer evento o reunión de un sprint. Se define que trabajo se hará en el sprint y como se hará. Además, se aclara que se entregará al final del sprint.
 
-El resultado es el Sprint backlog. Se planifica el Sprint entre el PO y el equipo de desarrollo.
+El resultado es el Sprint backlog. Se planifica el sprint entre el PO y el equipo de desarrollo.
 
 ### Precondiciones
 Antes de hacer el Sprint planning:
-+ Se deben tener los recursos disponibles para el Sprint.
++ Se deben tener los recursos disponibles para el sprint.
 + Los elementos del Product backlog que se van a priorizar deben estar bien definidos.
 + El equipo conoce las tecnologías que se van a emplear, el objetivo de negocio y tiene la capacidad para realizar estimaciones.
 
@@ -26,11 +26,11 @@ Se generan:
 
 ### Partes de la reunión
 Se divide en 2 partes:
-+ **Primera parte:** el PO presenta el Product backlog y explica que cosas se deben realizar por prioridad en el Sprint. Si hubo cambios, los debe explicar. Todo el equipo debe comprender en detalle las tareas, por lo que se realizarán preguntas y sugerencias. Se replantea el Product backlog y se define el objetivo del Sprint con una frase que tenga suficiente significado sobre el producto entregable.
-+ **Segunda parte:** el equipo divide las funcionalidades en tareas y se estima el tiempo para cada una, completando el Sprint backlog. Se definen el diseño y la arquitectura del entregable. Funciona como una reunión del equipo y es moderada por el Scrum Master. Este debe asegurarse de que el Product backlog, el objetivo del Sprint, la Sprint backlog y las fechas están bien definidos.
++ **Primera parte:** el PO presenta el Product backlog y explica que cosas se deben realizar por prioridad en el sprint. Si hubo cambios, los debe explicar. Todo el equipo debe comprender en detalle las tareas, por lo que se realizarán preguntas y sugerencias. Se replantea el Product backlog y se define el objetivo del Sprint con una frase que tenga suficiente significado sobre el producto entregable.
++ **Segunda parte:** el equipo divide las funcionalidades en tareas y se estima el tiempo para cada una, completando el Sprint backlog. Se definen el diseño y la arquitectura del entregable. Funciona como una reunión del equipo y es moderada por el Scrum Master. Este debe asegurarse de que el Product backlog, el objetivo del sprint, la Sprint backlog y las fechas están bien definidos.
 
 ## Daily meetings
-Las Daily Scrum son reuniones de 15 minutos como máximo que se hacen diariamente. El objetivo es revisar como se progresa en el Sprint y poder reajustar el plan. 
+Las Daily Scrum son reuniones de 15 minutos como máximo que se hacen diariamente. El objetivo es revisar como se progresa en el sprint y poder reajustar el plan. 
 
 Se debe hacer siempre a la misma hora y en el mismo lugar. Sirve para encontrar bloqueos en el Sprint. 
 
@@ -43,7 +43,7 @@ Las Daily sirven para:
 + Evitar reuniones largas.
 
 ## Sprint review
-Es una reunión que se realiza siempre al terminar el Sprint y se presenta lo que se ha completado y lo que no. Los objetivos son:
+Es una reunión que se realiza siempre al terminar el sprint y se presenta lo que se ha completado y lo que no. Los objetivos son:
 + Demostrar que hubo incremento.
 + Recoger feedback de los stakeholders.
 + Reajustar el Product backlog.
@@ -52,7 +52,7 @@ No deben ser muy largas, suelen durar entre 1 y 4 horas. En ella el PO prueba la
 
 ### Precondiciones
 Antes de hacer el Sprint review:
-+ Debe haber terminado el Sprint.
++ Debe haber terminado el sprint.
 + Se avisa para que asistan a todas las personas implicadas.
 
 ### Entradas
@@ -64,7 +64,7 @@ Se generan:
 + Las fechas de la próxima Sprint planning.
 
 ### Partes de la reunión
-La reunión suele empezar con una exposición del objetivo del Sprint, las funcionalidades incluidas y las que se han desarrollado. Se muestra el funcionamiento y se abre el turno de preguntas y respuestas. Para terminar, el Scrum Master fija la fecha del próximo Sprint planning.
+La reunión suele empezar con una exposición del objetivo del sprint, las funcionalidades incluidas y las que se han desarrollado. Se muestra el funcionamiento y se abre el turno de preguntas y respuestas. Para terminar, el Scrum Master fija la fecha del próximo Sprint planning.
 
 La finalidad no es la toma de decisiones ni la crítica del incremento, sino mejorar la visión del producto tanto del PO como del equipo de desarrollo.
 
@@ -74,7 +74,7 @@ A veces es necesaria una reunión para revisar el Product backlog. Se hace entre
 Se finalidad es mejorar el detalle de las historias de usuario y orientar al PO del tamaño de las tareas y las estimaciones.
 
 ## Sprint retrospective
-Se hace después de la Sprint review y consiste en una reflexión de todo el equipo sobre lo que salió bien y lo que debe mejorarse para futuros Sprints. El objetivo es la mejora continua de los procesos y las prácticas. Los cambios que se acuerden deben realizarse para próximos Sprints.
+Se hace después de la Sprint review y consiste en una reflexión de todo el equipo sobre lo que salió bien y lo que debe mejorarse para futuros sprints. El objetivo es la mejora continua de los procesos y las prácticas. Los cambios que se acuerden deben realizarse para próximos sprints.
 
 Participan el Scrum Master, el PO, el equipo y los clientes y stakeholders.
 
