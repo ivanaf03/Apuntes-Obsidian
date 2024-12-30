@@ -33,4 +33,4 @@ A parte de implementar funcionalidades aisladas, cuando un software tiene que ej
 > [!abstract] Definición de modelar
 > Modelar consiste en seleccionar los elementos de la realidad que son relevantes en el sistema que se va a construir.
 
-Para modelar correctamente es necesario conocer la sintaxis y semántica del lenguaje de modelado y identificar los elementos relevantes a partir del contexto y la información dados. Un ejemplo de lenguaje de modelado es BPMN.
+Para modelar correctamente es necesario conocer la sintaxis y semántica del lenguaje de modelado e identificar los elementos relevantes a partir del contexto y la información dados. Un ejemplo de lenguaje de modelado es BPMN.
