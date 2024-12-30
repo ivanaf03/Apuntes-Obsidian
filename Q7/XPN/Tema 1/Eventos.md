@@ -2,7 +2,7 @@
 
 ## Qué es un evento?
 > [!abstract] Definición de evento
-> Los eventos son los diferentes hitos que hay en un proceso. Expresan algo que ocurre en un punto del workflow del proceso.
+> Los eventos son los diferentes hitos que hay en un proceso. Expresan algo que ocurre en un punto concreto del workflow del proceso.
 
 Al ser hitos, no tienen duración ni trabajo asociado. No tienen ninguna implementación asociada.
 
