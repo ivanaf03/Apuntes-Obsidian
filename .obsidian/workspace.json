@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q7/XPN/Tema 1/Introducción a la gestión de procesos.md",
+                "file": "Q7/MED/Tema 8/PUDs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introducción a la gestión de procesos"
+              "title": "PUDs"
             }
           }
         ],
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "714229101c7e98ff",
@@ -208,11 +207,26 @@
   },
   "active": "c889d4559ef9881f",
   "lastOpenFiles": [
+    "Plantilla.md",
+    "Q7/MED/Tema 8/PUDs.md",
+    "Q7/MED/Tema 8/Tema 8-Proceso unificado.md",
+    "Q7/MED/Tema 8/Lenguaje Unificado de Modelado.md",
+    "Q5/LSI/Tema 1/Conceptos básicos y definiciones.md",
+    "Q7/XPN/Tema 4/BPA.md",
+    "Q7/MED/Metodoloxías de desenvolvemento.md",
+    "Q7/MED/Tema 7/Tema 7-Desarrollo colaborativo.md",
+    "Q7/MED/Tema 8",
     "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
+    "Q7/XPN/Tema 1/Colaboración en BPMN.md",
+    "Q7/XPN/Tema 1/Transacciones en BPMN.md",
+    "Q7/XPN/Tema 1/Excepciones en BPMN.md",
+    "Q7/XPN/Tema 1/Eventos.md",
+    "Q7/XPN/Tema 1/Actividades o tareas.md",
+    "Q7/XPN/Tema 1/Puertas.md",
+    "Q7/XPN/Tema 1/Elementos básicos de BPMN.md",
+    "Q7/XPN/Tema 1/Introducción a la gestión de procesos.md",
     "Q7/Q7.md",
     "Q7/MED/Tema 7/Retrospectivas.md",
-    "Plantilla.md",
-    "Q7/MED/Tema 7/Tema 7-Desarrollo colaborativo.md",
     "Q7/MED/Tema 7/Desarrollo en equipo.md",
     "Q7/MED/Tema 6/Tema 6-eXtreme Programming.md",
     "Q7/MED/Tema 6/Equipo en XP.md",
@@ -220,13 +234,6 @@
     "Q7/MED/Tema 6/Prácticas de XP.md",
     "Q7/MED/Tema 6/Valores y principios de XP.md",
     "Q7/VVS/Tema 3/Programación concurrente.md",
-    "Q7/VVS/Tema 3/Programación secuencial.md",
-    "Q7/VVS/Tema 3/Tema 3-Promela y SPIN.md",
-    "Q7/VVS/Tema 2/Autómatas.md",
-    "Q7/VVS/Tema 2/Introducción a los model checkers.md",
-    "Q7/MED/Tema 6/Contexto de XP.md",
-    "Q7/MED/Metodoloxías de desenvolvemento.md",
-    "Q7/MED/Tema 5/Prácticas de Kanban.md",
     "Imágenes/CFD 1.png",
     "Imágenes/CFD.png",
     "Imágenes/kanban_tablero_QA.png",
@@ -234,14 +241,7 @@
     "Imágenes/tablero_kanban_scrum.png",
     "Imágenes/kanban_board.png",
     "Imágenes/limite_wip.png",
-    "Q7/MED/Tema 5/Tema 5-Kanban.md",
-    "Q7/MED/Tema 5/Principios de Kanban.md",
     "Imágenes/value_stream_map.png",
-    "Q7/MED/Tema 5/Contexto de Kanban.md",
-    "Q7/XPN/Tema 4/BPA.md",
-    "Q7/XPN/Tema 4/BPM.md",
-    "Q7/MED/Tema 4/Tema 4-Scrum.md",
-    "Q7/MED/Tema 4/Scrum para equipos grandes.md",
     "Imágenes/project_burn_down.png",
     "Imágenes/ley_parkinson.png",
     "Q7/MED/Tema 7",
@@ -253,7 +253,6 @@
     "Q7/XPN/Tema 3",
     "Q7/FD/Tema 5",
     "Q7/VVS/Prácticas",
-    "Q7/FD/Tema 4",
     "Sin título.canvas",
     "Q7/XPN/Tema 1/canva.canvas",
     "Sin título 1.canvas",
