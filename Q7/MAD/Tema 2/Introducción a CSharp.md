@@ -1,59 +1,58 @@
 [[Tema 2-El lenguaje CSharp]]
 
 ## Qué es C#?
-Es un lenguaje de programación orientado a objetos para desarrollar aplicaciones en .NET. Busca reducir el tiempo de desarrollo evitando detalles de programación de bajo nivel.
+Es un lenguaje de programación orientado a objetos que se puede utilizar para desarrollar aplicaciones en .NET. El objetivo es reducir el tiempo de desarrollo, evitando detalles de programación de bajo nivel.
 
-Para C# todo es un objeto, incluso los tipos primitivos. Permite el uso de mecanismos de boxing y unboxing, que es la conversión de tipos primitivos a objetos y viceversa.
+En C# todo es un objeto, por tanto, todo hereda de `System.Object`, aunque también permite declarar tipo primitivos que pueden, si es necesario, ser transformados en objetos.
 
-### Nomenclatura
-Los métodos y nombres de clases se ponen en PascalCase, ya que es sensible a mayúsculas y minúsculas. Los atributos se ponen en camelCase. 
+### Convenciones
+Por convención, los métodos y nombres de clases se ponen en PascalCase. Los atributos se ponen en camelCase. C# es sensible a mayúsulas.
 
-## Hola mundo
-
+## Hola mundo en C#
 ```CSharp
-using System; //librería que incluye clases básicas, como Console
+using System;
 
-namespace Es.Udc.DotNet.CSharpTutorial { // espacio de nombres para evitar conflictos
-    /*
-    * Class HellowWorld
-    * Description: simple C# example
-    */
-    class HelloWorld {
-        public static void Main() {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
-        }
-    }
+namespace Es.Udc.DotNet.CSharpTutorial {
+
+	class HelloWorld {
+	
+		public static void Main(){
+			Console.WriteLine("Hello world!");
+		}
+		
+	}
 }
 ```
 
+El Main puede recibir parámetros. Acepta un array de argumentos `Main(string args[])`.
+
 ## Jerarquía de clases
-Solo admite herencia simple, como Java. También es idéntico en que sí permite implementación de múltiples interfaces. 
+Funciona igual que Java. Solo admite herencia simple, pero permite la implementación de múltiples interfaces. 
 
 ### System.Object
-Todos los tipos heredan de `System.Object`. 
+El la clase de la que heredan todas las clases en C#. Define las interfaces de los métodos:
 
 ```CSharp
 public class Object { 
 	public Object(); 
 	
-	public virtual bool Equals(object obj);
+	public virtual bool Equals(object obj); 
 	public static bool Equals(object objA, object objB); 
 	public virtual int GetHashCode(); 
 	public Type GetType(); 
-	protected object MemberwiseClone(); 
-	public static bool ReferenceEquals(object objA, object objB); 
-	public virtual string ToString(); 
+	protected object MemberwiseClone();
+	public static bool ReferenceEquals(object objA, object objB);
+	public virtual string ToString();
 }
 ```
 
-Todos los métodos de `System.Object` se pueden sobrescribir. Por ejemplo:
+Esto permite que cualquier clase pueda sobrescribirlos:
 
 ```CSharp
 public override bool Equals(object obj) {
-	UserProfileDetails target = (UserProfileDetails)obj; 
-	
-	return (this.FirstName == target.FirstName) && (this.Lastname == target.Lastname) && (this.Email == target.Email) && (this.Language == target.Language) && (this.Country == target.Country); 
+	Car car = (Car) obj;
+
+	return (this.Doors == car.Doors) && (this.Wheels == car.Wheels);
 }
 ```
 
