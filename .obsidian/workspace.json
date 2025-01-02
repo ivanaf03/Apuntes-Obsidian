@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sentencia using.md",
-                "mode": "source",
+                "file": "Q7/XPN/Tema 2/Tareas en Bonita.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sentencia using"
+              "title": "Tareas en Bonita"
             }
           }
         ],
@@ -207,16 +207,21 @@
   },
   "active": "c889d4559ef9881f",
   "lastOpenFiles": [
-    "Q7/MAD/Tema 2/Tema 2-El lenguaje CSharp.md",
+    "Q7/XPN/Tema 2/Tema 2-Automatización de procesos.md",
+    "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
+    "Q7/XPN/Tema 1/Introducción a la gestión de procesos.md",
+    "Q7/Q7.md",
+    "Ingeniería Informática.md",
     "Sentencia using.md",
-    "Q7/MAD/Tema 2/Excepciones en CSharp.md",
+    "Q7/MAD/Marcos de desenvolvemento.md",
+    "Q7/MAD/Tema 2/Generics.md",
     "Plantilla.md",
+    "Q7/MAD/Tema 2/Tema 2-El lenguaje CSharp.md",
+    "Q7/MAD/Tema 2/Excepciones en CSharp.md",
     "Q7/MAD/Tema 2/Modificadores de acceso.md",
     "Q7/MAD/Tema 2/Interfaces.md",
     "Q7/MAD/Tema 2/Estructuras.md",
     "Q7/MAD/Tema 2/Enumeraciones.md",
-    "Q7/XPN/Tema 1/Introducción a la gestión de procesos.md",
-    "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
     "Q7/MAD/Tema 2/Clases en CSharp.md",
     "Q7/MAD/Tema 2/Sentencias.md",
     "Q7/MAD/Tema 2/Entrada y salida por consola.md",
@@ -228,11 +233,6 @@
     "Q7/MAD/Tema 2/Compilador de CSharp.md",
     "Q7/XPN/Tema 4/BPA.md",
     "Q7/XPN/Tema 4/BPM.md",
-    "Q7/XPN/Xestión de procesos de negocio.md",
-    "Q7/XPN/Tema 1/Excepciones en BPMN.md",
-    "Q7/XPN/Tema 1/Actividades o tareas.md",
-    "Q7/XPN/Tema 1/Colaboración en BPMN.md",
-    "Q7/XPN/Tema 1/Elementos básicos de BPMN.md",
     "Imágenes/diagrama_actividad.png",
     "Imágenes/diagram_despliegue.png",
     "Imágenes/socket_lollipop.png",
