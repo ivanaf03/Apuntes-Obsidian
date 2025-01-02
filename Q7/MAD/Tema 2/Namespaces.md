@@ -1,40 +1,53 @@
 [[Tema 2-El lenguaje CSharp]]
 
 ## Uso de namespaces
-Los namespaces se usan para organizar y agrupar bien el código y evitar conflictos de nomenclatura. Por ejemplo:
+> [!abstract] Definición de namespace
+> Los namespaces son una jerarquía que se utiliza para agrupar y organizar el código para evitar conflictos de nomenclatura.
+
+Pueden anidarse para mayor semántica y jerarquización. Se puede hacer referencia a ellos mediante `using`.
 
 ```CSharp
-namespace Empresa.Producto.Modulo {
-    class MiClase {
-        // doSomething
-    }
+namespace Worker.Tech {
+
+	class Engineer {
+	
+		public static string SayHello(){
+			return "Hi! I am the engineer.";
+		}
+		
+	}
 }
 
-Empresa.Producto.Modulo.MiClase miObjeto = new Empresa.Producto.Modulo.MiClase();
+----------
+
+using Worker;
+
+namespace Work {
+
+	class Order {
+		
+		public string PresentWorkers(){
+			Tech.Engineer.SayHello();
+		}
+
+	}
+}
 ```
 
-Para referenciar clases o tipos que estén fuera del namespace se usa `using` para evitar escribir todo el namespace. 
+### Alias
+Se puede simplificar el uso de namespaces mediante alias.
 
 ```CSharp
-using Empresa.Producto.Modulo;
+using WE = Worker.Tech.Engineer;
 
-class Programa {
-    static void Main() {
-        MiClase miObjeto = new MiClase();
-    }
+namespace Work {
+
+	class Order {
+		
+		public string PresentWorkers(){
+			WE.SayHello();
+		}
+
+	}
 }
-
-```
-
-Para recortar más todavía la sintaxis se pueden usar alias.
-
-```CSharp
-using MiModulo = Empresa.Producto.Modulo;
-
-class Programa {
-    static void Main() {
-        MiModulo.MiClase miObjeto = new MiModulo.MiClase();
-    }
-}
-
 ```
