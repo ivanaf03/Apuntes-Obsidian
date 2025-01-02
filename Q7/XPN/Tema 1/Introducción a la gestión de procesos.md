@@ -23,7 +23,7 @@ La compra de comida online en una aplicación siempre sigue los mismos pasos:
 5. El cliente elige si recoge el pedido y lo recibe a domicilio.
 6. El cliente confirma el pedido.
 7. El cliente tramita el pago.
-8. La aplicación modifica el restaurante y al repartidor, si hay envío.
+8. La aplicación notifica al restaurante y al repartidor, si hay envío.
 9. El restaurante prepara el pedido y el repartidor, si hay envío, se prepara para recogerlo.
 10. El cliente o el repartidor recogen el pedido.
 
