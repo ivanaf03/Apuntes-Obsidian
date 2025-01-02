@@ -170,7 +170,10 @@ Todas las tareas de Bonita pueden tener conectores de entrada y salida. Se suele
 
 ### Listado de conectores
 Las tareas de Bonita se pueden conectar con:
-+ Sistemas de Información Empresarial
++ Sistemas de Información Empresarial:
+	+ Gestores de contenidos
+	+ Enterprise Resource Planning
+	+ Customer Relationship Management
 + Bases de datos o servicios de directorio LDAP
 + Sistemas de reporting
 + Sistemas de calendario
