@@ -47,4 +47,23 @@ Los casos de uso no especifican simplemente requisitos, también sirven para:
 + Ingeniería de pruebas.
 
 ### Proceso centrado en la arquitectura
-La arquitect
+La arquitectura de un sistema está formada por los aspectos estáticos (la estructura) y los dinámicos (el comportamiento). Surge por las necesidades de los usuarios reflejadas en los CU. Sirve para, a través de vistas, encontrar características críticas y apartar detalles secundarios.
+
+La arquitectura depende de:
++ Plataforma del sistema.
++ Recursos software utilizados.
++ Implementación.
++ Partes legacy.
++ Requisitos no funcionales..
+
+Los casos de uso deben ser compatibles con la arquitectura y avanzar en paralelo. Para definir una arquitectura, los arquitectos software se basan en una pequeña parte de casos de uso del sistema, que deben ser los más críticos.
+
+### Proceso iterativo e incremental
+El trabajo se debe dividir en proyectos pequeños y manejables. Las iteraciones deben ser planificadas, ejecutadas y evaluadas. En cada una de ellas se deben aumentar los casos de uso para aumentar la utilidad del producto y resolver los riesgos más críticos.
+
+Las ventajas que esto trae son:
++ Reduce el riesgo.
++ Se cumplen los plazos.
++ Aumenta la productividad.
++ Es un modelo flexible.
+
