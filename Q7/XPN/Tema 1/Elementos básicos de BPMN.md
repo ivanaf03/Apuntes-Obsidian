@@ -14,7 +14,7 @@ Los elementos de BPMN son:
 
 ![[Imágenes/inicio_abstracto_bpmn.png]]
 
-+ **Actividad:** es una acción que realiza un actor en un punto concreto.. Se unen entre ellas para generar el workflow. En el caso anterior eran actividades indicar la dirección, seleccionar el restaurante, seleccionar los platos, confirmar el pedido, realizar el pago, notificar el pedido, preparar el pedido, recoger pedido siendo cliente, desplazarse hacia al restaurante, recoger pedido siendo repartidor y entregar el pedido.
++ **Actividad:** es una acción que realiza un actor en un punto concreto. Se unen entre ellas para generar el workflow. En el caso anterior eran actividades indicar la dirección, seleccionar el restaurante, seleccionar los platos, confirmar el pedido, realizar el pago, notificar el pedido, preparar el pedido, recoger pedido siendo cliente, desplazarse hacia al restaurante, recoger pedido siendo repartidor y entregar el pedido.
 
 ![[actividad_bpmn.png]]
 
