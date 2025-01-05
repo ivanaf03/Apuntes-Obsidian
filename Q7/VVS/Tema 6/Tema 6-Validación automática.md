@@ -3,4 +3,5 @@
 Contenido:
 + [[Necesidad de las pruebas]]
 + [[Tipos de pruebas]]
-+ [[Calidad en las pruebas]]
++ [[Técnicas de pruebas]]
++ [[Gestión de las pruebas]]
