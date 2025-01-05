@@ -171,9 +171,9 @@ Todas las tareas de Bonita pueden tener conectores de entrada y salida. Se suele
 ### Listado de conectores
 Las tareas de Bonita se pueden conectar con:
 + Sistemas de Información Empresarial:
-	+ Gestores de contenidos (CSM)
-	+ Enterprise Resource Planning (ERP)
-	+ Customer Relationship Management (CRM)
+	+ Gestores de contenidos (CMS) para gestionar el contenido de un sitio web.
+	+ Enterprise Resource Planning (ERP) para unificas las áreas de la empresa.
+	+ Customer Relationship Management (CRM) para gestionar los clientes.
 + Bases de datos o servicios de directorio LDAP
 + Sistemas de reporting
 + Sistemas de calendario
@@ -182,7 +182,7 @@ Las tareas de Bonita se pueden conectar con:
 + Redes sociales
 
 ### Conexión a API REST
-En el ejemplo anterior, la tarea "Enviar notificación a sistema logísitico" tiene un conector de salida con una llamada a una API REST en Java. El conector hace una petición POST para crear el envío.
+En el ejemplo anterior, la tarea "Enviar notificación a sistema logístico" tiene un conector de salida con una llamada a una API REST en Java. El conector hace una petición POST para crear el envío.
 
 La API podría estar implementada de esta forma:
 
