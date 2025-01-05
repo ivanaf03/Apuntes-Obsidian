@@ -16,7 +16,7 @@ Esta arquitectura se compone de:
 > Un middleware es un software que actúa como intermediario entre diferentes aplicaciones, sistemas o componentes, facilitando la comunicación y gestión de datos entre ellos. 
 
 ### Implementación de una SOA
-No se suele partir de 0 para crear una SOA. Se parte de una arquitectura de un Sistema de Información que va evolucionando con el tiempo para dar respuesta al modelo de negocio y a la operativa de la organización. ´´
+No se suele partir de 0 para crear una SOA. Se parte de una arquitectura de un Sistema de Información que va evolucionando con el tiempo para dar respuesta al modelo de negocio y a la operativa de la organización.
 
 ## Servicios en SOA
 > [!abstract] Definición de servicio
