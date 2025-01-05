@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Plantilla.md",
-                "mode": "source",
+                "file": "Q7/XPN/Tema 3/Contexto de SOA y BPM.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plantilla"
+              "title": "Contexto de SOA y BPM"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
-                "mode": "preview",
+                "file": "Q7/Q7.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 1-Modelado de procesos con BPMN"
+              "title": "Q7"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,37 +204,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c889d4559ef9881f",
+  "active": "7e725561355bf4b3",
   "lastOpenFiles": [
-    "2025-01-04.md",
+    "Q7/XPN/Tema 3/Tema 3-SOA y BPM.md",
+    "Ingeniería Informática.md",
+    "Q7/XPN/Xestión de procesos de negocio.md",
+    "Q7/XPN/Tema 2/Tema 2-Automatización de procesos.md",
+    "Q7/XPN/Tema 2/APIs en Bonita.md",
+    "Q7/XPN/Tema 2/Páginas y formularios en Bonita.md",
+    "Q7/XPN/Tema 2/Actores en Bonita.md",
+    "Q7/XPN/Tema 2/Eventos en Bonita.md",
+    "Q7/XPN/Tema 2/Puertas en Bonita.md",
+    "Q7/XPN/Tema 2/Tareas en Bonita.md",
+    "Q7/XPN/Tema 2/Gestión de datos en Bonita.md",
+    "Q7/XPN/Tema 2/Arquitectura de Bonita.md",
+    "Q7/XPN/Tema 2/Introducción a la automatización de procesos.md",
     "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
-    "Q7/MAD/Tema 6/Nuget.md",
-    "Q7/MAD/Tema 6/Tema 6-Nuget.md",
-    "Q7/MAD/Tema 4/Tema 4-Inyección de dependencias con Ninject.md",
-    "Q7/MAD/Tema 5/Tema 5-Enterprise Library.md",
-    "Q7/MAD/Tema 5/Logging Application Block.md",
-    "Q7/MAD/Tema 6",
-    "Q7/MAD/Tema 5/Introducción a la Enterprise Library.md",
-    "Q7/MAD/Marcos de desenvolvemento.md",
-    "Q7/MAD/Tema 4/Intercepción de métodos.md",
-    "Q7/MAD/Tema 5",
-    "Plantilla.md",
-    "Q7/MAD/Tema 4/Tipos de inyecciones.md",
-    "Q7/MAD/Tema 4/Ninject e inyección de dependencias.md",
-    "Q7/XPN/Tema 4/BPA.md",
-    "Q7/XPN/Tema 1/Actividades o tareas.md",
-    "Q7/MAD/Tema 3/Introducción a Entity Framework.md",
-    "Q7/MAD/Tema 4",
-    "Q7/MAD/Tema 3/Tema 3-Implementación de persistencia con ADO.NET Entity Framework.md",
-    "Q7/XPN/Tema 4/Tema 4-Gestión por procesos.md",
-    "Q7/XPN/Tema 4/BPM.md",
+    "Q7/XPN/Tema 1/Colaboración en BPMN.md",
     "Q7/XPN/Tema 1/Transacciones en BPMN.md",
     "Q7/XPN/Tema 1/Excepciones en BPMN.md",
-    "Q7/XPN/Tema 1/Colaboración en BPMN.md",
-    "Q7/XPN/Tema 3/Contexto de SOA y BPM.md",
-    "Q7/XPN/Tema 3/Introducción a SOA.md",
-    "Q7/XPN/Tema 3/BPM en SOA.md",
-    "Q7/XPN/Tema 3/BPEL.md",
+    "Q7/XPN/Tema 1/Eventos.md",
+    "Q7/XPN/Tema 1/Actividades o tareas.md",
+    "Q7/XPN/Tema 1/Puertas.md",
+    "Q7/XPN/Tema 1/Elementos básicos de BPMN.md",
+    "Q7/XPN/Tema 1/Introducción a la gestión de procesos.md",
+    "Q7/XPN/Tema 4/BPM.md",
+    "Q7/XPN/Tema 4/Tema 4-Gestión por procesos.md",
+    "Q7/Q7.md",
+    "Q7/MAD/Tema 6/Nuget.md",
+    "Imágenes/pruebas_development.png",
+    "Imágenes/prueba_aceptación.png",
+    "Q7/MAD/Tema 6",
+    "Q7/MAD/Tema 5",
+    "Q7/MAD/Tema 4",
     "Imágenes/patron_DAO.png",
     "Pasted image 20250103012139.png",
     "Imágenes/estados_ef.png",
@@ -245,9 +246,7 @@
     "Imágenes/diagrama_actividad.png",
     "Imágenes/diagram_despliegue.png",
     "Imágenes/socket_lollipop.png",
-    "Imágenes/puds_ciclo.png",
     "Q7/MED/Tema 8",
-    "Imágenes/CFD 1.png",
     "Q7/MED/Tema 7",
     "Q7/MED/Tema 6",
     "Q7/MED/Tema 5",
