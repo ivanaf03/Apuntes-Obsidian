@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q7/XPN/Tema 3/Contexto de SOA y BPM.md",
-                "mode": "preview",
+                "file": "Q7/MAD/Tema 7/Pruebas unitarias en .NET.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contexto de SOA y BPM"
+              "title": "Pruebas unitarias en .NET"
             }
           },
           {
@@ -206,7 +206,13 @@
   },
   "active": "7e725561355bf4b3",
   "lastOpenFiles": [
+    "Q7/MAD/Tema 7/Tema 7-Test project.md",
+    "Q7/MAD/Tema 7/Pruebas unitarias en .NET.md",
+    "Q7/MAD/Tema 7/Test project.md",
+    "Q7/XPN/Tema 3/Introducción a SOA.md",
+    "Q7/MAD/Tema 7",
     "Q7/XPN/Tema 3/Tema 3-SOA y BPM.md",
+    "Q7/XPN/Tema 3/Contexto de SOA y BPM.md",
     "Ingeniería Informática.md",
     "Q7/XPN/Xestión de procesos de negocio.md",
     "Q7/XPN/Tema 2/Tema 2-Automatización de procesos.md",
@@ -227,11 +233,6 @@
     "Q7/XPN/Tema 1/Actividades o tareas.md",
     "Q7/XPN/Tema 1/Puertas.md",
     "Q7/XPN/Tema 1/Elementos básicos de BPMN.md",
-    "Q7/XPN/Tema 1/Introducción a la gestión de procesos.md",
-    "Q7/XPN/Tema 4/BPM.md",
-    "Q7/XPN/Tema 4/Tema 4-Gestión por procesos.md",
-    "Q7/Q7.md",
-    "Q7/MAD/Tema 6/Nuget.md",
     "Imágenes/pruebas_development.png",
     "Imágenes/prueba_aceptación.png",
     "Q7/MAD/Tema 6",
@@ -251,7 +252,6 @@
     "Q7/MED/Tema 6",
     "Q7/MED/Tema 5",
     "Q7/XPN/Tema 4",
-    "Q7/VVS/Tema 6",
     "Sin título.canvas",
     "Q7/XPN/Tema 1/canva.canvas",
     "Sin título 1.canvas",
