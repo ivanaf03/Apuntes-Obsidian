@@ -30,7 +30,7 @@ El evento de inicio condicional se lanza cuando se cumple una condición o una r
 ![[evento_condicional.png]]
 
 ### Evento de inicio asociado a una señal
-Las señales permiten a los procesos comunicarse entre ellos. Funcionan de forma similar a las señales de los procesos en los sistemas operativos. Los eventos de inicio asociados a estas se disparan cuando se genera la señal que llevan asociada en la configuración
+Las señales permiten a los procesos comunicarse entre ellos. Funcionan de forma similar a las señales de los procesos en los sistemas operativos. Los eventos de inicio asociados a estas se disparan cuando se genera la señal que llevan asociada en la configuración.
 
 ![[evento_signal.png]]
 
