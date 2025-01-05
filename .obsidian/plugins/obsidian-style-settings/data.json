@@ -1,5 +1,5 @@
 {
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-teal",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-sky",
   "anuppuccin-theme-settings@@anp-callout-color-toggle": true,
   "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-block",
   "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
@@ -15,12 +15,11 @@
   "anuppuccin-theme-settings@@anp-header-color-toggle": true,
   "anuppuccin-theme-settings@@anp-header-margin-toggle": true,
   "anuppuccin-theme-settings@@anp-header-divider-color-toggle": false,
-  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-blue",
   "anuppuccin-theme-settings@@anp-h1-divider": false,
   "anuppuccin-theme-settings@@anp-h2-divider": true,
-  "anuppuccin-theme-settings@@anp-h2-color-custom": "anp-h2-green",
+  "anuppuccin-theme-settings@@anp-h2-color-custom": "anp-h2-teal",
   "anuppuccin-theme-settings@@anp-h3-divider": true,
-  "anuppuccin-theme-settings@@anp-h3-color-custom": "anp-h3-sky",
+  "anuppuccin-theme-settings@@anp-h3-color-custom": "anp-h3-sapphire",
   "anuppuccin-theme-settings@@anp-h4-divider": true,
   "anuppuccin-theme-settings@@anp-h5-color-custom": "anp-h5-maroon",
   "anuppuccin-theme-settings@@anp-h5-divider": true,
@@ -38,7 +37,6 @@
   "anuppuccin-theme-settings@@anp-code-bg-color@@light": "#000000",
   "anuppuccin-theme-settings@@anp-code-bg-color@@dark": "#000000",
   "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#FFFFFF",
-  "anuppuccin-theme-settings@@h1-font": "Noto Serif",
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
   "anuppuccin-theme-settings@@anp-header-margin-value": 6,
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
@@ -67,5 +65,6 @@
   "anuppuccin-theme-settings@@h5-size": 1,
   "anuppuccin-theme-settings@@h6-size": 1,
   "anuppuccin-theme-settings@@h5-line-height": 1.5,
-  "anuppuccin-theme-settings@@anp-code-text-color@@light": "#FFFFFF"
+  "anuppuccin-theme-settings@@anp-code-text-color@@light": "#FFFFFF",
+  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-teal"
 }
