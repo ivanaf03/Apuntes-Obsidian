@@ -23,5 +23,5 @@ Es necesario distribuir los sistemas. Deben ser flexibles, apartarse a los cambi
 
 ### Mantenibilidad
 > [!abstract] Definición de mantenibilidad
-> La mantenibilidad es la capacidad de una arquitectura para poder evolucionar, sin que se rompa la arquitectura y sin que la complejidad no afecte a la evolución.
+> La mantenibilidad es la capacidad de una arquitectura para poder evolucionar, sin que se rompa la arquitectura y sin que la complejidad afecte a la evolución.
 
