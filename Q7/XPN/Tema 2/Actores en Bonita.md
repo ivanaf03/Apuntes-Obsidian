@@ -15,6 +15,6 @@ Un usuario puede pertenecer a varios grupos y tener varios roles. En la membres�
 Al guardar la organización en Bonita Studio, se exporta directamente al motor.
 
 ## Configuración de actores
-En la pool se indican los actores. Uno de ellos debe ser el que puede iniciar el proceso. A cada actor actor abstracto se le pueden asociar grupos, roles y usuarios concretos.
+En la pool se indican los actores. Uno de ellos debe ser el que puede iniciar el proceso. A cada actor actor abstracto se le pueden asociar grupos, roles y usuarios concretos. Esto se denomina actor mapping.
 
-En cada tarea del proceso se puede definir un filtro de actor. Se evalúan en tiempo de ejecución. No tiene por qué ser un usuario o rol concreto, se puede definir con cierta lógica. Por ejemplo, "la tarea C solo la pueden realizar los empleados que no hayan realizado la A o la B" o "la tarea X la tiene que realizar el jefe del empleado que ha iniciado el proceso".
+En cada tarea del proceso se puede definir un filtro de actor. Se evalúan en tiempo de ejecución. No tiene por qué ser un usuario o rol concreto, se puede definir con cierta lógica. Por ejemplo, "la tarea C solo la pueden realizar los empleados que no hayan realizado la A o la B" o "la tarea X la tiene que realizar el jefe del empleado que ha iniciado el proceso". Esto se denomina actor filtering.
