@@ -27,7 +27,7 @@ Normalmente, se suele seguir esta orden:
 
 ## Indicadores sobre los procesos
 > [!abstract] Definición de KPI
-> Un Key Performance Indicator (KPI) es una serie de métricas que se utilizan para sintetizar la información sobre la eficacia y productividad de las acciones que se lleven a cabo en un negocio con el fin de poder tomar decisiones y determinar aquellas que han sido más efectivas a la hora de cumplir con los objetivos marcados en un proceso o proyecto concreto.
+> Un Key Performance Indicator (KPI) es una serie de métricas que se utilizan para sintetizar la información sobre la eficiencia y eficacia de las acciones que se lleven a cabo en un negocio con el fin de poder tomar decisiones y determinar aquellas que han sido más efectivas a la hora de cumplir con los objetivos marcados en un proceso o proyecto concreto.
 
 Para generar KPIs se pueden usar librerías como D3.js. La obtención de estas métricas se hace en un sector que se suele denominar Business Intelligence. 
 
