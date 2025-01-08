@@ -164,7 +164,7 @@ return precio;
 
 ## Conectores de tareas
 > [!abstract] Definición de conector
-> Un conector de una tarea es bonita es la parte encargada de la emisión o recepción de datos. Puede ser de entrada o de salida.
+> Un conector de una tarea en Bonita es la parte encargada de la emisión o recepción de datos. Puede ser de entrada o de salida.
 
 Todas las tareas de Bonita pueden tener conectores de entrada y salida. Se suelen configurar mediante un wizzard y permiten tanto modificar los datos mediante código Groovy como con operaciones Java de las librerías importadas.
 
@@ -172,7 +172,7 @@ Todas las tareas de Bonita pueden tener conectores de entrada y salida. Se suele
 Las tareas de Bonita se pueden conectar con:
 + Sistemas de Información Empresarial:
 	+ Gestores de contenidos (CMS) para gestionar el contenido de un sitio web.
-	+ Enterprise Resource Planning (ERP) para unificas las áreas de la empresa.
+	+ Enterprise Resource Planning (ERP) para unificar las áreas de la empresa.
 	+ Customer Relationship Management (CRM) para gestionar los clientes.
 + Bases de datos o servicios de directorio LDAP
 + Sistemas de reporting
