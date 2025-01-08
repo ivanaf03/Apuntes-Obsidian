@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q7/MAD/Tema 7/Pruebas unitarias en .NET.md",
-                "mode": "source",
+                "file": "Q7/MED/Tema 1/Evolución del software.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pruebas unitarias en .NET"
+              "title": "Evolución del software"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Q7/Q7.md",
+                "file": "Plantilla.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Q7"
+              "title": "Plantilla"
             }
           }
         ]
@@ -206,33 +206,34 @@
   },
   "active": "7e725561355bf4b3",
   "lastOpenFiles": [
-    "Q7/MAD/Tema 7/Tema 7-Test project.md",
-    "Q7/MAD/Tema 7/Pruebas unitarias en .NET.md",
-    "Q7/MAD/Tema 7/Test project.md",
-    "Q7/XPN/Tema 3/Introducción a SOA.md",
-    "Q7/MAD/Tema 7",
-    "Q7/XPN/Tema 3/Tema 3-SOA y BPM.md",
-    "Q7/XPN/Tema 3/Contexto de SOA y BPM.md",
+    "Q7/MED/Tema 1/Tema 1-Contextualización de metodologías de desarrollo.md",
+    "Q7/MED/Tema 1/Ciclos de vida y metodologías.md",
+    "Q7/MED/Tema 1/Uso, necesidades y objetivos del ciclo de vida del desarrollo software.md",
+    "Q7/MED/Tema 1/Ciclo de vida del desarrollo software.md",
+    "Q7/MED/Tema 1/Terminología usada en la metodologías.md",
+    "Q7/VVS/Tema 6/Técnicas de pruebas.md",
+    "Q7/VVS/Tema 6/Tema 6-Validación automática.md",
+    "Q7/VVS/Tema 6/Gestión de las pruebas.md",
+    "Q7/VVS/Tema 6/Tipos de pruebas.md",
+    "Q7/MAD/Tema 2/Clases en CSharp.md",
+    "Q7/MAD/Tema 2/Tema 2-El lenguaje CSharp.md",
+    "Q7/Q7.md",
     "Ingeniería Informática.md",
-    "Q7/XPN/Xestión de procesos de negocio.md",
-    "Q7/XPN/Tema 2/Tema 2-Automatización de procesos.md",
-    "Q7/XPN/Tema 2/APIs en Bonita.md",
-    "Q7/XPN/Tema 2/Páginas y formularios en Bonita.md",
-    "Q7/XPN/Tema 2/Actores en Bonita.md",
-    "Q7/XPN/Tema 2/Eventos en Bonita.md",
-    "Q7/XPN/Tema 2/Puertas en Bonita.md",
-    "Q7/XPN/Tema 2/Tareas en Bonita.md",
-    "Q7/XPN/Tema 2/Gestión de datos en Bonita.md",
-    "Q7/XPN/Tema 2/Arquitectura de Bonita.md",
-    "Q7/XPN/Tema 2/Introducción a la automatización de procesos.md",
-    "Q7/XPN/Tema 1/Tema 1-Modelado de procesos con BPMN.md",
-    "Q7/XPN/Tema 1/Colaboración en BPMN.md",
-    "Q7/XPN/Tema 1/Transacciones en BPMN.md",
-    "Q7/XPN/Tema 1/Excepciones en BPMN.md",
-    "Q7/XPN/Tema 1/Eventos.md",
-    "Q7/XPN/Tema 1/Actividades o tareas.md",
-    "Q7/XPN/Tema 1/Puertas.md",
-    "Q7/XPN/Tema 1/Elementos básicos de BPMN.md",
+    "Q7/FD/Tema 1/Visual Studio Code.md",
+    "Q7/FD/Tema 1/Tema 1-Entornos integrados de desarrollo.md",
+    "Q7/MAD/Tema 8/Tema 8-Introducción a ASP.NET.md",
+    "Q7/MAD/Tema 8/Fundamentos de ASP.NET.md",
+    "Plantilla.md",
+    "Q7/MAD/Tema 8",
+    "Q7/MED/Tema 6/Tema 6-eXtreme Programming.md",
+    "Q7/MED/Tema 6/Equipo en XP.md",
+    "Q7/MED/Tema 5/Contexto de Kanban.md",
+    "Q7/MED/Tema 6/Prácticas corolario.md",
+    "Q7/XPN/Tema 4/BPA.md",
+    "Q7/XPN/Tema 4/Tema 4-Gestión por procesos.md",
+    "Q7/XPN/Tema 3/Contexto de SOA y BPM.md",
+    "Q7/XPN/Tema 3/BPM en SOA.md",
+    "Q7/MAD/Tema 7",
     "Imágenes/pruebas_development.png",
     "Imágenes/prueba_aceptación.png",
     "Q7/MAD/Tema 6",
@@ -251,7 +252,6 @@
     "Q7/MED/Tema 7",
     "Q7/MED/Tema 6",
     "Q7/MED/Tema 5",
-    "Q7/XPN/Tema 4",
     "Sin título.canvas",
     "Q7/XPN/Tema 1/canva.canvas",
     "Sin título 1.canvas",
