@@ -3,7 +3,7 @@
 ## Qué es el modelo en cascada?
 El modelo en cascada es una metodología clásica basada en el funcionamiento de los procesos en los sectores de fabricación y construcción. Fue una de las primeras metodologías y ha tenido un gran impacto. Su nombre viene de la orden secuencial que este tiene.
 
-Se inspiró en los procesos de ingeniería y manufactura, donde las fases lineales garantizaban calidad. y control. El creador advirtió de las limitaciones de este modelo y de la necesidad de iteraciones.
+Se inspiró en los procesos de ingeniería y manufactura, donde las fases lineales garantizaban calidad y control. El creador advirtió de las limitaciones de este modelo y de la necesidad de iteraciones.
 
 ## Fases
 El modelo en cascada está formado por:
