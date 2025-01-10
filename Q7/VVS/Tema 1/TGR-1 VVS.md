@@ -1,12 +1,5 @@
 [[Tema 1-Introducción a VVS]]
 
-
-
-
-
-
-
-
 ## Algoritmo de Euclides
 ```c
 a=x; 
