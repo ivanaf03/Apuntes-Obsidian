@@ -1,7 +1,7 @@
 [[Tema 2-Metodologías clásicas]]
 
 ## Qué es el prototipado evolutivo?
-El prototipado evolutivo es un modelo que se basa en la construcción y mejora de un prototipo robusto, que se va adaptando a medida que evolucionan los requisitos. Se asume que no todos los requisitos se conocen desde el principio. Se diferencia el prototipado clásico en que se recicla el prototipo, cada prototipo es una versión que evoluciona hasta convertirse en el producto final.
+El prototipado evolutivo es un modelo que se basa en la construcción y mejora de un prototipo robusto, que se va adaptando a medida que evolucionan los requisitos. Se asume que no todos los requisitos se conocen desde el principio. Se diferencia el prototipado clásico en que se recicla el prototipo; cada prototipo es una versión que evoluciona hasta convertirse en el producto final.
 
 Se suele utilizar en sistemas donde la experiencia del usuario es clave, como en aplicaciones móviles o interfaces de usuario.
 
