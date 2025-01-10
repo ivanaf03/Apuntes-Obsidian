@@ -1,31 +1,33 @@
 [[Tema 1-Entornos integrados de desarrollo]]
 
 ## Qué es un IDE?
-Un IDE (Entorno de Desarrollo Integrado) es una herramienta que permite a los desarrolladores programar de forma eficiente. Se caracteriza por:
-+ Edición con autocompletado y conocimiento del lenguaje.
-+ Facilidades para la creación de proyectos.
-+ Compilación integrada.
-+ Debugger.
+> [!abstract] Definición de IDE
+> Un IDE (Entorno de Desarrollo Integrado) es una herramienta que permite a los desarrolladores programar de una forma eficiente.
 
-### Otras características
-A veces los IDEs contienen:
+Un IDE debe permitir:
++ Autocompletar el código y conocer el lenguaje de programación.
++ Crear proyectos con facilidad.
++ Compilar un proyecto.
++ Debuggear un proyecto.
+
+### Funcionalidades adicionales
+Generalmente, un IDE suele tener:
 + Asistentes.
-+ Integración con la configuración.
++ Integración con los gestores de configuración.
 + Integración con la gestión de los ciclos de vida.
-+ Refactorización del código.
-+ Herramientas para hacer diagramas.
++ Refactorizadores de código.
++ Herramientas para hacer o mostrar diagramas.
 
 ## Ventajas del uso de IDEs
 Los IDEs permiten:
-+ Comprender programas grandes más fácilmente.
-+ Corregir fallos en proyectos grandes de forma cómoda.
-+ Mejorar sistemas grandes más rápido.
++ Comprender programas grandes con mayor facilidad.
++ Corregir fallos o mejorar cosas en proyectos grandes con rapidez.
 + Gestionar la calidad del desarrollo.
 + Aumentar la productividad.
 
-## Qué se pide de un IDE?
-Los IDEs deberían:
-+ Permitir navegar entre código, autocompletar palabras, compilar en segundo plano, etc.
-+ Dar soporte para la realización de pruebas.
-+ Dar soporte para la ejecución paso a paso y debuggeo.
-+ Permitir refactorizar variables, paquetes, etc.
+## Qué necesita un IDE?
+Los IDEs deben tener:
++ Comodidades para el programador, como navegación entre código, autocompletados...
++ Soporte para testing.
++ Soporte para debug.
++ Refactorizadores automáticos de variables, paquetes, etc.
