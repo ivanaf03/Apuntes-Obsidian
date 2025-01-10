@@ -1,7 +1,7 @@
 [[Tema 3-Metodologías ágiles]]
 
 ## Planificación
-Al planificar una iteración se deben definir las funcionalidades que se van a realizar. Estas se dividen en tareas y se priorizan en función de del valor y del riesgo que pueden tener.
+Al planificar una iteración se deben definir las funcionalidades que se van a realizar. Estas se dividen en tareas y se priorizan en función del valor y del riesgo que pueden tener.
 
 ### Priorización
 Para priorizar las tareas se combinan dos enfoques:
