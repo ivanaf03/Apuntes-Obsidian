@@ -2,7 +2,7 @@
 
 ## Técnicas de preparación de datos
 Las técnicas de preparación de datos son:
-+ **Particiones equivalentes:** si dividen los rangos de las entradas y salidas que deben recibir o devolver la misma respuesta. Por cada rango, se elige un valor cualquiera como representante para la prueba. 
++ **Particiones equivalentes:** se dividen los rangos de las entradas y salidas que deben recibir o devolver la misma respuesta. Por cada rango, se elige un valor cualquiera como representante para la prueba. 
 + **Valores frontera:** es una técnica complementaria a las particiones equivalentes que consiste en coger los valores que quedan en las fronteras entre las particiones.
 + **Selección de datos aleatorios:** es otra técnica que complementa la técnica de las particiones equivalentes introduciendo aletoriedad.
 
