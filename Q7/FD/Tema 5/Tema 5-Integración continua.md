@@ -1,2 +1,0 @@
-[[Ferramentas de desenvolvemento]]
-
