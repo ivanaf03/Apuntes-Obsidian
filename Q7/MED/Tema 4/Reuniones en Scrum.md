@@ -26,13 +26,13 @@ Se generan:
 
 ### Partes de la reunión
 Se divide en 2 partes:
-+ **Primera parte:** el PO presenta el Product backlog y explica que cosas se deben realizar por prioridad en el sprint. Si hubo cambios, los debe explicar. Todo el equipo debe comprender en detalle las tareas, por lo que se realizarán preguntas y sugerencias. Se replantea el Product backlog y se define el objetivo del Sprint con una frase que tenga suficiente significado sobre el producto entregable.
-+ **Segunda parte:** el equipo divide las funcionalidades en tareas y se estima el tiempo para cada una, completando el Sprint backlog. Se definen el diseño y la arquitectura del entregable. Funciona como una reunión del equipo y es moderada por el Scrum Master. Este debe asegurarse de que el Product backlog, el objetivo del sprint, la Sprint backlog y las fechas están bien definidos.
++ **Primera parte:** el PO presenta el product backlog y explica que cosas se deben realizar por prioridad en el sprint. Si hubo cambios, los debe explicar. Todo el equipo debe comprender en detalle las tareas, por lo que se realizarán preguntas y sugerencias. Se replantea el product backlog y se define el objetivo del sprint con una frase que tenga suficiente significado sobre el producto entregable.
++ **Segunda parte:** el equipo divide las funcionalidades en tareas y se estima el tiempo para cada una, completando el Sprint backlog. Se definen el diseño y la arquitectura del entregable. Funciona como una reunión del equipo y es moderada por el Scrum Master. Este debe asegurarse de que el product backlog, el objetivo del sprint, el sprint backlog y las fechas están bien definidos.
 
 ## Daily meetings
 Las Daily Scrum son reuniones de 15 minutos como máximo que se hacen diariamente. El objetivo es revisar como se progresa en el sprint y poder reajustar el plan. 
 
-Se debe hacer siempre a la misma hora y en el mismo lugar. Sirve para encontrar bloqueos en el Sprint. 
+Se debe hacer siempre a la misma hora y en el mismo lugar. Sirve para encontrar bloqueos en el sprint. 
 
 ### Beneficios
 Las Daily sirven para:
@@ -46,7 +46,7 @@ Las Daily sirven para:
 Es una reunión que se realiza siempre al terminar el sprint y se presenta lo que se ha completado y lo que no. Los objetivos son:
 + Demostrar que hubo incremento.
 + Recoger feedback de los stakeholders.
-+ Reajustar el Product backlog.
++ Reajustar el product backlog.
 
 No deben ser muy largas, suelen durar entre 1 y 4 horas. En ella el PO prueba las funcionalidades y revisa si están hechas correctamente o no. Además pueden asistir trabajadores externos para conocer como funciona la tecnología empleada.
 
