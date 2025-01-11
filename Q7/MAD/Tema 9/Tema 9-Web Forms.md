@@ -5,6 +5,4 @@ Contenido:
 + [[View state]]
 + [[Etapas de procesado]]
 + [[Flujo de página]]
-+ [[Transferencia de control entre páginas]]
-+ [[Trazas]]
-+ [[Páginas de error]]
++ [[Clase Page]]
