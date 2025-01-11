@@ -8,7 +8,7 @@ Cada iteración es un incremento en funcionalidades y calidad. A diferencia de l
 
 ### Iteraciones
 > [!abstract] Definición de iteración
-> Una iteración es la planificación de un pequeño proyecto que consta de un ciclo completo de desarrollo, capturando los requisitos, realizando el diseño, implementando el código y probándolo. Genera un resultado conocido como release.
+> Una iteración es la planificación de un pequeño proyecto que consta de un ciclo completo de desarrollo, capturando los requisitos, realizando el diseño, implementando el código y probándolo. 
 
 > [!abstract] Definición de release
 > Una release es el resultado de una iteración. Es una versión parcial y estable del sistema.
