@@ -8,11 +8,11 @@ Los requisitos deben ser simples, por lo que muchas veces se recogen en historia
 
 Representa lo que esperan los interesados. Refleja el trabajo de todo el equipo. 
 
-No es estática. Al inicio del proyecto se incluyen los requisitos conocidos y, a medida que avanza el proyecto, se añaden nuevas cosas a la lista. Para empezar se debe tener una visión general del objetivo de negocio y poder partir en el primer Sprint. Suele realizarse con un brainstorming.
+No es estática. Al inicio del proyecto se incluyen los requisitos conocidos y, a medida que avanza el proyecto, se añaden nuevas cosas a la lista. Para empezar se debe tener una visión general del objetivo de negocio y poder partir en el primer sprint. Suele realizarse con un brainstorming.
 
 El PO define la prioridad y se encarga de ordenarlo. Los requisitos de mayor prioridad deben estar más detallados que los demás, realizando descripciones proporcionales a la prioridad.
 
-Los requisitos que pueden ser incorporados a un Sprint se denominan preparados o accionables. Se pueden seleccionar en las reuniones de planificación del Sprint.
+Los requisitos que pueden ser incorporados a un sprint se denominan preparados o accionables. Se pueden seleccionar en las reuniones de planificación del sprint.
 
 ### Historias de usuario
 > [!abstract] Definición de historia de usuario
