@@ -3,7 +3,7 @@
 ## Cómo surge eXtreme Programming?
 XP fue creador por uno de los creadores del Manifiesto Ágil, Kent Beck. También fue uno de los creadores de JUnit. Su idea era promover un cambio social. XP busca abandonar los patrones asumidos en el pasado que afectan a la forma actual de trabajar. 
 
-Se trata de ser abiertos en lo qué somos capaces de hacer e intentar que el resto lo sigan. Se autodenomina extrema la metodología porque para aplicarla hay que afrontar las consecuencias que tiene hacerlo lo mejor que se pueda ignorando marcos muy definidos por el pasado.
+Se trata de ser abiertos en lo qué somos capaces de hacer e intentar que el resto lo sigan. Se autodenomina extrema la metodología porque para aplicarla hay que afrontar las consecuencias que tiene hacerlo lo mejor que se pueda, ignorando marcos muy definidos por el pasado.
 
 ## Diferencias con otras metodologías
 XP se diferencia de otras metodologías en:
