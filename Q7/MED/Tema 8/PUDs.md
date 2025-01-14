@@ -54,7 +54,7 @@ La arquitectura depende de:
 + Recursos software utilizados.
 + Implementación.
 + Partes legacy.
-+ Requisitos no funcionales..
++ Requisitos no funcionales.
 
 Los casos de uso deben ser compatibles con la arquitectura y avanzar en paralelo. Para definir una arquitectura, los arquitectos software se basan en una pequeña parte de casos de uso del sistema, que deben ser los más críticos.
 
