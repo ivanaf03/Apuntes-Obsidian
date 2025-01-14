@@ -29,7 +29,7 @@ El Project burn-down chart es un gráfico burn-down para todo el proyecto. El ej
 ## Gráfico burn-up
 El gráfico burn-up es una representación que muestra el progreso del producto de forma positiva, tal que refleja lo que está hecho en lugar de lo que queda por hacer. 
 
-En el eje x se representa el tiempo en Sprints y en el eje y la cantidad de trabajo completado en relación al total del proyecto.
+En el eje x se representa el tiempo en sprints y en el eje y la cantidad de trabajo completado en relación al total del proyecto.
 
 ![[burnup.png]]
 
